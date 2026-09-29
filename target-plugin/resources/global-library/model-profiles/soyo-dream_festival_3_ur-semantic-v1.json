@@ -1,0 +1,544 @@
+{
+  "schema": "webgal-live2d-model-profile",
+  "schemaVersion": 1,
+  "profileVersion": 1,
+  "modelProfileId": "soyo-dream_festival_3_ur-semantic-v1",
+  "characterId": "soyo",
+  "modelId": "dream_festival_3_ur",
+  "modelPath": "./game/figure/soyo/dream_festival_3_ur/model.json",
+  "fingerprint": {
+    "modelJsonSha256": "D06AE60485D4F0BBF14B94D3929349B3DE97CDFBBC8A601C090B7969DD9FB156",
+    "mocSha256": "E4ABE264D45F243A1DEEAC988604603B744668E5C6E9F112BF98437FA144DDEE",
+    "drawableCount": 257
+  },
+  "anchors": [
+    {
+      "name": "head",
+      "anchorProfileId": "soyo-dream_festival_3_ur-semantic-v1-head-hair-compatible",
+      "drawableId": "D_PSD.45",
+      "vertexCount": 42,
+      "points": [
+        {
+          "index": 8,
+          "weight": 1,
+          "neutral": {
+            "x": 839,
+            "y": 344.949462890625
+          }
+        },
+        {
+          "index": 18,
+          "weight": 1,
+          "neutral": {
+            "x": 921.8773193359375,
+            "y": 329.6385803222656
+          }
+        },
+        {
+          "index": 1,
+          "weight": 1,
+          "neutral": {
+            "x": 993,
+            "y": 302.949462890625
+          }
+        },
+        {
+          "index": 12,
+          "weight": 1,
+          "neutral": {
+            "x": 1067.025146484375,
+            "y": 324.9243469238281
+          }
+        },
+        {
+          "index": 4,
+          "weight": 1,
+          "neutral": {
+            "x": 1146,
+            "y": 333.949462890625
+          }
+        }
+      ]
+    },
+    {
+      "name": "hair-top",
+      "anchorProfileId": "soyo-dream_festival_3_ur-semantic-v1-hair-top",
+      "drawableId": "D_PSD.45",
+      "vertexCount": 42,
+      "points": [
+        {
+          "index": 8,
+          "weight": 1,
+          "neutral": {
+            "x": 839,
+            "y": 344.949462890625
+          }
+        },
+        {
+          "index": 18,
+          "weight": 1,
+          "neutral": {
+            "x": 921.8773193359375,
+            "y": 329.6385803222656
+          }
+        },
+        {
+          "index": 1,
+          "weight": 1,
+          "neutral": {
+            "x": 993,
+            "y": 302.949462890625
+          }
+        },
+        {
+          "index": 12,
+          "weight": 1,
+          "neutral": {
+            "x": 1067.025146484375,
+            "y": 324.9243469238281
+          }
+        },
+        {
+          "index": 4,
+          "weight": 1,
+          "neutral": {
+            "x": 1146,
+            "y": 333.949462890625
+          }
+        }
+      ]
+    },
+    {
+      "name": "eyelid-upper-left",
+      "anchorProfileId": "soyo-dream_festival_3_ur-semantic-v1-eyelid-upper-left",
+      "drawableId": "D_PSD.132",
+      "vertexCount": 20,
+      "points": [
+        {
+          "index": 1,
+          "weight": 1,
+          "neutral": {
+            "x": 854.316650390625,
+            "y": 664.2301635742188
+          }
+        },
+        {
+          "index": 4,
+          "weight": 1,
+          "neutral": {
+            "x": 877.49560546875,
+            "y": 657.124267578125
+          }
+        },
+        {
+          "index": 7,
+          "weight": 1,
+          "neutral": {
+            "x": 893.73779296875,
+            "y": 644.604248046875
+          }
+        },
+        {
+          "index": 10,
+          "weight": 1,
+          "neutral": {
+            "x": 915.563232421875,
+            "y": 655.4323120117188
+          }
+        },
+        {
+          "index": 12,
+          "weight": 1,
+          "neutral": {
+            "x": 937.4732055664062,
+            "y": 662.5382690429688
+          }
+        }
+      ]
+    },
+    {
+      "name": "eyelid-upper-right",
+      "anchorProfileId": "soyo-dream_festival_3_ur-semantic-v1-eyelid-upper-right",
+      "drawableId": "D_PSD.152",
+      "vertexCount": 20,
+      "points": [
+        {
+          "index": 3,
+          "weight": 1,
+          "neutral": {
+            "x": 1132.3173828125,
+            "y": 649.8490600585938
+          }
+        },
+        {
+          "index": 7,
+          "weight": 1,
+          "neutral": {
+            "x": 1106.26220703125,
+            "y": 644.604248046875
+          }
+        },
+        {
+          "index": 15,
+          "weight": 1,
+          "neutral": {
+            "x": 1155.6654052734375,
+            "y": 659.662109375
+          }
+        },
+        {
+          "index": 16,
+          "weight": 1,
+          "neutral": {
+            "x": 1143.6529541015625,
+            "y": 654.0787963867188
+          }
+        },
+        {
+          "index": 19,
+          "weight": 1,
+          "neutral": {
+            "x": 1070.9375,
+            "y": 645.0744018554688
+          }
+        }
+      ]
+    },
+    {
+      "name": "eye-center-left",
+      "anchorProfileId": "soyo-dream_festival_3_ur-semantic-v1-eye-center-left",
+      "drawableId": "D_PSD.115",
+      "vertexCount": 7,
+      "points": [
+        {
+          "index": 0,
+          "weight": 1,
+          "neutral": {
+            "x": 897.9256591796875,
+            "y": 695.4613647460938
+          }
+        },
+        {
+          "index": 3,
+          "weight": 1,
+          "neutral": {
+            "x": 938.27734375,
+            "y": 721.009033203125
+          }
+        },
+        {
+          "index": 4,
+          "weight": 1,
+          "neutral": {
+            "x": 898.3485717773438,
+            "y": 746.387451171875
+          }
+        },
+        {
+          "index": 5,
+          "weight": 1,
+          "neutral": {
+            "x": 856.72802734375,
+            "y": 668.5602416992188
+          }
+        },
+        {
+          "index": 6,
+          "weight": 1,
+          "neutral": {
+            "x": 857.40478515625,
+            "y": 723.039306640625
+          }
+        }
+      ]
+    },
+    {
+      "name": "eye-center-right",
+      "anchorProfileId": "soyo-dream_festival_3_ur-semantic-v1-eye-center-right",
+      "drawableId": "D_PSD.135",
+      "vertexCount": 7,
+      "points": [
+        {
+          "index": 0,
+          "weight": 1,
+          "neutral": {
+            "x": 1101.845458984375,
+            "y": 695.3917846679688
+          }
+        },
+        {
+          "index": 2,
+          "weight": 1,
+          "neutral": {
+            "x": 1100.6611328125,
+            "y": 746.487060546875
+          }
+        },
+        {
+          "index": 4,
+          "weight": 1,
+          "neutral": {
+            "x": 1060.7325439453125,
+            "y": 668.6598510742188
+          }
+        },
+        {
+          "index": 5,
+          "weight": 1,
+          "neutral": {
+            "x": 1146.00390625,
+            "y": 724.492431640625
+          }
+        },
+        {
+          "index": 6,
+          "weight": 1,
+          "neutral": {
+            "x": 1146.00390625,
+            "y": 666.742431640625
+          }
+        }
+      ]
+    },
+    {
+      "name": "nose",
+      "anchorProfileId": "soyo-dream_festival_3_ur-semantic-v1-nose",
+      "drawableId": "D_PSD.24",
+      "vertexCount": 6,
+      "points": [
+        {
+          "index": 0,
+          "weight": 1,
+          "neutral": {
+            "x": 994.7099609375,
+            "y": 806.394775390625
+          }
+        },
+        {
+          "index": 2,
+          "weight": 1,
+          "neutral": {
+            "x": 999.9249877929688,
+            "y": 795.3242797851562
+          }
+        },
+        {
+          "index": 3,
+          "weight": 1,
+          "neutral": {
+            "x": 1005.4144897460938,
+            "y": 806.02880859375
+          }
+        },
+        {
+          "index": 4,
+          "weight": 1,
+          "neutral": {
+            "x": 1010.08056640625,
+            "y": 792.488037109375
+          }
+        },
+        {
+          "index": 5,
+          "weight": 1,
+          "neutral": {
+            "x": 999.467529296875,
+            "y": 781.6005249023438
+          }
+        }
+      ]
+    },
+    {
+      "name": "mouth",
+      "anchorProfileId": "soyo-dream_festival_3_ur-semantic-v1-mouth",
+      "drawableId": "D_PSD.38",
+      "vertexCount": 19,
+      "points": [
+        {
+          "index": 4,
+          "weight": 1,
+          "neutral": {
+            "x": 1043.55908203125,
+            "y": 821.6953125
+          }
+        },
+        {
+          "index": 6,
+          "weight": 1,
+          "neutral": {
+            "x": 1010.736328125,
+            "y": 833.707763671875
+          }
+        },
+        {
+          "index": 9,
+          "weight": 1,
+          "neutral": {
+            "x": 1015.81201171875,
+            "y": 863.9926147460938
+          }
+        },
+        {
+          "index": 11,
+          "weight": 1,
+          "neutral": {
+            "x": 956.764892578125,
+            "y": 840.136962890625
+          }
+        },
+        {
+          "index": 18,
+          "weight": 1,
+          "neutral": {
+            "x": 989.41845703125,
+            "y": 864.5001831054688
+          }
+        }
+      ]
+    },
+    {
+      "name": "ear-left",
+      "anchorProfileId": "soyo-dream_festival_3_ur-semantic-v1-ear-left",
+      "drawableId": "D_PSD.72",
+      "vertexCount": 12,
+      "points": [
+        {
+          "index": 1,
+          "weight": 1,
+          "neutral": {
+            "x": 788.2115478515625,
+            "y": 630.128173828125
+          }
+        },
+        {
+          "index": 2,
+          "weight": 1,
+          "neutral": {
+            "x": 791.688232421875,
+            "y": 656.6607666015625
+          }
+        },
+        {
+          "index": 5,
+          "weight": 1,
+          "neutral": {
+            "x": 775.9517211914062,
+            "y": 585.2972412109375
+          }
+        },
+        {
+          "index": 8,
+          "weight": 1,
+          "neutral": {
+            "x": 809.8035888671875,
+            "y": 646.962646484375
+          }
+        },
+        {
+          "index": 9,
+          "weight": 1,
+          "neutral": {
+            "x": 788.760498046875,
+            "y": 682.4613647460938
+          }
+        }
+      ]
+    },
+    {
+      "name": "ear-right",
+      "anchorProfileId": "soyo-dream_festival_3_ur-semantic-v1-ear-right",
+      "drawableId": "D_PSD.73",
+      "vertexCount": 13,
+      "points": [
+        {
+          "index": 1,
+          "weight": 1,
+          "neutral": {
+            "x": 1226.3994140625,
+            "y": 585.204345703125
+          }
+        },
+        {
+          "index": 3,
+          "weight": 1,
+          "neutral": {
+            "x": 1227.86328125,
+            "y": 661.325439453125
+          }
+        },
+        {
+          "index": 6,
+          "weight": 1,
+          "neutral": {
+            "x": 1181.385498046875,
+            "y": 698.8370361328125
+          }
+        },
+        {
+          "index": 9,
+          "weight": 1,
+          "neutral": {
+            "x": 1210.1138916015625,
+            "y": 647.78466796875
+          }
+        },
+        {
+          "index": 11,
+          "weight": 1,
+          "neutral": {
+            "x": 1231.3399658203125,
+            "y": 630.21826171875
+          }
+        }
+      ]
+    },
+    {
+      "name": "chin",
+      "anchorProfileId": "soyo-dream_festival_3_ur-semantic-v1-chin",
+      "drawableId": "D_PSD1.16",
+      "vertexCount": 30,
+      "points": [
+        {
+          "index": 4,
+          "weight": 1,
+          "neutral": {
+            "x": 948.2191162109375,
+            "y": 1028.8978271484375
+          }
+        },
+        {
+          "index": 6,
+          "weight": 1,
+          "neutral": {
+            "x": 923.3840942382812,
+            "y": 928.3753051757812
+          }
+        },
+        {
+          "index": 10,
+          "weight": 1,
+          "neutral": {
+            "x": 1057.6112060546875,
+            "y": 898.2185668945312
+          }
+        },
+        {
+          "index": 19,
+          "weight": 1,
+          "neutral": {
+            "x": 1021.9356079101562,
+            "y": 1024.5616455078125
+          }
+        },
+        {
+          "index": 23,
+          "weight": 1,
+          "neutral": {
+            "x": 999.0716552734375,
+            "y": 967.7958984375
+          }
+        }
+      ]
+    }
+  ]
+}

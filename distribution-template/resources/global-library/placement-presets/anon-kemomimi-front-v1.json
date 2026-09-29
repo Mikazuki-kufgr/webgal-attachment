@@ -1,0 +1,24 @@
+{
+  "schema": "webgal-live2d-attachment-preset",
+  "schemaVersion": 1,
+  "presetId": "v2/anon-kemomimi-front-v1",
+  "approvalStatus": "candidate",
+  "attachmentAssetId": "builtin-kemomimi-front-v1",
+  "modelProfileId": "webgal-attachment-plugin-v0.1-anon-profile",
+  "anchorName": "head",
+  "fit": {
+    "scaleMode": "fixed"
+  },
+  "placement": {
+    "spriteAnchor": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "rotationOffsetRad": 0,
+    "localScale": 0.3
+  }
+}

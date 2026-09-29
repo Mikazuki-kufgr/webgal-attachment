@@ -1,0 +1,544 @@
+{
+  "schema": "webgal-live2d-model-profile",
+  "schemaVersion": 1,
+  "profileVersion": 1,
+  "modelProfileId": "tomori-live_default-semantic-v1",
+  "characterId": "tomori",
+  "modelId": "live_default",
+  "modelPath": "./game/figure/tomori/live_default/model.json",
+  "fingerprint": {
+    "modelJsonSha256": "B98BC94EF9CD908785A2F80C6674F229CA1E460CC68DEAC257B112DC37C9D2EA",
+    "mocSha256": "CDA3D28F49483D2C120E4DA8739AC289F6B428F9D159D02B94A8498A813EDF66",
+    "drawableCount": 218
+  },
+  "anchors": [
+    {
+      "name": "head",
+      "anchorProfileId": "tomori-live_default-semantic-v1-head-hair-compatible",
+      "drawableId": "D_PSD.00",
+      "vertexCount": 60,
+      "points": [
+        {
+          "index": 9,
+          "weight": 1,
+          "neutral": {
+            "x": 823,
+            "y": 445.3332214355469
+          }
+        },
+        {
+          "index": 0,
+          "weight": 1,
+          "neutral": {
+            "x": 933,
+            "y": 391.33319091796875
+          }
+        },
+        {
+          "index": 12,
+          "weight": 1,
+          "neutral": {
+            "x": 1018.0354614257812,
+            "y": 413.8687438964844
+          }
+        },
+        {
+          "index": 3,
+          "weight": 1,
+          "neutral": {
+            "x": 1096.9998779296875,
+            "y": 400.33319091796875
+          }
+        },
+        {
+          "index": 5,
+          "weight": 1,
+          "neutral": {
+            "x": 1206,
+            "y": 473.333251953125
+          }
+        }
+      ]
+    },
+    {
+      "name": "hair-top",
+      "anchorProfileId": "tomori-live_default-semantic-v1-hair-top",
+      "drawableId": "D_PSD.00",
+      "vertexCount": 60,
+      "points": [
+        {
+          "index": 9,
+          "weight": 1,
+          "neutral": {
+            "x": 823,
+            "y": 445.3332214355469
+          }
+        },
+        {
+          "index": 0,
+          "weight": 1,
+          "neutral": {
+            "x": 933,
+            "y": 391.33319091796875
+          }
+        },
+        {
+          "index": 12,
+          "weight": 1,
+          "neutral": {
+            "x": 1018.0354614257812,
+            "y": 413.8687438964844
+          }
+        },
+        {
+          "index": 3,
+          "weight": 1,
+          "neutral": {
+            "x": 1096.9998779296875,
+            "y": 400.33319091796875
+          }
+        },
+        {
+          "index": 5,
+          "weight": 1,
+          "neutral": {
+            "x": 1206,
+            "y": 473.333251953125
+          }
+        }
+      ]
+    },
+    {
+      "name": "eyelid-upper-left",
+      "anchorProfileId": "tomori-live_default-semantic-v1-eyelid-upper-left",
+      "drawableId": "D_PSD.57",
+      "vertexCount": 10,
+      "points": [
+        {
+          "index": 0,
+          "weight": 1,
+          "neutral": {
+            "x": 853.6876220703125,
+            "y": 739.2081298828125
+          }
+        },
+        {
+          "index": 1,
+          "weight": 1,
+          "neutral": {
+            "x": 861.7500610351562,
+            "y": 742.8331298828125
+          }
+        },
+        {
+          "index": 3,
+          "weight": 1,
+          "neutral": {
+            "x": 870.6250610351562,
+            "y": 746.3331298828125
+          }
+        },
+        {
+          "index": 5,
+          "weight": 1,
+          "neutral": {
+            "x": 879.1875,
+            "y": 747.5206298828125
+          }
+        },
+        {
+          "index": 8,
+          "weight": 1,
+          "neutral": {
+            "x": 888.3749389648438,
+            "y": 749.2081298828125
+          }
+        }
+      ]
+    },
+    {
+      "name": "eyelid-upper-right",
+      "anchorProfileId": "tomori-live_default-semantic-v1-eyelid-upper-right",
+      "drawableId": "D_PSD.99",
+      "vertexCount": 10,
+      "points": [
+        {
+          "index": 0,
+          "weight": 1,
+          "neutral": {
+            "x": 1146.3123779296875,
+            "y": 739.2081298828125
+          }
+        },
+        {
+          "index": 1,
+          "weight": 1,
+          "neutral": {
+            "x": 1138.2498779296875,
+            "y": 742.8331298828125
+          }
+        },
+        {
+          "index": 3,
+          "weight": 1,
+          "neutral": {
+            "x": 1129.375,
+            "y": 746.3331298828125
+          }
+        },
+        {
+          "index": 5,
+          "weight": 1,
+          "neutral": {
+            "x": 1120.8125,
+            "y": 747.5206298828125
+          }
+        },
+        {
+          "index": 8,
+          "weight": 1,
+          "neutral": {
+            "x": 1111.625,
+            "y": 749.2081298828125
+          }
+        }
+      ]
+    },
+    {
+      "name": "eye-center-left",
+      "anchorProfileId": "tomori-live_default-semantic-v1-eye-center-left",
+      "drawableId": "D_PSD.46",
+      "vertexCount": 9,
+      "points": [
+        {
+          "index": 0,
+          "weight": 1,
+          "neutral": {
+            "x": 896.57177734375,
+            "y": 798.905029296875
+          }
+        },
+        {
+          "index": 1,
+          "weight": 1,
+          "neutral": {
+            "x": 896.75,
+            "y": 744.0830078125
+          }
+        },
+        {
+          "index": 2,
+          "weight": 1,
+          "neutral": {
+            "x": 850.25,
+            "y": 799.5831298828125
+          }
+        },
+        {
+          "index": 6,
+          "weight": 1,
+          "neutral": {
+            "x": 865.4994506835938,
+            "y": 833.5825805664062
+          }
+        },
+        {
+          "index": 7,
+          "weight": 1,
+          "neutral": {
+            "x": 861,
+            "y": 761.5830078125
+          }
+        }
+      ]
+    },
+    {
+      "name": "eye-center-right",
+      "anchorProfileId": "tomori-live_default-semantic-v1-eye-center-right",
+      "drawableId": "D_PSD.40",
+      "vertexCount": 9,
+      "points": [
+        {
+          "index": 0,
+          "weight": 1,
+          "neutral": {
+            "x": 1103.42822265625,
+            "y": 798.905029296875
+          }
+        },
+        {
+          "index": 2,
+          "weight": 1,
+          "neutral": {
+            "x": 1103.2501220703125,
+            "y": 744.8330688476562
+          }
+        },
+        {
+          "index": 4,
+          "weight": 1,
+          "neutral": {
+            "x": 1150.9998779296875,
+            "y": 798.8331298828125
+          }
+        },
+        {
+          "index": 5,
+          "weight": 1,
+          "neutral": {
+            "x": 1139,
+            "y": 761.8330688476562
+          }
+        },
+        {
+          "index": 8,
+          "weight": 1,
+          "neutral": {
+            "x": 1134.5,
+            "y": 830.5843505859375
+          }
+        }
+      ]
+    },
+    {
+      "name": "nose",
+      "anchorProfileId": "tomori-live_default-semantic-v1-nose",
+      "drawableId": "D_PSD.23",
+      "vertexCount": 6,
+      "points": [
+        {
+          "index": 0,
+          "weight": 1,
+          "neutral": {
+            "x": 993.5205078125,
+            "y": 897.3370361328125
+          }
+        },
+        {
+          "index": 1,
+          "weight": 1,
+          "neutral": {
+            "x": 983.2734375,
+            "y": 876.8428955078125
+          }
+        },
+        {
+          "index": 2,
+          "weight": 1,
+          "neutral": {
+            "x": 1000.10791015625,
+            "y": 878.123779296875
+          }
+        },
+        {
+          "index": 4,
+          "weight": 1,
+          "neutral": {
+            "x": 1016.0274658203125,
+            "y": 875.196044921875
+          }
+        },
+        {
+          "index": 5,
+          "weight": 1,
+          "neutral": {
+            "x": 1000.10791015625,
+            "y": 855.7998046875
+          }
+        }
+      ]
+    },
+    {
+      "name": "mouth",
+      "anchorProfileId": "tomori-live_default-semantic-v1-mouth",
+      "drawableId": "D_PSD.38",
+      "vertexCount": 51,
+      "points": [
+        {
+          "index": 0,
+          "weight": 1,
+          "neutral": {
+            "x": 999.3731689453125,
+            "y": 949.18212890625
+          }
+        },
+        {
+          "index": 20,
+          "weight": 1,
+          "neutral": {
+            "x": 1005.7462158203125,
+            "y": 947.5765991210938
+          }
+        },
+        {
+          "index": 28,
+          "weight": 1,
+          "neutral": {
+            "x": 997.6217041015625,
+            "y": 947.4046020507812
+          }
+        },
+        {
+          "index": 31,
+          "weight": 1,
+          "neutral": {
+            "x": 994.856201171875,
+            "y": 947.448974609375
+          }
+        },
+        {
+          "index": 37,
+          "weight": 1,
+          "neutral": {
+            "x": 991.8250732421875,
+            "y": 950.9938354492188
+          }
+        }
+      ]
+    },
+    {
+      "name": "ear-left",
+      "anchorProfileId": "tomori-live_default-semantic-v1-ear-left",
+      "drawableId": "D_PSD.72",
+      "vertexCount": 12,
+      "points": [
+        {
+          "index": 0,
+          "weight": 1,
+          "neutral": {
+            "x": 767.9004516601562,
+            "y": 750.0059814453125
+          }
+        },
+        {
+          "index": 1,
+          "weight": 1,
+          "neutral": {
+            "x": 788.2115478515625,
+            "y": 729.5118408203125
+          }
+        },
+        {
+          "index": 2,
+          "weight": 1,
+          "neutral": {
+            "x": 791.688232421875,
+            "y": 756.04443359375
+          }
+        },
+        {
+          "index": 8,
+          "weight": 1,
+          "neutral": {
+            "x": 809.8035888671875,
+            "y": 746.3463134765625
+          }
+        },
+        {
+          "index": 11,
+          "weight": 1,
+          "neutral": {
+            "x": 815.842041015625,
+            "y": 797.3986206054688
+          }
+        }
+      ]
+    },
+    {
+      "name": "ear-right",
+      "anchorProfileId": "tomori-live_default-semantic-v1-ear-right",
+      "drawableId": "D_PSD.73",
+      "vertexCount": 13,
+      "points": [
+        {
+          "index": 0,
+          "weight": 1,
+          "neutral": {
+            "x": 1208.8330078125,
+            "y": 675.8048095703125
+          }
+        },
+        {
+          "index": 6,
+          "weight": 1,
+          "neutral": {
+            "x": 1181.385498046875,
+            "y": 798.220703125
+          }
+        },
+        {
+          "index": 9,
+          "weight": 1,
+          "neutral": {
+            "x": 1210.1138916015625,
+            "y": 747.1683349609375
+          }
+        },
+        {
+          "index": 10,
+          "weight": 1,
+          "neutral": {
+            "x": 1191.4495849609375,
+            "y": 730.516845703125
+          }
+        },
+        {
+          "index": 12,
+          "weight": 1,
+          "neutral": {
+            "x": 1212.6756591796875,
+            "y": 718.073974609375
+          }
+        }
+      ]
+    },
+    {
+      "name": "chin",
+      "anchorProfileId": "tomori-live_default-semantic-v1-chin",
+      "drawableId": "D_PSD.115",
+      "vertexCount": 30,
+      "points": [
+        {
+          "index": 0,
+          "weight": 1,
+          "neutral": {
+            "x": 996.6785888671875,
+            "y": 1096.9404296875
+          }
+        },
+        {
+          "index": 6,
+          "weight": 1,
+          "neutral": {
+            "x": 906.4989624023438,
+            "y": 1124.619384765625
+          }
+        },
+        {
+          "index": 11,
+          "weight": 1,
+          "neutral": {
+            "x": 962.1367797851562,
+            "y": 1187.7034912109375
+          }
+        },
+        {
+          "index": 17,
+          "weight": 1,
+          "neutral": {
+            "x": 938.4642333984375,
+            "y": 1049.083251953125
+          }
+        },
+        {
+          "index": 23,
+          "weight": 1,
+          "neutral": {
+            "x": 988.7050170898438,
+            "y": 1117.891845703125
+          }
+        }
+      ]
+    }
+  ]
+}

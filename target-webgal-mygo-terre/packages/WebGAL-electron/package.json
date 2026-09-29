@@ -1,0 +1,54 @@
+{
+  "name": "webgal-electron-project",
+  "version": "1.0.0",
+  "description": "WebGAL Electron",
+  "main": "main.js",
+  "author": "OpenWebGAL <contact@openwebgal.com>",
+  "license": "MPL-2.0",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder",
+    "build-universal": "electron-builder --universal",
+    "build:arm64": "electron-builder --arm64"
+  },
+  "devDependencies": {
+    "electron": "^29.3.3",
+    "electron-builder": "^24.12.0"
+  },
+  "build": {
+    "productName": "WebGAL",
+    "appId": "com.openwebgal.webgal",
+    "copyright": "Copyright © 2022 OpenWebGAL. All rights reserved.",
+    "directories": {
+      "output": "build"
+    },
+    "asar": false,
+    "win": {
+      "icon": "public/icon.ico",
+      "target": [
+        "dir"
+      ]
+    },
+    "linux": {
+      "icon": "public/icon.ico",
+      "target": [
+        "dir"
+      ]
+    },
+    "mac": {
+      "icon": "public/icon.png",
+      "x64ArchFiles": "*"
+    },
+    "electronDownload": {
+      "mirror": "https://npmmirror.com/mirrors/electron/"
+    }
+  },
+  "dependencies": {
+    "electron-log": "^5.1.5",
+    "steamworks.js": "^0.4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/OpenWebGAL/WebGAL_Terre.git"
+  }
+}

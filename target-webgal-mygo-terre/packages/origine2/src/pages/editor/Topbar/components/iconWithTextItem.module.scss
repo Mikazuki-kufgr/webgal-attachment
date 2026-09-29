@@ -1,0 +1,55 @@
+.wrapper{
+  cursor: pointer;
+  padding: 10px 7px;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.wrapper:hover{
+  background: var(--black-5pct);
+  border-radius: var(--radius-md);
+}
+
+.icon{
+  width: 32px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon svg{
+  color: var(--primary);
+  font-size: 25px;
+  height: 25px;
+  width: 25px;
+}
+
+.text{
+  color: var(--text-sub);
+  font-size: 13px;
+  margin-top: 3px;
+}
+
+.wrapperS{
+  cursor: pointer;
+  padding: 5px 13px;
+  display: flex;
+  align-items: center;
+}
+
+.wrapperS:hover{
+  background: var(--black-5pct);
+}
+
+.iconS{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.textS{
+  margin-left: 4px;
+  font-size: 14px;
+}

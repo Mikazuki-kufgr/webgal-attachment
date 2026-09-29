@@ -1,0 +1,362 @@
+[
+  {
+    "name": "@codingame/monaco-vscode-editor-api",
+    "version": "4.3.2",
+    "license": "MIT",
+    "gitHead": "59fd467c5123927bd5eacfc1dbc6734ce2382940",
+    "repository": {
+      "url": "git+https://github.com/CodinGame/monaco-vscode-api.git",
+      "type": "git"
+    },
+    "file": "licenses/supplemental/@codingame_monaco-vscode-editor-api-4.3.2-LICENSE",
+    "url": "https://raw.githubusercontent.com/CodinGame/monaco-vscode-api/59fd467c5123927bd5eacfc1dbc6734ce2382940/LICENSE",
+    "sha256": "72A310787F7D3351C6AD1357569C94F995E50B56E4297E9B1D2536D8FA5A6687",
+    "status": "PINNED_SOURCE_NOTICE"
+  },
+  {
+    "name": "@codingame/monaco-vscode-configuration-service-override",
+    "version": "4.3.2",
+    "license": "MIT",
+    "gitHead": "59fd467c5123927bd5eacfc1dbc6734ce2382940",
+    "repository": {
+      "url": "git+ssh://git@github.com/CodinGame/monaco-vscode-api.git",
+      "type": "git"
+    },
+    "file": "licenses/supplemental/@codingame_monaco-vscode-configuration-service-override-4.3.2-LICENSE",
+    "url": "https://raw.githubusercontent.com/CodinGame/monaco-vscode-api/59fd467c5123927bd5eacfc1dbc6734ce2382940/LICENSE",
+    "sha256": "72A310787F7D3351C6AD1357569C94F995E50B56E4297E9B1D2536D8FA5A6687",
+    "status": "PINNED_SOURCE_NOTICE"
+  },
+  {
+    "name": "@codingame/monaco-vscode-base-service-override",
+    "version": "4.3.2",
+    "license": "MIT",
+    "gitHead": "59fd467c5123927bd5eacfc1dbc6734ce2382940",
+    "repository": {
+      "url": "git+ssh://git@github.com/CodinGame/monaco-vscode-api.git",
+      "type": "git"
+    },
+    "file": "licenses/supplemental/@codingame_monaco-vscode-base-service-override-4.3.2-LICENSE",
+    "url": "https://raw.githubusercontent.com/CodinGame/monaco-vscode-api/59fd467c5123927bd5eacfc1dbc6734ce2382940/LICENSE",
+    "sha256": "72A310787F7D3351C6AD1357569C94F995E50B56E4297E9B1D2536D8FA5A6687",
+    "status": "PINNED_SOURCE_NOTICE"
+  },
+  {
+    "name": "@codingame/monaco-vscode-api",
+    "version": "4.3.2",
+    "license": "MIT",
+    "gitHead": "59fd467c5123927bd5eacfc1dbc6734ce2382940",
+    "repository": {
+      "url": "git+ssh://git@github.com/CodinGame/monaco-vscode-api.git",
+      "type": "git"
+    },
+    "file": "licenses/supplemental/@codingame_monaco-vscode-api-4.3.2-LICENSE",
+    "url": "https://raw.githubusercontent.com/CodinGame/monaco-vscode-api/59fd467c5123927bd5eacfc1dbc6734ce2382940/LICENSE",
+    "sha256": "72A310787F7D3351C6AD1357569C94F995E50B56E4297E9B1D2536D8FA5A6687",
+    "status": "PINNED_SOURCE_NOTICE"
+  },
+  {
+    "name": "@codingame/monaco-vscode-environment-service-override",
+    "version": "4.3.2",
+    "license": "MIT",
+    "gitHead": "59fd467c5123927bd5eacfc1dbc6734ce2382940",
+    "repository": {
+      "url": "git+ssh://git@github.com/CodinGame/monaco-vscode-api.git",
+      "type": "git"
+    },
+    "file": "licenses/supplemental/@codingame_monaco-vscode-environment-service-override-4.3.2-LICENSE",
+    "url": "https://raw.githubusercontent.com/CodinGame/monaco-vscode-api/59fd467c5123927bd5eacfc1dbc6734ce2382940/LICENSE",
+    "sha256": "72A310787F7D3351C6AD1357569C94F995E50B56E4297E9B1D2536D8FA5A6687",
+    "status": "PINNED_SOURCE_NOTICE"
+  },
+  {
+    "name": "@codingame/monaco-vscode-extensions-service-override",
+    "version": "4.3.2",
+    "license": "MIT",
+    "gitHead": "59fd467c5123927bd5eacfc1dbc6734ce2382940",
+    "repository": {
+      "url": "git+ssh://git@github.com/CodinGame/monaco-vscode-api.git",
+      "type": "git"
+    },
+    "file": "licenses/supplemental/@codingame_monaco-vscode-extensions-service-override-4.3.2-LICENSE",
+    "url": "https://raw.githubusercontent.com/CodinGame/monaco-vscode-api/59fd467c5123927bd5eacfc1dbc6734ce2382940/LICENSE",
+    "sha256": "72A310787F7D3351C6AD1357569C94F995E50B56E4297E9B1D2536D8FA5A6687",
+    "status": "PINNED_SOURCE_NOTICE"
+  },
+  {
+    "name": "@codingame/monaco-vscode-languages-service-override",
+    "version": "4.3.2",
+    "license": "MIT",
+    "gitHead": "59fd467c5123927bd5eacfc1dbc6734ce2382940",
+    "repository": {
+      "url": "git+ssh://git@github.com/CodinGame/monaco-vscode-api.git",
+      "type": "git"
+    },
+    "file": "licenses/supplemental/@codingame_monaco-vscode-languages-service-override-4.3.2-LICENSE",
+    "url": "https://raw.githubusercontent.com/CodinGame/monaco-vscode-api/59fd467c5123927bd5eacfc1dbc6734ce2382940/LICENSE",
+    "sha256": "72A310787F7D3351C6AD1357569C94F995E50B56E4297E9B1D2536D8FA5A6687",
+    "status": "PINNED_SOURCE_NOTICE"
+  },
+  {
+    "name": "@codingame/monaco-vscode-host-service-override",
+    "version": "4.3.2",
+    "license": "MIT",
+    "gitHead": "59fd467c5123927bd5eacfc1dbc6734ce2382940",
+    "repository": {
+      "url": "git+ssh://git@github.com/CodinGame/monaco-vscode-api.git",
+      "type": "git"
+    },
+    "file": "licenses/supplemental/@codingame_monaco-vscode-host-service-override-4.3.2-LICENSE",
+    "url": "https://raw.githubusercontent.com/CodinGame/monaco-vscode-api/59fd467c5123927bd5eacfc1dbc6734ce2382940/LICENSE",
+    "sha256": "72A310787F7D3351C6AD1357569C94F995E50B56E4297E9B1D2536D8FA5A6687",
+    "status": "PINNED_SOURCE_NOTICE"
+  },
+  {
+    "name": "@codingame/monaco-vscode-layout-service-override",
+    "version": "4.3.2",
+    "license": "MIT",
+    "gitHead": "59fd467c5123927bd5eacfc1dbc6734ce2382940",
+    "repository": {
+      "url": "git+ssh://git@github.com/CodinGame/monaco-vscode-api.git",
+      "type": "git"
+    },
+    "file": "licenses/supplemental/@codingame_monaco-vscode-layout-service-override-4.3.2-LICENSE",
+    "url": "https://raw.githubusercontent.com/CodinGame/monaco-vscode-api/59fd467c5123927bd5eacfc1dbc6734ce2382940/LICENSE",
+    "sha256": "72A310787F7D3351C6AD1357569C94F995E50B56E4297E9B1D2536D8FA5A6687",
+    "status": "PINNED_SOURCE_NOTICE"
+  },
+  {
+    "name": "@codingame/monaco-vscode-files-service-override",
+    "version": "4.3.2",
+    "license": "MIT",
+    "gitHead": "59fd467c5123927bd5eacfc1dbc6734ce2382940",
+    "repository": {
+      "url": "git+ssh://git@github.com/CodinGame/monaco-vscode-api.git",
+      "type": "git"
+    },
+    "file": "licenses/supplemental/@codingame_monaco-vscode-files-service-override-4.3.2-LICENSE",
+    "url": "https://raw.githubusercontent.com/CodinGame/monaco-vscode-api/59fd467c5123927bd5eacfc1dbc6734ce2382940/LICENSE",
+    "sha256": "72A310787F7D3351C6AD1357569C94F995E50B56E4297E9B1D2536D8FA5A6687",
+    "status": "PINNED_SOURCE_NOTICE"
+  },
+  {
+    "name": "@codingame/monaco-vscode-textmate-service-override",
+    "version": "4.3.2",
+    "license": "MIT",
+    "gitHead": "59fd467c5123927bd5eacfc1dbc6734ce2382940",
+    "repository": {
+      "url": "git+ssh://git@github.com/CodinGame/monaco-vscode-api.git",
+      "type": "git"
+    },
+    "file": "licenses/supplemental/@codingame_monaco-vscode-textmate-service-override-4.3.2-LICENSE",
+    "url": "https://raw.githubusercontent.com/CodinGame/monaco-vscode-api/59fd467c5123927bd5eacfc1dbc6734ce2382940/LICENSE",
+    "sha256": "72A310787F7D3351C6AD1357569C94F995E50B56E4297E9B1D2536D8FA5A6687",
+    "status": "PINNED_SOURCE_NOTICE"
+  },
+  {
+    "name": "@fluentui/react-icons",
+    "version": "2.0.316",
+    "license": "MIT",
+    "gitHead": "5ac4f18577456d9ad95c19cd7c82e1fffd00f77b",
+    "repository": {
+      "url": "git+https://github.com/microsoft/fluentui-system-icons.git",
+      "type": "git"
+    },
+    "file": "licenses/supplemental/@fluentui_react-icons-2.0.316-LICENSE",
+    "url": "https://raw.githubusercontent.com/microsoft/fluentui-system-icons/5ac4f18577456d9ad95c19cd7c82e1fffd00f77b/LICENSE",
+    "sha256": "69BC45DC42B9ACB96A69823ADBC6AE538374E3C0BDE169B855B32C48EAAEF52F",
+    "status": "PINNED_SOURCE_NOTICE"
+  },
+  {
+    "name": "@codingame/monaco-vscode-model-service-override",
+    "version": "4.3.2",
+    "license": "MIT",
+    "gitHead": "59fd467c5123927bd5eacfc1dbc6734ce2382940",
+    "repository": {
+      "url": "git+ssh://git@github.com/CodinGame/monaco-vscode-api.git",
+      "type": "git"
+    },
+    "file": "licenses/supplemental/@codingame_monaco-vscode-model-service-override-4.3.2-LICENSE",
+    "url": "https://raw.githubusercontent.com/CodinGame/monaco-vscode-api/59fd467c5123927bd5eacfc1dbc6734ce2382940/LICENSE",
+    "sha256": "72A310787F7D3351C6AD1357569C94F995E50B56E4297E9B1D2536D8FA5A6687",
+    "status": "PINNED_SOURCE_NOTICE"
+  },
+  {
+    "name": "@codingame/monaco-vscode-quickaccess-service-override",
+    "version": "4.3.2",
+    "license": "MIT",
+    "gitHead": "59fd467c5123927bd5eacfc1dbc6734ce2382940",
+    "repository": {
+      "url": "git+ssh://git@github.com/CodinGame/monaco-vscode-api.git",
+      "type": "git"
+    },
+    "file": "licenses/supplemental/@codingame_monaco-vscode-quickaccess-service-override-4.3.2-LICENSE",
+    "url": "https://raw.githubusercontent.com/CodinGame/monaco-vscode-api/59fd467c5123927bd5eacfc1dbc6734ce2382940/LICENSE",
+    "sha256": "72A310787F7D3351C6AD1357569C94F995E50B56E4297E9B1D2536D8FA5A6687",
+    "status": "PINNED_SOURCE_NOTICE"
+  },
+  {
+    "name": "@codingame/monaco-vscode-theme-service-override",
+    "version": "4.3.2",
+    "license": "MIT",
+    "gitHead": "59fd467c5123927bd5eacfc1dbc6734ce2382940",
+    "repository": {
+      "url": "git+ssh://git@github.com/CodinGame/monaco-vscode-api.git",
+      "type": "git"
+    },
+    "file": "licenses/supplemental/@codingame_monaco-vscode-theme-service-override-4.3.2-LICENSE",
+    "url": "https://raw.githubusercontent.com/CodinGame/monaco-vscode-api/59fd467c5123927bd5eacfc1dbc6734ce2382940/LICENSE",
+    "sha256": "72A310787F7D3351C6AD1357569C94F995E50B56E4297E9B1D2536D8FA5A6687",
+    "status": "PINNED_SOURCE_NOTICE"
+  },
+  {
+    "name": "css-styled",
+    "version": "1.0.8",
+    "license": "MIT",
+    "gitHead": "8b2cb322f05db9c5eed93702864a6fd62b99eeae",
+    "repository": {
+      "url": "git+https://github.com/daybrush/css-styled.git",
+      "type": "git"
+    },
+    "file": "licenses/supplemental/css-styled-1.0.8-LICENSE",
+    "url": "https://raw.githubusercontent.com/daybrush/css-styled/8b2cb322f05db9c5eed93702864a6fd62b99eeae/LICENSE",
+    "sha256": "77F98221F8531E87AA227C0A8D63C17C903DD4D36DAF24BDC48296B09E06A25E",
+    "status": "PINNED_SOURCE_NOTICE"
+  },
+  {
+    "name": "@uiw/react-json-view",
+    "version": "2.0.0-alpha.41",
+    "license": "MIT",
+    "gitHead": "4685111ae16e3ec6d6d543c2db0b5009b5142eae",
+    "repository": {
+      "url": "git+https://github.com/uiwjs/react-json-view.git",
+      "type": "git"
+    },
+    "file": "licenses/supplemental/@uiw_react-json-view-2.0.0-alpha.41-LICENSE",
+    "url": "https://raw.githubusercontent.com/uiwjs/react-json-view/4685111ae16e3ec6d6d543c2db0b5009b5142eae/LICENSE",
+    "sha256": "D6C29A4ACC00299DDDC5FFB5D07A6480C1DDCC73ADF3ADE50743988B13C43808",
+    "status": "PINNED_SOURCE_NOTICE"
+  },
+  {
+    "name": "embla-carousel",
+    "version": "8.6.0",
+    "license": "MIT",
+    "gitHead": "0fe65834136f1aa35e4c1a4a477e5ccb4bb5ee54",
+    "repository": {
+      "url": "git+https://github.com/davidjerleke/embla-carousel",
+      "type": "git"
+    },
+    "file": "licenses/supplemental/embla-carousel-8.6.0-LICENSE",
+    "url": "https://raw.githubusercontent.com/davidjerleke/embla-carousel/0fe65834136f1aa35e4c1a4a477e5ccb4bb5ee54/LICENSE",
+    "sha256": "992490064B90EC94C302FE5F29DCC14CB44145857064E46F9FFE6C8F511C1093",
+    "status": "PINNED_SOURCE_NOTICE"
+  },
+  {
+    "name": "embla-carousel-autoplay",
+    "version": "8.6.0",
+    "license": "MIT",
+    "gitHead": "0fe65834136f1aa35e4c1a4a477e5ccb4bb5ee54",
+    "repository": {
+      "url": "git+https://github.com/davidjerleke/embla-carousel",
+      "type": "git"
+    },
+    "file": "licenses/supplemental/embla-carousel-autoplay-8.6.0-LICENSE",
+    "url": "https://raw.githubusercontent.com/davidjerleke/embla-carousel/0fe65834136f1aa35e4c1a4a477e5ccb4bb5ee54/LICENSE",
+    "sha256": "992490064B90EC94C302FE5F29DCC14CB44145857064E46F9FFE6C8F511C1093",
+    "status": "PINNED_SOURCE_NOTICE"
+  },
+  {
+    "name": "cookie-signature",
+    "version": "1.0.7",
+    "license": "MIT",
+    "gitHead": "432ea0c14fbdd8d24354820faff2c6f6d2426757",
+    "repository": {
+      "url": "git+https://github.com/visionmedia/node-cookie-signature.git",
+      "type": "git"
+    },
+    "status": "PACKAGE_DECLARATION_WITH_LICENSE_TEXT",
+    "file": "licenses/supplemental/cookie-signature-1.0.7-DECLARATION",
+    "sha256": "0CD0AD02014399294817A54D110BE97569388098B4BDACC11A04CB1EE55E68FA",
+    "source": "target-webgal-mygo-terre/node_modules/cookie-signature"
+  },
+  {
+    "name": "embla-carousel-fade",
+    "version": "8.6.0",
+    "license": "MIT",
+    "gitHead": "0fe65834136f1aa35e4c1a4a477e5ccb4bb5ee54",
+    "repository": {
+      "url": "git+https://github.com/davidjerleke/embla-carousel",
+      "type": "git"
+    },
+    "file": "licenses/supplemental/embla-carousel-fade-8.6.0-LICENSE",
+    "url": "https://raw.githubusercontent.com/davidjerleke/embla-carousel/0fe65834136f1aa35e4c1a4a477e5ccb4bb5ee54/LICENSE",
+    "sha256": "992490064B90EC94C302FE5F29DCC14CB44145857064E46F9FFE6C8F511C1093",
+    "status": "PINNED_SOURCE_NOTICE"
+  },
+  {
+    "name": "original-fs",
+    "version": "1.2.0",
+    "license": "Unlicense",
+    "gitHead": "aabd8eea20599e43ff5ed325d197a4284031964b",
+    "repository": {
+      "url": "git+https://github.com/LongTengDao/original-fs.git",
+      "type": "git"
+    },
+    "file": "licenses/supplemental/original-fs-1.2.0-LICENSE",
+    "url": "https://raw.githubusercontent.com/LongTengDao/original-fs/aabd8eea20599e43ff5ed325d197a4284031964b/LICENSE",
+    "sha256": "E3A994D82E644B03A792A930F574002658412F62407F5FEE083F2555C5F23118",
+    "status": "PINNED_SOURCE_NOTICE"
+  },
+  {
+    "name": "isarray",
+    "version": "1.0.0",
+    "license": "MIT",
+    "gitHead": "2a23a281f369e9ae06394c0fb4d2381355a6ba33",
+    "repository": {
+      "url": "git://github.com/juliangruber/isarray.git",
+      "type": "git"
+    },
+    "status": "PACKAGE_DECLARATION_WITH_LICENSE_TEXT",
+    "file": "licenses/supplemental/isarray-1.0.0-DECLARATION",
+    "sha256": "0C89DE10FB3784A31EF503696CF594E7C725AEB46BBD80212E9C00C10EBDC800",
+    "source": "target-webgal-mygo-terre/node_modules/lazystream/node_modules/isarray"
+  },
+  {
+    "name": "natural-compare-lite",
+    "version": "1.4.0",
+    "license": "MIT",
+    "gitHead": "eec83eee67cfac84d6db30cdd65363f155673770",
+    "repository": {
+      "url": "git://github.com/litejs/natural-compare-lite.git",
+      "type": "git"
+    },
+    "status": "PACKAGE_DECLARATION_WITH_LICENSE_TEXT",
+    "file": "licenses/supplemental/natural-compare-lite-1.4.0-DECLARATION",
+    "sha256": "78AFF4DD297CC6E218AD51B808138EB5E6DEDE4627D1742BB406495E9DC3690A",
+    "source": "target-webgal-mygo-terre/node_modules/natural-compare-lite"
+  },
+  {
+    "name": "html-parse-stringify",
+    "version": "3.0.1",
+    "license": "MIT",
+    "gitHead": "ce46022f537ef9b050fac592f9fcc30bf838e5ba",
+    "repository": {
+      "url": "git+https://github.com/henrikjoreteg/html-parse-stringify.git",
+      "type": "git"
+    },
+    "status": "PACKAGE_DECLARATION_WITH_LICENSE_TEXT",
+    "file": "licenses/supplemental/html-parse-stringify-3.0.1-DECLARATION",
+    "sha256": "5211DE069C62BEC44D914C5DDA400CAE9EA9144C005843B8AEE64673EA0DCAE4",
+    "source": "target-webgal-mygo/node_modules/html-parse-stringify"
+  },
+  {
+    "name": "webgal-parser",
+    "version": "4.6.2",
+    "license": "MPL-2.0",
+    "gitHead": "c2bd610ce725599bb5d84044788db35ac5a6f974",
+    "status": "PACKAGE_DECLARATION_WITH_LICENSE_TEXT",
+    "file": "licenses/supplemental/webgal-parser-4.6.2-DECLARATION",
+    "sha256": "08B97D61E4B844D73DE2B4D996974313326C3802EB1C1C92136CF0C2B9CBACEA",
+    "source": "target-webgal-mygo/packages/parser"
+  }
+]

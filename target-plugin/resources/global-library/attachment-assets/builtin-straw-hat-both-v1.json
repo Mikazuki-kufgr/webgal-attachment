@@ -1,0 +1,14 @@
+{
+  "schema": "webgal-live2d-attachment-asset",
+  "schemaVersion": 1,
+  "attachmentAssetId": "builtin-straw-hat-both-v1",
+  "slot": "headwear",
+  "layers": {
+    "back": "./game/attachments-v2/files/builtin-samples/straw-hat/back.png",
+    "front": "./game/attachments-v2/files/builtin-samples/straw-hat/front.png"
+  },
+  "attachedLayers": {
+    "back": "./game/attachments-v2/files/builtin-samples/straw-hat/back.png",
+    "front": "./game/attachments-v2/files/builtin-samples/straw-hat/front.png"
+  }
+}

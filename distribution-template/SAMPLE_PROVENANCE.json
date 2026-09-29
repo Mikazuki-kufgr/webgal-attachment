@@ -1,0 +1,86 @@
+{
+  "recordedAt": "2026-09-11T16:41:30.235Z",
+  "source": "USER_DIRECT_REPLY",
+  "userReply": "AI 生成",
+  "scope": [
+    "straw-hat",
+    "kemomimi",
+    "halo",
+    "flower",
+    "rose"
+  ],
+  "status": "USER_CONFIRMED_CHATGPT_GENERATED_AND_CC0_SELECTED",
+  "generatorAndTerms": "ChatGPT source confirmed; publisher selected CC0-1.0 for rights they can grant, no universal third-party clearance inferred",
+  "rightsConclusion": "Publisher applies CC0-1.0 to rights they can grant in the listed sample images; third-party rights excluded",
+  "files": [
+    {
+      "path": "resources/global-library/files/builtin-samples/halo/front.png",
+      "bytes": 1283951,
+      "sha256": "564544D1D77C239F7117D8B28A209BD9CE976F1CBC6AE92FD5A09B3AD46811A3"
+    },
+    {
+      "path": "resources/global-library/files/builtin-samples/kemomimi/front.png",
+      "bytes": 1447768,
+      "sha256": "430EAA772E4B1581B4CAE728E5458C542DB53BAAB728182F3D911104BFA23930"
+    },
+    {
+      "path": "resources/global-library/files/builtin-samples/straw-hat/back.png",
+      "bytes": 538148,
+      "sha256": "B78A275550A66186A5C7A1570069B955810FB84FEB5C3218612A48BD7C3E3516"
+    },
+    {
+      "path": "resources/global-library/files/builtin-samples/straw-hat/front.png",
+      "bytes": 341386,
+      "sha256": "2D200AB491A22CF793F6A60193C99B4017804A17E8531F4F1840CA20352DFD60"
+    },
+    {
+      "path": "resources/global-library/files/webgal-attachment-plugin-v0.1-starter/front.png",
+      "bytes": 1447768,
+      "sha256": "430EAA772E4B1581B4CAE728E5458C542DB53BAAB728182F3D911104BFA23930"
+    }
+  ],
+  "additionalSamples": [
+    {
+      "sample": "flower",
+      "status": "USER_CONFIRMED_CHATGPT_GENERATED",
+      "path": "resources/global-library/files/builtin-samples/flower/front.png",
+      "bytes": 653895,
+      "sha256": "5E1678B04EA57C4338969D9A763375CFB1D3E08D585B53C96C0C8BCB4963AEA9",
+      "note": "Publisher explicitly confirmed all default images were generated with ChatGPT."
+    },
+    {
+      "sample": "rose",
+      "status": "USER_CONFIRMED_CHATGPT_GENERATED",
+      "path": "resources/global-library/files/builtin-samples/rose/front.png",
+      "bytes": 190855,
+      "sha256": "691CCDB0C60F692DD5B9E0A3279311410A97438906901E7B500A627A574C419D",
+      "note": "Publisher explicitly confirmed all default images were generated with ChatGPT."
+    }
+  ],
+  "latestConfirmation": {
+    "source": "USER_DIRECT_REPLY",
+    "at": "2026-09-13T15:35:10+08:00",
+    "text": "所有默认附件的图片均为chatgpt生成。",
+    "generator": "ChatGPT",
+    "samples": [
+      "straw-hat",
+      "kemomimi",
+      "halo",
+      "flower",
+      "rose"
+    ],
+    "licenseChosen": true
+  },
+  "distributionLicense": {
+    "id": "CC0-1.0",
+    "confirmedAt": "2026-09-13 18:27:47 +08:00",
+    "scope": [
+      "straw-hat",
+      "kemomimi",
+      "halo",
+      "flower",
+      "rose"
+    ],
+    "rightsLimit": "Only rights publisher can grant; excludes character models, Live2D SDK and third-party materials"
+  }
+}

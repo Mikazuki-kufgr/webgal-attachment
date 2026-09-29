@@ -1,0 +1,62 @@
+.iconColor {
+  color: var(--primary);
+  font-size: 25px;
+  height: 25px;
+  width: 25px;
+}
+
+.previewTips {
+  color: var(--primary);
+  text-align: left;
+}
+
+.tips {
+  color: var(--primary);
+  font-weight: bolder;
+  font-size: smaller;
+  text-align: left;
+  height: 100%;
+  width: 500px;
+  background: var(--primary-5pct);
+  padding: 4px;
+  border-radius: 4px;
+}
+
+.fontFamilyInput {
+  width: 310px;
+  margin: 0 5px 0 0;
+}
+
+.fontSizeInput {
+  width: 86px;
+}
+
+.editorSettings {
+  display: flex;
+  align-items: flex-end;
+  gap: 8px;
+}
+
+.inlineField {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  color: var(--text-sub);
+  font-size: 13px;
+}
+
+.cascaderSettings {
+  display: flex;
+  align-items: flex-end;
+  gap: 8px;
+}
+
+.cascaderPicker {
+  min-width: 220px;
+  max-width: 320px;
+  padding-bottom: 10px;
+}
+
+.prompt {
+  padding-bottom: 8px;
+}

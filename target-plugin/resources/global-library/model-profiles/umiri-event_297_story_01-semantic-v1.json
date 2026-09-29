@@ -1,0 +1,544 @@
+{
+  "schema": "webgal-live2d-model-profile",
+  "schemaVersion": 1,
+  "profileVersion": 1,
+  "modelProfileId": "umiri-event_297_story_01-semantic-v1",
+  "characterId": "umiri",
+  "modelId": "event_297_story_01",
+  "modelPath": "./game/figure/umiri/event_297_story_01/model.json",
+  "fingerprint": {
+    "modelJsonSha256": "B3BBDB348131A9079A511FAF5800AD3733AD2836D6F39E44DE335D7C12D365F5",
+    "mocSha256": "DDAFECC032F1C138A7BA034002215B350BFF5AEA17C1972FA1901CDA283A8759",
+    "drawableCount": 209
+  },
+  "anchors": [
+    {
+      "name": "head",
+      "anchorProfileId": "umiri-event_297_story_01-semantic-v1-head-hair-compatible",
+      "drawableId": "D_PSD.00",
+      "vertexCount": 85,
+      "points": [
+        {
+          "index": 81,
+          "weight": 1,
+          "neutral": {
+            "x": 851.1249389648438,
+            "y": 392.181640625
+          }
+        },
+        {
+          "index": 69,
+          "weight": 1,
+          "neutral": {
+            "x": 922.6873779296875,
+            "y": 410.30694580078125
+          }
+        },
+        {
+          "index": 74,
+          "weight": 1,
+          "neutral": {
+            "x": 977.6875610351562,
+            "y": 382.4939880371094
+          }
+        },
+        {
+          "index": 31,
+          "weight": 1,
+          "neutral": {
+            "x": 1025.5003662109375,
+            "y": 368.326904296875
+          }
+        },
+        {
+          "index": 10,
+          "weight": 1,
+          "neutral": {
+            "x": 1149.6666259765625,
+            "y": 384.9942321777344
+          }
+        }
+      ]
+    },
+    {
+      "name": "hair-top",
+      "anchorProfileId": "umiri-event_297_story_01-semantic-v1-hair-top",
+      "drawableId": "D_PSD.00",
+      "vertexCount": 85,
+      "points": [
+        {
+          "index": 81,
+          "weight": 1,
+          "neutral": {
+            "x": 851.1249389648438,
+            "y": 392.181640625
+          }
+        },
+        {
+          "index": 69,
+          "weight": 1,
+          "neutral": {
+            "x": 922.6873779296875,
+            "y": 410.30694580078125
+          }
+        },
+        {
+          "index": 74,
+          "weight": 1,
+          "neutral": {
+            "x": 977.6875610351562,
+            "y": 382.4939880371094
+          }
+        },
+        {
+          "index": 31,
+          "weight": 1,
+          "neutral": {
+            "x": 1025.5003662109375,
+            "y": 368.326904296875
+          }
+        },
+        {
+          "index": 10,
+          "weight": 1,
+          "neutral": {
+            "x": 1149.6666259765625,
+            "y": 384.9942321777344
+          }
+        }
+      ]
+    },
+    {
+      "name": "eyelid-upper-left",
+      "anchorProfileId": "umiri-event_297_story_01-semantic-v1-eyelid-upper-left",
+      "drawableId": "D_PSD.76",
+      "vertexCount": 19,
+      "points": [
+        {
+          "index": 1,
+          "weight": 1,
+          "neutral": {
+            "x": 885.4061279296875,
+            "y": 699.0565185546875
+          }
+        },
+        {
+          "index": 2,
+          "weight": 1,
+          "neutral": {
+            "x": 906.6561279296875,
+            "y": 702.9627075195312
+          }
+        },
+        {
+          "index": 8,
+          "weight": 1,
+          "neutral": {
+            "x": 948.4530639648438,
+            "y": 713.040771484375
+          }
+        },
+        {
+          "index": 12,
+          "weight": 1,
+          "neutral": {
+            "x": 873.5311279296875,
+            "y": 690.9315795898438
+          }
+        },
+        {
+          "index": 13,
+          "weight": 1,
+          "neutral": {
+            "x": 872.7498168945312,
+            "y": 704.5252075195312
+          }
+        }
+      ]
+    },
+    {
+      "name": "eyelid-upper-right",
+      "anchorProfileId": "umiri-event_297_story_01-semantic-v1-eyelid-upper-right",
+      "drawableId": "D_PSD.98",
+      "vertexCount": 19,
+      "points": [
+        {
+          "index": 1,
+          "weight": 1,
+          "neutral": {
+            "x": 1114.530517578125,
+            "y": 699.0565185546875
+          }
+        },
+        {
+          "index": 2,
+          "weight": 1,
+          "neutral": {
+            "x": 1093.2803955078125,
+            "y": 702.9627075195312
+          }
+        },
+        {
+          "index": 8,
+          "weight": 1,
+          "neutral": {
+            "x": 1051.4835205078125,
+            "y": 713.040771484375
+          }
+        },
+        {
+          "index": 12,
+          "weight": 1,
+          "neutral": {
+            "x": 1126.405517578125,
+            "y": 690.9315795898438
+          }
+        },
+        {
+          "index": 13,
+          "weight": 1,
+          "neutral": {
+            "x": 1127.186767578125,
+            "y": 704.5252075195312
+          }
+        }
+      ]
+    },
+    {
+      "name": "eye-center-left",
+      "anchorProfileId": "umiri-event_297_story_01-semantic-v1-eye-center-left",
+      "drawableId": "D_PSD.56",
+      "vertexCount": 9,
+      "points": [
+        {
+          "index": 1,
+          "weight": 1,
+          "neutral": {
+            "x": 863.5624389648438,
+            "y": 713.4315185546875
+          }
+        },
+        {
+          "index": 2,
+          "weight": 1,
+          "neutral": {
+            "x": 856.6873168945312,
+            "y": 752.4940185546875
+          }
+        },
+        {
+          "index": 3,
+          "weight": 1,
+          "neutral": {
+            "x": 875.124755859375,
+            "y": 784.3690795898438
+          }
+        },
+        {
+          "index": 5,
+          "weight": 1,
+          "neutral": {
+            "x": 932.3123168945312,
+            "y": 773.7440795898438
+          }
+        },
+        {
+          "index": 8,
+          "weight": 1,
+          "neutral": {
+            "x": 897.6248779296875,
+            "y": 744.9940185546875
+          }
+        }
+      ]
+    },
+    {
+      "name": "eye-center-right",
+      "anchorProfileId": "umiri-event_297_story_01-semantic-v1-eye-center-right",
+      "drawableId": "D_PSD.77",
+      "vertexCount": 9,
+      "points": [
+        {
+          "index": 4,
+          "weight": 1,
+          "neutral": {
+            "x": 1105.4371337890625,
+            "y": 791.5565795898438
+          }
+        },
+        {
+          "index": 5,
+          "weight": 1,
+          "neutral": {
+            "x": 1129.4996337890625,
+            "y": 778.7440795898438
+          }
+        },
+        {
+          "index": 6,
+          "weight": 1,
+          "neutral": {
+            "x": 1142.937255859375,
+            "y": 751.5565185546875
+          }
+        },
+        {
+          "index": 7,
+          "weight": 1,
+          "neutral": {
+            "x": 1138.875,
+            "y": 717.1815185546875
+          }
+        },
+        {
+          "index": 8,
+          "weight": 1,
+          "neutral": {
+            "x": 1104.499755859375,
+            "y": 744.0565185546875
+          }
+        }
+      ]
+    },
+    {
+      "name": "nose",
+      "anchorProfileId": "umiri-event_297_story_01-semantic-v1-nose",
+      "drawableId": "D_PSD.23",
+      "vertexCount": 6,
+      "points": [
+        {
+          "index": 0,
+          "weight": 1,
+          "neutral": {
+            "x": 993.5205078125,
+            "y": 852.2479248046875
+          }
+        },
+        {
+          "index": 1,
+          "weight": 1,
+          "neutral": {
+            "x": 983.2734375,
+            "y": 831.7537841796875
+          }
+        },
+        {
+          "index": 2,
+          "weight": 1,
+          "neutral": {
+            "x": 1000.10791015625,
+            "y": 833.03466796875
+          }
+        },
+        {
+          "index": 4,
+          "weight": 1,
+          "neutral": {
+            "x": 1016.0274658203125,
+            "y": 830.10693359375
+          }
+        },
+        {
+          "index": 5,
+          "weight": 1,
+          "neutral": {
+            "x": 1000.10791015625,
+            "y": 810.710693359375
+          }
+        }
+      ]
+    },
+    {
+      "name": "mouth",
+      "anchorProfileId": "umiri-event_297_story_01-semantic-v1-mouth",
+      "drawableId": "D_PSD.48",
+      "vertexCount": 37,
+      "points": [
+        {
+          "index": 11,
+          "weight": 1,
+          "neutral": {
+            "x": 998.078125,
+            "y": 903.0408935546875
+          }
+        },
+        {
+          "index": 12,
+          "weight": 1,
+          "neutral": {
+            "x": 1004.328125,
+            "y": 903.1971435546875
+          }
+        },
+        {
+          "index": 29,
+          "weight": 1,
+          "neutral": {
+            "x": 1001.4375,
+            "y": 906.1658935546875
+          }
+        },
+        {
+          "index": 31,
+          "weight": 1,
+          "neutral": {
+            "x": 1013.546875,
+            "y": 906.6346435546875
+          }
+        },
+        {
+          "index": 35,
+          "weight": 1,
+          "neutral": {
+            "x": 984.796875,
+            "y": 907.0252685546875
+          }
+        }
+      ]
+    },
+    {
+      "name": "ear-left",
+      "anchorProfileId": "umiri-event_297_story_01-semantic-v1-ear-left",
+      "drawableId": "D_PSD.14",
+      "vertexCount": 12,
+      "points": [
+        {
+          "index": 0,
+          "weight": 1,
+          "neutral": {
+            "x": 769.2646484375,
+            "y": 784.6102294921875
+          }
+        },
+        {
+          "index": 5,
+          "weight": 1,
+          "neutral": {
+            "x": 863.318115234375,
+            "y": 826.6964721679688
+          }
+        },
+        {
+          "index": 9,
+          "weight": 1,
+          "neutral": {
+            "x": 837.33447265625,
+            "y": 745.0858154296875
+          }
+        },
+        {
+          "index": 10,
+          "weight": 1,
+          "neutral": {
+            "x": 810.2529296875,
+            "y": 707.3914184570312
+          }
+        },
+        {
+          "index": 11,
+          "weight": 1,
+          "neutral": {
+            "x": 778.0479125976562,
+            "y": 702.9998168945312
+          }
+        }
+      ]
+    },
+    {
+      "name": "ear-right",
+      "anchorProfileId": "umiri-event_297_story_01-semantic-v1-ear-right",
+      "drawableId": "D_PSD.15",
+      "vertexCount": 11,
+      "points": [
+        {
+          "index": 3,
+          "weight": 1,
+          "neutral": {
+            "x": 1175.8331298828125,
+            "y": 859.3097534179688
+          }
+        },
+        {
+          "index": 6,
+          "weight": 1,
+          "neutral": {
+            "x": 1214.869384765625,
+            "y": 736.3448486328125
+          }
+        },
+        {
+          "index": 7,
+          "weight": 1,
+          "neutral": {
+            "x": 1236.827392578125,
+            "y": 771.4776611328125
+          }
+        },
+        {
+          "index": 9,
+          "weight": 1,
+          "neutral": {
+            "x": 1212.9176025390625,
+            "y": 694.3807373046875
+          }
+        },
+        {
+          "index": 10,
+          "weight": 1,
+          "neutral": {
+            "x": 1176.321044921875,
+            "y": 723.1701049804688
+          }
+        }
+      ]
+    },
+    {
+      "name": "chin",
+      "anchorProfileId": "umiri-event_297_story_01-semantic-v1-chin",
+      "drawableId": "D_PSD.138",
+      "vertexCount": 41,
+      "points": [
+        {
+          "index": 0,
+          "weight": 1,
+          "neutral": {
+            "x": 1002.5185546875,
+            "y": 1009.9471435546875
+          }
+        },
+        {
+          "index": 2,
+          "weight": 1,
+          "neutral": {
+            "x": 1002.2310791015625,
+            "y": 1074.8284912109375
+          }
+        },
+        {
+          "index": 4,
+          "weight": 1,
+          "neutral": {
+            "x": 1001.620849609375,
+            "y": 1212.594970703125
+          }
+        },
+        {
+          "index": 19,
+          "weight": 1,
+          "neutral": {
+            "x": 864.7255859375,
+            "y": 1068.7117919921875
+          }
+        },
+        {
+          "index": 35,
+          "weight": 1,
+          "neutral": {
+            "x": 1132.8814697265625,
+            "y": 1057.2291259765625
+          }
+        }
+      ]
+    }
+  ]
+}

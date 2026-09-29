@@ -1,0 +1,4 @@
+花朵
+这是可复制的完整附件。将“flower-front-v1”文件夹整体复制到游戏的 game/attachments-v2/portable/。
+图片只保存一份；人物与锚点参数在 attachment.json 的 adaptations 中。
+制作器中打开它后，可给同一附件新增目标，保存会保留原身份和已有参数。

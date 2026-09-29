@@ -1,0 +1,544 @@
+{
+  "schema": "webgal-live2d-model-profile",
+  "schemaVersion": 1,
+  "profileVersion": 1,
+  "modelProfileId": "nyamu-event_297_story_01-semantic-v1",
+  "characterId": "nyamu",
+  "modelId": "event_297_story_01",
+  "modelPath": "./game/figure/nyamu/event_297_story_01/model.json",
+  "fingerprint": {
+    "modelJsonSha256": "7A2B1A0992454044EA369C9E13762B4A09DEDC3692DD63CD31E620BB3C304EE8",
+    "mocSha256": "231E75C1DBC914944D6230A36C19D54D3B732B00F039216521A3D6218D47F81A",
+    "drawableCount": 289
+  },
+  "anchors": [
+    {
+      "name": "head",
+      "anchorProfileId": "nyamu-event_297_story_01-semantic-v1-head-hair-compatible",
+      "drawableId": "D_PSD.51",
+      "vertexCount": 45,
+      "points": [
+        {
+          "index": 30,
+          "weight": 1,
+          "neutral": {
+            "x": 834.7991943359375,
+            "y": 641.0953369140625
+          }
+        },
+        {
+          "index": 37,
+          "weight": 1,
+          "neutral": {
+            "x": 1208.8905029296875,
+            "y": 609.1098022460938
+          }
+        },
+        {
+          "index": 41,
+          "weight": 1,
+          "neutral": {
+            "x": 940.4902954101562,
+            "y": 312.8963317871094
+          }
+        },
+        {
+          "index": 42,
+          "weight": 1,
+          "neutral": {
+            "x": 1060.0882568359375,
+            "y": 314.2870178222656
+          }
+        },
+        {
+          "index": 43,
+          "weight": 1,
+          "neutral": {
+            "x": 1156.0447998046875,
+            "y": 368.5231628417969
+          }
+        }
+      ]
+    },
+    {
+      "name": "hair-top",
+      "anchorProfileId": "nyamu-event_297_story_01-semantic-v1-hair-top",
+      "drawableId": "D_PSD.51",
+      "vertexCount": 45,
+      "points": [
+        {
+          "index": 30,
+          "weight": 1,
+          "neutral": {
+            "x": 834.7991943359375,
+            "y": 641.0953369140625
+          }
+        },
+        {
+          "index": 37,
+          "weight": 1,
+          "neutral": {
+            "x": 1208.8905029296875,
+            "y": 609.1098022460938
+          }
+        },
+        {
+          "index": 41,
+          "weight": 1,
+          "neutral": {
+            "x": 940.4902954101562,
+            "y": 312.8963317871094
+          }
+        },
+        {
+          "index": 42,
+          "weight": 1,
+          "neutral": {
+            "x": 1060.0882568359375,
+            "y": 314.2870178222656
+          }
+        },
+        {
+          "index": 43,
+          "weight": 1,
+          "neutral": {
+            "x": 1156.0447998046875,
+            "y": 368.5231628417969
+          }
+        }
+      ]
+    },
+    {
+      "name": "eyelid-upper-left",
+      "anchorProfileId": "nyamu-event_297_story_01-semantic-v1-eyelid-upper-left",
+      "drawableId": "D_PSD.204",
+      "vertexCount": 34,
+      "points": [
+        {
+          "index": 7,
+          "weight": 1,
+          "neutral": {
+            "x": 846.4473876953125,
+            "y": 660.2349243164062
+          }
+        },
+        {
+          "index": 9,
+          "weight": 1,
+          "neutral": {
+            "x": 861.7367553710938,
+            "y": 635.7421264648438
+          }
+        },
+        {
+          "index": 19,
+          "weight": 1,
+          "neutral": {
+            "x": 869.009521484375,
+            "y": 693.7825317382812
+          }
+        },
+        {
+          "index": 31,
+          "weight": 1,
+          "neutral": {
+            "x": 883.556884765625,
+            "y": 648.953369140625
+          }
+        },
+        {
+          "index": 32,
+          "weight": 1,
+          "neutral": {
+            "x": 905.970947265625,
+            "y": 646.5782470703125
+          }
+        }
+      ]
+    },
+    {
+      "name": "eyelid-upper-right",
+      "anchorProfileId": "nyamu-event_297_story_01-semantic-v1-eyelid-upper-right",
+      "drawableId": "D_PSD.234",
+      "vertexCount": 34,
+      "points": [
+        {
+          "index": 4,
+          "weight": 1,
+          "neutral": {
+            "x": 1118.9185791015625,
+            "y": 690.665283203125
+          }
+        },
+        {
+          "index": 9,
+          "weight": 1,
+          "neutral": {
+            "x": 1138.36328125,
+            "y": 635.7421264648438
+          }
+        },
+        {
+          "index": 18,
+          "weight": 1,
+          "neutral": {
+            "x": 1146.5279541015625,
+            "y": 682.9462280273438
+          }
+        },
+        {
+          "index": 30,
+          "weight": 1,
+          "neutral": {
+            "x": 1138.066650390625,
+            "y": 659.49267578125
+          }
+        },
+        {
+          "index": 31,
+          "weight": 1,
+          "neutral": {
+            "x": 1116.5430908203125,
+            "y": 648.953369140625
+          }
+        }
+      ]
+    },
+    {
+      "name": "eye-center-left",
+      "anchorProfileId": "nyamu-event_297_story_01-semantic-v1-eye-center-left",
+      "drawableId": "D_PSD.210",
+      "vertexCount": 10,
+      "points": [
+        {
+          "index": 2,
+          "weight": 1,
+          "neutral": {
+            "x": 853.2159423828125,
+            "y": 647.3858032226562
+          }
+        },
+        {
+          "index": 3,
+          "weight": 1,
+          "neutral": {
+            "x": 867.1691284179688,
+            "y": 680.0419921875
+          }
+        },
+        {
+          "index": 4,
+          "weight": 1,
+          "neutral": {
+            "x": 892.1065063476562,
+            "y": 696.0722045898438
+          }
+        },
+        {
+          "index": 5,
+          "weight": 1,
+          "neutral": {
+            "x": 917.0439453125,
+            "y": 694.2897338867188
+          }
+        },
+        {
+          "index": 8,
+          "weight": 1,
+          "neutral": {
+            "x": 941.9813842773438,
+            "y": 642.0374755859375
+          }
+        }
+      ]
+    },
+    {
+      "name": "eye-center-right",
+      "anchorProfileId": "nyamu-event_297_story_01-semantic-v1-eye-center-right",
+      "drawableId": "D_PSD.238",
+      "vertexCount": 10,
+      "points": [
+        {
+          "index": 3,
+          "weight": 1,
+          "neutral": {
+            "x": 1067.50048828125,
+            "y": 682.1748046875
+          }
+        },
+        {
+          "index": 4,
+          "weight": 1,
+          "neutral": {
+            "x": 1097.18798828125,
+            "y": 697.3154296875
+          }
+        },
+        {
+          "index": 5,
+          "weight": 1,
+          "neutral": {
+            "x": 1126.8753662109375,
+            "y": 690.1904296875
+          }
+        },
+        {
+          "index": 8,
+          "weight": 1,
+          "neutral": {
+            "x": 1125.3905029296875,
+            "y": 606.7685546875
+          }
+        },
+        {
+          "index": 9,
+          "weight": 1,
+          "neutral": {
+            "x": 1100.750244140625,
+            "y": 645.6592407226562
+          }
+        }
+      ]
+    },
+    {
+      "name": "nose",
+      "anchorProfileId": "nyamu-event_297_story_01-semantic-v1-nose",
+      "drawableId": "D_PSD.155",
+      "vertexCount": 16,
+      "points": [
+        {
+          "index": 0,
+          "weight": 1,
+          "neutral": {
+            "x": 963.521240234375,
+            "y": 803.3260498046875
+          }
+        },
+        {
+          "index": 1,
+          "weight": 1,
+          "neutral": {
+            "x": 1041.353759765625,
+            "y": 801.4740600585938
+          }
+        },
+        {
+          "index": 10,
+          "weight": 1,
+          "neutral": {
+            "x": 1002.2603149414062,
+            "y": 803.3282470703125
+          }
+        },
+        {
+          "index": 11,
+          "weight": 1,
+          "neutral": {
+            "x": 1017.41748046875,
+            "y": 800.98486328125
+          }
+        },
+        {
+          "index": 14,
+          "weight": 1,
+          "neutral": {
+            "x": 988.5698852539062,
+            "y": 802.3502197265625
+          }
+        }
+      ]
+    },
+    {
+      "name": "mouth",
+      "anchorProfileId": "nyamu-event_297_story_01-semantic-v1-mouth",
+      "drawableId": "D_PSD.02",
+      "vertexCount": 18,
+      "points": [
+        {
+          "index": 4,
+          "weight": 1,
+          "neutral": {
+            "x": 990.9224243164062,
+            "y": 858.3314208984375
+          }
+        },
+        {
+          "index": 5,
+          "weight": 1,
+          "neutral": {
+            "x": 1018.5836181640625,
+            "y": 875.4812622070312
+          }
+        },
+        {
+          "index": 8,
+          "weight": 1,
+          "neutral": {
+            "x": 1080.5445556640625,
+            "y": 864.9700317382812
+          }
+        },
+        {
+          "index": 12,
+          "weight": 1,
+          "neutral": {
+            "x": 1046.7979736328125,
+            "y": 954.0389404296875
+          }
+        },
+        {
+          "index": 13,
+          "weight": 1,
+          "neutral": {
+            "x": 948.87744140625,
+            "y": 951.2728271484375
+          }
+        }
+      ]
+    },
+    {
+      "name": "ear-left",
+      "anchorProfileId": "nyamu-event_297_story_01-semantic-v1-ear-left",
+      "drawableId": "D_PSD.277",
+      "vertexCount": 10,
+      "points": [
+        {
+          "index": 0,
+          "weight": 1,
+          "neutral": {
+            "x": 789.7042236328125,
+            "y": 612.05322265625
+          }
+        },
+        {
+          "index": 1,
+          "weight": 1,
+          "neutral": {
+            "x": 811.4749755859375,
+            "y": 669.0531616210938
+          }
+        },
+        {
+          "index": 6,
+          "weight": 1,
+          "neutral": {
+            "x": 826.9125366210938,
+            "y": 627.094970703125
+          }
+        },
+        {
+          "index": 7,
+          "weight": 1,
+          "neutral": {
+            "x": 775.4541625976562,
+            "y": 649.6572265625
+          }
+        },
+        {
+          "index": 8,
+          "weight": 1,
+          "neutral": {
+            "x": 786.9332885742188,
+            "y": 705.4696044921875
+          }
+        }
+      ]
+    },
+    {
+      "name": "ear-right",
+      "anchorProfileId": "nyamu-event_297_story_01-semantic-v1-ear-right",
+      "drawableId": "D_PSD.278",
+      "vertexCount": 10,
+      "points": [
+        {
+          "index": 0,
+          "weight": 1,
+          "neutral": {
+            "x": 1207.4666748046875,
+            "y": 615.6154174804688
+          }
+        },
+        {
+          "index": 1,
+          "weight": 1,
+          "neutral": {
+            "x": 1192.82080078125,
+            "y": 662.7196655273438
+          }
+        },
+        {
+          "index": 5,
+          "weight": 1,
+          "neutral": {
+            "x": 1129.4874267578125,
+            "y": 709.4280395507812
+          }
+        },
+        {
+          "index": 8,
+          "weight": 1,
+          "neutral": {
+            "x": 1230.4249267578125,
+            "y": 647.677978515625
+          }
+        },
+        {
+          "index": 9,
+          "weight": 1,
+          "neutral": {
+            "x": 1218.94580078125,
+            "y": 696.7613525390625
+          }
+        }
+      ]
+    },
+    {
+      "name": "chin",
+      "anchorProfileId": "nyamu-event_297_story_01-semantic-v1-chin",
+      "drawableId": "D_PSD.19",
+      "vertexCount": 32,
+      "points": [
+        {
+          "index": 12,
+          "weight": 1,
+          "neutral": {
+            "x": 862.5257568359375,
+            "y": 1000.0416870117188
+          }
+        },
+        {
+          "index": 17,
+          "weight": 1,
+          "neutral": {
+            "x": 940.7150268554688,
+            "y": 1163.0570068359375
+          }
+        },
+        {
+          "index": 18,
+          "weight": 1,
+          "neutral": {
+            "x": 940.7142333984375,
+            "y": 1050.9378662109375
+          }
+        },
+        {
+          "index": 29,
+          "weight": 1,
+          "neutral": {
+            "x": 1007.1263427734375,
+            "y": 1098.9844970703125
+          }
+        },
+        {
+          "index": 31,
+          "weight": 1,
+          "neutral": {
+            "x": 1004.6257934570312,
+            "y": 1028.3594970703125
+          }
+        }
+      ]
+    }
+  ]
+}

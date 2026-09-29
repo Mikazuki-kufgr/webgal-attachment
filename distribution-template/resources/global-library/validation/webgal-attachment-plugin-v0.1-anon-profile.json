@@ -1,0 +1,8 @@
+{
+  "schema": "webgal-behavior-validation-set",
+  "schemaVersion": 1,
+  "profileId": "webgal-attachment-plugin-v0.1-anon-profile",
+  "profileVersion": 1,
+  "items": [],
+  "policy": "motion, expression, and physics changes become UNVALIDATED without invalidating compatible geometry"
+}

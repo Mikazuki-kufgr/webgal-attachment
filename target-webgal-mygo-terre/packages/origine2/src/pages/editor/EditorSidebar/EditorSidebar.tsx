@@ -1,0 +1,333 @@
+import styles from "./editorSidebar.module.scss";
+import Assets, { IFileConfig, IFileFunction } from "@/components/Assets/Assets";
+import React, { useEffect, useRef } from "react";
+import { eventBus } from "@/utils/eventBus";
+import { Button, Switch, Tab, TabList } from "@fluentui/react-components";
+import useEditorStore from "@/store/useEditorStore";
+import { useGameEditorContext } from "@/store/useGameEditorStore";
+import { IGameEditorSidebarTabs, ITag } from "@/types/gameEditor";
+import { t } from "@lingui/macro";
+import { ArrowClockwiseFilled, ArrowClockwiseRegular, LiveFilled, LiveOffFilled, LiveOffRegular, LiveRegular, OpenFilled, OpenRegular, bundleIcon } from "@fluentui/react-icons";
+import { EditorPreviewClient } from "@/utils/editorPreviewClient";
+import { createPreviewBootstrapProvide, isPreviewBootstrapRequest } from "@/utils/editorPreviewBootstrap";
+import { createId } from '@/utils/createId';
+import { api } from '@/api';
+import { renameSceneDocuments, reopenSceneDocument } from '@/utils/sceneDocumentSave';
+import { editorDocumentPath } from '@/utils/editorDocumentPath';
+import { assertRenameSucceeded } from '@/utils/editorRename';
+
+let startX = 0;
+let prevXvalue = 0;
+let isMouseDown = false;
+
+const ArrowClockwiseIcon = bundleIcon(ArrowClockwiseFilled, ArrowClockwiseRegular);
+const OpenIcon = bundleIcon(OpenFilled, OpenRegular);
+const LiveIcon = bundleIcon(LiveFilled, LiveRegular);
+const LiveOffIcon = bundleIcon(LiveOffFilled, LiveOffRegular);
+
+export default function EditorSideBar() {
+  const gameDir = useEditorStore.use.subPage();
+  const isEnableLivePreview = useEditorStore.use.isEnableLivePreview();
+  const updateIsEnableLivePreview = useEditorStore.use.updateIsEnableLivePreview();
+  const isUseFontOptimization = useEditorStore.use.isUseFontOptimization();
+  const isShowPreview = useEditorStore.use.isShowPreview();
+  const updateIsShowPreview = useEditorStore.use.updateIsShowPreview();
+
+  const isShowSidebar = useGameEditorContext((state) => state.isShowSidebar);
+  const currentSidebarTab = useGameEditorContext((state) => state.currentSidebarTab);
+  const updateCurrentSidebarTab = useGameEditorContext((state) => state.updateCurrentSidebarTab);
+  const tags = useGameEditorContext((state) => state.tags);
+  const addTag = useGameEditorContext((state) => state.addTag);
+  const renameTags = useGameEditorContext((state) => state.renameTags);
+  const updateCurrentTag = useGameEditorContext((state) => state.updateCurrentTag);
+  const PreviewControlRef = useRef(null);
+
+  const ifRef = useRef<HTMLIFrameElement | null>(null);
+  const embeddedLaunchIdRef = useRef(createId());
+
+  useEffect(() => {
+    EditorPreviewClient.ensureConnected();
+  }, []);
+
+  useEffect(() => {
+    const handleBootstrapMessage = (event: MessageEvent) => {
+      const iframeWindow = ifRef.current?.contentWindow;
+      if (!iframeWindow || event.source !== iframeWindow || !isPreviewBootstrapRequest(event.data)) {
+        return;
+      }
+
+      iframeWindow.postMessage(createPreviewBootstrapProvide(embeddedLaunchIdRef.current), '*');
+    };
+
+    window.addEventListener('message', handleBootstrapMessage);
+    return () => {
+      window.removeEventListener('message', handleBootstrapMessage);
+    };
+  }, []);
+
+  useEffect(() => {
+    if (isShowPreview) {
+      embeddedLaunchIdRef.current = createId();
+    }
+  }, [gameDir, isShowPreview]);
+
+  useEffect(() => {
+    const iframeElement = ifRef.current;
+    if (!iframeElement) {
+      return;
+    }
+
+    iframeElement.onload = () => {
+      const iframeWindow = iframeElement.contentWindow;
+      if (!iframeWindow) {
+        return;
+      }
+
+      (iframeWindow as Window & { console: { log: (...args: unknown[]) => void } }).console.log = function () {};
+    };
+
+    return () => {
+      iframeElement.onload = null;
+    };
+  }, [gameDir, isShowPreview]);
+
+  useEffect(() => {
+    const handlePreviewReady = ({ ready }: { ready: boolean }) => {
+      if (!ready) {
+        return;
+      }
+
+      EditorPreviewClient.setFontOptimization(isUseFontOptimization);
+      if (isEnableLivePreview) eventBus.emit('editor:sync-current-line', null);
+    };
+
+    eventBus.on('editor-preview:ready', handlePreviewReady);
+    return () => {
+      eventBus.off('editor-preview:ready', handlePreviewReady);
+    };
+  }, [isEnableLivePreview, isUseFontOptimization]);
+
+  useEffect(() => {
+    EditorPreviewClient.setFontOptimization(isUseFontOptimization);
+  }, [isUseFontOptimization]);
+
+  useEffect(() => {
+    const storeWidth = localStorage.getItem('sidebar-width');
+    if (!storeWidth) {
+      const initWidth = window.innerWidth * 0.35;
+      localStorage.setItem('sidebar-width', initWidth.toString());
+      document.body.style.setProperty("--sidebar-width", `${initWidth}px`);
+    } else {
+      document.body.style.setProperty("--sidebar-width", `${storeWidth}px`);
+    }
+  }, []);
+
+  const handleDragStart = (event: React.MouseEvent<HTMLDivElement>) => {
+    startX = event.clientX;
+    const prevX = document.body.style.getPropertyValue("--sidebar-width");
+    prevXvalue = parseInt(prevX.substring(0, prevX.length - 2), 10);
+    isMouseDown = true;
+    const previewFrame = document.getElementById("gamePreviewIframe");
+    if (previewFrame)
+      previewFrame.style.pointerEvents = 'none';
+  };
+
+  const handleDrag = (event: MouseEvent) => {
+    if (isMouseDown) {
+      const deltaX = event.clientX - (startX);
+      const newValue = prevXvalue + deltaX;
+      document.body.style.setProperty("--sidebar-width", `${(newValue < 240) ? 240 : newValue}px`);
+    }
+
+  };
+
+  const handleDragEnd = (_event: MouseEvent) => {
+    setTimeout(() => {
+      const prevX = document.body.style.getPropertyValue("--sidebar-width");
+      prevXvalue = parseInt(prevX.substring(0, prevX.length - 2), 10);
+      localStorage.setItem('sidebar-width', prevXvalue.toString());
+    }, 10);
+    isMouseDown = false;
+    const previewFrame = document.getElementById("gamePreviewIframe");
+    if (previewFrame)
+      previewFrame.style.pointerEvents = 'auto';
+  };
+
+  useEffect(() => {
+    window.addEventListener('mousemove', handleDrag);
+    window.addEventListener('mouseup', handleDragEnd);
+    return () => {
+      window.removeEventListener('mousemove', handleDrag);
+      window.removeEventListener('mouseup', handleDragEnd);
+    };
+  }, []);
+
+  const refreshGame = () => {
+    embeddedLaunchIdRef.current = createId();
+    ifRef.current?.contentWindow?.location.reload();
+  };
+
+  useEffect(() => {
+    eventBus.on('iframe:refresh-game', refreshGame);
+    return () => {
+      eventBus.off('iframe:refresh-game', refreshGame);
+    };
+  }, []);
+
+  const openFlowchartEditor = () => {
+    const flowchartTag: ITag = {
+      name: t`流程图编辑器`,
+      path: 'flowchart',
+      type: 'flowchart',
+    };
+    const result = tags.findIndex((e) => e.path === flowchartTag.path);
+    if (result < 0) addTag(flowchartTag);
+    updateCurrentTag(flowchartTag);
+  };
+
+  useEffect(() => {
+    eventBus.on('openFlowchartEditor', openFlowchartEditor);
+    return () => {
+      eventBus.off('openFlowchartEditor', openFlowchartEditor);
+    };
+  }, [tags]);
+
+  const fileConfig: IFileConfig = new Map([
+    [`animation`, { desc: t`动画`, extNameTypes: ['json'], isProtected: true }],
+    [`animation/animationTable.json`, { isProtected: true }],
+    [`background`, { desc: t`背景`, extNameTypes: ['image', 'video'], isProtected: true }],
+    [`bgm`, { desc: t`音乐`, extNameTypes: ['audio'], isProtected: true }],
+    [`figure`, { desc: t`立绘`, extNameTypes: ['image', 'json'], isProtected: true }],
+    [`scene`, { desc: t`场景`, extNameTypes: ['scene'], isProtected: true }],
+    [`scene/start.txt`, { isProtected: true }],
+    [`template`, { desc: t`模板`, isProtected: true }],
+    [`tex`, { desc: t`纹理`, extNameTypes: ['tex'], isProtected: true }],
+    [`video`, { desc: t`视频`, extNameTypes: ['video'], isProtected: true }],
+    [`vocal`, { desc: t`语音`, extNameTypes: ['audio'], isProtected: true }],
+    [`config.txt`, { desc: t`游戏配置`, isProtected: true }],
+    [`userStyleSheet.css`, { isProtected: true }],
+  ]);
+
+  const handleOpen: IFileFunction['open'] = async (file, type) => {
+    reopenSceneDocument(editorDocumentPath(gameDir, file.path));
+    const target = file.path;
+    const tag: ITag = {
+      name: file.name,
+      path: file.path,
+      type: type,
+    };
+    // 先要确定没有这个tag
+    const result = tags.findIndex((e) => e.path === target);
+    if (result < 0) addTag(tag);
+    updateCurrentTag(tag);
+  };
+
+  const fileFunction: IFileFunction = {
+    open: handleOpen,
+    renameOperation: async (source, newName) => {
+      const target = source.slice(0, source.lastIndexOf('/') + 1) + newName;
+      if (target === source) return;
+      const base = `games/${gameDir}/game/`;
+      await renameSceneDocuments(source, target, async () => {
+        const response = await api.assetsControllerRename({ source, newName });
+        assertRenameSucceeded(response);
+      }, () => renameTags(source.slice(base.length), target.slice(base.length)));
+    },
+  };
+
+  const assetsTabs = (
+    <TabList style={{ padding: '0 3px 0 4px' }} size="small" selectedValue={currentSidebarTab}
+      onTabSelect={(_, data) => updateCurrentSidebarTab(data.value as unknown as IGameEditorSidebarTabs)}
+    >
+      <Tab value="asset" style={{ padding: '2px 2px 3.5px 2px' }}>{t`资源`}</Tab>
+      <Tab value="scene" style={{ padding: '2px 2px 3.5px 2px' }}>{t`场景`}</Tab>
+    </TabList>
+  );
+
+  return <>
+    {isShowSidebar &&
+      <div className={styles.editor_sidebar}>
+        <div className={styles.preview_container} id="gamePreview">
+          <div className={styles.gamePreviewButons}>
+            <Switch
+              label={t`预览窗口`}
+              labelPosition="before"
+              checked={isShowPreview}
+              onChange={() => updateIsShowPreview(!isShowPreview)}
+            />
+            <div style={{ flexGrow: 1 }} />
+            <Button
+              appearance="transparent"
+              icon={<ArrowClockwiseIcon />}
+              title={t`刷新游戏`}
+              onClick={refreshGame}
+            />
+            <Button
+              appearance="subtle"
+              icon={<OpenIcon />}
+              title={t`在新标签页中预览`}
+              onClick={() => window.open(`/games/${gameDir}`, "_blank")}
+            />
+            <Button
+              appearance="subtle"
+              icon={isEnableLivePreview ? <LiveIcon /> : <LiveOffIcon />}
+              title={isEnableLivePreview ? t`实时预览打开` : t`实时预览关闭`}
+              onClick={() => updateIsEnableLivePreview(!isEnableLivePreview)}
+            />
+          </div>
+          <div
+            ref={PreviewControlRef}
+            id="gamePreviewControl"
+            className={styles.previewWindow}
+            style={{
+              position: 'absolute',
+              left: 0,
+              bottom: 0,
+              overflow: 'hidden',
+              pointerEvents: 'none',
+              display: isShowPreview ? 'block' : 'none',
+            }}
+          />
+          {/* eslint-disable-next-line react/iframe-missing-sandbox */}
+          {isShowPreview && <iframe
+            ref={ifRef}
+            id="gamePreviewIframe"
+            frameBorder="0"
+            className={styles.previewWindow}
+            src={`/games/${gameDir}`}
+          />}
+        </div>
+
+        <div className={styles.sidebarContent}>
+          {
+            currentSidebarTab === 'asset' &&
+            <Assets
+              rootPath={['games', gameDir, 'game']}
+              leading={assetsTabs}
+              fileConfig={fileConfig}
+              fileFunction={fileFunction}
+            />
+          }
+          {
+            currentSidebarTab === 'scene' &&
+            <Assets
+              rootPath={['games', gameDir, 'game']}
+              basePath={['scene']}
+              leading={assetsTabs}
+              fileConfig={fileConfig}
+              fileFunction={fileFunction}
+            />
+          }
+        </div>
+
+        <div
+          className={styles.divider}
+          onMouseDown={handleDragStart}
+        // onMouseUp={handleDragEnd}
+        // onMouseLeave={handleDragEnd}
+        />
+
+      </div >
+    }
+  </>;
+}

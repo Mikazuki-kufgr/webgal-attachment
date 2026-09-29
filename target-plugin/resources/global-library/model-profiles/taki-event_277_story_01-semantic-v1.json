@@ -1,0 +1,544 @@
+{
+  "schema": "webgal-live2d-model-profile",
+  "schemaVersion": 1,
+  "profileVersion": 1,
+  "modelProfileId": "taki-event_277_story_01-semantic-v1",
+  "characterId": "taki",
+  "modelId": "event_277_story_01",
+  "modelPath": "./game/figure/taki/event_277_story_01/model.json",
+  "fingerprint": {
+    "modelJsonSha256": "0F8B8290A28FF56F5B3CA26918857A1739C61024A8E7ED6ADE3998E89E5B57C3",
+    "mocSha256": "0CA4419FC341F268CA81B4C310DFF1BFD94565B72C83205D006045A9C2DCEC82",
+    "drawableCount": 170
+  },
+  "anchors": [
+    {
+      "name": "head",
+      "anchorProfileId": "taki-event_277_story_01-semantic-v1-head-hair-compatible",
+      "drawableId": "D_PSD.95",
+      "vertexCount": 66,
+      "points": [
+        {
+          "index": 2,
+          "weight": 1,
+          "neutral": {
+            "x": 821,
+            "y": 426.3331298828125
+          }
+        },
+        {
+          "index": 62,
+          "weight": 1,
+          "neutral": {
+            "x": 938.8749389648438,
+            "y": 389.0206298828125
+          }
+        },
+        {
+          "index": 52,
+          "weight": 1,
+          "neutral": {
+            "x": 1000.125,
+            "y": 397.1455993652344
+          }
+        },
+        {
+          "index": 53,
+          "weight": 1,
+          "neutral": {
+            "x": 1071.3751220703125,
+            "y": 392.45806884765625
+          }
+        },
+        {
+          "index": 0,
+          "weight": 1,
+          "neutral": {
+            "x": 1195,
+            "y": 442.3330993652344
+          }
+        }
+      ]
+    },
+    {
+      "name": "hair-top",
+      "anchorProfileId": "taki-event_277_story_01-semantic-v1-hair-top",
+      "drawableId": "D_PSD.95",
+      "vertexCount": 66,
+      "points": [
+        {
+          "index": 2,
+          "weight": 1,
+          "neutral": {
+            "x": 821,
+            "y": 426.3331298828125
+          }
+        },
+        {
+          "index": 62,
+          "weight": 1,
+          "neutral": {
+            "x": 938.8749389648438,
+            "y": 389.0206298828125
+          }
+        },
+        {
+          "index": 52,
+          "weight": 1,
+          "neutral": {
+            "x": 1000.125,
+            "y": 397.1455993652344
+          }
+        },
+        {
+          "index": 53,
+          "weight": 1,
+          "neutral": {
+            "x": 1071.3751220703125,
+            "y": 392.45806884765625
+          }
+        },
+        {
+          "index": 0,
+          "weight": 1,
+          "neutral": {
+            "x": 1195,
+            "y": 442.3330993652344
+          }
+        }
+      ]
+    },
+    {
+      "name": "eyelid-upper-left",
+      "anchorProfileId": "taki-event_277_story_01-semantic-v1-eyelid-upper-left",
+      "drawableId": "D_PSD.122",
+      "vertexCount": 19,
+      "points": [
+        {
+          "index": 1,
+          "weight": 1,
+          "neutral": {
+            "x": 887.2186279296875,
+            "y": 713.6454467773438
+          }
+        },
+        {
+          "index": 5,
+          "weight": 1,
+          "neutral": {
+            "x": 942.375,
+            "y": 728.8018798828125
+          }
+        },
+        {
+          "index": 11,
+          "weight": 1,
+          "neutral": {
+            "x": 895.9686279296875,
+            "y": 706.4578247070312
+          }
+        },
+        {
+          "index": 12,
+          "weight": 1,
+          "neutral": {
+            "x": 880.3436279296875,
+            "y": 707.7078247070312
+          }
+        },
+        {
+          "index": 15,
+          "weight": 1,
+          "neutral": {
+            "x": 909.0936889648438,
+            "y": 723.4893798828125
+          }
+        }
+      ]
+    },
+    {
+      "name": "eyelid-upper-right",
+      "anchorProfileId": "taki-event_277_story_01-semantic-v1-eyelid-upper-right",
+      "drawableId": "D_PSD.74",
+      "vertexCount": 19,
+      "points": [
+        {
+          "index": 0,
+          "weight": 1,
+          "neutral": {
+            "x": 1128.7188720703125,
+            "y": 714.1141967773438
+          }
+        },
+        {
+          "index": 5,
+          "weight": 1,
+          "neutral": {
+            "x": 1057.625,
+            "y": 728.8018798828125
+          }
+        },
+        {
+          "index": 11,
+          "weight": 1,
+          "neutral": {
+            "x": 1104.0313720703125,
+            "y": 706.4578247070312
+          }
+        },
+        {
+          "index": 12,
+          "weight": 1,
+          "neutral": {
+            "x": 1119.6563720703125,
+            "y": 707.7078247070312
+          }
+        },
+        {
+          "index": 15,
+          "weight": 1,
+          "neutral": {
+            "x": 1090.9063720703125,
+            "y": 723.4893798828125
+          }
+        }
+      ]
+    },
+    {
+      "name": "eye-center-left",
+      "anchorProfileId": "taki-event_277_story_01-semantic-v1-eye-center-left",
+      "drawableId": "D_PSD.102",
+      "vertexCount": 9,
+      "points": [
+        {
+          "index": 1,
+          "weight": 1,
+          "neutral": {
+            "x": 900.1246948242188,
+            "y": 801.5206909179688
+          }
+        },
+        {
+          "index": 2,
+          "weight": 1,
+          "neutral": {
+            "x": 864.8124389648438,
+            "y": 784.9581298828125
+          }
+        },
+        {
+          "index": 3,
+          "weight": 1,
+          "neutral": {
+            "x": 854.8129272460938,
+            "y": 747.7705688476562
+          }
+        },
+        {
+          "index": 5,
+          "weight": 1,
+          "neutral": {
+            "x": 930.1255493164062,
+            "y": 721.2080688476562
+          }
+        },
+        {
+          "index": 8,
+          "weight": 1,
+          "neutral": {
+            "x": 901.0343627929688,
+            "y": 756.513671875
+          }
+        }
+      ]
+    },
+    {
+      "name": "eye-center-right",
+      "anchorProfileId": "taki-event_277_story_01-semantic-v1-eye-center-right",
+      "drawableId": "D_PSD.46",
+      "vertexCount": 9,
+      "points": [
+        {
+          "index": 1,
+          "weight": 1,
+          "neutral": {
+            "x": 1100.8123779296875,
+            "y": 800.2706298828125
+          }
+        },
+        {
+          "index": 3,
+          "weight": 1,
+          "neutral": {
+            "x": 1133.6241455078125,
+            "y": 784.3314819335938
+          }
+        },
+        {
+          "index": 4,
+          "weight": 1,
+          "neutral": {
+            "x": 1099.908447265625,
+            "y": 757.4771728515625
+          }
+        },
+        {
+          "index": 6,
+          "weight": 1,
+          "neutral": {
+            "x": 1070.187744140625,
+            "y": 724.0209350585938
+          }
+        },
+        {
+          "index": 8,
+          "weight": 1,
+          "neutral": {
+            "x": 1134.249267578125,
+            "y": 724.3313598632812
+          }
+        }
+      ]
+    },
+    {
+      "name": "nose",
+      "anchorProfileId": "taki-event_277_story_01-semantic-v1-nose",
+      "drawableId": "D_PSD.145",
+      "vertexCount": 6,
+      "points": [
+        {
+          "index": 1,
+          "weight": 1,
+          "neutral": {
+            "x": 988.8544921875,
+            "y": 855.6036376953125
+          }
+        },
+        {
+          "index": 2,
+          "weight": 1,
+          "neutral": {
+            "x": 999.9249877929688,
+            "y": 857.7079467773438
+          }
+        },
+        {
+          "index": 3,
+          "weight": 1,
+          "neutral": {
+            "x": 1005.4144897460938,
+            "y": 868.4124755859375
+          }
+        },
+        {
+          "index": 4,
+          "weight": 1,
+          "neutral": {
+            "x": 1010.08056640625,
+            "y": 854.8717041015625
+          }
+        },
+        {
+          "index": 5,
+          "weight": 1,
+          "neutral": {
+            "x": 999.467529296875,
+            "y": 843.9841918945312
+          }
+        }
+      ]
+    },
+    {
+      "name": "mouth",
+      "anchorProfileId": "taki-event_277_story_01-semantic-v1-mouth",
+      "drawableId": "D_PSD.138",
+      "vertexCount": 20,
+      "points": [
+        {
+          "index": 0,
+          "weight": 1,
+          "neutral": {
+            "x": 988.6875,
+            "y": 907.4268798828125
+          }
+        },
+        {
+          "index": 7,
+          "weight": 1,
+          "neutral": {
+            "x": 1014.625,
+            "y": 902.6613159179688
+          }
+        },
+        {
+          "index": 10,
+          "weight": 1,
+          "neutral": {
+            "x": 1021.65625,
+            "y": 926.4893798828125
+          }
+        },
+        {
+          "index": 18,
+          "weight": 1,
+          "neutral": {
+            "x": 1000.25,
+            "y": 925.3956298828125
+          }
+        },
+        {
+          "index": 19,
+          "weight": 1,
+          "neutral": {
+            "x": 1011.265625,
+            "y": 923.2861938476562
+          }
+        }
+      ]
+    },
+    {
+      "name": "ear-left",
+      "anchorProfileId": "taki-event_277_story_01-semantic-v1-ear-left",
+      "drawableId": "D_PSD.72",
+      "vertexCount": 19,
+      "points": [
+        {
+          "index": 7,
+          "weight": 1,
+          "neutral": {
+            "x": 833.5935668945312,
+            "y": 790.67724609375
+          }
+        },
+        {
+          "index": 10,
+          "weight": 1,
+          "neutral": {
+            "x": 827.3435668945312,
+            "y": 739.2711181640625
+          }
+        },
+        {
+          "index": 12,
+          "weight": 1,
+          "neutral": {
+            "x": 824.3748168945312,
+            "y": 663.0214233398438
+          }
+        },
+        {
+          "index": 16,
+          "weight": 1,
+          "neutral": {
+            "x": 784.6878662109375,
+            "y": 707.0823364257812
+          }
+        },
+        {
+          "index": 17,
+          "weight": 1,
+          "neutral": {
+            "x": 790.9378051757812,
+            "y": 746.1448364257812
+          }
+        }
+      ]
+    },
+    {
+      "name": "ear-right",
+      "anchorProfileId": "taki-event_277_story_01-semantic-v1-ear-right",
+      "drawableId": "D_PSD.73",
+      "vertexCount": 16,
+      "points": [
+        {
+          "index": 0,
+          "weight": 1,
+          "neutral": {
+            "x": 1200.25,
+            "y": 602.0831298828125
+          }
+        },
+        {
+          "index": 5,
+          "weight": 1,
+          "neutral": {
+            "x": 1174.78125,
+            "y": 809.2705688476562
+          }
+        },
+        {
+          "index": 9,
+          "weight": 1,
+          "neutral": {
+            "x": 1173.1666259765625,
+            "y": 705.4164428710938
+          }
+        },
+        {
+          "index": 13,
+          "weight": 1,
+          "neutral": {
+            "x": 1215.2498779296875,
+            "y": 710.8331298828125
+          }
+        },
+        {
+          "index": 14,
+          "weight": 1,
+          "neutral": {
+            "x": 1205.2498779296875,
+            "y": 764.5831298828125
+          }
+        }
+      ]
+    },
+    {
+      "name": "chin",
+      "anchorProfileId": "taki-event_277_story_01-semantic-v1-chin",
+      "drawableId": "D_PSD1.12",
+      "vertexCount": 29,
+      "points": [
+        {
+          "index": 1,
+          "weight": 1,
+          "neutral": {
+            "x": 887.41162109375,
+            "y": 1048.343994140625
+          }
+        },
+        {
+          "index": 4,
+          "weight": 1,
+          "neutral": {
+            "x": 1069.140625,
+            "y": 991.1840209960938
+          }
+        },
+        {
+          "index": 12,
+          "weight": 1,
+          "neutral": {
+            "x": 1000.5487670898438,
+            "y": 1085.005126953125
+          }
+        },
+        {
+          "index": 17,
+          "weight": 1,
+          "neutral": {
+            "x": 936.686767578125,
+            "y": 1185.242431640625
+          }
+        },
+        {
+          "index": 19,
+          "weight": 1,
+          "neutral": {
+            "x": 1073.8704833984375,
+            "y": 1185.291259765625
+          }
+        }
+      ]
+    }
+  ]
+}

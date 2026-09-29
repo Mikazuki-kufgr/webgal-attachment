@@ -1,0 +1,28 @@
+{
+  "schema": "webgal-attachment-creator-export-manifest",
+  "schemaVersion": 1,
+  "toolVersion": "factory-sample-v1",
+  "createdAt": "2026-09-24T00:00:00.000Z",
+  "attachmentDefinitionId": "builtin-kemomimi-front-v1",
+  "presetId": "v2/kemomimi-front-v1",
+  "modelProfileId": "webgal-attachment-plugin-v0.1-anon-profile",
+  "anchorName": "head",
+  "displayName": "兽耳",
+  "files": [
+    {
+      "path": "game/attachments-v2/portable/kemomimi-front-v1/images/front.png",
+      "bytes": 1447768,
+      "sha256": "430EAA772E4B1581B4CAE728E5458C542DB53BAAB728182F3D911104BFA23930"
+    },
+    {
+      "path": "game/attachments-v2/portable/kemomimi-front-v1/attachment.json",
+      "bytes": 6059,
+      "sha256": "B1C7704C68F0EBD70938C42DDDD227F0261CACF8138BF8FE1793B0129D508D5C"
+    },
+    {
+      "path": "game/attachments-v2/portable/kemomimi-front-v1/使用说明.txt",
+      "bytes": 324,
+      "sha256": "5038B08EFE9AD23B48263412F149B5F4D1ACE0CCA708EA7E38BA9E7D8CEF6AC4"
+    }
+  ]
+}

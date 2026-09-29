@@ -1,0 +1,17 @@
+.title_wrapper{
+  display: flex;
+  align-items: center;
+  padding: 8px;
+}
+
+.title{
+  font-size: 90%;
+  color: var(--primary);
+  font-weight: bold;
+}
+
+.extra{
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}

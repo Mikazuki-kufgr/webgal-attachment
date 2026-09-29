@@ -1,0 +1,17 @@
+node_modules/
+build-output/
+dist/
+.cache/
+*.log
+.env
+.env.*
+*.zip
+*.7z
+*.rar
+*.tmp
+*.bak
+*.pid
+.webgal_terre/
+Exported_Games/
+games/
+coverage/

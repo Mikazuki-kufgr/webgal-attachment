@@ -1,0 +1,544 @@
+{
+  "schema": "webgal-live2d-model-profile",
+  "schemaVersion": 1,
+  "profileVersion": 1,
+  "modelProfileId": "sakiko-school_summer-2023-semantic-v1",
+  "characterId": "sakiko",
+  "modelId": "school_summer-2023",
+  "modelPath": "./game/figure/sakiko/school_summer-2023/model.json",
+  "fingerprint": {
+    "modelJsonSha256": "9881E954D99CAF496A5F2CD17A8792ECAD1DE99B6F1E5DCC46EB1865538320AF",
+    "mocSha256": "8784A7D2D666A4602B7F2E6FFB9DA15B477753505360C3DA5532B0EAE165FF5F",
+    "drawableCount": 209
+  },
+  "anchors": [
+    {
+      "name": "head",
+      "anchorProfileId": "sakiko-school_summer-2023-semantic-v1-head-hair-compatible",
+      "drawableId": "D_PSD.43",
+      "vertexCount": 66,
+      "points": [
+        {
+          "index": 32,
+          "weight": 1,
+          "neutral": {
+            "x": 840.8125,
+            "y": 443.62506103515625
+          }
+        },
+        {
+          "index": 27,
+          "weight": 1,
+          "neutral": {
+            "x": 942.5833740234375,
+            "y": 410.916748046875
+          }
+        },
+        {
+          "index": 1,
+          "weight": 1,
+          "neutral": {
+            "x": 998.0001220703125,
+            "y": 418.9375
+          }
+        },
+        {
+          "index": 61,
+          "weight": 1,
+          "neutral": {
+            "x": 1077.6876220703125,
+            "y": 395.1875
+          }
+        },
+        {
+          "index": 63,
+          "weight": 1,
+          "neutral": {
+            "x": 1153.6253662109375,
+            "y": 435.8125
+          }
+        }
+      ]
+    },
+    {
+      "name": "hair-top",
+      "anchorProfileId": "sakiko-school_summer-2023-semantic-v1-hair-top",
+      "drawableId": "D_PSD.43",
+      "vertexCount": 66,
+      "points": [
+        {
+          "index": 32,
+          "weight": 1,
+          "neutral": {
+            "x": 840.8125,
+            "y": 443.62506103515625
+          }
+        },
+        {
+          "index": 27,
+          "weight": 1,
+          "neutral": {
+            "x": 942.5833740234375,
+            "y": 410.916748046875
+          }
+        },
+        {
+          "index": 1,
+          "weight": 1,
+          "neutral": {
+            "x": 998.0001220703125,
+            "y": 418.9375
+          }
+        },
+        {
+          "index": 61,
+          "weight": 1,
+          "neutral": {
+            "x": 1077.6876220703125,
+            "y": 395.1875
+          }
+        },
+        {
+          "index": 63,
+          "weight": 1,
+          "neutral": {
+            "x": 1153.6253662109375,
+            "y": 435.8125
+          }
+        }
+      ]
+    },
+    {
+      "name": "eyelid-upper-left",
+      "anchorProfileId": "sakiko-school_summer-2023-semantic-v1-eyelid-upper-left",
+      "drawableId": "D_PSD.96",
+      "vertexCount": 14,
+      "points": [
+        {
+          "index": 0,
+          "weight": 1,
+          "neutral": {
+            "x": 843.1874389648438,
+            "y": 733.75
+          }
+        },
+        {
+          "index": 4,
+          "weight": 1,
+          "neutral": {
+            "x": 881.234375,
+            "y": 741.1718139648438
+          }
+        },
+        {
+          "index": 5,
+          "weight": 1,
+          "neutral": {
+            "x": 875.140625,
+            "y": 737.5780639648438
+          }
+        },
+        {
+          "index": 6,
+          "weight": 1,
+          "neutral": {
+            "x": 863.9686889648438,
+            "y": 738.28125
+          }
+        },
+        {
+          "index": 13,
+          "weight": 1,
+          "neutral": {
+            "x": 875.84375,
+            "y": 745.3905639648438
+          }
+        }
+      ]
+    },
+    {
+      "name": "eyelid-upper-right",
+      "anchorProfileId": "sakiko-school_summer-2023-semantic-v1-eyelid-upper-right",
+      "drawableId": "D_PSD.157",
+      "vertexCount": 14,
+      "points": [
+        {
+          "index": 0,
+          "weight": 1,
+          "neutral": {
+            "x": 1156.8115234375,
+            "y": 733.75
+          }
+        },
+        {
+          "index": 3,
+          "weight": 1,
+          "neutral": {
+            "x": 1130.7176513671875,
+            "y": 741.9530639648438
+          }
+        },
+        {
+          "index": 4,
+          "weight": 1,
+          "neutral": {
+            "x": 1118.7645263671875,
+            "y": 741.1718139648438
+          }
+        },
+        {
+          "index": 5,
+          "weight": 1,
+          "neutral": {
+            "x": 1124.8582763671875,
+            "y": 737.5780639648438
+          }
+        },
+        {
+          "index": 6,
+          "weight": 1,
+          "neutral": {
+            "x": 1136.0302734375,
+            "y": 738.28125
+          }
+        }
+      ]
+    },
+    {
+      "name": "eye-center-left",
+      "anchorProfileId": "sakiko-school_summer-2023-semantic-v1-eye-center-left",
+      "drawableId": "D_PSD.80",
+      "vertexCount": 9,
+      "points": [
+        {
+          "index": 2,
+          "weight": 1,
+          "neutral": {
+            "x": 861,
+            "y": 783.6248779296875
+          }
+        },
+        {
+          "index": 3,
+          "weight": 1,
+          "neutral": {
+            "x": 873.1874389648438,
+            "y": 815.8124389648438
+          }
+        },
+        {
+          "index": 4,
+          "weight": 1,
+          "neutral": {
+            "x": 900.6874389648438,
+            "y": 827.0625
+          }
+        },
+        {
+          "index": 5,
+          "weight": 1,
+          "neutral": {
+            "x": 929.4375610351562,
+            "y": 815.8125610351562
+          }
+        },
+        {
+          "index": 8,
+          "weight": 1,
+          "neutral": {
+            "x": 902.2500610351562,
+            "y": 783.3125
+          }
+        }
+      ]
+    },
+    {
+      "name": "eye-center-right",
+      "anchorProfileId": "sakiko-school_summer-2023-semantic-v1-eye-center-right",
+      "drawableId": "D_PSD.103",
+      "vertexCount": 9,
+      "points": [
+        {
+          "index": 1,
+          "weight": 1,
+          "neutral": {
+            "x": 1127.8125,
+            "y": 814.3124389648438
+          }
+        },
+        {
+          "index": 2,
+          "weight": 1,
+          "neutral": {
+            "x": 1138.4373779296875,
+            "y": 787.1248779296875
+          }
+        },
+        {
+          "index": 3,
+          "weight": 1,
+          "neutral": {
+            "x": 1133.4373779296875,
+            "y": 758.0623779296875
+          }
+        },
+        {
+          "index": 7,
+          "weight": 1,
+          "neutral": {
+            "x": 1073.7498779296875,
+            "y": 819.9374389648438
+          }
+        },
+        {
+          "index": 8,
+          "weight": 1,
+          "neutral": {
+            "x": 1098.7498779296875,
+            "y": 787.4373779296875
+          }
+        }
+      ]
+    },
+    {
+      "name": "nose",
+      "anchorProfileId": "sakiko-school_summer-2023-semantic-v1-nose",
+      "drawableId": "D_PSD.180",
+      "vertexCount": 6,
+      "points": [
+        {
+          "index": 1,
+          "weight": 1,
+          "neutral": {
+            "x": 988.8544311523438,
+            "y": 877.2704467773438
+          }
+        },
+        {
+          "index": 2,
+          "weight": 1,
+          "neutral": {
+            "x": 999.9249267578125,
+            "y": 879.374755859375
+          }
+        },
+        {
+          "index": 3,
+          "weight": 1,
+          "neutral": {
+            "x": 1005.4144287109375,
+            "y": 890.0792846679688
+          }
+        },
+        {
+          "index": 4,
+          "weight": 1,
+          "neutral": {
+            "x": 1010.0805053710938,
+            "y": 876.5385131835938
+          }
+        },
+        {
+          "index": 5,
+          "weight": 1,
+          "neutral": {
+            "x": 999.4674682617188,
+            "y": 865.6510009765625
+          }
+        }
+      ]
+    },
+    {
+      "name": "mouth",
+      "anchorProfileId": "sakiko-school_summer-2023-semantic-v1-mouth",
+      "drawableId": "D_PSD.67",
+      "vertexCount": 19,
+      "points": [
+        {
+          "index": 1,
+          "weight": 1,
+          "neutral": {
+            "x": 972.0311889648438,
+            "y": 934.5311889648438
+          }
+        },
+        {
+          "index": 4,
+          "weight": 1,
+          "neutral": {
+            "x": 1012.6561279296875,
+            "y": 938.4374389648438
+          }
+        },
+        {
+          "index": 6,
+          "weight": 1,
+          "neutral": {
+            "x": 1038.2811279296875,
+            "y": 928.9843139648438
+          }
+        },
+        {
+          "index": 16,
+          "weight": 1,
+          "neutral": {
+            "x": 1006.7186279296875,
+            "y": 945.1561889648438
+          }
+        },
+        {
+          "index": 17,
+          "weight": 1,
+          "neutral": {
+            "x": 1023.0467529296875,
+            "y": 942.4218139648438
+          }
+        }
+      ]
+    },
+    {
+      "name": "ear-left",
+      "anchorProfileId": "sakiko-school_summer-2023-semantic-v1-ear-left",
+      "drawableId": "D_PSD.72",
+      "vertexCount": 13,
+      "points": [
+        {
+          "index": 0,
+          "weight": 1,
+          "neutral": {
+            "x": 805,
+            "y": 751.562255859375
+          }
+        },
+        {
+          "index": 3,
+          "weight": 1,
+          "neutral": {
+            "x": 803.125,
+            "y": 719.6873168945312
+          }
+        },
+        {
+          "index": 7,
+          "weight": 1,
+          "neutral": {
+            "x": 823.4373779296875,
+            "y": 736.562744140625
+          }
+        },
+        {
+          "index": 9,
+          "weight": 1,
+          "neutral": {
+            "x": 780.0003051757812,
+            "y": 738.4366455078125
+          }
+        },
+        {
+          "index": 11,
+          "weight": 1,
+          "neutral": {
+            "x": 798.125,
+            "y": 665.3124389648438
+          }
+        }
+      ]
+    },
+    {
+      "name": "ear-right",
+      "anchorProfileId": "sakiko-school_summer-2023-semantic-v1-ear-right",
+      "drawableId": "D_PSD.73",
+      "vertexCount": 13,
+      "points": [
+        {
+          "index": 0,
+          "weight": 1,
+          "neutral": {
+            "x": 1181.1873779296875,
+            "y": 660.3124389648438
+          }
+        },
+        {
+          "index": 3,
+          "weight": 1,
+          "neutral": {
+            "x": 1179.6248779296875,
+            "y": 712.8121948242188
+          }
+        },
+        {
+          "index": 4,
+          "weight": 1,
+          "neutral": {
+            "x": 1199.6248779296875,
+            "y": 724.9995727539062
+          }
+        },
+        {
+          "index": 10,
+          "weight": 1,
+          "neutral": {
+            "x": 1218.0625,
+            "y": 740.31201171875
+          }
+        },
+        {
+          "index": 11,
+          "weight": 1,
+          "neutral": {
+            "x": 1221.1875,
+            "y": 705.9371948242188
+          }
+        }
+      ]
+    },
+    {
+      "name": "chin",
+      "anchorProfileId": "sakiko-school_summer-2023-semantic-v1-chin",
+      "drawableId": "D_PSD.38",
+      "vertexCount": 32,
+      "points": [
+        {
+          "index": 3,
+          "weight": 1,
+          "neutral": {
+            "x": 1077.80810546875,
+            "y": 1023.0008544921875
+          }
+        },
+        {
+          "index": 6,
+          "weight": 1,
+          "neutral": {
+            "x": 1000.6577758789062,
+            "y": 1109.947998046875
+          }
+        },
+        {
+          "index": 22,
+          "weight": 1,
+          "neutral": {
+            "x": 998.2085571289062,
+            "y": 1027.899169921875
+          }
+        },
+        {
+          "index": 28,
+          "weight": 1,
+          "neutral": {
+            "x": 1032.67578125,
+            "y": 1128.03125
+          }
+        },
+        {
+          "index": 29,
+          "weight": 1,
+          "neutral": {
+            "x": 1076.676025390625,
+            "y": 1098.5316162109375
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,993 @@
+{
+  "components": 1219,
+  "withLicenseFiles": 1074,
+  "missingLicenseFiles": [
+    {
+      "name": "@cfcs/core",
+      "version": "0.0.6",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "@codingame/monaco-vscode-all-default-extensions",
+      "version": "4.3.2",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "@codingame/monaco-vscode-api",
+      "version": "4.3.2",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "@codingame/monaco-vscode-api",
+      "version": "8.0.4",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "@codingame/monaco-vscode-base-service-override",
+      "version": "4.3.2",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "@codingame/monaco-vscode-base-service-override",
+      "version": "8.0.4",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "@codingame/monaco-vscode-bat-default-extension",
+      "version": "4.3.2",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "@codingame/monaco-vscode-clojure-default-extension",
+      "version": "4.3.2",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "@codingame/monaco-vscode-coffeescript-default-extension",
+      "version": "4.3.2",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "@codingame/monaco-vscode-configuration-editing-default-extension",
+      "version": "4.3.2",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "@codingame/monaco-vscode-configuration-service-override",
+      "version": "4.3.2",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "@codingame/monaco-vscode-cpp-default-extension",
+      "version": "4.3.2",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "@codingame/monaco-vscode-csharp-default-extension",
+      "version": "4.3.2",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "@codingame/monaco-vscode-css-default-extension",
+      "version": "4.3.2",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "@codingame/monaco-vscode-css-language-features-default-extension",
+      "version": "4.3.2",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "@codingame/monaco-vscode-dart-default-extension",
+      "version": "4.3.2",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "@codingame/monaco-vscode-diff-default-extension",
+      "version": "4.3.2",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "@codingame/monaco-vscode-docker-default-extension",
+      "version": "4.3.2",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "@codingame/monaco-vscode-editor-api",
+      "version": "4.3.2",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "@codingame/monaco-vscode-editor-service-override",
+      "version": "4.3.2",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "@codingame/monaco-vscode-emmet-default-extension",
+      "version": "4.3.2",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "@codingame/monaco-vscode-environment-service-override",
+      "version": "4.3.2",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "@codingame/monaco-vscode-environment-service-override",
+      "version": "8.0.4",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "@codingame/monaco-vscode-extension-editing-default-extension",
+      "version": "4.3.2",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "@codingame/monaco-vscode-extensions-service-override",
+      "version": "4.3.2",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "@codingame/monaco-vscode-extensions-service-override",
+      "version": "8.0.4",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "@codingame/monaco-vscode-files-service-override",
+      "version": "4.3.2",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "@codingame/monaco-vscode-files-service-override",
+      "version": "8.0.4",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "@codingame/monaco-vscode-fsharp-default-extension",
+      "version": "4.3.2",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "@codingame/monaco-vscode-git-base-default-extension",
+      "version": "4.3.2",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "@codingame/monaco-vscode-github-authentication-default-extension",
+      "version": "4.3.2",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "@codingame/monaco-vscode-go-default-extension",
+      "version": "4.3.2",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "@codingame/monaco-vscode-groovy-default-extension",
+      "version": "4.3.2",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "@codingame/monaco-vscode-handlebars-default-extension",
+      "version": "4.3.2",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "@codingame/monaco-vscode-hlsl-default-extension",
+      "version": "4.3.2",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "@codingame/monaco-vscode-host-service-override",
+      "version": "4.3.2",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "@codingame/monaco-vscode-host-service-override",
+      "version": "8.0.4",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "@codingame/monaco-vscode-html-default-extension",
+      "version": "4.3.2",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "@codingame/monaco-vscode-html-language-features-default-extension",
+      "version": "4.3.2",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "@codingame/monaco-vscode-ini-default-extension",
+      "version": "4.3.2",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "@codingame/monaco-vscode-ipynb-default-extension",
+      "version": "4.3.2",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "@codingame/monaco-vscode-java-default-extension",
+      "version": "4.3.2",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "@codingame/monaco-vscode-javascript-default-extension",
+      "version": "4.3.2",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "@codingame/monaco-vscode-json-default-extension",
+      "version": "4.3.2",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "@codingame/monaco-vscode-json-default-extension",
+      "version": "8.0.4",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "@codingame/monaco-vscode-json-language-features-default-extension",
+      "version": "4.3.2",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "@codingame/monaco-vscode-julia-default-extension",
+      "version": "4.3.2",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "@codingame/monaco-vscode-keybindings-service-override",
+      "version": "4.3.2",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "@codingame/monaco-vscode-languages-service-override",
+      "version": "4.3.2",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "@codingame/monaco-vscode-latex-default-extension",
+      "version": "4.3.2",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "@codingame/monaco-vscode-layout-service-override",
+      "version": "4.3.2",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "@codingame/monaco-vscode-layout-service-override",
+      "version": "8.0.4",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "@codingame/monaco-vscode-less-default-extension",
+      "version": "4.3.2",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "@codingame/monaco-vscode-lifecycle-service-override",
+      "version": "4.3.2",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "@codingame/monaco-vscode-localization-service-override",
+      "version": "4.3.2",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "@codingame/monaco-vscode-log-default-extension",
+      "version": "4.3.2",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "@codingame/monaco-vscode-lua-default-extension",
+      "version": "4.3.2",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "@codingame/monaco-vscode-make-default-extension",
+      "version": "4.3.2",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "@codingame/monaco-vscode-markdown-basics-default-extension",
+      "version": "4.3.2",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "@codingame/monaco-vscode-markdown-language-features-default-extension",
+      "version": "4.3.2",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "@codingame/monaco-vscode-markdown-math-default-extension",
+      "version": "4.3.2",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "@codingame/monaco-vscode-media-preview-default-extension",
+      "version": "4.3.2",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "@codingame/monaco-vscode-merge-conflict-default-extension",
+      "version": "4.3.2",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "@codingame/monaco-vscode-microsoft-authentication-default-extension",
+      "version": "4.3.2",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "@codingame/monaco-vscode-model-service-override",
+      "version": "4.3.2",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "@codingame/monaco-vscode-notebook-renderers-default-extension",
+      "version": "4.3.2",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "@codingame/monaco-vscode-npm-default-extension",
+      "version": "4.3.2",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "@codingame/monaco-vscode-objective-c-default-extension",
+      "version": "4.3.2",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "@codingame/monaco-vscode-perl-default-extension",
+      "version": "4.3.2",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "@codingame/monaco-vscode-php-default-extension",
+      "version": "4.3.2",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "@codingame/monaco-vscode-powershell-default-extension",
+      "version": "4.3.2",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "@codingame/monaco-vscode-pug-default-extension",
+      "version": "4.3.2",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "@codingame/monaco-vscode-python-default-extension",
+      "version": "4.3.2",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "@codingame/monaco-vscode-quickaccess-service-override",
+      "version": "4.3.2",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "@codingame/monaco-vscode-quickaccess-service-override",
+      "version": "8.0.4",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "@codingame/monaco-vscode-r-default-extension",
+      "version": "4.3.2",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "@codingame/monaco-vscode-razor-default-extension",
+      "version": "4.3.2",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "@codingame/monaco-vscode-references-view-default-extension",
+      "version": "4.3.2",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "@codingame/monaco-vscode-restructuredtext-default-extension",
+      "version": "4.3.2",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "@codingame/monaco-vscode-rollup-vsix-plugin",
+      "version": "4.3.2",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "@codingame/monaco-vscode-ruby-default-extension",
+      "version": "4.3.2",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "@codingame/monaco-vscode-rust-default-extension",
+      "version": "4.3.2",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "@codingame/monaco-vscode-scss-default-extension",
+      "version": "4.3.2",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "@codingame/monaco-vscode-search-result-default-extension",
+      "version": "4.3.2",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "@codingame/monaco-vscode-shaderlab-default-extension",
+      "version": "4.3.2",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "@codingame/monaco-vscode-shellscript-default-extension",
+      "version": "4.3.2",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "@codingame/monaco-vscode-simple-browser-default-extension",
+      "version": "4.3.2",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "@codingame/monaco-vscode-sql-default-extension",
+      "version": "4.3.2",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "@codingame/monaco-vscode-swift-default-extension",
+      "version": "4.3.2",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "@codingame/monaco-vscode-textmate-service-override",
+      "version": "4.3.2",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "@codingame/monaco-vscode-theme-abyss-default-extension",
+      "version": "4.3.2",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "@codingame/monaco-vscode-theme-defaults-default-extension",
+      "version": "4.3.2",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "@codingame/monaco-vscode-theme-kimbie-dark-default-extension",
+      "version": "4.3.2",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "@codingame/monaco-vscode-theme-monokai-default-extension",
+      "version": "4.3.2",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "@codingame/monaco-vscode-theme-monokai-dimmed-default-extension",
+      "version": "4.3.2",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "@codingame/monaco-vscode-theme-quietlight-default-extension",
+      "version": "4.3.2",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "@codingame/monaco-vscode-theme-red-default-extension",
+      "version": "4.3.2",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "@codingame/monaco-vscode-theme-service-override",
+      "version": "4.3.2",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "@codingame/monaco-vscode-theme-seti-default-extension",
+      "version": "4.3.2",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "@codingame/monaco-vscode-theme-solarized-dark-default-extension",
+      "version": "4.3.2",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "@codingame/monaco-vscode-theme-solarized-light-default-extension",
+      "version": "4.3.2",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "@codingame/monaco-vscode-theme-tomorrow-night-blue-default-extension",
+      "version": "4.3.2",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "@codingame/monaco-vscode-typescript-basics-default-extension",
+      "version": "4.3.2",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "@codingame/monaco-vscode-typescript-language-features-default-extension",
+      "version": "4.3.2",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "@codingame/monaco-vscode-vb-default-extension",
+      "version": "4.3.2",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "@codingame/monaco-vscode-xml-default-extension",
+      "version": "4.3.2",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "@codingame/monaco-vscode-yaml-default-extension",
+      "version": "4.3.2",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "@egjs/component",
+      "version": "3.0.5",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "@esbuild/win32-x64",
+      "version": "0.20.2",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "@fluentui/react-icons",
+      "version": "2.0.316",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "@jsonjoy.com/json-pointer",
+      "version": "1.0.2",
+      "declaredLicense": "Apache-2.0"
+    },
+    {
+      "name": "@tokenizer/token",
+      "version": "0.3.0",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "@uiw/react-json-view",
+      "version": "2.0.0-alpha.41",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "@webgal/editor-preview-protocol",
+      "version": "1.0.0",
+      "declaredLicense": "MPL-2.0"
+    },
+    {
+      "name": "@webgal/editor-preview-protocol",
+      "version": "1.0.0",
+      "declaredLicense": "MPL-2.0"
+    },
+    {
+      "name": "acorn-import-assertions",
+      "version": "1.9.0",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "agent-base",
+      "version": "6.0.2",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "cloudlogjs",
+      "version": "1.0.12",
+      "declaredLicense": "GPL-3.0"
+    },
+    {
+      "name": "cloudlogjs",
+      "version": "1.0.12",
+      "declaredLicense": "GPL-3.0"
+    },
+    {
+      "name": "consola",
+      "version": "2.15.3",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "cookie-signature",
+      "version": "1.0.7",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "css-styled",
+      "version": "1.0.8",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "eastasianwidth",
+      "version": "0.2.0",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "embla-carousel",
+      "version": "8.6.0",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "embla-carousel-autoplay",
+      "version": "8.6.0",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "embla-carousel-fade",
+      "version": "8.6.0",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "esrecurse",
+      "version": "4.3.0",
+      "declaredLicense": "BSD-2-Clause"
+    },
+    {
+      "name": "glob-to-regex.js",
+      "version": "1.2.0",
+      "declaredLicense": "Apache-2.0"
+    },
+    {
+      "name": "glob-to-regexp",
+      "version": "0.4.1",
+      "declaredLicense": "BSD-2-Clause"
+    },
+    {
+      "name": "html-parse-stringify",
+      "version": "3.0.1",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "https-proxy-agent",
+      "version": "5.0.1",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "isarray",
+      "version": "1.0.0",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "isarray",
+      "version": "1.0.0",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "isarray",
+      "version": "1.0.0",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "isarray",
+      "version": "1.0.0",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "keycon",
+      "version": "1.4.0",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "natural-compare-lite",
+      "version": "1.4.0",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "omggif",
+      "version": "1.0.10",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "original-fs",
+      "version": "1.2.0",
+      "declaredLicense": "Unlicense"
+    },
+    {
+      "name": "parse-bmfont-ascii",
+      "version": "1.0.6",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "readable-web-to-node-stream",
+      "version": "3.0.4",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "tr46",
+      "version": "0.0.3",
+      "declaredLicense": "MIT"
+    },
+    {
+      "name": "webgal-origine-2",
+      "version": "4.6.2",
+      "declaredLicense": "MPL-2.0"
+    },
+    {
+      "name": "webgal-parser",
+      "version": "4.6.2",
+      "declaredLicense": "MPL-2.0"
+    },
+    {
+      "name": "webgal-parser",
+      "version": "4.6.2",
+      "declaredLicense": "MPL-2.0"
+    }
+  ],
+  "unresolved": [
+    {
+      "from": "chokidar",
+      "name": "fsevents",
+      "kind": "optional"
+    },
+    {
+      "from": "tabster",
+      "name": "@rollup/rollup-linux-x64-gnu",
+      "kind": "optional"
+    },
+    {
+      "from": "esbuild",
+      "name": "@esbuild/aix-ppc64",
+      "kind": "optional"
+    },
+    {
+      "from": "esbuild",
+      "name": "@esbuild/android-arm",
+      "kind": "optional"
+    },
+    {
+      "from": "esbuild",
+      "name": "@esbuild/android-arm64",
+      "kind": "optional"
+    },
+    {
+      "from": "esbuild",
+      "name": "@esbuild/android-x64",
+      "kind": "optional"
+    },
+    {
+      "from": "esbuild",
+      "name": "@esbuild/darwin-arm64",
+      "kind": "optional"
+    },
+    {
+      "from": "esbuild",
+      "name": "@esbuild/darwin-x64",
+      "kind": "optional"
+    },
+    {
+      "from": "esbuild",
+      "name": "@esbuild/freebsd-arm64",
+      "kind": "optional"
+    },
+    {
+      "from": "esbuild",
+      "name": "@esbuild/freebsd-x64",
+      "kind": "optional"
+    },
+    {
+      "from": "esbuild",
+      "name": "@esbuild/linux-arm",
+      "kind": "optional"
+    },
+    {
+      "from": "esbuild",
+      "name": "@esbuild/linux-arm64",
+      "kind": "optional"
+    },
+    {
+      "from": "esbuild",
+      "name": "@esbuild/linux-ia32",
+      "kind": "optional"
+    },
+    {
+      "from": "esbuild",
+      "name": "@esbuild/linux-loong64",
+      "kind": "optional"
+    },
+    {
+      "from": "esbuild",
+      "name": "@esbuild/linux-mips64el",
+      "kind": "optional"
+    },
+    {
+      "from": "esbuild",
+      "name": "@esbuild/linux-ppc64",
+      "kind": "optional"
+    },
+    {
+      "from": "esbuild",
+      "name": "@esbuild/linux-riscv64",
+      "kind": "optional"
+    },
+    {
+      "from": "esbuild",
+      "name": "@esbuild/linux-s390x",
+      "kind": "optional"
+    },
+    {
+      "from": "esbuild",
+      "name": "@esbuild/linux-x64",
+      "kind": "optional"
+    },
+    {
+      "from": "esbuild",
+      "name": "@esbuild/netbsd-x64",
+      "kind": "optional"
+    },
+    {
+      "from": "esbuild",
+      "name": "@esbuild/openbsd-x64",
+      "kind": "optional"
+    },
+    {
+      "from": "esbuild",
+      "name": "@esbuild/sunos-x64",
+      "kind": "optional"
+    },
+    {
+      "from": "esbuild",
+      "name": "@esbuild/win32-arm64",
+      "kind": "optional"
+    },
+    {
+      "from": "esbuild",
+      "name": "@esbuild/win32-ia32",
+      "kind": "optional"
+    },
+    {
+      "from": "@parcel/watcher",
+      "name": "@parcel/watcher-darwin-x64",
+      "kind": "optional"
+    },
+    {
+      "from": "@parcel/watcher",
+      "name": "@parcel/watcher-darwin-arm64",
+      "kind": "optional"
+    },
+    {
+      "from": "@parcel/watcher",
+      "name": "@parcel/watcher-win32-arm64",
+      "kind": "optional"
+    },
+    {
+      "from": "@parcel/watcher",
+      "name": "@parcel/watcher-win32-ia32",
+      "kind": "optional"
+    },
+    {
+      "from": "@parcel/watcher",
+      "name": "@parcel/watcher-linux-x64-glibc",
+      "kind": "optional"
+    },
+    {
+      "from": "@parcel/watcher",
+      "name": "@parcel/watcher-linux-x64-musl",
+      "kind": "optional"
+    },
+    {
+      "from": "@parcel/watcher",
+      "name": "@parcel/watcher-linux-arm64-glibc",
+      "kind": "optional"
+    },
+    {
+      "from": "@parcel/watcher",
+      "name": "@parcel/watcher-linux-arm64-musl",
+      "kind": "optional"
+    },
+    {
+      "from": "@parcel/watcher",
+      "name": "@parcel/watcher-linux-arm-glibc",
+      "kind": "optional"
+    },
+    {
+      "from": "@parcel/watcher",
+      "name": "@parcel/watcher-linux-arm-musl",
+      "kind": "optional"
+    },
+    {
+      "from": "@parcel/watcher",
+      "name": "@parcel/watcher-android-arm64",
+      "kind": "optional"
+    },
+    {
+      "from": "@parcel/watcher",
+      "name": "@parcel/watcher-freebsd-x64",
+      "kind": "optional"
+    },
+    {
+      "from": "webgal-terre-2",
+      "name": "webgal-engine",
+      "kind": "dependency"
+    }
+  ],
+  "unknownLicense": [
+    "exif-parser",
+    "material-icon-theme",
+    "webgal-engine"
+  ],
+  "nonSimpleLicenses": [
+    {
+      "name": "angular-expressions",
+      "license": "Unlicense"
+    },
+    {
+      "name": "argparse",
+      "license": "Python-2.0"
+    },
+    {
+      "name": "caniuse-lite",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "name": "chownr",
+      "license": "BlueOak-1.0.0"
+    },
+    {
+      "name": "cloudlogjs",
+      "license": "GPL-3.0"
+    },
+    {
+      "name": "cloudlogjs",
+      "license": "GPL-3.0"
+    },
+    {
+      "name": "expand-template",
+      "license": "(MIT OR WTFPL)"
+    },
+    {
+      "name": "jackspeak",
+      "license": "BlueOak-1.0.0"
+    },
+    {
+      "name": "jschardet",
+      "license": "LGPL-2.1+"
+    },
+    {
+      "name": "original-fs",
+      "license": "Unlicense"
+    },
+    {
+      "name": "package-json-from-dist",
+      "license": "BlueOak-1.0.0"
+    },
+    {
+      "name": "pako",
+      "license": "(MIT AND Zlib)"
+    },
+    {
+      "name": "path-scurry",
+      "license": "BlueOak-1.0.0"
+    },
+    {
+      "name": "rc",
+      "license": "(BSD-2-Clause OR MIT OR Apache-2.0)"
+    },
+    {
+      "name": "sax",
+      "license": "BlueOak-1.0.0"
+    },
+    {
+      "name": "tar",
+      "license": "BlueOak-1.0.0"
+    },
+    {
+      "name": "yallist",
+      "license": "BlueOak-1.0.0"
+    }
+  ]
+}

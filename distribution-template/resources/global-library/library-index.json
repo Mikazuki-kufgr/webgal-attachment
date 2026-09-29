@@ -1,0 +1,66 @@
+{
+  "schema": "webgal-global-authoring-library-index",
+  "schemaVersion": 1,
+  "libraryVersion": "0.3.0-b3.1",
+  "defaultSelection": {
+    "modelProfile": "model-profiles/webgal-attachment-plugin-v0.1-anon-profile.json",
+    "attachmentAsset": "attachment-assets/webgal-attachment-plugin-v0.1-starter-assets.json",
+    "placementPreset": "placement-presets/webgal-attachment-plugin-v0.1-starter.json",
+    "files": [
+      "files/webgal-attachment-plugin-v0.1-starter/front.png"
+    ]
+  },
+  "builtinSamples": [
+    {
+      "id": "straw-hat-both",
+      "purpose": "back-and-front-layer-follow",
+      "modelProfile": "model-profiles/webgal-attachment-plugin-v0.1-anon-profile.json",
+      "attachmentAsset": "attachment-assets/builtin-straw-hat-both-v1.json",
+      "placementPreset": "placement-presets/anon-straw-hat-both-v1.json",
+      "files": [
+        "files/builtin-samples/straw-hat/back.png",
+        "files/builtin-samples/straw-hat/front.png"
+      ]
+    },
+    {
+      "id": "kemomimi-front",
+      "purpose": "single-front-layer-follow",
+      "modelProfile": "model-profiles/webgal-attachment-plugin-v0.1-anon-profile.json",
+      "attachmentAsset": "attachment-assets/builtin-kemomimi-front-v1.json",
+      "placementPreset": "placement-presets/anon-kemomimi-front-v1.json",
+      "files": [
+        "files/builtin-samples/kemomimi/front.png"
+      ]
+    },
+    {
+      "id": "halo-front",
+      "purpose": "single-front-layer-follow",
+      "modelProfile": "model-profiles/webgal-attachment-plugin-v0.1-anon-profile.json",
+      "attachmentAsset": "attachment-assets/builtin-halo-front-v1.json",
+      "placementPreset": "placement-presets/anon-halo-front-v1.json",
+      "files": [
+        "files/builtin-samples/halo/front.png"
+      ]
+    },
+    {
+      "id": "flower-front",
+      "displayName": "花朵",
+      "modelProfile": "model-profiles/anon-school_winter-2023-semantic-v1.json",
+      "attachmentAsset": "attachment-assets/builtin-flower-front-v1.json",
+      "placementPreset": "placement-presets/anon-flower-front-v1.json",
+      "files": [
+        "files/builtin-samples/flower/front.png"
+      ]
+    },
+    {
+      "id": "rose-front",
+      "displayName": "玫瑰",
+      "modelProfile": "model-profiles/anon-school_winter-2023-semantic-v1.json",
+      "attachmentAsset": "attachment-assets/builtin-rose-front-v1.json",
+      "placementPreset": "placement-presets/anon-rose-front-v1.json",
+      "files": [
+        "files/builtin-samples/rose/front.png"
+      ]
+    }
+  ]
+}

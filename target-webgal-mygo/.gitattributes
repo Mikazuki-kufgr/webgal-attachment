@@ -1,0 +1,9 @@
+# Auto detect text files and perform LF normalization
+* text=auto eol=lf
+# Keep these shipped CRLF source bytes identical to SOURCE_MANIFEST.json.
+packages/parser/build/cjs/index.cjs -text -eol
+packages/webgal/src/Core/controller/stage/pixi/attachments/creator/AttachmentCreatorWorkbench.ts -text -eol
+packages/webgal/src/Core/controller/stage/pixi/attachments/creator/creatorHandPoseLifecycle.test.ts -text -eol
+packages/webgal/src/Core/controller/stage/pixi/attachments/creator/creatorModelImportPanel.flow.test.ts -text -eol
+packages/webgal/src/Core/controller/stage/pixi/attachments/creator/creatorModelImportPanel.ts -text -eol
+packages/webgal/src/Core/controller/stage/pixi/attachments/creator/creatorReadableNames.test.ts -text -eol

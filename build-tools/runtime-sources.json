@@ -1,0 +1,126 @@
+[
+  {
+    "shipped": "runtime/host-compatibility.mjs",
+    "source": "target-plugin/runtime/host-compatibility.mjs"
+  },
+  {
+    "shipped": "runtime/builtin-identity.mjs",
+    "source": "target-plugin/runtime/builtin-identity.mjs"
+  },
+  {
+    "shipped": "runtime/builtin-migration.mjs",
+    "source": "target-plugin/runtime/builtin-migration.mjs"
+  },
+  {
+    "shipped": "runtime/creator-contract.generated.mjs",
+    "source": "target-plugin/runtime/creator-contract.generated.mjs"
+  },
+  {
+    "shipped": "runtime/creator-launch.mjs",
+    "source": "target-plugin/runtime/creator-launch.mjs"
+  },
+  {
+    "shipped": "runtime/creator-model-files.generated.mjs",
+    "source": "target-plugin/runtime/creator-model-files.generated.mjs"
+  },
+  {
+    "shipped": "runtime/creator-model-import.mjs",
+    "source": "target-plugin/runtime/creator-model-import.mjs"
+  },
+  {
+    "shipped": "runtime/creator-package.mjs",
+    "source": "target-plugin/runtime/creator-package.mjs"
+  },
+  {
+    "shipped": "runtime/creator-scene-name.mjs",
+    "source": "target-plugin/runtime/creator-scene-name.mjs"
+  },
+  {
+    "shipped": "runtime/creator-service.mjs",
+    "source": "target-plugin/runtime/creator-service.mjs"
+  },
+  {
+    "shipped": "runtime/creator-store.mjs",
+    "source": "target-plugin/runtime/creator-store.mjs"
+  },
+  {
+    "shipped": "runtime/creator-transaction.mjs",
+    "source": "target-plugin/runtime/creator-transaction.mjs"
+  },
+  {
+    "shipped": "runtime/creator-web-host.mjs",
+    "source": "target-plugin/runtime/creator-web-host.mjs"
+  },
+  {
+    "shipped": "runtime/install-lifecycle.mjs",
+    "source": "20_installable-candidate/source/install-lifecycle.mjs"
+  },
+  {
+    "shipped": "runtime/lifecycle-user-messages.mjs",
+    "source": "20_installable-candidate/source/lifecycle-user-messages.mjs"
+  },
+  {
+    "shipped": "runtime/product-materialization.mjs",
+    "source": "target-plugin/runtime/product-materialization.mjs"
+  },
+  {
+    "shipped": "runtime/product-resources.mjs",
+    "source": "target-plugin/runtime/product-resources.mjs"
+  },
+  {
+    "shipped": "runtime/terre-path-guard.mjs",
+    "source": "target-plugin/runtime/terre-path-guard.mjs"
+  },
+  {
+    "shipped": "runtime/terre-project-access.mjs",
+    "source": "target-plugin/runtime/terre-project-access.mjs"
+  },
+  {
+    "shipped": "runtime/creator-anchor-profile.mjs",
+    "source": "target-plugin/runtime/creator-anchor-profile.mjs"
+  },
+  {
+    "shipped": "runtime/creator-authoring-selection.mjs",
+    "source": "target-plugin/runtime/creator-authoring-selection.mjs"
+  },
+  {
+    "shipped": "runtime/creator-mesh-labels.mjs",
+    "source": "target-plugin/runtime/creator-mesh-labels.mjs"
+  },
+  {
+    "shipped": "runtime/mesh-label-contract.generated.mjs",
+    "source": "target-plugin/runtime/mesh-label-contract.generated.mjs"
+  },
+  {
+    "shipped": "runtime/lifecycle-diagnostics.mjs",
+    "source": "target-plugin/runtime/lifecycle-diagnostics.mjs"
+  },
+  {
+    "shipped": "runtime/lifecycle-process-preflight.mjs",
+    "source": "target-plugin/runtime/lifecycle-process-preflight.mjs"
+  },
+  {
+    "shipped": "runtime/creator-model-worker.mjs",
+    "source": "target-plugin/runtime/creator-model-worker.mjs"
+  },
+  {
+    "shipped": "runtime/engine-library-sync.mjs",
+    "source": "target-plugin/runtime/engine-library-sync.mjs"
+  },
+  {
+    "shipped": "runtime/engine-game-update.mjs",
+    "source": "target-plugin/runtime/engine-game-update.mjs"
+  },
+  {
+    "shipped": "runtime/engine-game-update.ps1",
+    "source": "target-plugin/runtime/engine-game-update.ps1"
+  },
+  {
+    "shipped": "runtime/hand-binding.generated.mjs",
+    "source": "target-plugin/runtime/hand-binding.generated.mjs"
+  },
+  {
+    "shipped": "runtime/creator-hand-preview.mjs",
+    "source": "target-plugin/runtime/creator-hand-preview.mjs"
+  }
+]

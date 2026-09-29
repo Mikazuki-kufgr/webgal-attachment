@@ -1,0 +1,15 @@
+{
+  "schema": "webgal-attachment-install-request",
+  "schemaVersion": 1,
+  "hostRoot": "<absolute Terre install root>",
+  "hostHomeRoot": "<absolute host home root>",
+  "authorizedUserDataRoot": "<absolute resolved Terre user data root>",
+  "authorizedAuthoringRoot": "<absolute dedicated authoring root>",
+  "authoringTemplateProject": "<existing project name>",
+  "projectGrants": [
+    {
+      "name": "<existing project name>",
+      "access": "attachment-write"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "schema": "webgal-live2d-attachment-preset",
+  "schemaVersion": 1,
+  "presetId": "v2/anon-straw-hat-both-v1",
+  "approvalStatus": "candidate",
+  "attachmentAssetId": "builtin-straw-hat-both-v1",
+  "modelProfileId": "webgal-attachment-plugin-v0.1-anon-profile",
+  "anchorName": "head",
+  "fit": {
+    "scaleMode": "fixed"
+  },
+  "placement": {
+    "spriteAnchor": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "offset": {
+      "x": -8,
+      "y": 176
+    },
+    "rotationOffsetRad": 0,
+    "localScale": 1.2
+  }
+}

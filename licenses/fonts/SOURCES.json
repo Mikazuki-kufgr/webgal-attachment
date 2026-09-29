@@ -1,0 +1,12 @@
+[
+  {
+    "name": "SourceHanSerif-OFL.txt",
+    "url": "https://raw.githubusercontent.com/adobe-fonts/source-han-serif/1.001R/LICENSE.txt",
+    "sha256": "6A73F9541C2DE74158C0E7CF6B0A58EF774F5A780BF191F2D7EC9CC53EFE2BF2"
+  },
+  {
+    "name": "JetBrainsMono-OFL.txt",
+    "url": "https://raw.githubusercontent.com/JetBrains/JetBrainsMono/v2.304/OFL.txt",
+    "sha256": "30F0C136E3C88E422D0791ACD97238870F9054A9729BC34CF2FF0D4ED8CAC4AD"
+  }
+]

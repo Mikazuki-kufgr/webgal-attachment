@@ -1,0 +1,37 @@
+.controll {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  border-bottom: var(--border-sm);
+}
+
+.fileUploadContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+  gap: 1rem;
+}
+
+.fileSelectInput {
+  width: 300px;
+  border: var(--border-md);
+  border-radius: var(--radius-md);
+  padding: 15px;
+  font-size: 16px;
+  outline: none;
+  cursor: pointer;
+}
+
+.fileSelectInput:focus {
+  border: var(--border-primary-sm);
+  box-shadow: var(--shadow-primary-md);
+}
+
+.inputDanger {
+  border-color: var(--danger) !important;
+}
+
+.inputDanger::after {
+  border-bottom: var(--border-danger-lg) !important;
+}

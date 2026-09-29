@@ -1,0 +1,544 @@
+{
+  "schema": "webgal-live2d-model-profile",
+  "schemaVersion": 1,
+  "profileVersion": 1,
+  "modelProfileId": "anon-dream_festival_3_ur-semantic-v1",
+  "characterId": "anon",
+  "modelId": "dream_festival_3_ur",
+  "modelPath": "./game/figure/anon/dream_festival_3_ur/model.json",
+  "fingerprint": {
+    "modelJsonSha256": "3A12FD70F2703423EE11DC80179C4D63B038F7A4ED13E10AEB770E08247CC8ED",
+    "mocSha256": "85986BDFFB494FEBC8D439BEB3884790493A702CC4CEDC2DF84201FE50106EBA",
+    "drawableCount": 285
+  },
+  "anchors": [
+    {
+      "name": "head",
+      "anchorProfileId": "anon-dream_festival_3_ur-semantic-v1-head-hair-compatible",
+      "drawableId": "D_PSD.00",
+      "vertexCount": 54,
+      "points": [
+        {
+          "index": 50,
+          "weight": 1,
+          "neutral": {
+            "x": 813.83349609375,
+            "y": 382.4997253417969
+          }
+        },
+        {
+          "index": 52,
+          "weight": 1,
+          "neutral": {
+            "x": 904.25,
+            "y": 359.9998474121094
+          }
+        },
+        {
+          "index": 0,
+          "weight": 1,
+          "neutral": {
+            "x": 964.53515625,
+            "y": 347.5434265136719
+          }
+        },
+        {
+          "index": 26,
+          "weight": 1,
+          "neutral": {
+            "x": 1088,
+            "y": 322.4997863769531
+          }
+        },
+        {
+          "index": 27,
+          "weight": 1,
+          "neutral": {
+            "x": 1158.0001220703125,
+            "y": 356.2499084472656
+          }
+        }
+      ]
+    },
+    {
+      "name": "hair-top",
+      "anchorProfileId": "anon-dream_festival_3_ur-semantic-v1-hair-top",
+      "drawableId": "D_PSD.00",
+      "vertexCount": 54,
+      "points": [
+        {
+          "index": 50,
+          "weight": 1,
+          "neutral": {
+            "x": 813.83349609375,
+            "y": 382.4997253417969
+          }
+        },
+        {
+          "index": 52,
+          "weight": 1,
+          "neutral": {
+            "x": 904.25,
+            "y": 359.9998474121094
+          }
+        },
+        {
+          "index": 0,
+          "weight": 1,
+          "neutral": {
+            "x": 964.53515625,
+            "y": 347.5434265136719
+          }
+        },
+        {
+          "index": 26,
+          "weight": 1,
+          "neutral": {
+            "x": 1088,
+            "y": 322.4997863769531
+          }
+        },
+        {
+          "index": 27,
+          "weight": 1,
+          "neutral": {
+            "x": 1158.0001220703125,
+            "y": 356.2499084472656
+          }
+        }
+      ]
+    },
+    {
+      "name": "eyelid-upper-left",
+      "anchorProfileId": "anon-dream_festival_3_ur-semantic-v1-eyelid-upper-left",
+      "drawableId": "D_PSD.80",
+      "vertexCount": 16,
+      "points": [
+        {
+          "index": 0,
+          "weight": 1,
+          "neutral": {
+            "x": 875.2816772460938,
+            "y": 656.5306396484375
+          }
+        },
+        {
+          "index": 2,
+          "weight": 1,
+          "neutral": {
+            "x": 910.1251831054688,
+            "y": 654.9683227539062
+          }
+        },
+        {
+          "index": 5,
+          "weight": 1,
+          "neutral": {
+            "x": 944.3438110351562,
+            "y": 669.1871948242188
+          }
+        },
+        {
+          "index": 10,
+          "weight": 1,
+          "neutral": {
+            "x": 883.5628051757812,
+            "y": 649.34326171875
+          }
+        },
+        {
+          "index": 11,
+          "weight": 1,
+          "neutral": {
+            "x": 883.5628662109375,
+            "y": 662.7805786132812
+          }
+        }
+      ]
+    },
+    {
+      "name": "eyelid-upper-right",
+      "anchorProfileId": "anon-dream_festival_3_ur-semantic-v1-eyelid-upper-right",
+      "drawableId": "D_PSD.122",
+      "vertexCount": 16,
+      "points": [
+        {
+          "index": 0,
+          "weight": 1,
+          "neutral": {
+            "x": 1124.7183837890625,
+            "y": 656.5306396484375
+          }
+        },
+        {
+          "index": 1,
+          "weight": 1,
+          "neutral": {
+            "x": 1107.2183837890625,
+            "y": 655.5932006835938
+          }
+        },
+        {
+          "index": 2,
+          "weight": 1,
+          "neutral": {
+            "x": 1089.874755859375,
+            "y": 654.9683227539062
+          }
+        },
+        {
+          "index": 5,
+          "weight": 1,
+          "neutral": {
+            "x": 1055.65625,
+            "y": 669.1871948242188
+          }
+        },
+        {
+          "index": 10,
+          "weight": 1,
+          "neutral": {
+            "x": 1116.4371337890625,
+            "y": 649.34326171875
+          }
+        }
+      ]
+    },
+    {
+      "name": "eye-center-left",
+      "anchorProfileId": "anon-dream_festival_3_ur-semantic-v1-eye-center-left",
+      "drawableId": "D_PSD.55",
+      "vertexCount": 7,
+      "points": [
+        {
+          "index": 0,
+          "weight": 1,
+          "neutral": {
+            "x": 895.9996337890625,
+            "y": 764.0830688476562
+          }
+        },
+        {
+          "index": 3,
+          "weight": 1,
+          "neutral": {
+            "x": 898.0828857421875,
+            "y": 657.4160766601562
+          }
+        },
+        {
+          "index": 4,
+          "weight": 1,
+          "neutral": {
+            "x": 852.6658325195312,
+            "y": 744.0830078125
+          }
+        },
+        {
+          "index": 5,
+          "weight": 1,
+          "neutral": {
+            "x": 853.4990844726562,
+            "y": 681.5828857421875
+          }
+        },
+        {
+          "index": 6,
+          "weight": 1,
+          "neutral": {
+            "x": 897.0411376953125,
+            "y": 710.7537231445312
+          }
+        }
+      ]
+    },
+    {
+      "name": "eye-center-right",
+      "anchorProfileId": "anon-dream_festival_3_ur-semantic-v1-eye-center-right",
+      "drawableId": "D_PSD.59",
+      "vertexCount": 7,
+      "points": [
+        {
+          "index": 0,
+          "weight": 1,
+          "neutral": {
+            "x": 1103.5833740234375,
+            "y": 656.1666259765625
+          }
+        },
+        {
+          "index": 1,
+          "weight": 1,
+          "neutral": {
+            "x": 1103.58349609375,
+            "y": 765.7498168945312
+          }
+        },
+        {
+          "index": 4,
+          "weight": 1,
+          "neutral": {
+            "x": 1146.9166259765625,
+            "y": 682.8333740234375
+          }
+        },
+        {
+          "index": 5,
+          "weight": 1,
+          "neutral": {
+            "x": 1145.2501220703125,
+            "y": 745.7499389648438
+          }
+        },
+        {
+          "index": 6,
+          "weight": 1,
+          "neutral": {
+            "x": 1103.5833740234375,
+            "y": 711.9998779296875
+          }
+        }
+      ]
+    },
+    {
+      "name": "nose",
+      "anchorProfileId": "anon-dream_festival_3_ur-semantic-v1-nose",
+      "drawableId": "D_PSD.23",
+      "vertexCount": 6,
+      "points": [
+        {
+          "index": 0,
+          "weight": 1,
+          "neutral": {
+            "x": 993.5205078125,
+            "y": 815.003662109375
+          }
+        },
+        {
+          "index": 1,
+          "weight": 1,
+          "neutral": {
+            "x": 983.2734375,
+            "y": 794.509521484375
+          }
+        },
+        {
+          "index": 2,
+          "weight": 1,
+          "neutral": {
+            "x": 1000.10791015625,
+            "y": 795.7904052734375
+          }
+        },
+        {
+          "index": 4,
+          "weight": 1,
+          "neutral": {
+            "x": 1016.0274658203125,
+            "y": 792.8626708984375
+          }
+        },
+        {
+          "index": 5,
+          "weight": 1,
+          "neutral": {
+            "x": 1000.10791015625,
+            "y": 773.4664306640625
+          }
+        }
+      ]
+    },
+    {
+      "name": "mouth",
+      "anchorProfileId": "anon-dream_festival_3_ur-semantic-v1-mouth",
+      "drawableId": "D_PSD.50",
+      "vertexCount": 55,
+      "points": [
+        {
+          "index": 13,
+          "weight": 1,
+          "neutral": {
+            "x": 980.2659301757812,
+            "y": 864.5462646484375
+          }
+        },
+        {
+          "index": 16,
+          "weight": 1,
+          "neutral": {
+            "x": 1002.7657470703125,
+            "y": 868.2182006835938
+          }
+        },
+        {
+          "index": 28,
+          "weight": 1,
+          "neutral": {
+            "x": 998.7033081054688,
+            "y": 862.7493896484375
+          }
+        },
+        {
+          "index": 40,
+          "weight": 1,
+          "neutral": {
+            "x": 998.2344970703125,
+            "y": 875.0151977539062
+          }
+        },
+        {
+          "index": 42,
+          "weight": 1,
+          "neutral": {
+            "x": 1016.4375610351562,
+            "y": 871.81201171875
+          }
+        }
+      ]
+    },
+    {
+      "name": "ear-left",
+      "anchorProfileId": "anon-dream_festival_3_ur-semantic-v1-ear-left",
+      "drawableId": "D_PSD.72",
+      "vertexCount": 12,
+      "points": [
+        {
+          "index": 0,
+          "weight": 1,
+          "neutral": {
+            "x": 767.9004516601562,
+            "y": 667.672607421875
+          }
+        },
+        {
+          "index": 1,
+          "weight": 1,
+          "neutral": {
+            "x": 788.2115478515625,
+            "y": 647.178466796875
+          }
+        },
+        {
+          "index": 2,
+          "weight": 1,
+          "neutral": {
+            "x": 791.688232421875,
+            "y": 673.7110595703125
+          }
+        },
+        {
+          "index": 8,
+          "weight": 1,
+          "neutral": {
+            "x": 809.8035888671875,
+            "y": 664.012939453125
+          }
+        },
+        {
+          "index": 11,
+          "weight": 1,
+          "neutral": {
+            "x": 815.842041015625,
+            "y": 715.0652465820312
+          }
+        }
+      ]
+    },
+    {
+      "name": "ear-right",
+      "anchorProfileId": "anon-dream_festival_3_ur-semantic-v1-ear-right",
+      "drawableId": "D_PSD.73",
+      "vertexCount": 13,
+      "points": [
+        {
+          "index": 0,
+          "weight": 1,
+          "neutral": {
+            "x": 1208.8330078125,
+            "y": 593.471435546875
+          }
+        },
+        {
+          "index": 6,
+          "weight": 1,
+          "neutral": {
+            "x": 1181.385498046875,
+            "y": 715.8873291015625
+          }
+        },
+        {
+          "index": 9,
+          "weight": 1,
+          "neutral": {
+            "x": 1210.1138916015625,
+            "y": 664.8349609375
+          }
+        },
+        {
+          "index": 10,
+          "weight": 1,
+          "neutral": {
+            "x": 1191.4495849609375,
+            "y": 648.1834716796875
+          }
+        },
+        {
+          "index": 12,
+          "weight": 1,
+          "neutral": {
+            "x": 1212.6756591796875,
+            "y": 635.7406005859375
+          }
+        }
+      ]
+    },
+    {
+      "name": "chin",
+      "anchorProfileId": "anon-dream_festival_3_ur-semantic-v1-chin",
+      "drawableId": "D_PSD1.62",
+      "vertexCount": 37,
+      "points": [
+        {
+          "index": 0,
+          "weight": 1,
+          "neutral": {
+            "x": 933.5337524414062,
+            "y": 945.062255859375
+          }
+        },
+        {
+          "index": 4,
+          "weight": 1,
+          "neutral": {
+            "x": 1069.140625,
+            "y": 945.8505859375
+          }
+        },
+        {
+          "index": 10,
+          "weight": 1,
+          "neutral": {
+            "x": 890.95947265625,
+            "y": 1080.6690673828125
+          }
+        },
+        {
+          "index": 11,
+          "weight": 1,
+          "neutral": {
+            "x": 1110.926513671875,
+            "y": 1081.45751953125
+          }
+        },
+        {
+          "index": 12,
+          "weight": 1,
+          "neutral": {
+            "x": 1000.5487670898438,
+            "y": 1039.671630859375
+          }
+        }
+      ]
+    }
+  ]
+}

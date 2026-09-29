@@ -1,0 +1,29 @@
+.preview_main{
+  flex: 1;
+  display: flex;
+  flex-flow: column;
+}
+
+.previewWindow {
+  // flex: 1;
+  max-height: calc(100vh - 10em);
+  width: 100%;
+  box-sizing: border-box;
+  aspect-ratio: 16 / 9;
+}
+
+.preview_title{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+  text-align: left;
+  padding: 1em 1em 1em 1em ;
+  color: var(--primary);
+}
+
+.preview_title_text{
+  font-size: 125%;
+  padding: 0.1em 0 0 0;
+  font-weight: bold;
+}

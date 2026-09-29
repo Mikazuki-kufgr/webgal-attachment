@@ -1,0 +1,544 @@
+{
+  "schema": "webgal-live2d-model-profile",
+  "schemaVersion": 1,
+  "profileVersion": 1,
+  "modelProfileId": "mutsumi-casual-2023-semantic-v1",
+  "characterId": "mutsumi",
+  "modelId": "casual-2023",
+  "modelPath": "./game/figure/mutsumi/casual-2023/model.json",
+  "fingerprint": {
+    "modelJsonSha256": "6A0B883AE30869CBC2A3FDFC922E1DE97EA1DB6BD180F9F75D358B763E28FF8B",
+    "mocSha256": "2FE742A509B0EBCBCAFFB5B839971B1C4F0D5A1E552E382C60646E83BCEF5BF7",
+    "drawableCount": 231
+  },
+  "anchors": [
+    {
+      "name": "head",
+      "anchorProfileId": "mutsumi-casual-2023-semantic-v1-head-hair-compatible",
+      "drawableId": "D_PSD.00",
+      "vertexCount": 70,
+      "points": [
+        {
+          "index": 17,
+          "weight": 1,
+          "neutral": {
+            "x": 848.4166870117188,
+            "y": 487.1620178222656
+          }
+        },
+        {
+          "index": 34,
+          "weight": 1,
+          "neutral": {
+            "x": 949.2500610351562,
+            "y": 476.1202087402344
+          }
+        },
+        {
+          "index": 14,
+          "weight": 1,
+          "neutral": {
+            "x": 1020.8125610351562,
+            "y": 437.0576477050781
+          }
+        },
+        {
+          "index": 55,
+          "weight": 1,
+          "neutral": {
+            "x": 1088.625,
+            "y": 432.3702392578125
+          }
+        },
+        {
+          "index": 59,
+          "weight": 1,
+          "neutral": {
+            "x": 1188.3126220703125,
+            "y": 480.8073425292969
+          }
+        }
+      ]
+    },
+    {
+      "name": "hair-top",
+      "anchorProfileId": "mutsumi-casual-2023-semantic-v1-hair-top",
+      "drawableId": "D_PSD.00",
+      "vertexCount": 70,
+      "points": [
+        {
+          "index": 17,
+          "weight": 1,
+          "neutral": {
+            "x": 848.4166870117188,
+            "y": 487.1620178222656
+          }
+        },
+        {
+          "index": 34,
+          "weight": 1,
+          "neutral": {
+            "x": 949.2500610351562,
+            "y": 476.1202087402344
+          }
+        },
+        {
+          "index": 14,
+          "weight": 1,
+          "neutral": {
+            "x": 1020.8125610351562,
+            "y": 437.0576477050781
+          }
+        },
+        {
+          "index": 55,
+          "weight": 1,
+          "neutral": {
+            "x": 1088.625,
+            "y": 432.3702392578125
+          }
+        },
+        {
+          "index": 59,
+          "weight": 1,
+          "neutral": {
+            "x": 1188.3126220703125,
+            "y": 480.8073425292969
+          }
+        }
+      ]
+    },
+    {
+      "name": "eyelid-upper-left",
+      "anchorProfileId": "mutsumi-casual-2023-semantic-v1-eyelid-upper-left",
+      "drawableId": "D_PSD.107",
+      "vertexCount": 31,
+      "points": [
+        {
+          "index": 1,
+          "weight": 1,
+          "neutral": {
+            "x": 841.1181030273438,
+            "y": 746.6028442382812
+          }
+        },
+        {
+          "index": 6,
+          "weight": 1,
+          "neutral": {
+            "x": 910.8568725585938,
+            "y": 738.84423828125
+          }
+        },
+        {
+          "index": 23,
+          "weight": 1,
+          "neutral": {
+            "x": 862.1895751953125,
+            "y": 746.8673095703125
+          }
+        },
+        {
+          "index": 24,
+          "weight": 1,
+          "neutral": {
+            "x": 875.855224609375,
+            "y": 745.1921997070312
+          }
+        },
+        {
+          "index": 25,
+          "weight": 1,
+          "neutral": {
+            "x": 889.5208740234375,
+            "y": 744.4868774414062
+          }
+        }
+      ]
+    },
+    {
+      "name": "eyelid-upper-right",
+      "anchorProfileId": "mutsumi-casual-2023-semantic-v1-eyelid-upper-right",
+      "drawableId": "D_PSD.103",
+      "vertexCount": 31,
+      "points": [
+        {
+          "index": 1,
+          "weight": 1,
+          "neutral": {
+            "x": 1158.8819580078125,
+            "y": 746.6028442382812
+          }
+        },
+        {
+          "index": 6,
+          "weight": 1,
+          "neutral": {
+            "x": 1089.14306640625,
+            "y": 738.84423828125
+          }
+        },
+        {
+          "index": 23,
+          "weight": 1,
+          "neutral": {
+            "x": 1137.8104248046875,
+            "y": 746.8673095703125
+          }
+        },
+        {
+          "index": 24,
+          "weight": 1,
+          "neutral": {
+            "x": 1124.1446533203125,
+            "y": 745.1921997070312
+          }
+        },
+        {
+          "index": 25,
+          "weight": 1,
+          "neutral": {
+            "x": 1110.4791259765625,
+            "y": 744.4868774414062
+          }
+        }
+      ]
+    },
+    {
+      "name": "eye-center-left",
+      "anchorProfileId": "mutsumi-casual-2023-semantic-v1-eye-center-left",
+      "drawableId": "D_PSD.51",
+      "vertexCount": 25,
+      "points": [
+        {
+          "index": 1,
+          "weight": 1,
+          "neutral": {
+            "x": 892.453857421875,
+            "y": 795.5225219726562
+          }
+        },
+        {
+          "index": 3,
+          "weight": 1,
+          "neutral": {
+            "x": 867.7677612304688,
+            "y": 809.981689453125
+          }
+        },
+        {
+          "index": 5,
+          "weight": 1,
+          "neutral": {
+            "x": 869.0020751953125,
+            "y": 841.544921875
+          }
+        },
+        {
+          "index": 7,
+          "weight": 1,
+          "neutral": {
+            "x": 895.6278686523438,
+            "y": 856.5328979492188
+          }
+        },
+        {
+          "index": 12,
+          "weight": 1,
+          "neutral": {
+            "x": 895.275146484375,
+            "y": 824.2644653320312
+          }
+        }
+      ]
+    },
+    {
+      "name": "eye-center-right",
+      "anchorProfileId": "mutsumi-casual-2023-semantic-v1-eye-center-right",
+      "drawableId": "D_PSD.23",
+      "vertexCount": 21,
+      "points": [
+        {
+          "index": 2,
+          "weight": 1,
+          "neutral": {
+            "x": 1140.25,
+            "y": 845.9953002929688
+          }
+        },
+        {
+          "index": 11,
+          "weight": 1,
+          "neutral": {
+            "x": 1103.1251220703125,
+            "y": 795.8703002929688
+          }
+        },
+        {
+          "index": 15,
+          "weight": 1,
+          "neutral": {
+            "x": 1089.75,
+            "y": 852.3703002929688
+          }
+        },
+        {
+          "index": 19,
+          "weight": 1,
+          "neutral": {
+            "x": 1131.7501220703125,
+            "y": 809.1203002929688
+          }
+        },
+        {
+          "index": 20,
+          "weight": 1,
+          "neutral": {
+            "x": 1105.1251220703125,
+            "y": 825.4953002929688
+          }
+        }
+      ]
+    },
+    {
+      "name": "nose",
+      "anchorProfileId": "mutsumi-casual-2023-semantic-v1-nose",
+      "drawableId": "D_PSD.38",
+      "vertexCount": 10,
+      "points": [
+        {
+          "index": 0,
+          "weight": 1,
+          "neutral": {
+            "x": 999.875,
+            "y": 880.3702392578125
+          }
+        },
+        {
+          "index": 2,
+          "weight": 1,
+          "neutral": {
+            "x": 991.906494140625,
+            "y": 907.7139892578125
+          }
+        },
+        {
+          "index": 3,
+          "weight": 1,
+          "neutral": {
+            "x": 1000.0906372070312,
+            "y": 902.2431030273438
+          }
+        },
+        {
+          "index": 8,
+          "weight": 1,
+          "neutral": {
+            "x": 1008.859375,
+            "y": 896.1514892578125
+          }
+        },
+        {
+          "index": 9,
+          "weight": 1,
+          "neutral": {
+            "x": 991.0470581054688,
+            "y": 896.4639892578125
+          }
+        }
+      ]
+    },
+    {
+      "name": "mouth",
+      "anchorProfileId": "mutsumi-casual-2023-semantic-v1-mouth",
+      "drawableId": "D_PSD.42",
+      "vertexCount": 25,
+      "points": [
+        {
+          "index": 3,
+          "weight": 1,
+          "neutral": {
+            "x": 998.8919067382812,
+            "y": 972.5201416015625
+          }
+        },
+        {
+          "index": 4,
+          "weight": 1,
+          "neutral": {
+            "x": 1007.0912475585938,
+            "y": 972.5201416015625
+          }
+        },
+        {
+          "index": 11,
+          "weight": 1,
+          "neutral": {
+            "x": 1003.1240234375,
+            "y": 968.4646606445312
+          }
+        },
+        {
+          "index": 14,
+          "weight": 1,
+          "neutral": {
+            "x": 980.1129150390625,
+            "y": 970.5806274414062
+          }
+        },
+        {
+          "index": 22,
+          "weight": 1,
+          "neutral": {
+            "x": 1016.9657592773438,
+            "y": 978.3389892578125
+          }
+        }
+      ]
+    },
+    {
+      "name": "ear-left",
+      "anchorProfileId": "mutsumi-casual-2023-semantic-v1-ear-left",
+      "drawableId": "D_PSD.72",
+      "vertexCount": 15,
+      "points": [
+        {
+          "index": 1,
+          "weight": 1,
+          "neutral": {
+            "x": 815.9375610351562,
+            "y": 843.1203002929688
+          }
+        },
+        {
+          "index": 6,
+          "weight": 1,
+          "neutral": {
+            "x": 802.1875,
+            "y": 778.7453002929688
+          }
+        },
+        {
+          "index": 10,
+          "weight": 1,
+          "neutral": {
+            "x": 840.0000610351562,
+            "y": 765.3078002929688
+          }
+        },
+        {
+          "index": 12,
+          "weight": 1,
+          "neutral": {
+            "x": 824.375,
+            "y": 715.3078002929688
+          }
+        },
+        {
+          "index": 14,
+          "weight": 1,
+          "neutral": {
+            "x": 789.375,
+            "y": 756.8703002929688
+          }
+        }
+      ]
+    },
+    {
+      "name": "ear-right",
+      "anchorProfileId": "mutsumi-casual-2023-semantic-v1-ear-right",
+      "drawableId": "D_PSD.73",
+      "vertexCount": 19,
+      "points": [
+        {
+          "index": 7,
+          "weight": 1,
+          "neutral": {
+            "x": 1159,
+            "y": 724.0576171875
+          }
+        },
+        {
+          "index": 10,
+          "weight": 1,
+          "neutral": {
+            "x": 1165.874755859375,
+            "y": 774.682373046875
+          }
+        },
+        {
+          "index": 12,
+          "weight": 1,
+          "neutral": {
+            "x": 1200.5621337890625,
+            "y": 804.3698120117188
+          }
+        },
+        {
+          "index": 14,
+          "weight": 1,
+          "neutral": {
+            "x": 1211.0308837890625,
+            "y": 776.088623046875
+          }
+        },
+        {
+          "index": 16,
+          "weight": 1,
+          "neutral": {
+            "x": 1202.749755859375,
+            "y": 751.5574340820312
+          }
+        }
+      ]
+    },
+    {
+      "name": "chin",
+      "anchorProfileId": "mutsumi-casual-2023-semantic-v1-chin",
+      "drawableId": "D_PSD1.16",
+      "vertexCount": 30,
+      "points": [
+        {
+          "index": 4,
+          "weight": 1,
+          "neutral": {
+            "x": 948.2191162109375,
+            "y": 1147.943603515625
+          }
+        },
+        {
+          "index": 6,
+          "weight": 1,
+          "neutral": {
+            "x": 923.3840942382812,
+            "y": 1047.4210205078125
+          }
+        },
+        {
+          "index": 12,
+          "weight": 1,
+          "neutral": {
+            "x": 977.197021484375,
+            "y": 1143.50830078125
+          }
+        },
+        {
+          "index": 19,
+          "weight": 1,
+          "neutral": {
+            "x": 1021.9356079101562,
+            "y": 1143.6072998046875
+          }
+        },
+        {
+          "index": 23,
+          "weight": 1,
+          "neutral": {
+            "x": 999.0716552734375,
+            "y": 1086.841552734375
+          }
+        }
+      ]
+    }
+  ]
+}

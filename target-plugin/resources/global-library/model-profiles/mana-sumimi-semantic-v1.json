@@ -1,0 +1,544 @@
+{
+  "schema": "webgal-live2d-model-profile",
+  "schemaVersion": 1,
+  "profileVersion": 1,
+  "modelProfileId": "mana-sumimi-semantic-v1",
+  "characterId": "mana",
+  "modelId": "sumimi",
+  "modelPath": "./game/figure/mana/sumimi/model.json",
+  "fingerprint": {
+    "modelJsonSha256": "40114E53D545B5C99DA26A889504048B0A7FE005204CE21733DF09FF321414D6",
+    "mocSha256": "4ABB8DF0D94062C37C0C819AD00A9C408AEDC4F60BE1212F4E9FA0F07B86F1FB",
+    "drawableCount": 193
+  },
+  "anchors": [
+    {
+      "name": "head",
+      "anchorProfileId": "mana-sumimi-semantic-v1-head-hair-compatible",
+      "drawableId": "D_PSD.272",
+      "vertexCount": 65,
+      "points": [
+        {
+          "index": 32,
+          "weight": 1,
+          "neutral": {
+            "x": 833.0626831054688,
+            "y": 428.18707275390625
+          }
+        },
+        {
+          "index": 25,
+          "weight": 1,
+          "neutral": {
+            "x": 920.8750610351562,
+            "y": 397.24957275390625
+          }
+        },
+        {
+          "index": 0,
+          "weight": 1,
+          "neutral": {
+            "x": 1000.8750610351562,
+            "y": 394.7496337890625
+          }
+        },
+        {
+          "index": 4,
+          "weight": 1,
+          "neutral": {
+            "x": 1077.7501220703125,
+            "y": 394.7496337890625
+          }
+        },
+        {
+          "index": 7,
+          "weight": 1,
+          "neutral": {
+            "x": 1171.916748046875,
+            "y": 458.4996337890625
+          }
+        }
+      ]
+    },
+    {
+      "name": "hair-top",
+      "anchorProfileId": "mana-sumimi-semantic-v1-hair-top",
+      "drawableId": "D_PSD.272",
+      "vertexCount": 65,
+      "points": [
+        {
+          "index": 32,
+          "weight": 1,
+          "neutral": {
+            "x": 833.0626831054688,
+            "y": 428.18707275390625
+          }
+        },
+        {
+          "index": 25,
+          "weight": 1,
+          "neutral": {
+            "x": 920.8750610351562,
+            "y": 397.24957275390625
+          }
+        },
+        {
+          "index": 0,
+          "weight": 1,
+          "neutral": {
+            "x": 1000.8750610351562,
+            "y": 394.7496337890625
+          }
+        },
+        {
+          "index": 4,
+          "weight": 1,
+          "neutral": {
+            "x": 1077.7501220703125,
+            "y": 394.7496337890625
+          }
+        },
+        {
+          "index": 7,
+          "weight": 1,
+          "neutral": {
+            "x": 1171.916748046875,
+            "y": 458.4996337890625
+          }
+        }
+      ]
+    },
+    {
+      "name": "eyelid-upper-left",
+      "anchorProfileId": "mana-sumimi-semantic-v1-eyelid-upper-left",
+      "drawableId": "D_PSD.186",
+      "vertexCount": 16,
+      "points": [
+        {
+          "index": 0,
+          "weight": 1,
+          "neutral": {
+            "x": 876.1832885742188,
+            "y": 714.6870727539062
+          }
+        },
+        {
+          "index": 6,
+          "weight": 1,
+          "neutral": {
+            "x": 943.9957885742188,
+            "y": 717.5777587890625
+          }
+        },
+        {
+          "index": 8,
+          "weight": 1,
+          "neutral": {
+            "x": 913.2926025390625,
+            "y": 707.1869506835938
+          }
+        },
+        {
+          "index": 10,
+          "weight": 1,
+          "neutral": {
+            "x": 882.9020385742188,
+            "y": 708.4369506835938
+          }
+        },
+        {
+          "index": 11,
+          "weight": 1,
+          "neutral": {
+            "x": 883.5270385742188,
+            "y": 719.5308837890625
+          }
+        }
+      ]
+    },
+    {
+      "name": "eyelid-upper-right",
+      "anchorProfileId": "mana-sumimi-semantic-v1-eyelid-upper-right",
+      "drawableId": "D_PSD.212",
+      "vertexCount": 16,
+      "points": [
+        {
+          "index": 0,
+          "weight": 1,
+          "neutral": {
+            "x": 1123.816650390625,
+            "y": 714.6870727539062
+          }
+        },
+        {
+          "index": 5,
+          "weight": 1,
+          "neutral": {
+            "x": 1053.5823974609375,
+            "y": 727.4215087890625
+          }
+        },
+        {
+          "index": 8,
+          "weight": 1,
+          "neutral": {
+            "x": 1086.7073974609375,
+            "y": 707.1869506835938
+          }
+        },
+        {
+          "index": 11,
+          "weight": 1,
+          "neutral": {
+            "x": 1116.472900390625,
+            "y": 719.5308837890625
+          }
+        },
+        {
+          "index": 12,
+          "weight": 1,
+          "neutral": {
+            "x": 1102.9573974609375,
+            "y": 719.4527587890625
+          }
+        }
+      ]
+    },
+    {
+      "name": "eye-center-left",
+      "anchorProfileId": "mana-sumimi-semantic-v1-eye-center-left",
+      "drawableId": "D_PSD.189",
+      "vertexCount": 9,
+      "points": [
+        {
+          "index": 0,
+          "weight": 1,
+          "neutral": {
+            "x": 900.9376831054688,
+            "y": 812.9368896484375
+          }
+        },
+        {
+          "index": 3,
+          "weight": 1,
+          "neutral": {
+            "x": 851.250732421875,
+            "y": 759.812255859375
+          }
+        },
+        {
+          "index": 4,
+          "weight": 1,
+          "neutral": {
+            "x": 866.87548828125,
+            "y": 798.8746337890625
+          }
+        },
+        {
+          "index": 7,
+          "weight": 1,
+          "neutral": {
+            "x": 935.3123779296875,
+            "y": 725.4371948242188
+          }
+        },
+        {
+          "index": 8,
+          "weight": 1,
+          "neutral": {
+            "x": 899.0628051757812,
+            "y": 759.4996948242188
+          }
+        }
+      ]
+    },
+    {
+      "name": "eye-center-right",
+      "anchorProfileId": "mana-sumimi-semantic-v1-eye-center-right",
+      "drawableId": "D_PSD.215",
+      "vertexCount": 9,
+      "points": [
+        {
+          "index": 2,
+          "weight": 1,
+          "neutral": {
+            "x": 1132.0625,
+            "y": 799.8121337890625
+          }
+        },
+        {
+          "index": 3,
+          "weight": 1,
+          "neutral": {
+            "x": 1148.625,
+            "y": 766.6871337890625
+          }
+        },
+        {
+          "index": 5,
+          "weight": 1,
+          "neutral": {
+            "x": 1067.0625,
+            "y": 724.8121337890625
+          }
+        },
+        {
+          "index": 7,
+          "weight": 1,
+          "neutral": {
+            "x": 1068.9373779296875,
+            "y": 796.3746337890625
+          }
+        },
+        {
+          "index": 8,
+          "weight": 1,
+          "neutral": {
+            "x": 1103.1591796875,
+            "y": 761.0607299804688
+          }
+        }
+      ]
+    },
+    {
+      "name": "nose",
+      "anchorProfileId": "mana-sumimi-semantic-v1-nose",
+      "drawableId": "D_PSD.255",
+      "vertexCount": 6,
+      "points": [
+        {
+          "index": 0,
+          "weight": 1,
+          "neutral": {
+            "x": 994.7099609375,
+            "y": 867.4449462890625
+          }
+        },
+        {
+          "index": 1,
+          "weight": 1,
+          "neutral": {
+            "x": 988.8544921875,
+            "y": 854.2701416015625
+          }
+        },
+        {
+          "index": 2,
+          "weight": 1,
+          "neutral": {
+            "x": 999.9249877929688,
+            "y": 856.3744506835938
+          }
+        },
+        {
+          "index": 3,
+          "weight": 1,
+          "neutral": {
+            "x": 1005.4144897460938,
+            "y": 867.0789794921875
+          }
+        },
+        {
+          "index": 4,
+          "weight": 1,
+          "neutral": {
+            "x": 1010.08056640625,
+            "y": 853.5382080078125
+          }
+        }
+      ]
+    },
+    {
+      "name": "mouth",
+      "anchorProfileId": "mana-sumimi-semantic-v1-mouth",
+      "drawableId": "D_PSD.244",
+      "vertexCount": 19,
+      "points": [
+        {
+          "index": 13,
+          "weight": 1,
+          "neutral": {
+            "x": 976.2345581054688,
+            "y": 916.2024536132812
+          }
+        },
+        {
+          "index": 14,
+          "weight": 1,
+          "neutral": {
+            "x": 985.99462890625,
+            "y": 917.6248168945312
+          }
+        },
+        {
+          "index": 15,
+          "weight": 1,
+          "neutral": {
+            "x": 995.8447875976562,
+            "y": 918.5718994140625
+          }
+        },
+        {
+          "index": 16,
+          "weight": 1,
+          "neutral": {
+            "x": 1006.0700073242188,
+            "y": 918.1551513671875
+          }
+        },
+        {
+          "index": 18,
+          "weight": 1,
+          "neutral": {
+            "x": 1025.1798095703125,
+            "y": 914.8177490234375
+          }
+        }
+      ]
+    },
+    {
+      "name": "ear-left",
+      "anchorProfileId": "mana-sumimi-semantic-v1-ear-left",
+      "drawableId": "D_PSD.167",
+      "vertexCount": 12,
+      "points": [
+        {
+          "index": 2,
+          "weight": 1,
+          "neutral": {
+            "x": 791.688232421875,
+            "y": 717.7109375
+          }
+        },
+        {
+          "index": 3,
+          "weight": 1,
+          "neutral": {
+            "x": 767.3515014648438,
+            "y": 678.91845703125
+          }
+        },
+        {
+          "index": 6,
+          "weight": 1,
+          "neutral": {
+            "x": 795.5308837890625,
+            "y": 642.1387939453125
+          }
+        },
+        {
+          "index": 9,
+          "weight": 1,
+          "neutral": {
+            "x": 788.760498046875,
+            "y": 743.5115356445312
+          }
+        },
+        {
+          "index": 11,
+          "weight": 1,
+          "neutral": {
+            "x": 815.842041015625,
+            "y": 759.0651245117188
+          }
+        }
+      ]
+    },
+    {
+      "name": "ear-right",
+      "anchorProfileId": "mana-sumimi-semantic-v1-ear-right",
+      "drawableId": "D_PSD.168",
+      "vertexCount": 13,
+      "points": [
+        {
+          "index": 3,
+          "weight": 1,
+          "neutral": {
+            "x": 1227.86328125,
+            "y": 722.3756103515625
+          }
+        },
+        {
+          "index": 6,
+          "weight": 1,
+          "neutral": {
+            "x": 1181.385498046875,
+            "y": 759.88720703125
+          }
+        },
+        {
+          "index": 7,
+          "weight": 1,
+          "neutral": {
+            "x": 1186.6920166015625,
+            "y": 725.486328125
+          }
+        },
+        {
+          "index": 8,
+          "weight": 1,
+          "neutral": {
+            "x": 1208.2840576171875,
+            "y": 741.222900390625
+          }
+        },
+        {
+          "index": 9,
+          "weight": 1,
+          "neutral": {
+            "x": 1210.1138916015625,
+            "y": 708.8348388671875
+          }
+        }
+      ]
+    },
+    {
+      "name": "chin",
+      "anchorProfileId": "mana-sumimi-semantic-v1-chin",
+      "drawableId": "D_PSD.150",
+      "vertexCount": 18,
+      "points": [
+        {
+          "index": 0,
+          "weight": 1,
+          "neutral": {
+            "x": 999.71435546875,
+            "y": 1047.8560791015625
+          }
+        },
+        {
+          "index": 4,
+          "weight": 1,
+          "neutral": {
+            "x": 1066.85791015625,
+            "y": 1217.141845703125
+          }
+        },
+        {
+          "index": 6,
+          "weight": 1,
+          "neutral": {
+            "x": 1067.5716552734375,
+            "y": 1080.0001220703125
+          }
+        },
+        {
+          "index": 13,
+          "weight": 1,
+          "neutral": {
+            "x": 945.4293212890625,
+            "y": 1349.280517578125
+          }
+        },
+        {
+          "index": 16,
+          "weight": 1,
+          "neutral": {
+            "x": 999.5946655273438,
+            "y": 1105.7169189453125
+          }
+        }
+      ]
+    }
+  ]
+}

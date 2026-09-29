@@ -1,0 +1,544 @@
+{
+  "schema": "webgal-live2d-model-profile",
+  "schemaVersion": 1,
+  "profileVersion": 1,
+  "modelProfileId": "anon-live_event_253_ur-semantic-v1",
+  "characterId": "anon",
+  "modelId": "live_event_253_ur",
+  "modelPath": "./game/figure/anon/live_event_253_ur/model.json",
+  "fingerprint": {
+    "modelJsonSha256": "3A12FD70F2703423EE11DC80179C4D63B038F7A4ED13E10AEB770E08247CC8ED",
+    "mocSha256": "8B1B6A91331087A83003A525CD25400A0B647EFF2551CFF1556C7A65DE2A9677",
+    "drawableCount": 419
+  },
+  "anchors": [
+    {
+      "name": "head",
+      "anchorProfileId": "anon-live_event_253_ur-semantic-v1-head-hair-compatible",
+      "drawableId": "D_PSD.327",
+      "vertexCount": 56,
+      "points": [
+        {
+          "index": 27,
+          "weight": 1,
+          "neutral": {
+            "x": 832.08349609375,
+            "y": 368.66748046875
+          }
+        },
+        {
+          "index": 7,
+          "weight": 1,
+          "neutral": {
+            "x": 948.1255493164062,
+            "y": 392.625
+          }
+        },
+        {
+          "index": 8,
+          "weight": 1,
+          "neutral": {
+            "x": 1001.8756713867188,
+            "y": 393.87469482421875
+          }
+        },
+        {
+          "index": 9,
+          "weight": 1,
+          "neutral": {
+            "x": 1062.500732421875,
+            "y": 395.12432861328125
+          }
+        },
+        {
+          "index": 22,
+          "weight": 1,
+          "neutral": {
+            "x": 1180.41748046875,
+            "y": 371.16497802734375
+          }
+        }
+      ]
+    },
+    {
+      "name": "hair-top",
+      "anchorProfileId": "anon-live_event_253_ur-semantic-v1-hair-top",
+      "drawableId": "D_PSD.327",
+      "vertexCount": 56,
+      "points": [
+        {
+          "index": 27,
+          "weight": 1,
+          "neutral": {
+            "x": 832.08349609375,
+            "y": 368.66748046875
+          }
+        },
+        {
+          "index": 7,
+          "weight": 1,
+          "neutral": {
+            "x": 948.1255493164062,
+            "y": 392.625
+          }
+        },
+        {
+          "index": 8,
+          "weight": 1,
+          "neutral": {
+            "x": 1001.8756713867188,
+            "y": 393.87469482421875
+          }
+        },
+        {
+          "index": 9,
+          "weight": 1,
+          "neutral": {
+            "x": 1062.500732421875,
+            "y": 395.12432861328125
+          }
+        },
+        {
+          "index": 22,
+          "weight": 1,
+          "neutral": {
+            "x": 1180.41748046875,
+            "y": 371.16497802734375
+          }
+        }
+      ]
+    },
+    {
+      "name": "eyelid-upper-left",
+      "anchorProfileId": "anon-live_event_253_ur-semantic-v1-eyelid-upper-left",
+      "drawableId": "D_PSD.77",
+      "vertexCount": 10,
+      "points": [
+        {
+          "index": 0,
+          "weight": 1,
+          "neutral": {
+            "x": 841.375,
+            "y": 665.6871948242188
+          }
+        },
+        {
+          "index": 2,
+          "weight": 1,
+          "neutral": {
+            "x": 870.90625,
+            "y": 672.0934448242188
+          }
+        },
+        {
+          "index": 4,
+          "weight": 1,
+          "neutral": {
+            "x": 879.6563110351562,
+            "y": 664.5934448242188
+          }
+        },
+        {
+          "index": 5,
+          "weight": 1,
+          "neutral": {
+            "x": 864.9688110351562,
+            "y": 662.718505859375
+          }
+        },
+        {
+          "index": 9,
+          "weight": 1,
+          "neutral": {
+            "x": 877.9374389648438,
+            "y": 681.1559448242188
+          }
+        }
+      ]
+    },
+    {
+      "name": "eyelid-upper-right",
+      "anchorProfileId": "anon-live_event_253_ur-semantic-v1-eyelid-upper-right",
+      "drawableId": "D_PSD.119",
+      "vertexCount": 10,
+      "points": [
+        {
+          "index": 0,
+          "weight": 1,
+          "neutral": {
+            "x": 1158.625,
+            "y": 665.6871948242188
+          }
+        },
+        {
+          "index": 2,
+          "weight": 1,
+          "neutral": {
+            "x": 1129.09375,
+            "y": 672.0934448242188
+          }
+        },
+        {
+          "index": 3,
+          "weight": 1,
+          "neutral": {
+            "x": 1113,
+            "y": 673.4996948242188
+          }
+        },
+        {
+          "index": 4,
+          "weight": 1,
+          "neutral": {
+            "x": 1120.3436279296875,
+            "y": 664.5934448242188
+          }
+        },
+        {
+          "index": 5,
+          "weight": 1,
+          "neutral": {
+            "x": 1135.03125,
+            "y": 662.718505859375
+          }
+        }
+      ]
+    },
+    {
+      "name": "eye-center-left",
+      "anchorProfileId": "anon-live_event_253_ur-semantic-v1-eye-center-left",
+      "drawableId": "D_PSD.55",
+      "vertexCount": 7,
+      "points": [
+        {
+          "index": 0,
+          "weight": 1,
+          "neutral": {
+            "x": 895.9996337890625,
+            "y": 764.0830688476562
+          }
+        },
+        {
+          "index": 1,
+          "weight": 1,
+          "neutral": {
+            "x": 936,
+            "y": 745.3331298828125
+          }
+        },
+        {
+          "index": 4,
+          "weight": 1,
+          "neutral": {
+            "x": 852.6658325195312,
+            "y": 744.0830078125
+          }
+        },
+        {
+          "index": 5,
+          "weight": 1,
+          "neutral": {
+            "x": 853.4990844726562,
+            "y": 681.5828857421875
+          }
+        },
+        {
+          "index": 6,
+          "weight": 1,
+          "neutral": {
+            "x": 897.0411376953125,
+            "y": 710.7537231445312
+          }
+        }
+      ]
+    },
+    {
+      "name": "eye-center-right",
+      "anchorProfileId": "anon-live_event_253_ur-semantic-v1-eye-center-right",
+      "drawableId": "D_PSD.59",
+      "vertexCount": 7,
+      "points": [
+        {
+          "index": 1,
+          "weight": 1,
+          "neutral": {
+            "x": 1103.58349609375,
+            "y": 765.7498168945312
+          }
+        },
+        {
+          "index": 2,
+          "weight": 1,
+          "neutral": {
+            "x": 1058.5833740234375,
+            "y": 745.7496948242188
+          }
+        },
+        {
+          "index": 4,
+          "weight": 1,
+          "neutral": {
+            "x": 1146.9166259765625,
+            "y": 682.8333740234375
+          }
+        },
+        {
+          "index": 5,
+          "weight": 1,
+          "neutral": {
+            "x": 1145.2501220703125,
+            "y": 745.7499389648438
+          }
+        },
+        {
+          "index": 6,
+          "weight": 1,
+          "neutral": {
+            "x": 1103.5833740234375,
+            "y": 711.9998779296875
+          }
+        }
+      ]
+    },
+    {
+      "name": "nose",
+      "anchorProfileId": "anon-live_event_253_ur-semantic-v1-nose",
+      "drawableId": "D_PSD.24",
+      "vertexCount": 6,
+      "points": [
+        {
+          "index": 0,
+          "weight": 1,
+          "neutral": {
+            "x": 994.7099609375,
+            "y": 823.445068359375
+          }
+        },
+        {
+          "index": 1,
+          "weight": 1,
+          "neutral": {
+            "x": 988.8544921875,
+            "y": 810.270263671875
+          }
+        },
+        {
+          "index": 2,
+          "weight": 1,
+          "neutral": {
+            "x": 999.9249877929688,
+            "y": 812.3745727539062
+          }
+        },
+        {
+          "index": 4,
+          "weight": 1,
+          "neutral": {
+            "x": 1010.08056640625,
+            "y": 809.538330078125
+          }
+        },
+        {
+          "index": 5,
+          "weight": 1,
+          "neutral": {
+            "x": 999.467529296875,
+            "y": 798.6508178710938
+          }
+        }
+      ]
+    },
+    {
+      "name": "mouth",
+      "anchorProfileId": "anon-live_event_253_ur-semantic-v1-mouth",
+      "drawableId": "D_PSD.48",
+      "vertexCount": 34,
+      "points": [
+        {
+          "index": 7,
+          "weight": 1,
+          "neutral": {
+            "x": 1006.5155029296875,
+            "y": 870.7650146484375
+          }
+        },
+        {
+          "index": 20,
+          "weight": 1,
+          "neutral": {
+            "x": 999.4061279296875,
+            "y": 878.8900756835938
+          }
+        },
+        {
+          "index": 24,
+          "weight": 1,
+          "neutral": {
+            "x": 977.7654418945312,
+            "y": 866.624267578125
+          }
+        },
+        {
+          "index": 29,
+          "weight": 1,
+          "neutral": {
+            "x": 1015.1627197265625,
+            "y": 862.1398315429688
+          }
+        },
+        {
+          "index": 31,
+          "weight": 1,
+          "neutral": {
+            "x": 993.1561279296875,
+            "y": 863.577392578125
+          }
+        }
+      ]
+    },
+    {
+      "name": "ear-left",
+      "anchorProfileId": "anon-live_event_253_ur-semantic-v1-ear-left",
+      "drawableId": "D_PSD.72",
+      "vertexCount": 12,
+      "points": [
+        {
+          "index": 0,
+          "weight": 1,
+          "neutral": {
+            "x": 767.9004516601562,
+            "y": 667.672607421875
+          }
+        },
+        {
+          "index": 1,
+          "weight": 1,
+          "neutral": {
+            "x": 788.2115478515625,
+            "y": 647.178466796875
+          }
+        },
+        {
+          "index": 2,
+          "weight": 1,
+          "neutral": {
+            "x": 791.688232421875,
+            "y": 673.7110595703125
+          }
+        },
+        {
+          "index": 3,
+          "weight": 1,
+          "neutral": {
+            "x": 767.3515014648438,
+            "y": 634.9185791015625
+          }
+        },
+        {
+          "index": 6,
+          "weight": 1,
+          "neutral": {
+            "x": 795.5308837890625,
+            "y": 598.138916015625
+          }
+        }
+      ]
+    },
+    {
+      "name": "ear-right",
+      "anchorProfileId": "anon-live_event_253_ur-semantic-v1-ear-right",
+      "drawableId": "D_PSD.73",
+      "vertexCount": 13,
+      "points": [
+        {
+          "index": 0,
+          "weight": 1,
+          "neutral": {
+            "x": 1208.8330078125,
+            "y": 593.471435546875
+          }
+        },
+        {
+          "index": 6,
+          "weight": 1,
+          "neutral": {
+            "x": 1181.385498046875,
+            "y": 715.8873291015625
+          }
+        },
+        {
+          "index": 7,
+          "weight": 1,
+          "neutral": {
+            "x": 1186.6920166015625,
+            "y": 681.4864501953125
+          }
+        },
+        {
+          "index": 9,
+          "weight": 1,
+          "neutral": {
+            "x": 1210.1138916015625,
+            "y": 664.8349609375
+          }
+        },
+        {
+          "index": 10,
+          "weight": 1,
+          "neutral": {
+            "x": 1191.4495849609375,
+            "y": 648.1834716796875
+          }
+        }
+      ]
+    },
+    {
+      "name": "chin",
+      "anchorProfileId": "anon-live_event_253_ur-semantic-v1-chin",
+      "drawableId": "D_PSD.271",
+      "vertexCount": 23,
+      "points": [
+        {
+          "index": 4,
+          "weight": 1,
+          "neutral": {
+            "x": 915.257568359375,
+            "y": 983.796142578125
+          }
+        },
+        {
+          "index": 5,
+          "weight": 1,
+          "neutral": {
+            "x": 999.6912231445312,
+            "y": 994.5415649414062
+          }
+        },
+        {
+          "index": 6,
+          "weight": 1,
+          "neutral": {
+            "x": 1083.6131591796875,
+            "y": 984.3065185546875
+          }
+        },
+        {
+          "index": 8,
+          "weight": 1,
+          "neutral": {
+            "x": 999.7847900390625,
+            "y": 1198.97509765625
+          }
+        },
+        {
+          "index": 10,
+          "weight": 1,
+          "neutral": {
+            "x": 999.7169799804688,
+            "y": 1050.8348388671875
+          }
+        }
+      ]
+    }
+  ]
+}

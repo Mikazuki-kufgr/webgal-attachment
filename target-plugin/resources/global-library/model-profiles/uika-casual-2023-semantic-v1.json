@@ -1,0 +1,544 @@
+{
+  "schema": "webgal-live2d-model-profile",
+  "schemaVersion": 1,
+  "profileVersion": 1,
+  "modelProfileId": "uika-casual-2023-semantic-v1",
+  "characterId": "uika",
+  "modelId": "casual-2023",
+  "modelPath": "./game/figure/uika/casual-2023/model.json",
+  "fingerprint": {
+    "modelJsonSha256": "08DA6344A762315EF2AC4E53B7766357D909F1BBED3CDEA23AF3C9E12B33D806",
+    "mocSha256": "DCA173233FB6CF962A2F64394A12496D9F0982E1E43F71476AFB2E4C5E3DF863",
+    "drawableCount": 174
+  },
+  "anchors": [
+    {
+      "name": "head",
+      "anchorProfileId": "uika-casual-2023-semantic-v1-head-hair-compatible",
+      "drawableId": "D_PSD.00",
+      "vertexCount": 82,
+      "points": [
+        {
+          "index": 25,
+          "weight": 1,
+          "neutral": {
+            "x": 846.6265869140625,
+            "y": 361.905517578125
+          }
+        },
+        {
+          "index": 48,
+          "weight": 1,
+          "neutral": {
+            "x": 944.7506103515625,
+            "y": 321.12451171875
+          }
+        },
+        {
+          "index": 55,
+          "weight": 1,
+          "neutral": {
+            "x": 1032.25,
+            "y": 346.2807312011719
+          }
+        },
+        {
+          "index": 51,
+          "weight": 1,
+          "neutral": {
+            "x": 1091,
+            "y": 330.96820068359375
+          }
+        },
+        {
+          "index": 53,
+          "weight": 1,
+          "neutral": {
+            "x": 1169.487548828125,
+            "y": 370.96063232421875
+          }
+        }
+      ]
+    },
+    {
+      "name": "hair-top",
+      "anchorProfileId": "uika-casual-2023-semantic-v1-hair-top",
+      "drawableId": "D_PSD.00",
+      "vertexCount": 82,
+      "points": [
+        {
+          "index": 25,
+          "weight": 1,
+          "neutral": {
+            "x": 846.6265869140625,
+            "y": 361.905517578125
+          }
+        },
+        {
+          "index": 48,
+          "weight": 1,
+          "neutral": {
+            "x": 944.7506103515625,
+            "y": 321.12451171875
+          }
+        },
+        {
+          "index": 55,
+          "weight": 1,
+          "neutral": {
+            "x": 1032.25,
+            "y": 346.2807312011719
+          }
+        },
+        {
+          "index": 51,
+          "weight": 1,
+          "neutral": {
+            "x": 1091,
+            "y": 330.96820068359375
+          }
+        },
+        {
+          "index": 53,
+          "weight": 1,
+          "neutral": {
+            "x": 1169.487548828125,
+            "y": 370.96063232421875
+          }
+        }
+      ]
+    },
+    {
+      "name": "eyelid-upper-left",
+      "anchorProfileId": "uika-casual-2023-semantic-v1-eyelid-upper-left",
+      "drawableId": "D_PSD.65",
+      "vertexCount": 11,
+      "points": [
+        {
+          "index": 1,
+          "weight": 1,
+          "neutral": {
+            "x": 888.2501831054688,
+            "y": 678.6869506835938
+          }
+        },
+        {
+          "index": 2,
+          "weight": 1,
+          "neutral": {
+            "x": 881.062744140625,
+            "y": 685.74951171875
+          }
+        },
+        {
+          "index": 3,
+          "weight": 1,
+          "neutral": {
+            "x": 902.4375610351562,
+            "y": 679.1869506835938
+          }
+        },
+        {
+          "index": 5,
+          "weight": 1,
+          "neutral": {
+            "x": 922.25,
+            "y": 680.8744506835938
+          }
+        },
+        {
+          "index": 9,
+          "weight": 1,
+          "neutral": {
+            "x": 952.7499389648438,
+            "y": 695.9995727539062
+          }
+        }
+      ]
+    },
+    {
+      "name": "eyelid-upper-right",
+      "anchorProfileId": "uika-casual-2023-semantic-v1-eyelid-upper-right",
+      "drawableId": "D_PSD.111",
+      "vertexCount": 55,
+      "points": [
+        {
+          "index": 40,
+          "weight": 1,
+          "neutral": {
+            "x": 1101.638916015625,
+            "y": 689.046875
+          }
+        },
+        {
+          "index": 41,
+          "weight": 1,
+          "neutral": {
+            "x": 1110.467041015625,
+            "y": 686.156494140625
+          }
+        },
+        {
+          "index": 42,
+          "weight": 1,
+          "neutral": {
+            "x": 1120.62158203125,
+            "y": 685.3766479492188
+          }
+        },
+        {
+          "index": 43,
+          "weight": 1,
+          "neutral": {
+            "x": 1131.324951171875,
+            "y": 685.6890258789062
+          }
+        },
+        {
+          "index": 45,
+          "weight": 1,
+          "neutral": {
+            "x": 1148.435546875,
+            "y": 692.1725463867188
+          }
+        }
+      ]
+    },
+    {
+      "name": "eye-center-left",
+      "anchorProfileId": "uika-casual-2023-semantic-v1-eye-center-left",
+      "drawableId": "D_PSD.48",
+      "vertexCount": 9,
+      "points": [
+        {
+          "index": 0,
+          "weight": 1,
+          "neutral": {
+            "x": 852.9998168945312,
+            "y": 733.2493896484375
+          }
+        },
+        {
+          "index": 1,
+          "weight": 1,
+          "neutral": {
+            "x": 874.9998779296875,
+            "y": 764.999755859375
+          }
+        },
+        {
+          "index": 6,
+          "weight": 1,
+          "neutral": {
+            "x": 885.9998779296875,
+            "y": 679.2490844726562
+          }
+        },
+        {
+          "index": 7,
+          "weight": 1,
+          "neutral": {
+            "x": 858.7498168945312,
+            "y": 700.4992065429688
+          }
+        },
+        {
+          "index": 8,
+          "weight": 1,
+          "neutral": {
+            "x": 897.2499389648438,
+            "y": 726.74951171875
+          }
+        }
+      ]
+    },
+    {
+      "name": "eye-center-right",
+      "anchorProfileId": "uika-casual-2023-semantic-v1-eye-center-right",
+      "drawableId": "D_PSD.66",
+      "vertexCount": 9,
+      "points": [
+        {
+          "index": 0,
+          "weight": 1,
+          "neutral": {
+            "x": 1101.75,
+            "y": 677.9996337890625
+          }
+        },
+        {
+          "index": 3,
+          "weight": 1,
+          "neutral": {
+            "x": 1071.250244140625,
+            "y": 757.9996337890625
+          }
+        },
+        {
+          "index": 5,
+          "weight": 1,
+          "neutral": {
+            "x": 1134.000244140625,
+            "y": 756.4995727539062
+          }
+        },
+        {
+          "index": 6,
+          "weight": 1,
+          "neutral": {
+            "x": 1146.0001220703125,
+            "y": 719.4995727539062
+          }
+        },
+        {
+          "index": 8,
+          "weight": 1,
+          "neutral": {
+            "x": 1102.5001220703125,
+            "y": 724.7495727539062
+          }
+        }
+      ]
+    },
+    {
+      "name": "nose",
+      "anchorProfileId": "uika-casual-2023-semantic-v1-nose",
+      "drawableId": "D_PSD.23",
+      "vertexCount": 6,
+      "points": [
+        {
+          "index": 1,
+          "weight": 1,
+          "neutral": {
+            "x": 983.2734375,
+            "y": 806.5093994140625
+          }
+        },
+        {
+          "index": 2,
+          "weight": 1,
+          "neutral": {
+            "x": 1000.10791015625,
+            "y": 807.790283203125
+          }
+        },
+        {
+          "index": 3,
+          "weight": 1,
+          "neutral": {
+            "x": 1008.89111328125,
+            "y": 826.45458984375
+          }
+        },
+        {
+          "index": 4,
+          "weight": 1,
+          "neutral": {
+            "x": 1016.0274658203125,
+            "y": 804.862548828125
+          }
+        },
+        {
+          "index": 5,
+          "weight": 1,
+          "neutral": {
+            "x": 1000.10791015625,
+            "y": 785.46630859375
+          }
+        }
+      ]
+    },
+    {
+      "name": "mouth",
+      "anchorProfileId": "uika-casual-2023-semantic-v1-mouth",
+      "drawableId": "D_PSD.41",
+      "vertexCount": 22,
+      "points": [
+        {
+          "index": 4,
+          "weight": 1,
+          "neutral": {
+            "x": 1009.0003051757812,
+            "y": 883.9995727539062
+          }
+        },
+        {
+          "index": 8,
+          "weight": 1,
+          "neutral": {
+            "x": 1036.2657470703125,
+            "y": 872.5152587890625
+          }
+        },
+        {
+          "index": 10,
+          "weight": 1,
+          "neutral": {
+            "x": 1014.3908081054688,
+            "y": 878.6089477539062
+          }
+        },
+        {
+          "index": 11,
+          "weight": 1,
+          "neutral": {
+            "x": 1001.890869140625,
+            "y": 879.7808227539062
+          }
+        },
+        {
+          "index": 16,
+          "weight": 1,
+          "neutral": {
+            "x": 973.6878662109375,
+            "y": 884.4683227539062
+          }
+        }
+      ]
+    },
+    {
+      "name": "ear-left",
+      "anchorProfileId": "uika-casual-2023-semantic-v1-ear-left",
+      "drawableId": "D_PSD.72",
+      "vertexCount": 12,
+      "points": [
+        {
+          "index": 1,
+          "weight": 1,
+          "neutral": {
+            "x": 788.2115478515625,
+            "y": 659.1783447265625
+          }
+        },
+        {
+          "index": 2,
+          "weight": 1,
+          "neutral": {
+            "x": 791.688232421875,
+            "y": 685.7109375
+          }
+        },
+        {
+          "index": 7,
+          "weight": 1,
+          "neutral": {
+            "x": 806.326904296875,
+            "y": 628.986083984375
+          }
+        },
+        {
+          "index": 8,
+          "weight": 1,
+          "neutral": {
+            "x": 809.8035888671875,
+            "y": 676.0128173828125
+          }
+        },
+        {
+          "index": 11,
+          "weight": 1,
+          "neutral": {
+            "x": 815.842041015625,
+            "y": 727.0651245117188
+          }
+        }
+      ]
+    },
+    {
+      "name": "ear-right",
+      "anchorProfileId": "uika-casual-2023-semantic-v1-ear-right",
+      "drawableId": "D_PSD.73",
+      "vertexCount": 13,
+      "points": [
+        {
+          "index": 0,
+          "weight": 1,
+          "neutral": {
+            "x": 1208.8330078125,
+            "y": 605.4713134765625
+          }
+        },
+        {
+          "index": 9,
+          "weight": 1,
+          "neutral": {
+            "x": 1210.1138916015625,
+            "y": 676.8348388671875
+          }
+        },
+        {
+          "index": 10,
+          "weight": 1,
+          "neutral": {
+            "x": 1191.4495849609375,
+            "y": 660.183349609375
+          }
+        },
+        {
+          "index": 11,
+          "weight": 1,
+          "neutral": {
+            "x": 1231.3399658203125,
+            "y": 659.2684326171875
+          }
+        },
+        {
+          "index": 12,
+          "weight": 1,
+          "neutral": {
+            "x": 1212.6756591796875,
+            "y": 647.740478515625
+          }
+        }
+      ]
+    },
+    {
+      "name": "chin",
+      "anchorProfileId": "uika-casual-2023-semantic-v1-chin",
+      "drawableId": "D_PSD1.16",
+      "vertexCount": 30,
+      "points": [
+        {
+          "index": 4,
+          "weight": 1,
+          "neutral": {
+            "x": 948.2191162109375,
+            "y": 1057.947998046875
+          }
+        },
+        {
+          "index": 6,
+          "weight": 1,
+          "neutral": {
+            "x": 923.3840942382812,
+            "y": 957.4254760742188
+          }
+        },
+        {
+          "index": 10,
+          "weight": 1,
+          "neutral": {
+            "x": 1057.6112060546875,
+            "y": 927.2687377929688
+          }
+        },
+        {
+          "index": 19,
+          "weight": 1,
+          "neutral": {
+            "x": 1021.9356079101562,
+            "y": 1053.6116943359375
+          }
+        },
+        {
+          "index": 23,
+          "weight": 1,
+          "neutral": {
+            "x": 999.0716552734375,
+            "y": 996.8460693359375
+          }
+        }
+      ]
+    }
+  ]
+}

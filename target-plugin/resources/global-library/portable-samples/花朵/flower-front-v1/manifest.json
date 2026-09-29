@@ -1,0 +1,28 @@
+{
+  "schema": "webgal-attachment-creator-export-manifest",
+  "schemaVersion": 1,
+  "toolVersion": "factory-sample-v1",
+  "createdAt": "2026-09-24T00:00:00.000Z",
+  "attachmentDefinitionId": "builtin-flower-front-v1",
+  "presetId": "v2/flower-front-v1",
+  "modelProfileId": "anon-school_winter-2023-semantic-v1",
+  "anchorName": "ear-left",
+  "displayName": "花朵",
+  "files": [
+    {
+      "path": "game/attachments-v2/portable/flower-front-v1/images/front.png",
+      "bytes": 653895,
+      "sha256": "5E1678B04EA57C4338969D9A763375CFB1D3E08D585B53C96C0C8BCB4963AEA9"
+    },
+    {
+      "path": "game/attachments-v2/portable/flower-front-v1/attachment.json",
+      "bytes": 18860,
+      "sha256": "276D362E3F931CC1DC821B444014EDBABE5E71754F22C699F8327E04A9112F52"
+    },
+    {
+      "path": "game/attachments-v2/portable/flower-front-v1/使用说明.txt",
+      "bytes": 322,
+      "sha256": "FC66CBAE3C8D2A132DAC2F6299C227BC054912258BC48337D3825511079CDD3F"
+    }
+  ]
+}

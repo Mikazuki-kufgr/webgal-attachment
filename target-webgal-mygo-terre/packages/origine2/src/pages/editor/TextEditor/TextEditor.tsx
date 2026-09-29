@@ -1,0 +1,255 @@
+import * as monaco from 'monaco-editor';
+import Editor, { Monaco } from '@monaco-editor/react';
+import { useCallback, useEffect, useMemo, useRef } from 'react';
+import styles from './textEditor.module.scss';
+import axios from 'axios';
+import { logger } from '../../../utils/logger';
+import debounce from 'lodash/debounce';
+
+// 语法高亮文件
+import { editorLineHolder, lspSceneName, WG_ORIGINE_RUNTIME } from '../../../runtime/WG_ORIGINE_RUNTIME';
+import { EditorPreviewClient } from '../../../utils/editorPreviewClient';
+import { eventBus } from '@/utils/eventBus';
+import useEditorStore from '@/store/useEditorStore';
+import { useGameEditorContext } from '@/store/useGameEditorStore';
+import { useValue } from "@/hooks/useValue";
+import {
+  acceptPersistedSceneDocument,
+  getSceneDocumentDraft,
+  hasDirtySceneDocument,
+  saveSceneDocumentAndRun,
+  stageSceneDocument,
+} from '@/utils/sceneDocumentSave';
+
+interface ITextEditorProps {
+  targetPath: string;
+  isHide: boolean;
+}
+
+export default function TextEditor(props: ITextEditorProps) {
+  const target = useGameEditorContext((state) => state.currentTag);
+  const tags = useGameEditorContext((state) => state.tags);
+  const currentText = useRef('Loading Scene Data......');
+  const sceneName = tags.find((e) => e.path === target?.path)!.name;
+  const isAutoWarp = useEditorStore.use.isAutoWarp();
+  const isEditorReady = useValue(false); // 读取完脚本才能算准备就绪
+
+  // 准备获取 Monaco
+  // 建立 Ref
+  const editorRef = useRef<monaco.editor.IStandaloneCodeEditor | null>(null);
+
+  /**
+   * 处理挂载事件
+   * @param {any} editor
+   * @param {any} monaco
+   */
+  function handleEditorDidMount(editor: monaco.editor.IStandaloneCodeEditor, monaco: Monaco) {
+    logger.debug('脚本编辑器挂载');
+    lspSceneName.value = sceneName;
+    editorRef.current = editor;
+
+    configureMonaco(editor, monaco);
+
+    editor.onDidChangeCursorPosition(debounce((event: monaco.editor.ICursorPositionChangedEvent) => {
+      const previousCursorPosition = editorLineHolder.getScenePosition(props.targetPath);
+      const editorValue = editor.getValue();
+      const targetValue = editorValue.split('\n')[event.position.lineNumber - 1];
+      if (event.reason === monaco.editor.CursorChangeReason.Explicit) {
+        if (event.position.lineNumber !== previousCursorPosition.lineNumber) {
+          syncTextLineAfterSave(event.position.lineNumber, targetValue, false)
+            .catch((error) => logger.error('保存失败，已阻止光标预览同步', error));
+        }
+      }
+      editorLineHolder.recordSceneEditingPosition(props.targetPath, event.position);
+    }));
+    // 由于 monaco 接收拖拽进来的文字时, 会在末尾添加 $0
+    // 这里手动实现接收拖拽进来的文字, 以避开这个问题
+    const domNode = editor.getContainerDomNode();
+    const dropHandler = (e: DragEvent) => {
+      e.preventDefault();
+      const data = e.dataTransfer?.getData("text/plain");
+      const position = editor.getTargetAtClientPoint(e.clientX, e.clientY);
+      if (position?.range && data) {
+        editor.executeEdits("drop", [
+          {
+            range: position.range,
+            text: data,
+            forceMoveMarkers: true,
+          },
+        ]);
+      }
+    };
+    domNode.addEventListener("drop", dropHandler);
+    editor.onDidDispose(() => {
+      domNode.removeEventListener("drop", dropHandler);
+    });
+    editor.updateOptions({
+      unicodeHighlight: { ambiguousCharacters: false },
+      wordWrap: isAutoWarp ? 'on' : 'off',
+      smoothScrolling: true,
+      quickSuggestions: { other: true, comments: true, strings: true },
+    });
+    updateEditData();
+  }
+
+  function configureMonaco(editor: monaco.editor.IStandaloneCodeEditor, monaco: Monaco) {
+    const languageConfiguration: monaco.languages.LanguageConfiguration = {
+      comments: {
+        lineComment: ";",
+      },
+      brackets: [
+        ["{", "}"],
+        ["[", "]"],
+        ["(", ")"],
+      ],
+    };
+    monaco.languages.setLanguageConfiguration('webgal', languageConfiguration);
+  }
+
+  useEffect(() => {
+    editorRef?.current?.updateOptions?.({ wordWrap: isAutoWarp ? 'on' : 'off' });
+  }, [isAutoWarp]);
+
+  /**
+   * handle monaco change
+   * @param {string} value
+   * @param {any} ev
+   */
+  const submitChange = useMemo(() => debounce((value: string) => {
+    logger.debug('编辑器提交更新');
+    // 这里直接使用临时储存的行数, 一般来说光标位置就在改变的行
+    const lineNumber = editorLineHolder.getSceneLine(props.targetPath);
+    const targetValue = value.split('\n')[lineNumber - 1] ?? '';
+    saveSceneDocumentAndRun(props.targetPath, value, (receipt) => {
+      EditorPreviewClient.sendSyncScene({
+        scenePath: target?.path ?? props.targetPath,
+        lineNumber,
+        lineCommandString: targetValue,
+        documentRevision: receipt.request.revision,
+        documentContentHash: receipt.request.contentHash,
+      });
+    }).catch((error) => logger.error('场景脚本保存失败，已阻止预览同步', error));
+  }, 500), [props.targetPath, target?.path]);
+
+  const handleChange = (value: string | undefined) => {
+    if (!isEditorReady.value) return;
+    const nextText = value ?? '';
+    currentText.current = nextText;
+    stageSceneDocument(props.targetPath, nextText);
+    eventBus.emit('editor:update-scene', { scene: nextText });
+    submitChange(nextText);
+  };
+
+  useEffect(() => {
+    return () => submitChange.flush();
+  }, [submitChange]);
+
+  const syncTextLineAfterSave = useCallback(async (
+    lineNumber: number,
+    lineCommandString: string,
+    force: boolean,
+  ) => {
+    submitChange.cancel();
+    const latestText = editorRef.current?.getValue() ?? currentText.current;
+    currentText.current = latestText;
+    stageSceneDocument(props.targetPath, latestText);
+    await saveSceneDocumentAndRun(props.targetPath, latestText, (receipt) => {
+      EditorPreviewClient.sendSyncScene({
+        scenePath: target?.path ?? props.targetPath,
+        lineNumber,
+        lineCommandString,
+        force,
+        documentRevision: receipt.request.revision,
+        documentContentHash: receipt.request.contentHash,
+      });
+    });
+  }, [props.targetPath, submitChange, target?.path]);
+
+  const syncCurrentLine = useCallback(() => {
+    const lineNumber = editorLineHolder.getSceneLine(props.targetPath) || editorRef.current?.getPosition()?.lineNumber || 1;
+    const latestText = editorRef.current?.getValue() ?? currentText.current;
+    const lineCommandString = latestText.split('\n')[lineNumber - 1] ?? '';
+    syncTextLineAfterSave(lineNumber, lineCommandString, true)
+      .catch((error) => logger.error('保存失败，已阻止执行当前句', error));
+  }, [props.targetPath, syncTextLineAfterSave]);
+
+  useEffect(() => {
+    eventBus.on('editor:sync-current-line', syncCurrentLine);
+    return () => {
+      eventBus.off('editor:sync-current-line', syncCurrentLine);
+    };
+  }, [syncCurrentLine]);
+
+  function updateEditData() {
+    const path = props.targetPath;
+    const applyEditorText = (dataStr: string) => {
+      if (dataStr === currentText.current && isEditorReady.value) {
+        return;
+      }
+      currentText.current = dataStr;
+      eventBus.emit('editor:update-scene', { scene: dataStr });
+      const model = editorRef.current?.getModel();
+      model?.applyEdits([{
+        range: model.getFullModelRange(),
+        text: dataStr,
+        forceMoveMarkers: true,
+      }]);
+      isEditorReady.value = true;
+      const targetPosition = editorLineHolder.getScenePosition(props.targetPath);
+      editorRef.current?.setPosition(targetPosition);
+      editorRef.current?.revealPositionInCenterIfOutsideViewport(targetPosition, monaco.editor.ScrollType.Immediate);
+    };
+
+    if (hasDirtySceneDocument(path)) {
+      const draft = getSceneDocumentDraft(path);
+      if (draft !== undefined) applyEditorText(draft);
+      return;
+    }
+
+    axios
+      .get(path)
+      .then((res) => res.data)
+      .then((data) => {
+        const dataStr = data.toString();
+        if (!acceptPersistedSceneDocument(path, dataStr)) {
+          const draft = getSceneDocumentDraft(path);
+          if (draft !== undefined) applyEditorText(draft);
+          return;
+        }
+        applyEditorText(dataStr);
+      });
+  }
+
+  useEffect(() => {
+    const handleVisibilityChange = () => {
+      if (document.visibilityState === 'visible') {
+        updateEditData();
+      }
+    };
+
+    window.addEventListener('focus', handleVisibilityChange);
+    document.addEventListener('visibilitychange', handleVisibilityChange);
+
+    return () => {
+      window.removeEventListener('focus', handleVisibilityChange);
+      document.removeEventListener('visibilitychange', handleVisibilityChange);
+    };
+  }, []);
+
+  return (
+    <div
+      style={{ display: props.isHide ? 'none' : 'block', zIndex: 999, overflow: 'auto' }}
+      className={styles.textEditor_main}
+    >
+      <Editor
+        height="100%"
+        width="100%"
+        onMount={handleEditorDidMount}
+        onChange={handleChange}
+        defaultLanguage="webgal"
+        language="webgal"
+        defaultValue={currentText.current}
+      />
+    </div>
+  );
+}

@@ -1,0 +1,2241 @@
+{
+  "openapi": "3.0.0",
+  "paths": {
+    "/api/test": {
+      "get": {
+        "operationId": "AppController_apiTest",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": ""
+          }
+        },
+        "tags": [
+          "App"
+        ]
+      }
+    },
+    "/api/osinfo": {
+      "get": {
+        "operationId": "AppController_getOsInfo",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Returns the OS information.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/OsInfoDto"
+                }
+              }
+            }
+          }
+        },
+        "tags": [
+          "App"
+        ]
+      }
+    },
+    "/api/userData/status": {
+      "get": {
+        "operationId": "UserDataController_getStatus",
+        "summary": "Get user data status",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/UserDataStatusDto"
+                }
+              }
+            }
+          }
+        },
+        "tags": [
+          "User Data"
+        ]
+      }
+    },
+    "/api/userData/migrateLegacy": {
+      "post": {
+        "operationId": "UserDataController_migrateLegacy",
+        "summary": "Migrate legacy install-dir user data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/UserDataOperationResultDto"
+                }
+              }
+            }
+          }
+        },
+        "tags": [
+          "User Data"
+        ]
+      }
+    },
+    "/api/userData/setPath": {
+      "post": {
+        "operationId": "UserDataController_setPath",
+        "summary": "Set and migrate user data path",
+        "parameters": [],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SetUserDataPathDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/UserDataOperationResultDto"
+                }
+              }
+            }
+          }
+        },
+        "tags": [
+          "User Data"
+        ]
+      }
+    },
+    "/api/userData/resetPath": {
+      "post": {
+        "operationId": "UserDataController_resetPath",
+        "summary": "Reset user data path to the default path",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/UserDataOperationResultDto"
+                }
+              }
+            }
+          }
+        },
+        "tags": [
+          "User Data"
+        ]
+      }
+    },
+    "/api/userData/open": {
+      "post": {
+        "operationId": "UserDataController_open",
+        "summary": "Open user data related directory",
+        "parameters": [],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/OpenUserDataPathDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "201": {
+            "description": ""
+          }
+        },
+        "tags": [
+          "User Data"
+        ]
+      }
+    },
+    "/api/assets/readAssets/{readDirPath}": {
+      "get": {
+        "operationId": "AssetsController_readAssets",
+        "summary": "Read Assets",
+        "parameters": [
+          {
+            "name": "readDirPath",
+            "required": true,
+            "in": "path",
+            "description": "Path of the directory to read assets from, including subdirectories.",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Retrieve the assets of the directory."
+          }
+        },
+        "tags": [
+          "Assets"
+        ]
+      }
+    },
+    "/api/assets/openDict/{dirPath}": {
+      "post": {
+        "operationId": "AssetsController_openDict",
+        "summary": "Open Assets Dictionary",
+        "parameters": [
+          {
+            "name": "dirPath",
+            "required": true,
+            "in": "path",
+            "description": "Directory path to open.",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Opens the assets dictionary for a specified game."
+          }
+        },
+        "tags": [
+          "Assets"
+        ]
+      }
+    },
+    "/api/assets/createNewFile": {
+      "post": {
+        "operationId": "AssetsController_createNewFile",
+        "summary": "Create a New FIle",
+        "parameters": [],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateNewFileDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Successfully created the File."
+          },
+          "400": {
+            "description": "Failed to create the File or file already exists."
+          }
+        },
+        "tags": [
+          "Assets"
+        ]
+      }
+    },
+    "/api/assets/createNewFolder": {
+      "post": {
+        "operationId": "AssetsController_createNewFolder",
+        "summary": "Create Folder",
+        "parameters": [],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateNewFolderDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Folder created successfully."
+          },
+          "400": {
+            "description": "Failed to create Folder."
+          }
+        },
+        "tags": [
+          "Assets"
+        ]
+      }
+    },
+    "/api/assets/upload": {
+      "post": {
+        "operationId": "AssetsController_upload",
+        "summary": "Upload Files",
+        "parameters": [],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UploadFilesDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Files uploaded successfully."
+          },
+          "400": {
+            "description": "Failed to upload files."
+          }
+        },
+        "tags": [
+          "Assets"
+        ]
+      }
+    },
+    "/api/assets/delete": {
+      "post": {
+        "operationId": "AssetsController_deleteFileOrDir",
+        "summary": "Delete File or Directory",
+        "parameters": [],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DeleteFileOrDirDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Successfully deleted the file or directory."
+          },
+          "400": {
+            "description": "Failed to delete the file or directory."
+          }
+        },
+        "tags": [
+          "Assets"
+        ]
+      }
+    },
+    "/api/assets/rename": {
+      "post": {
+        "operationId": "AssetsController_rename",
+        "summary": "Rename File or Directory",
+        "parameters": [],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RenameFileDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Successfully renamed the file or directory."
+          },
+          "400": {
+            "description": "Failed to rename the file or directory."
+          }
+        },
+        "tags": [
+          "Assets"
+        ]
+      }
+    },
+    "/api/assets/trash": {
+      "post": {
+        "operationId": "AssetsController_trashFileOrDir",
+        "summary": "trash File or Directory",
+        "parameters": [],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/TrashFileOrDirDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Successfully trash the file or directory."
+          },
+          "400": {
+            "description": "Failed to trash the file or directory."
+          }
+        },
+        "tags": [
+          "Assets"
+        ]
+      }
+    },
+    "/api/assets/editTextFile": {
+      "post": {
+        "operationId": "AssetsController_editTextFile",
+        "summary": "Edit Text File",
+        "parameters": [],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/EditTextFileDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "File edited successfully."
+          },
+          "400": {
+            "description": "Failed to edit the text."
+          }
+        },
+        "tags": [
+          "Assets"
+        ]
+      }
+    },
+    "/api/assets/getImageDimensions/{imagePath}": {
+      "get": {
+        "operationId": "AssetsController_getImageDimensions",
+        "summary": "Get Image Dimensions",
+        "parameters": [
+          {
+            "name": "imagePath",
+            "required": true,
+            "in": "path",
+            "description": "Path to the image file relative to public/",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Returns the width, height, and type of the image.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ImageDimensionsResponseDto"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Failed to get image dimensions."
+          }
+        },
+        "tags": [
+          "Assets"
+        ]
+      }
+    },
+    "/api/assets/copyFileWithIncrement": {
+      "post": {
+        "operationId": "AssetsController_copyFileWithIncrement",
+        "summary": "Copy File With Increment",
+        "parameters": [],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CopyFileWithIncrementDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "File copied successfully."
+          },
+          "400": {
+            "description": "Failed to copy the file."
+          }
+        },
+        "tags": [
+          "Assets"
+        ]
+      }
+    },
+    "/api/manageGame/gameList": {
+      "get": {
+        "operationId": "ManageGameController_getGameList",
+        "summary": "Retrieve game list",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Returned game list.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/GameInfoDto"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "tags": [
+          "Manage Game"
+        ]
+      }
+    },
+    "/api/manageGame/createGame": {
+      "post": {
+        "operationId": "ManageGameController_createGame",
+        "summary": "Create a new game",
+        "parameters": [],
+        "requestBody": {
+          "required": true,
+          "description": "Game creation data",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateGameDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Game creation result."
+          }
+        },
+        "tags": [
+          "Manage Game"
+        ]
+      }
+    },
+    "/api/manageGame/openGameDict/{gameName}": {
+      "get": {
+        "operationId": "ManageGameController_openGameDict",
+        "summary": "Open Game Dictionary",
+        "parameters": [
+          {
+            "name": "gameName",
+            "required": true,
+            "in": "path",
+            "description": "Name of the game.",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Opens the dictionary for a specified game."
+          }
+        },
+        "tags": [
+          "Manage Game"
+        ]
+      }
+    },
+    "/api/manageGame/derivativeEngines": {
+      "get": {
+        "operationId": "ManageGameController_getDerivativeEngines",
+        "summary": "Retrieve Derivative Engines",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Returns a list of directories representing available derivative engines."
+          }
+        },
+        "tags": [
+          "Manage Game"
+        ]
+      }
+    },
+    "/api/manageGame/openGameAssetsDict/{gameName}": {
+      "get": {
+        "operationId": "ManageGameController_openGameAssetsDict",
+        "summary": "Open Game Assets Dictionary",
+        "parameters": [
+          {
+            "name": "gameName",
+            "required": true,
+            "in": "path",
+            "description": "Name of the game.",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "subFolder",
+            "required": true,
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Opens the assets dictionary for a specified game."
+          }
+        },
+        "tags": [
+          "Manage Game"
+        ]
+      }
+    },
+    "/api/manageGame/ejectGameAsWeb/{gameName}": {
+      "get": {
+        "operationId": "ManageGameController_ejectGameAsWeb",
+        "summary": "Eject Game As Web App",
+        "parameters": [
+          {
+            "name": "gameName",
+            "required": true,
+            "in": "path",
+            "description": "Name of the game to be exported as web app.",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Exports the specified game as a web app."
+          }
+        },
+        "tags": [
+          "Manage Game"
+        ]
+      }
+    },
+    "/api/manageGame/ejectGameAsExe/{gameName}": {
+      "get": {
+        "operationId": "ManageGameController_ejectGameAsExe",
+        "summary": "Eject Game As EXE",
+        "parameters": [
+          {
+            "name": "gameName",
+            "required": true,
+            "in": "path",
+            "description": "Name of the game to be exported as EXE.",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Exports the specified game as an EXE (Windows Electron App)."
+          }
+        },
+        "tags": [
+          "Manage Game"
+        ]
+      }
+    },
+    "/api/manageGame/ejectGameAsAndroid/{gameName}": {
+      "get": {
+        "operationId": "ManageGameController_ejectGameAsAndroid",
+        "summary": "Eject Game As Android App",
+        "parameters": [
+          {
+            "name": "gameName",
+            "required": true,
+            "in": "path",
+            "description": "Name of the game to be exported as an Android app.",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Exports the specified game as an Android app."
+          }
+        },
+        "tags": [
+          "Manage Game"
+        ]
+      }
+    },
+    "/api/manageGame/readGameAssets/{readDirPath}": {
+      "get": {
+        "operationId": "ManageGameController_readGameAssets",
+        "summary": "Read Game Assets",
+        "parameters": [
+          {
+            "name": "readDirPath",
+            "required": true,
+            "in": "path",
+            "description": "Path of the game directory to read assets from, including subdirectories.",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Retrieve the assets of the specified game directory."
+          }
+        },
+        "tags": [
+          "Manage Game"
+        ]
+      }
+    },
+    "/api/manageGame/editFileName": {
+      "post": {
+        "operationId": "ManageGameController_editFileName",
+        "summary": "Edit File Name",
+        "parameters": [],
+        "requestBody": {
+          "required": true,
+          "description": "File renaming data",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/EditFileNameDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Successfully renamed the file."
+          },
+          "400": {
+            "description": "Failed to rename the file."
+          }
+        },
+        "tags": [
+          "Manage Game"
+        ]
+      }
+    },
+    "/api/manageGame/deleteFile": {
+      "post": {
+        "operationId": "ManageGameController_deleteFile",
+        "summary": "Delete File",
+        "parameters": [],
+        "requestBody": {
+          "required": true,
+          "description": "File deletion data",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DeleteFileDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Successfully deleted the file."
+          },
+          "400": {
+            "description": "Failed to delete the file."
+          }
+        },
+        "tags": [
+          "Manage Game"
+        ]
+      }
+    },
+    "/api/manageGame/createNewScene": {
+      "post": {
+        "operationId": "ManageGameController_createNewScene",
+        "summary": "Create a New Scene",
+        "parameters": [],
+        "requestBody": {
+          "required": true,
+          "description": "Scene creation data",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateNewSceneDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Successfully created the scene."
+          },
+          "400": {
+            "description": "Failed to create the scene or scene already exists."
+          }
+        },
+        "tags": [
+          "Manage Game"
+        ]
+      }
+    },
+    "/api/manageGame/editScene": {
+      "post": {
+        "operationId": "ManageGameController_editScene",
+        "summary": "Edit Scene",
+        "parameters": [],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/EditSceneDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Scene edited successfully."
+          },
+          "400": {
+            "description": "Failed to edit the scene."
+          }
+        },
+        "tags": [
+          "Manage Game"
+        ]
+      }
+    },
+    "/api/manageGame/editTextFile": {
+      "post": {
+        "operationId": "ManageGameController_editTextFile",
+        "summary": "Edit TextFile",
+        "parameters": [],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/EditTextFileDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "File edited successfully."
+          },
+          "400": {
+            "description": "Failed to edit the file."
+          }
+        },
+        "tags": [
+          "Manage Game"
+        ]
+      }
+    },
+    "/api/manageGame/updateAnimationTable": {
+      "post": {
+        "operationId": "ManageGameController_updateAnimationTable",
+        "summary": "Update Animation Table",
+        "parameters": [],
+        "requestBody": {
+          "required": true,
+          "description": "Animation table update data",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateAnimationTableDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Animation table updated."
+          },
+          "400": {
+            "description": "Failed to update the animation table."
+          }
+        },
+        "tags": [
+          "Manage Game"
+        ]
+      }
+    },
+    "/api/manageGame/getGameConfig/{gameName}": {
+      "get": {
+        "operationId": "ManageGameController_getGameConfig",
+        "summary": "Get Game Configuration",
+        "parameters": [
+          {
+            "name": "gameName",
+            "required": true,
+            "in": "path",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Returned game configuration."
+          },
+          "400": {
+            "description": "Failed to get the game configuration."
+          }
+        },
+        "tags": [
+          "Manage Game"
+        ]
+      }
+    },
+    "/api/manageGame/setGameConfig": {
+      "post": {
+        "operationId": "ManageGameController_setGameConfig",
+        "summary": "Set Game Configuration",
+        "parameters": [],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/GameConfigDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Game configuration set successfully."
+          },
+          "400": {
+            "description": "Failed to set the game configuration."
+          }
+        },
+        "tags": [
+          "Manage Game"
+        ]
+      }
+    },
+    "/api/manageGame/uploadFiles": {
+      "post": {
+        "operationId": "ManageGameController_uploadFiles",
+        "summary": "Upload Files",
+        "parameters": [],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UploadFilesDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Files uploaded successfully."
+          },
+          "400": {
+            "description": "Failed to upload files."
+          }
+        },
+        "tags": [
+          "Manage Game"
+        ]
+      }
+    },
+    "/api/manageGame/mkdir": {
+      "post": {
+        "operationId": "ManageGameController_mkDir",
+        "summary": "Create Directory",
+        "parameters": [],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MkDirDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Directory created successfully."
+          },
+          "400": {
+            "description": "Failed to create directory."
+          }
+        },
+        "tags": [
+          "Manage Game"
+        ]
+      }
+    },
+    "/api/manageGame/delete": {
+      "post": {
+        "operationId": "ManageGameController_delete",
+        "summary": "Delete File or Directory",
+        "parameters": [],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DeleteDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Successfully deleted the file or directory."
+          },
+          "400": {
+            "description": "Failed to delete the file or directory."
+          }
+        },
+        "tags": [
+          "Manage Game"
+        ]
+      }
+    },
+    "/api/manageGame/rename": {
+      "post": {
+        "operationId": "ManageGameController_rename",
+        "summary": "Rename File or Directory",
+        "parameters": [],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RenameDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Successfully renamed the file or directory."
+          },
+          "400": {
+            "description": "Failed to rename the file or directory."
+          }
+        },
+        "tags": [
+          "Manage Game"
+        ]
+      }
+    },
+    "/api/manageGame/trash": {
+      "post": {
+        "operationId": "ManageGameController_trash",
+        "summary": "Trash File or Directory",
+        "parameters": [],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/TrashDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Successfully trashed the file or directory."
+          },
+          "400": {
+            "description": "Failed to trash the file or directory."
+          }
+        },
+        "tags": [
+          "Manage Game"
+        ]
+      }
+    },
+    "/api/manageGame/getIcons/{gameDir}": {
+      "get": {
+        "operationId": "ManageGameController_getIcons",
+        "summary": "Get Game Icons",
+        "parameters": [
+          {
+            "name": "gameDir",
+            "required": true,
+            "in": "path",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Returned game icons.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/IconsDto"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Failed to get the game icons."
+          }
+        },
+        "tags": [
+          "Manage Game"
+        ]
+      }
+    },
+    "/api/manageGame/getFlowchart/{gameName}": {
+      "get": {
+        "operationId": "ManageGameController_getFlowchart",
+        "summary": "Get Game Flowchart",
+        "parameters": [
+          {
+            "name": "gameName",
+            "required": true,
+            "in": "path",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Returned game flowchart."
+          },
+          "404": {
+            "description": "Flowchart file not found."
+          }
+        },
+        "tags": [
+          "Manage Game"
+        ]
+      }
+    },
+    "/api/manageGame/setFlowchart/{gameName}": {
+      "post": {
+        "operationId": "ManageGameController_setFlowchart",
+        "summary": "Set Game Flowchart",
+        "parameters": [
+          {
+            "name": "gameName",
+            "required": true,
+            "in": "path",
+            "description": "Name of the game.",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SetFlowchartDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Game flowchart saved successfully."
+          },
+          "400": {
+            "description": "Failed to save the game flowchart."
+          }
+        },
+        "tags": [
+          "Manage Game"
+        ]
+      }
+    },
+    "/api/manageTemplate/templateList": {
+      "get": {
+        "operationId": "ManageTemplateController_getTemplateList",
+        "summary": "Retrieve template list",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Returned template list.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/TemplateInfoDto"
+                  }
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error."
+          }
+        },
+        "tags": [
+          "Manage Template"
+        ]
+      }
+    },
+    "/api/manageTemplate/createTemplate": {
+      "post": {
+        "operationId": "ManageTemplateController_createTemplate",
+        "summary": "Create a new template",
+        "parameters": [],
+        "requestBody": {
+          "required": true,
+          "description": "Template creation data",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateTemplateDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Template creation result."
+          },
+          "400": {
+            "description": "Invalid input data."
+          },
+          "500": {
+            "description": "Internal server error."
+          }
+        },
+        "tags": [
+          "Manage Template"
+        ]
+      }
+    },
+    "/api/manageTemplate/getTemplateConfig/{templateDir}": {
+      "get": {
+        "operationId": "ManageTemplateController_getTemplateConfig",
+        "summary": "Get Template Configuration",
+        "parameters": [
+          {
+            "name": "templateDir",
+            "required": true,
+            "in": "path",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Returned template configuration.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/TemplateConfigDto"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Template configuration not found."
+          },
+          "500": {
+            "description": "Internal server error."
+          }
+        },
+        "tags": [
+          "Manage Template"
+        ]
+      }
+    },
+    "/api/manageTemplate/updateTemplateConfig": {
+      "put": {
+        "operationId": "ManageTemplateController_updateTemplateConfig",
+        "summary": "Update template configuration",
+        "parameters": [],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateTemplateConfigDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Template configuration updated successfully."
+          },
+          "400": {
+            "description": "Invalid input data."
+          },
+          "404": {
+            "description": "Template configuration not found."
+          },
+          "500": {
+            "description": "Internal server error."
+          }
+        },
+        "tags": [
+          "Manage Template"
+        ]
+      }
+    },
+    "/api/manageTemplate/delete/{templateDir}": {
+      "delete": {
+        "operationId": "ManageTemplateController_deleteTemplate",
+        "summary": "Delete Template",
+        "parameters": [
+          {
+            "name": "templateDir",
+            "required": true,
+            "in": "path",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Template deleted successfully."
+          },
+          "404": {
+            "description": "Template not found."
+          },
+          "500": {
+            "description": "Internal server error."
+          }
+        },
+        "tags": [
+          "Manage Template"
+        ]
+      }
+    },
+    "/api/manageTemplate/trash/{templateDir}": {
+      "delete": {
+        "operationId": "ManageTemplateController_trashTemplate",
+        "summary": "Delete Template",
+        "parameters": [
+          {
+            "name": "templateDir",
+            "required": true,
+            "in": "path",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Template trashed successfully."
+          },
+          "404": {
+            "description": "Template not found."
+          },
+          "500": {
+            "description": "Internal server error."
+          }
+        },
+        "tags": [
+          "Manage Template"
+        ]
+      }
+    },
+    "/api/manageTemplate/applyTemplateToGame": {
+      "post": {
+        "operationId": "ManageTemplateController_applyTemplateToGame",
+        "summary": "Apply template to a game",
+        "parameters": [],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ApplyTemplateToGameDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Template applied successfully."
+          },
+          "400": {
+            "description": "Invalid input data or failed to apply template."
+          },
+          "404": {
+            "description": "Template or game directory not found."
+          },
+          "500": {
+            "description": "Internal server error."
+          }
+        },
+        "tags": [
+          "Manage Template"
+        ]
+      }
+    },
+    "/api/manageTemplate/getStyleByClassName": {
+      "post": {
+        "operationId": "ManageTemplateController_getStyleByClassName",
+        "summary": "Get style by class name",
+        "parameters": [],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/GetStyleByClassNameDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Returned style information.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Invalid input data."
+          },
+          "404": {
+            "description": "Style not found."
+          },
+          "500": {
+            "description": "Internal server error."
+          }
+        },
+        "tags": [
+          "Manage Template"
+        ]
+      }
+    },
+    "/api/manageTemplate/outputTemplate": {
+      "post": {
+        "operationId": "ManageTemplateController_outputTemplate",
+        "summary": "Output Template",
+        "parameters": [],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/OutputTemplateDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Output Template Successfully.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "boolean"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Output Template Failed."
+          }
+        },
+        "tags": [
+          "Manage Template"
+        ]
+      }
+    },
+    "/api/manageTemplate/importTemplate": {
+      "post": {
+        "operationId": "ManageTemplateController_importTemplate",
+        "summary": "Import Template",
+        "parameters": [],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "$ref": "#/components/schemas/ImportTemplateDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Import Template Successfully.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "boolean"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Import Template Failed."
+          }
+        },
+        "tags": [
+          "Manage Template"
+        ]
+      }
+    }
+  },
+  "info": {
+    "title": "WebGAL Terre API",
+    "description": "API Refrence of WebGAL Terre Editor",
+    "version": "1.0",
+    "contact": {}
+  },
+  "tags": [],
+  "servers": [],
+  "components": {
+    "schemas": {
+      "OsInfoDto": {
+        "type": "object",
+        "properties": {
+          "platform": {
+            "type": "string",
+            "description": "The platform of the operating system"
+          },
+          "arch": {
+            "type": "string",
+            "description": "The architecture of the operating system"
+          }
+        },
+        "required": [
+          "platform",
+          "arch"
+        ]
+      },
+      "UserDataLegacyMigrationStatusDto": {
+        "type": "object",
+        "properties": {
+          "hasLegacyGames": {
+            "type": "boolean",
+            "description": "Whether legacy games exist in the install dir"
+          },
+          "hasLegacyCustomTemplates": {
+            "type": "boolean",
+            "description": "Whether legacy custom templates exist in the install dir"
+          },
+          "hasLegacyDerivativeEngines": {
+            "type": "boolean",
+            "description": "Whether legacy derivative engines exist in the install dir"
+          },
+          "needsMigrationNotice": {
+            "type": "boolean",
+            "description": "Whether UI should show the migration notice"
+          }
+        },
+        "required": [
+          "hasLegacyGames",
+          "hasLegacyCustomTemplates",
+          "hasLegacyDerivativeEngines",
+          "needsMigrationNotice"
+        ]
+      },
+      "UserDataStatusDto": {
+        "type": "object",
+        "properties": {
+          "appRoot": {
+            "type": "string",
+            "description": "The application install/runtime root"
+          },
+          "configRoot": {
+            "type": "string",
+            "description": "The unified configuration directory"
+          },
+          "configPath": {
+            "type": "string",
+            "description": "The unified configuration file path"
+          },
+          "defaultUserDataRoot": {
+            "type": "string",
+            "description": "The default user data directory"
+          },
+          "configuredUserDataRoot": {
+            "type": "string",
+            "description": "The configured user data directory"
+          },
+          "activeUserDataRoot": {
+            "type": "string",
+            "description": "The currently active user data directory"
+          },
+          "portableDataRoot": {
+            "type": "string",
+            "description": "The portable data directory under app root"
+          },
+          "isPortable": {
+            "type": "boolean",
+            "description": "Whether portable mode is currently active"
+          },
+          "hasPortableDataDir": {
+            "type": "boolean",
+            "description": "Whether app root data dir exists"
+          },
+          "legacyMigration": {
+            "$ref": "#/components/schemas/UserDataLegacyMigrationStatusDto"
+          }
+        },
+        "required": [
+          "appRoot",
+          "configRoot",
+          "configPath",
+          "defaultUserDataRoot",
+          "configuredUserDataRoot",
+          "activeUserDataRoot",
+          "portableDataRoot",
+          "isPortable",
+          "hasPortableDataDir",
+          "legacyMigration"
+        ]
+      },
+      "UserDataOperationResultDto": {
+        "type": "object",
+        "properties": {
+          "success": {
+            "type": "boolean",
+            "description": "Whether the operation succeeded"
+          },
+          "message": {
+            "type": "string",
+            "description": "Human-readable operation message"
+          },
+          "conflicts": {
+            "description": "Paths that could not be moved",
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "status": {
+            "$ref": "#/components/schemas/UserDataStatusDto"
+          }
+        },
+        "required": [
+          "success",
+          "message",
+          "conflicts",
+          "status"
+        ]
+      },
+      "SetUserDataPathDto": {
+        "type": "object",
+        "properties": {
+          "userDataPath": {
+            "type": "string",
+            "description": "The target user data directory"
+          }
+        },
+        "required": [
+          "userDataPath"
+        ]
+      },
+      "OpenUserDataPathDto": {
+        "type": "object",
+        "properties": {
+          "target": {
+            "type": "string",
+            "description": "The path target to open",
+            "enum": [
+              "active",
+              "config",
+              "portable",
+              "app"
+            ]
+          }
+        }
+      },
+      "CreateNewFileDto": {
+        "type": "object",
+        "properties": {
+          "source": {
+            "type": "string",
+            "description": "The source path where the directory will be created"
+          },
+          "name": {
+            "type": "string",
+            "description": "Name for the new file"
+          }
+        },
+        "required": [
+          "source",
+          "name"
+        ]
+      },
+      "CreateNewFolderDto": {
+        "type": "object",
+        "properties": {
+          "source": {
+            "type": "string",
+            "description": "The source path where the directory will be created"
+          },
+          "name": {
+            "type": "string",
+            "description": "Name for the new directory"
+          }
+        },
+        "required": [
+          "source",
+          "name"
+        ]
+      },
+      "UploadFilesDto": {
+        "type": "object",
+        "properties": {
+          "targetDirectory": {
+            "type": "string",
+            "description": "Target directory for the uploaded files"
+          }
+        },
+        "required": [
+          "targetDirectory"
+        ]
+      },
+      "DeleteFileOrDirDto": {
+        "type": "object",
+        "properties": {
+          "source": {
+            "type": "string",
+            "description": "The source path of the file or directory to be deleted"
+          }
+        },
+        "required": [
+          "source"
+        ]
+      },
+      "RenameFileDto": {
+        "type": "object",
+        "properties": {
+          "source": {
+            "type": "string",
+            "description": "The source path of the file or directory to be renamed"
+          },
+          "newName": {
+            "type": "string",
+            "description": "New name for renaming the file or directory"
+          }
+        },
+        "required": [
+          "source",
+          "newName"
+        ]
+      },
+      "TrashFileOrDirDto": {
+        "type": "object",
+        "properties": {
+          "source": {
+            "type": "string",
+            "description": "The source path of the file or directory to be thrashed"
+          }
+        },
+        "required": [
+          "source"
+        ]
+      },
+      "EditTextFileDto": {
+        "type": "object",
+        "properties": {
+          "path": {
+            "type": "string",
+            "description": "The path of textfile"
+          },
+          "textFile": {
+            "type": "string",
+            "description": "Text data content"
+          }
+        },
+        "required": [
+          "path",
+          "textFile"
+        ]
+      },
+      "ImageDimensionsResponseDto": {
+        "type": "object",
+        "properties": {
+          "width": {
+            "type": "number",
+            "description": "Width of the image in pixels"
+          },
+          "height": {
+            "type": "number",
+            "description": "Height of the image in pixels"
+          },
+          "type": {
+            "type": "string",
+            "description": "Image file type (e.g., jpg, png, gif, webp)"
+          }
+        },
+        "required": [
+          "width",
+          "height",
+          "type"
+        ]
+      },
+      "CopyFileWithIncrementDto": {
+        "type": "object",
+        "properties": {
+          "source": {
+            "type": "string",
+            "description": "The source path of the file to be copied"
+          }
+        },
+        "required": [
+          "source"
+        ]
+      },
+      "TemplateFontConfigDto": {
+        "type": "object",
+        "properties": {
+          "font-family": {
+            "type": "string",
+            "description": "The font-family name"
+          },
+          "url": {
+            "type": "string",
+            "description": "The url of the font file"
+          },
+          "type": {
+            "type": "string",
+            "description": "The font type used for @font-face format",
+            "enum": [
+              "truetype",
+              "opentype",
+              "woff",
+              "woff2",
+              "embedded-opentype",
+              "svg"
+            ]
+          }
+        },
+        "required": [
+          "font-family",
+          "url",
+          "type"
+        ]
+      },
+      "TemplateConfigDto": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "The name of the template"
+          },
+          "id": {
+            "type": "string",
+            "description": "The id of the template"
+          },
+          "webgal-version": {
+            "type": "string",
+            "description": "The webgal version of the template"
+          },
+          "fonts": {
+            "description": "The font registrations of the template",
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/TemplateFontConfigDto"
+            }
+          }
+        },
+        "required": [
+          "name",
+          "webgal-version"
+        ]
+      },
+      "GameInfoDto": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "The name of the game"
+          },
+          "dir": {
+            "type": "string",
+            "description": "The dir of the game"
+          },
+          "cover": {
+            "type": "string",
+            "description": "The cover of the game"
+          },
+          "template": {
+            "description": "The template config of the game",
+            "nullable": true,
+            "allOf": [
+              {
+                "$ref": "#/components/schemas/TemplateConfigDto"
+              }
+            ]
+          }
+        },
+        "required": [
+          "name",
+          "dir",
+          "cover",
+          "template"
+        ]
+      },
+      "CreateGameDto": {
+        "type": "object",
+        "properties": {
+          "gameName": {
+            "type": "string",
+            "description": "The name of the game to be created"
+          },
+          "gameDir": {
+            "type": "string",
+            "description": "The dir of the game to be created"
+          },
+          "derivative": {
+            "type": "string",
+            "description": "The name of the derivative to be used"
+          },
+          "templateDir": {
+            "type": "string",
+            "description": "The dir of the template to be applied"
+          },
+          "ignoreTemplate": {
+            "type": "boolean",
+            "description": "Whether to ignore the template when creating the game"
+          }
+        },
+        "required": [
+          "gameName",
+          "gameDir"
+        ]
+      },
+      "EditFileNameDto": {
+        "type": "object",
+        "properties": {
+          "path": {
+            "type": "string",
+            "description": "The path to the file to be renamed"
+          },
+          "newName": {
+            "type": "string",
+            "description": "The new name for the file"
+          }
+        },
+        "required": [
+          "path",
+          "newName"
+        ]
+      },
+      "DeleteFileDto": {
+        "type": "object",
+        "properties": {
+          "path": {
+            "type": "string",
+            "description": "The path to the file to be deleted"
+          }
+        },
+        "required": [
+          "path"
+        ]
+      },
+      "CreateNewSceneDto": {
+        "type": "object",
+        "properties": {
+          "gameName": {
+            "type": "string",
+            "description": "The name of the game"
+          },
+          "sceneName": {
+            "type": "string",
+            "description": "The name of the scene"
+          }
+        },
+        "required": [
+          "gameName",
+          "sceneName"
+        ]
+      },
+      "EditSceneDto": {
+        "type": "object",
+        "properties": {
+          "gameName": {
+            "type": "string",
+            "description": "The name of the game"
+          },
+          "sceneName": {
+            "type": "string",
+            "description": "The name of the scene"
+          },
+          "sceneData": {
+            "type": "string",
+            "description": "Scene data content",
+            "format": "{ value: string }"
+          }
+        },
+        "required": [
+          "gameName",
+          "sceneName",
+          "sceneData"
+        ]
+      },
+      "UpdateAnimationTableDto": {
+        "type": "object",
+        "properties": {
+          "gameName": {
+            "type": "string",
+            "description": "The name of the game directory"
+          }
+        },
+        "required": [
+          "gameName"
+        ]
+      },
+      "GameConfigDto": {
+        "type": "object",
+        "properties": {
+          "gameName": {
+            "type": "string",
+            "description": "The name of the game"
+          },
+          "newConfig": {
+            "type": "string",
+            "description": "New game configuration"
+          }
+        },
+        "required": [
+          "gameName",
+          "newConfig"
+        ]
+      },
+      "MkDirDto": {
+        "type": "object",
+        "properties": {
+          "source": {
+            "type": "string",
+            "description": "The source path where the directory will be created"
+          },
+          "name": {
+            "type": "string",
+            "description": "Name for the new directory"
+          }
+        },
+        "required": [
+          "source",
+          "name"
+        ]
+      },
+      "DeleteDto": {
+        "type": "object",
+        "properties": {
+          "gameName": {
+            "type": "string",
+            "description": "The source path of the file or directory to be deleted"
+          }
+        },
+        "required": [
+          "gameName"
+        ]
+      },
+      "RenameDto": {
+        "type": "object",
+        "properties": {
+          "gameName": {
+            "type": "string",
+            "description": "Old name for renaming the game"
+          },
+          "newName": {
+            "type": "string",
+            "description": "New name for renaming the game"
+          }
+        },
+        "required": [
+          "gameName",
+          "newName"
+        ]
+      },
+      "TrashDto": {
+        "type": "object",
+        "properties": {
+          "gameName": {
+            "type": "string",
+            "description": "The source path of the file or directory to be trashed"
+          }
+        },
+        "required": [
+          "gameName"
+        ]
+      },
+      "IconsDto": {
+        "type": "object",
+        "properties": {
+          "platforms": {
+            "description": "The icons of the game",
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "required": [
+          "platforms"
+        ]
+      },
+      "SetFlowchartDto": {
+        "type": "object",
+        "properties": {
+          "flowchartContent": {
+            "type": "string",
+            "description": "The flowchart content in JSON format"
+          }
+        },
+        "required": [
+          "flowchartContent"
+        ]
+      },
+      "TemplateInfoDto": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "The name of the template"
+          },
+          "id": {
+            "type": "string",
+            "description": "The id of the template"
+          },
+          "webgal-version": {
+            "type": "string",
+            "description": "The webgal version of the template"
+          },
+          "fonts": {
+            "description": "The font registrations of the template",
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/TemplateFontConfigDto"
+            }
+          },
+          "dir": {
+            "type": "string",
+            "description": "The dir of the template"
+          },
+          "builtIn": {
+            "type": "boolean",
+            "description": "Whether the template is built in"
+          }
+        },
+        "required": [
+          "name",
+          "webgal-version",
+          "dir",
+          "builtIn"
+        ]
+      },
+      "CreateTemplateDto": {
+        "type": "object",
+        "properties": {
+          "templateName": {
+            "type": "string",
+            "description": "The name of the template to be created"
+          },
+          "templateDir": {
+            "type": "string",
+            "description": "The dir of the template"
+          }
+        },
+        "required": [
+          "templateName",
+          "templateDir"
+        ]
+      },
+      "UpdateTemplateConfigDto": {
+        "type": "object",
+        "properties": {
+          "templateDir": {
+            "type": "string",
+            "description": "The dir of the template"
+          },
+          "newTemplateConfig": {
+            "description": "The new config of the template",
+            "allOf": [
+              {
+                "$ref": "#/components/schemas/TemplateConfigDto"
+              }
+            ]
+          }
+        },
+        "required": [
+          "templateDir",
+          "newTemplateConfig"
+        ]
+      },
+      "ApplyTemplateToGameDto": {
+        "type": "object",
+        "properties": {
+          "templateDir": {
+            "type": "string",
+            "description": "The template name to apply"
+          },
+          "gameDir": {
+            "type": "string",
+            "description": "The game name to be applied."
+          }
+        },
+        "required": [
+          "templateDir",
+          "gameDir"
+        ]
+      },
+      "GetStyleByClassNameDto": {
+        "type": "object",
+        "properties": {
+          "className": {
+            "type": "string",
+            "description": "The name of class to be fetched"
+          },
+          "filePath": {
+            "type": "string",
+            "description": "The path of stylesheet file to be fetched"
+          }
+        },
+        "required": [
+          "className",
+          "filePath"
+        ]
+      },
+      "OutputTemplateDto": {
+        "type": "object",
+        "properties": {
+          "templateDir": {
+            "type": "string",
+            "description": "The template directory name"
+          }
+        },
+        "required": [
+          "templateDir"
+        ]
+      },
+      "ImportTemplateDto": {
+        "type": "object",
+        "properties": {
+          "file": {
+            "type": "string",
+            "format": "binary",
+            "description": "The template's zip file"
+          }
+        },
+        "required": [
+          "file"
+        ]
+      }
+    }
+  }
+}

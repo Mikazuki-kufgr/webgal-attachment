@@ -1,0 +1,18 @@
+/** @type {import('@lingui/conf').LinguiConfig} */
+module.exports = {
+  locales: ["en", "zhCn", "ja", "ko"],
+  sourceLocale: "zhCn",
+  fallbackLocales: {
+    default: "zhCn",
+  },
+  formatOptions: {
+    origins: false,
+    lineNumbers: false,
+  },
+  catalogs: [
+    {
+      path: "<rootDir>/src/locales/{locale}",
+      include: ["src"],
+    },
+  ],
+};

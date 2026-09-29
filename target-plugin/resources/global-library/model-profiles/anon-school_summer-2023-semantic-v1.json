@@ -1,0 +1,544 @@
+{
+  "schema": "webgal-live2d-model-profile",
+  "schemaVersion": 1,
+  "profileVersion": 1,
+  "modelProfileId": "anon-school_summer-2023-semantic-v1",
+  "characterId": "anon",
+  "modelId": "school_summer-2023",
+  "modelPath": "./game/figure/anon/school_summer-2023/model.json",
+  "fingerprint": {
+    "modelJsonSha256": "3A12FD70F2703423EE11DC80179C4D63B038F7A4ED13E10AEB770E08247CC8ED",
+    "mocSha256": "8F0FDDA26564FB5871A3DF18BE17A417CA7D239114C5A1221B3361F45221BB48",
+    "drawableCount": 155
+  },
+  "anchors": [
+    {
+      "name": "head",
+      "anchorProfileId": "anon-school_summer-2023-semantic-v1-head-hair-compatible",
+      "drawableId": "D_PSD.107",
+      "vertexCount": 54,
+      "points": [
+        {
+          "index": 50,
+          "weight": 1,
+          "neutral": {
+            "x": 813.8334350585938,
+            "y": 382.4999694824219
+          }
+        },
+        {
+          "index": 52,
+          "weight": 1,
+          "neutral": {
+            "x": 904.2499389648438,
+            "y": 360.0000915527344
+          }
+        },
+        {
+          "index": 0,
+          "weight": 1,
+          "neutral": {
+            "x": 964.5350952148438,
+            "y": 347.5436706542969
+          }
+        },
+        {
+          "index": 26,
+          "weight": 1,
+          "neutral": {
+            "x": 1087.9998779296875,
+            "y": 322.5000305175781
+          }
+        },
+        {
+          "index": 27,
+          "weight": 1,
+          "neutral": {
+            "x": 1158,
+            "y": 356.2501525878906
+          }
+        }
+      ]
+    },
+    {
+      "name": "hair-top",
+      "anchorProfileId": "anon-school_summer-2023-semantic-v1-hair-top",
+      "drawableId": "D_PSD.107",
+      "vertexCount": 54,
+      "points": [
+        {
+          "index": 50,
+          "weight": 1,
+          "neutral": {
+            "x": 813.8334350585938,
+            "y": 382.4999694824219
+          }
+        },
+        {
+          "index": 52,
+          "weight": 1,
+          "neutral": {
+            "x": 904.2499389648438,
+            "y": 360.0000915527344
+          }
+        },
+        {
+          "index": 0,
+          "weight": 1,
+          "neutral": {
+            "x": 964.5350952148438,
+            "y": 347.5436706542969
+          }
+        },
+        {
+          "index": 26,
+          "weight": 1,
+          "neutral": {
+            "x": 1087.9998779296875,
+            "y": 322.5000305175781
+          }
+        },
+        {
+          "index": 27,
+          "weight": 1,
+          "neutral": {
+            "x": 1158,
+            "y": 356.2501525878906
+          }
+        }
+      ]
+    },
+    {
+      "name": "eyelid-upper-left",
+      "anchorProfileId": "anon-school_summer-2023-semantic-v1-eyelid-upper-left",
+      "drawableId": "D_PSD.80",
+      "vertexCount": 16,
+      "points": [
+        {
+          "index": 0,
+          "weight": 1,
+          "neutral": {
+            "x": 875.2816162109375,
+            "y": 656.5308837890625
+          }
+        },
+        {
+          "index": 2,
+          "weight": 1,
+          "neutral": {
+            "x": 910.1251220703125,
+            "y": 654.9685668945312
+          }
+        },
+        {
+          "index": 5,
+          "weight": 1,
+          "neutral": {
+            "x": 944.34375,
+            "y": 669.1874389648438
+          }
+        },
+        {
+          "index": 10,
+          "weight": 1,
+          "neutral": {
+            "x": 883.562744140625,
+            "y": 649.343505859375
+          }
+        },
+        {
+          "index": 11,
+          "weight": 1,
+          "neutral": {
+            "x": 883.5628051757812,
+            "y": 662.7808227539062
+          }
+        }
+      ]
+    },
+    {
+      "name": "eyelid-upper-right",
+      "anchorProfileId": "anon-school_summer-2023-semantic-v1-eyelid-upper-right",
+      "drawableId": "D_PSD.122",
+      "vertexCount": 16,
+      "points": [
+        {
+          "index": 0,
+          "weight": 1,
+          "neutral": {
+            "x": 1124.7183837890625,
+            "y": 656.5308837890625
+          }
+        },
+        {
+          "index": 1,
+          "weight": 1,
+          "neutral": {
+            "x": 1107.2183837890625,
+            "y": 655.5934448242188
+          }
+        },
+        {
+          "index": 2,
+          "weight": 1,
+          "neutral": {
+            "x": 1089.874755859375,
+            "y": 654.9685668945312
+          }
+        },
+        {
+          "index": 5,
+          "weight": 1,
+          "neutral": {
+            "x": 1055.6561279296875,
+            "y": 669.1874389648438
+          }
+        },
+        {
+          "index": 10,
+          "weight": 1,
+          "neutral": {
+            "x": 1116.4371337890625,
+            "y": 649.343505859375
+          }
+        }
+      ]
+    },
+    {
+      "name": "eye-center-left",
+      "anchorProfileId": "anon-school_summer-2023-semantic-v1-eye-center-left",
+      "drawableId": "D_PSD.55",
+      "vertexCount": 7,
+      "points": [
+        {
+          "index": 0,
+          "weight": 1,
+          "neutral": {
+            "x": 895.9995727539062,
+            "y": 764.0833129882812
+          }
+        },
+        {
+          "index": 3,
+          "weight": 1,
+          "neutral": {
+            "x": 898.0828247070312,
+            "y": 657.4163208007812
+          }
+        },
+        {
+          "index": 4,
+          "weight": 1,
+          "neutral": {
+            "x": 852.665771484375,
+            "y": 744.083251953125
+          }
+        },
+        {
+          "index": 5,
+          "weight": 1,
+          "neutral": {
+            "x": 853.4990234375,
+            "y": 681.5831298828125
+          }
+        },
+        {
+          "index": 6,
+          "weight": 1,
+          "neutral": {
+            "x": 897.0410766601562,
+            "y": 710.7539672851562
+          }
+        }
+      ]
+    },
+    {
+      "name": "eye-center-right",
+      "anchorProfileId": "anon-school_summer-2023-semantic-v1-eye-center-right",
+      "drawableId": "D_PSD.59",
+      "vertexCount": 7,
+      "points": [
+        {
+          "index": 0,
+          "weight": 1,
+          "neutral": {
+            "x": 1103.5833740234375,
+            "y": 656.1668701171875
+          }
+        },
+        {
+          "index": 1,
+          "weight": 1,
+          "neutral": {
+            "x": 1103.5833740234375,
+            "y": 765.7500610351562
+          }
+        },
+        {
+          "index": 4,
+          "weight": 1,
+          "neutral": {
+            "x": 1146.9166259765625,
+            "y": 682.8336181640625
+          }
+        },
+        {
+          "index": 5,
+          "weight": 1,
+          "neutral": {
+            "x": 1145.2501220703125,
+            "y": 745.7501831054688
+          }
+        },
+        {
+          "index": 6,
+          "weight": 1,
+          "neutral": {
+            "x": 1103.5833740234375,
+            "y": 712.0001220703125
+          }
+        }
+      ]
+    },
+    {
+      "name": "nose",
+      "anchorProfileId": "anon-school_summer-2023-semantic-v1-nose",
+      "drawableId": "D_PSD.105",
+      "vertexCount": 6,
+      "points": [
+        {
+          "index": 0,
+          "weight": 1,
+          "neutral": {
+            "x": 993.5204467773438,
+            "y": 815.00390625
+          }
+        },
+        {
+          "index": 1,
+          "weight": 1,
+          "neutral": {
+            "x": 983.2733764648438,
+            "y": 794.509765625
+          }
+        },
+        {
+          "index": 2,
+          "weight": 1,
+          "neutral": {
+            "x": 1000.1078491210938,
+            "y": 795.7906494140625
+          }
+        },
+        {
+          "index": 4,
+          "weight": 1,
+          "neutral": {
+            "x": 1016.0274047851562,
+            "y": 792.8629150390625
+          }
+        },
+        {
+          "index": 5,
+          "weight": 1,
+          "neutral": {
+            "x": 1000.1078491210938,
+            "y": 773.4666748046875
+          }
+        }
+      ]
+    },
+    {
+      "name": "mouth",
+      "anchorProfileId": "anon-school_summer-2023-semantic-v1-mouth",
+      "drawableId": "D_PSD.50",
+      "vertexCount": 55,
+      "points": [
+        {
+          "index": 13,
+          "weight": 1,
+          "neutral": {
+            "x": 980.265869140625,
+            "y": 864.5465087890625
+          }
+        },
+        {
+          "index": 16,
+          "weight": 1,
+          "neutral": {
+            "x": 1002.7656860351562,
+            "y": 868.2184448242188
+          }
+        },
+        {
+          "index": 28,
+          "weight": 1,
+          "neutral": {
+            "x": 998.7031860351562,
+            "y": 862.7496337890625
+          }
+        },
+        {
+          "index": 40,
+          "weight": 1,
+          "neutral": {
+            "x": 998.2344360351562,
+            "y": 875.0154418945312
+          }
+        },
+        {
+          "index": 42,
+          "weight": 1,
+          "neutral": {
+            "x": 1016.4374389648438,
+            "y": 871.812255859375
+          }
+        }
+      ]
+    },
+    {
+      "name": "ear-left",
+      "anchorProfileId": "anon-school_summer-2023-semantic-v1-ear-left",
+      "drawableId": "D_PSD.72",
+      "vertexCount": 12,
+      "points": [
+        {
+          "index": 0,
+          "weight": 1,
+          "neutral": {
+            "x": 767.9003295898438,
+            "y": 667.6728515625
+          }
+        },
+        {
+          "index": 1,
+          "weight": 1,
+          "neutral": {
+            "x": 788.2114868164062,
+            "y": 647.1787109375
+          }
+        },
+        {
+          "index": 2,
+          "weight": 1,
+          "neutral": {
+            "x": 791.6881713867188,
+            "y": 673.7113037109375
+          }
+        },
+        {
+          "index": 8,
+          "weight": 1,
+          "neutral": {
+            "x": 809.8035278320312,
+            "y": 664.01318359375
+          }
+        },
+        {
+          "index": 11,
+          "weight": 1,
+          "neutral": {
+            "x": 815.8419799804688,
+            "y": 715.0654907226562
+          }
+        }
+      ]
+    },
+    {
+      "name": "ear-right",
+      "anchorProfileId": "anon-school_summer-2023-semantic-v1-ear-right",
+      "drawableId": "D_PSD.73",
+      "vertexCount": 13,
+      "points": [
+        {
+          "index": 0,
+          "weight": 1,
+          "neutral": {
+            "x": 1208.8330078125,
+            "y": 593.4716796875
+          }
+        },
+        {
+          "index": 6,
+          "weight": 1,
+          "neutral": {
+            "x": 1181.3853759765625,
+            "y": 715.8875732421875
+          }
+        },
+        {
+          "index": 9,
+          "weight": 1,
+          "neutral": {
+            "x": 1210.1138916015625,
+            "y": 664.835205078125
+          }
+        },
+        {
+          "index": 10,
+          "weight": 1,
+          "neutral": {
+            "x": 1191.449462890625,
+            "y": 648.1837158203125
+          }
+        },
+        {
+          "index": 12,
+          "weight": 1,
+          "neutral": {
+            "x": 1212.6756591796875,
+            "y": 635.7408447265625
+          }
+        }
+      ]
+    },
+    {
+      "name": "chin",
+      "anchorProfileId": "anon-school_summer-2023-semantic-v1-chin",
+      "drawableId": "D_PSD.38",
+      "vertexCount": 32,
+      "points": [
+        {
+          "index": 6,
+          "weight": 1,
+          "neutral": {
+            "x": 1000.6577758789062,
+            "y": 1042.947998046875
+          }
+        },
+        {
+          "index": 13,
+          "weight": 1,
+          "neutral": {
+            "x": 999.43310546875,
+            "y": 998.8619995117188
+          }
+        },
+        {
+          "index": 14,
+          "weight": 1,
+          "neutral": {
+            "x": 1036.17138671875,
+            "y": 976.8189697265625
+          }
+        },
+        {
+          "index": 19,
+          "weight": 1,
+          "neutral": {
+            "x": 963.3072509765625,
+            "y": 939.4686279296875
+          }
+        },
+        {
+          "index": 26,
+          "weight": 1,
+          "neutral": {
+            "x": 926.1754150390625,
+            "y": 1027.530029296875
+          }
+        }
+      ]
+    }
+  ]
+}

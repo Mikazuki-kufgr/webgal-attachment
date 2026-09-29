@@ -1,0 +1,347 @@
+import { ConsoleLogger, Injectable, NotFoundException } from '@nestjs/common';
+import { IFileInfo, WebgalFsService } from '../webgal-fs/webgal-fs.service';
+import * as fsp from 'fs/promises';
+import { webgalParser } from '../../util/webgal-parser';
+import { version_number } from '../../version';
+import { TemplateConfigDto, TemplateInfoDto } from './manage-template.dto';
+import { randomUUID } from 'crypto';
+import { UserDataService } from '../user-data/user-data.service';
+import { _open } from '../../util/open';
+import { dirname } from 'path';
+
+@Injectable()
+export class ManageTemplateService {
+  constructor(
+    private readonly logger: ConsoleLogger,
+    private readonly webgalFs: WebgalFsService,
+  ) {}
+
+  private async templateDirExists(templateDir: string): Promise<boolean> {
+    try {
+      if (!this.isSafeTemplateDirName(templateDir)) {
+        return false;
+      }
+      return await this.webgalFs.existsDir(
+        UserDataService.getTemplateRoot(templateDir),
+      );
+    } catch {
+      return false;
+    }
+  }
+
+  private isSafeTemplateDirName(templateDir: string): boolean {
+    return (
+      templateDir.length > 0 &&
+      templateDir !== '.' &&
+      templateDir !== '..' &&
+      WebgalFsService.checkFileName(templateDir)
+    );
+  }
+
+  /**
+   * 获取模板列表
+   */
+  async getTemplateList(): Promise<TemplateInfoDto[]> {
+    await this.webgalFs.mkdir(UserDataService.getUserTemplateRoot(), '');
+    const userTemplateRoot = UserDataService.getUserTemplateRoot();
+    const installTemplateRoot =
+      UserDataService.getInstallPath('public/templates');
+    const userTemplates = (await this.webgalFs.existsDir(userTemplateRoot))
+      ? await this.webgalFs.getDirInfo(userTemplateRoot)
+      : [];
+    const installTemplates = (await this.webgalFs.existsDir(
+      installTemplateRoot,
+    ))
+      ? await this.webgalFs.getDirInfo(installTemplateRoot)
+      : [];
+    const userTemplateNames = new Set(
+      userTemplates.filter((file) => file.isDir).map((file) => file.name),
+    );
+    const installTemplateNames = new Set(
+      installTemplates.filter((file) => file.isDir).map((file) => file.name),
+    );
+    const templateDirs = new Map<string, IFileInfo>();
+    installTemplates
+      .filter((file) => file.isDir)
+      .forEach((file) => templateDirs.set(file.name, file));
+    userTemplates
+      .filter((file) => file.isDir)
+      .forEach((file) => templateDirs.set(file.name, file));
+    const fileInfo = Array.from(templateDirs.values());
+    const defaultTemplate = await this.getDefaultTemplateInfo();
+    const templateList: Promise<TemplateInfoDto>[] = fileInfo
+      .filter((file) => file.isDir)
+      .filter((file) => file.name !== UserDataService.getDefaultTemplateDir())
+      .map(async (item): Promise<TemplateInfoDto> => {
+        try {
+          const templateConfig: TemplateConfigDto =
+            await this.getTemplateConfig(item.name);
+          return {
+            ...templateConfig,
+            dir: item.name,
+            builtIn:
+              installTemplateNames.has(item.name) &&
+              !userTemplateNames.has(item.name),
+          };
+        } catch {
+          return null;
+        }
+      });
+    return [defaultTemplate, ...(await Promise.all(templateList))].filter(
+      (e): e is TemplateInfoDto => e !== null,
+    );
+  }
+
+  private async getDefaultTemplateInfo(): Promise<TemplateInfoDto | null> {
+    try {
+      const templateConfig = await this.getTemplateConfig(
+        UserDataService.getDefaultTemplateDir(),
+      );
+      return {
+        ...templateConfig,
+        dir: UserDataService.getDefaultTemplateDir(),
+        builtIn: true,
+      };
+    } catch {
+      return null;
+    }
+  }
+
+  /**
+   * 创建模板
+   * @param templateName 模板名称
+   * @param templateDir 模板文件夹
+   */
+  async createTemplate(
+    templateName: string,
+    templateDir: string,
+  ): Promise<boolean> {
+    // 检查是否存在这个模板
+    const checkDir = await this.getTemplateList();
+    let isThisTemplateExist = false;
+    checkDir.forEach((e) => {
+      const info = e as TemplateInfoDto;
+      if (info.dir === templateDir) {
+        isThisTemplateExist = true;
+      }
+    });
+    if (isThisTemplateExist) {
+      return false;
+    }
+    // 创建文件夹
+    await this.webgalFs.mkdir(
+      UserDataService.getUserTemplateRoot(),
+      templateDir,
+    );
+    // 递归复制
+    await this.webgalFs.copy(
+      this.webgalFs.getPathFromRoot(
+        '/assets/templates/WebGAL_Default_Template/',
+      ),
+      UserDataService.getUserTemplateRoot(templateDir),
+    );
+
+    /**
+     * 把模板配置文件的名称改一下
+     */
+    const templateConfig: TemplateConfigDto = {
+      name: templateName,
+      id: randomUUID(),
+      'webgal-version': version_number,
+    };
+
+    const templateConfigText = JSON.stringify(templateConfig, undefined, 2);
+
+    // 写一下文件系统
+    await this.webgalFs.updateTextFile(
+      this.webgalFs.getPathFromRoot(
+        `/public/templates/${templateDir}/template.json`,
+      ),
+      templateConfigText,
+    );
+
+    return true;
+  }
+
+  /**
+   * 获取模板配置
+   * @param templateDir 模板文件夹
+   */
+  async getTemplateConfig(templateDir: string): Promise<TemplateConfigDto> {
+    const configFilePath = this.webgalFs.getPathFromRoot(
+      `/public/templates/${templateDir}/template.json`,
+    );
+    const templateConfigString = await this.webgalFs.readTextFile(
+      configFilePath,
+    );
+    const templateConfig: TemplateConfigDto = JSON.parse(
+      templateConfigString as string,
+    );
+    return templateConfig;
+  }
+
+  /**
+   * 更新模板配置
+   * @param templateDir 模板文件夹
+   * @param newTemplateConfig 模板配置
+   */
+  async updateTemplateConfig(
+    templateDir: string,
+    newTemplateConfig: TemplateConfigDto,
+  ): Promise<boolean> {
+    const templateConfig = await this.getTemplateConfig(templateDir);
+
+    if (!templateConfig) {
+      return false;
+    }
+
+    const newConfig = { ...templateConfig, ...newTemplateConfig };
+
+    const templateConfigText = JSON.stringify(newConfig, undefined, 2);
+
+    await this.webgalFs.updateTextFile(
+      this.webgalFs.getPathFromRoot(
+        `/public/templates/${templateDir}/template.json`,
+      ),
+      templateConfigText,
+    );
+
+    return true;
+  }
+
+  /**
+   * 删除模板
+   * @param templateDir 模板名称
+   * @param isTrash 是否移动到回收站
+   */
+  async deleteTemplate(templateDir: string, isTrash = false): Promise<boolean> {
+    const templatePath = this.webgalFs.getPathFromRoot(
+      `/public/templates/${templateDir}`,
+    );
+    if (templatePath !== UserDataService.getUserTemplateRoot(templateDir)) {
+      return false;
+    }
+    if (isTrash) {
+      return this.webgalFs.trashFileOrDirectory(templatePath);
+    }
+    return this.webgalFs.deleteFileOrDirectory(templatePath);
+  }
+
+  /**
+   * 应用模板到游戏
+   * @param templateDir 模板文件夹
+   * @param gameDir 游戏文件夹
+   */
+  async applyTemplateToGame(
+    templateDir: string,
+    gameDir: string,
+  ): Promise<boolean> {
+    try {
+      // 删除指定游戏的模板
+      await this.webgalFs.deleteFileOrDirectory(
+        this.webgalFs.getPathFromRoot(`public/games/${gameDir}/game/template`),
+      );
+
+      // 递归复制指定的模板到游戏
+      await this.webgalFs.copy(
+        this.webgalFs.getPathFromRoot(`/public/templates/${templateDir}/`),
+        this.webgalFs.getPathFromRoot(`public/games/${gameDir}/game/template/`),
+      );
+
+      return true;
+    } catch (e) {
+      this.logger.error(e);
+      return false;
+    }
+  }
+
+  /**
+   * 获取某个模板文件下的类
+   * @param path path 形如 templateName/UI/xxx.scss
+   * @param className 某个类
+   */
+  async getStyleByClass(path: string, className: string): Promise<string> {
+    const targetPath = this.webgalFs.getPathFromRoot(`/public/${path}`);
+
+    if (!(await this.webgalFs.exists(targetPath))) {
+      await this.webgalFs.createEmptyFile(targetPath);
+    }
+
+    const file = await fsp.readFile(targetPath);
+    const str = file.toString();
+    const classes = webgalParser.parseScssToWebgalStyleObj(str);
+    const classNameStyle = classes.classNameStyles?.[className];
+    if (!className) {
+      throw new NotFoundException();
+    }
+    return classNameStyle as string;
+  }
+
+  /**
+   * 导出模板zip
+   * @param templateDir 模板目录
+   */
+  async outputTemplate(templateDir: string): Promise<boolean> {
+    if (!this.isSafeTemplateDirName(templateDir)) {
+      return false;
+    }
+
+    if (!(await this.templateDirExists(templateDir))) {
+      return false;
+    }
+
+    const templatePath = UserDataService.getTemplateRoot(templateDir);
+    const outputPath = UserDataService.getUserTemplateRoot(
+      `${templateDir}.zip`,
+    );
+
+    const res = await this.webgalFs.compressedDirectory(
+      templatePath,
+      outputPath,
+      'zip',
+    );
+
+    if (res) {
+      _open(dirname(outputPath), { background: false });
+    }
+
+    return res;
+  }
+
+  /**
+   * 导入模板zip
+   * @param source 模板zip
+   */
+  async importTemplate(source: string | Buffer): Promise<boolean> {
+    const metaRaw = this.webgalFs.readFileInZipToBuffer(
+      source,
+      'template.json',
+    );
+    if (!metaRaw) return false;
+
+    let meta: TemplateConfigDto;
+    try {
+      meta = JSON.parse(metaRaw.toString()) as TemplateConfigDto;
+    } catch (error) {
+      this.logger.error('Failed to parse template.json from zip', error);
+      return false;
+    }
+
+    const templateDir = meta.name?.trim();
+
+    if (!templateDir || !this.isSafeTemplateDirName(templateDir)) {
+      return false;
+    }
+
+    if (await this.templateDirExists(templateDir)) {
+      return false;
+    }
+
+    const res = await this.webgalFs.decompressedDirectory(
+      source,
+      UserDataService.getUserTemplateRoot(templateDir),
+    );
+
+    return res;
+  }
+}

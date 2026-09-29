@@ -1,0 +1,36 @@
+.item {
+  padding: 4px 4px;
+  //margin: 0 0 0 8px;
+  display: flex;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-flow: column;
+  border-radius: var(--radius-md);
+}
+
+.item:hover{
+  background: var(--bg-button-hover);
+}
+
+.title {
+  text-align: left;
+  color: var(--text-weak);
+  font-weight: bold;
+  font-size: 95%;
+}
+
+//.item:last-child {
+//  border-right: none;
+//}
+//
+//.item:first-child {
+//  border-left: none;
+//  margin: 0 0 0 0;
+//}
+
+.content {
+  flex: 1;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}

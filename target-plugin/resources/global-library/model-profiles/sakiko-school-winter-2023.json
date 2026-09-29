@@ -1,0 +1,56 @@
+{
+  "schema": "webgal-live2d-model-profile",
+  "schemaVersion": 1,
+  "profileVersion": 1,
+  "modelProfileId": "sakiko-school-winter-2023",
+  "characterId": "sakiko",
+  "modelId": "school_winter-2023",
+  "modelPath": "./game/figure/sakiko/school_winter-2023/model.json",
+  "fingerprint": {
+    "modelJsonSha256": "9881E954D99CAF496A5F2CD17A8792ECAD1DE99B6F1E5DCC46EB1865538320AF",
+    "mocSha256": "E3A814854AFBD270162C6AAC75FABC69B3398A0829C188D200CAA72A1E11215C",
+    "drawableCount": 209
+  },
+  "anchors": [
+    {
+      "name": "head",
+      "anchorProfileId": "sakiko-head-dpsd177-v1",
+      "drawableId": "D_PSD.177",
+      "vertexCount": 45,
+      "points": [
+        {
+          "index": 40,
+          "weight": 1,
+          "neutral": {
+            "x": 828.9794921875,
+            "y": 480.7065734863281
+          }
+        },
+        {
+          "index": 41,
+          "weight": 1,
+          "neutral": {
+            "x": 937.3056640625,
+            "y": 415.5644836425781
+          }
+        },
+        {
+          "index": 42,
+          "weight": 1,
+          "neutral": {
+            "x": 1063.1982421875,
+            "y": 417.0283508300781
+          }
+        },
+        {
+          "index": 43,
+          "weight": 1,
+          "neutral": {
+            "x": 1164.205078125,
+            "y": 474.1190490722656
+          }
+        }
+      ]
+    }
+  ]
+}

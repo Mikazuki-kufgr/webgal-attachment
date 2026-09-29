@@ -1,0 +1,61 @@
+.toolbar {
+  border-top: var(--border-sm);
+  display: flex;
+  align-items: center;
+  height: 28px;
+  padding: 0 8px;
+  gap: 8px;
+  background: var(--bg-card);
+}
+
+.toolbar_button {
+  padding: 0 6px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--text);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px; /* 133.333% */
+  cursor: pointer;
+  -webkit-user-select: none;
+  user-select: none;
+  text-wrap: nowrap;
+}
+
+.toolbar_button:hover {
+  background: var(--bg-button-hover);
+}
+
+.toolbar_button_active {
+  background: var(--bg-button-hover);
+  color: var(--primary);
+}
+
+.saveStatus {
+  max-width: 420px;
+  overflow: hidden;
+  color: var(--text);
+  font-size: 12px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.saveError {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 10px 12px;
+  border: 1px solid var(--danger, #d83b3b);
+  background: var(--bg-card);
+  color: var(--danger, #d83b3b);
+  font-size: 13px;
+  overflow-wrap: anywhere;
+}
+
+.active {
+  background: var(--bg-button-hover);
+}

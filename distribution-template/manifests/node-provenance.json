@@ -1,0 +1,10 @@
+{
+  "schema": "webgal-attachment-bundled-node",
+  "schemaVersion": 1,
+  "version": "v24.19.0",
+  "bytes": 92825416,
+  "sha256": "3602F2BB1A10F2CBAB4C36886218A33C1AB3DB87290E73B033C46C77147D0237",
+  "sourceClass": "OFFICIAL_NODE_WIN_X64_PINNED_SHA256",
+  "redistributionStatus": "OFFICIAL_LICENSE_INCLUDED_PUBLISHER_RELEASE_PENDING",
+  "officialChecksumUrl": "https://nodejs.org/dist/v24.19.0/SHASUMS256.txt"
+}

@@ -1,0 +1,8 @@
+*.md
+*.css
+*.scss
+*.otf
+*.svg
+*.ttf
+*.ico
+src/config/*

@@ -1,0 +1,28 @@
+{
+  "schema": "webgal-attachment-creator-export-manifest",
+  "schemaVersion": 1,
+  "toolVersion": "factory-sample-v1",
+  "createdAt": "2026-09-24T00:00:00.000Z",
+  "attachmentDefinitionId": "builtin-halo-front-v1",
+  "presetId": "v2/halo-front-v1",
+  "modelProfileId": "webgal-attachment-plugin-v0.1-anon-profile",
+  "anchorName": "head",
+  "displayName": "光环",
+  "files": [
+    {
+      "path": "game/attachments-v2/portable/halo-front-v1/images/front.png",
+      "bytes": 1283951,
+      "sha256": "564544D1D77C239F7117D8B28A209BD9CE976F1CBC6AE92FD5A09B3AD46811A3"
+    },
+    {
+      "path": "game/attachments-v2/portable/halo-front-v1/attachment.json",
+      "bytes": 6045,
+      "sha256": "EC311732877D2390B551D529232B0DC4092CB2EBF4DC1578C0780C1347DCDBF9"
+    },
+    {
+      "path": "game/attachments-v2/portable/halo-front-v1/使用说明.txt",
+      "bytes": 320,
+      "sha256": "7C8581622C4455BA6EED7476E8CE079CE96C2DE9F0000D432F760525AE7FF73A"
+    }
+  ]
+}

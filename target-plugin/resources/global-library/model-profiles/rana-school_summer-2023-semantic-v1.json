@@ -1,0 +1,544 @@
+{
+  "schema": "webgal-live2d-model-profile",
+  "schemaVersion": 1,
+  "profileVersion": 1,
+  "modelProfileId": "rana-school_summer-2023-semantic-v1",
+  "characterId": "rana",
+  "modelId": "school_summer-2023",
+  "modelPath": "./game/figure/rana/school_summer-2023/model.json",
+  "fingerprint": {
+    "modelJsonSha256": "A858A496BFFE9745E41F69A99C6FF6DB1F2E9B27313773107B1FEC9245E2EF05",
+    "mocSha256": "277CBE64FA2450AE4A85F948482E5E0D2A68A2D827425F734433978733C8AB1D",
+    "drawableCount": 157
+  },
+  "anchors": [
+    {
+      "name": "head",
+      "anchorProfileId": "rana-school_summer-2023-semantic-v1-head-hair-compatible",
+      "drawableId": "D_PSD.121",
+      "vertexCount": 58,
+      "points": [
+        {
+          "index": 53,
+          "weight": 1,
+          "neutral": {
+            "x": 817.5838623046875,
+            "y": 486.66705322265625
+          }
+        },
+        {
+          "index": 55,
+          "weight": 1,
+          "neutral": {
+            "x": 925.9172973632812,
+            "y": 444.1669921875
+          }
+        },
+        {
+          "index": 56,
+          "weight": 1,
+          "neutral": {
+            "x": 1001.7506103515625,
+            "y": 440.8336181640625
+          }
+        },
+        {
+          "index": 46,
+          "weight": 1,
+          "neutral": {
+            "x": 1055.083984375,
+            "y": 442.50018310546875
+          }
+        },
+        {
+          "index": 45,
+          "weight": 1,
+          "neutral": {
+            "x": 1202.583984375,
+            "y": 504.1663818359375
+          }
+        }
+      ]
+    },
+    {
+      "name": "hair-top",
+      "anchorProfileId": "rana-school_summer-2023-semantic-v1-hair-top",
+      "drawableId": "D_PSD.121",
+      "vertexCount": 58,
+      "points": [
+        {
+          "index": 53,
+          "weight": 1,
+          "neutral": {
+            "x": 817.5838623046875,
+            "y": 486.66705322265625
+          }
+        },
+        {
+          "index": 55,
+          "weight": 1,
+          "neutral": {
+            "x": 925.9172973632812,
+            "y": 444.1669921875
+          }
+        },
+        {
+          "index": 56,
+          "weight": 1,
+          "neutral": {
+            "x": 1001.7506103515625,
+            "y": 440.8336181640625
+          }
+        },
+        {
+          "index": 46,
+          "weight": 1,
+          "neutral": {
+            "x": 1055.083984375,
+            "y": 442.50018310546875
+          }
+        },
+        {
+          "index": 45,
+          "weight": 1,
+          "neutral": {
+            "x": 1202.583984375,
+            "y": 504.1663818359375
+          }
+        }
+      ]
+    },
+    {
+      "name": "eyelid-upper-left",
+      "anchorProfileId": "rana-school_summer-2023-semantic-v1-eyelid-upper-left",
+      "drawableId": "D_PSD.58",
+      "vertexCount": 48,
+      "points": [
+        {
+          "index": 36,
+          "weight": 1,
+          "neutral": {
+            "x": 904.6561889648438,
+            "y": 805.7293090820312
+          }
+        },
+        {
+          "index": 37,
+          "weight": 1,
+          "neutral": {
+            "x": 894.9686889648438,
+            "y": 804.010498046875
+          }
+        },
+        {
+          "index": 38,
+          "weight": 1,
+          "neutral": {
+            "x": 871.3750610351562,
+            "y": 804.166748046875
+          }
+        },
+        {
+          "index": 39,
+          "weight": 1,
+          "neutral": {
+            "x": 883.875,
+            "y": 803.541748046875
+          }
+        },
+        {
+          "index": 40,
+          "weight": 1,
+          "neutral": {
+            "x": 857.9376220703125,
+            "y": 807.2916870117188
+          }
+        }
+      ]
+    },
+    {
+      "name": "eyelid-upper-right",
+      "anchorProfileId": "rana-school_summer-2023-semantic-v1-eyelid-upper-right",
+      "drawableId": "D_PSD.92",
+      "vertexCount": 31,
+      "points": [
+        {
+          "index": 5,
+          "weight": 1,
+          "neutral": {
+            "x": 1151.1251220703125,
+            "y": 766.91650390625
+          }
+        },
+        {
+          "index": 8,
+          "weight": 1,
+          "neutral": {
+            "x": 1136.1251220703125,
+            "y": 765.5103149414062
+          }
+        },
+        {
+          "index": 11,
+          "weight": 1,
+          "neutral": {
+            "x": 1121.750244140625,
+            "y": 764.8853149414062
+          }
+        },
+        {
+          "index": 15,
+          "weight": 1,
+          "neutral": {
+            "x": 1101.125244140625,
+            "y": 759.2603149414062
+          }
+        },
+        {
+          "index": 20,
+          "weight": 1,
+          "neutral": {
+            "x": 1081.9063720703125,
+            "y": 770.0416259765625
+          }
+        }
+      ]
+    },
+    {
+      "name": "eye-center-left",
+      "anchorProfileId": "rana-school_summer-2023-semantic-v1-eye-center-left",
+      "drawableId": "D_PSD.47",
+      "vertexCount": 9,
+      "points": [
+        {
+          "index": 0,
+          "weight": 1,
+          "neutral": {
+            "x": 893.3748168945312,
+            "y": 802.0414428710938
+          }
+        },
+        {
+          "index": 1,
+          "weight": 1,
+          "neutral": {
+            "x": 896.4999389648438,
+            "y": 852.35400390625
+          }
+        },
+        {
+          "index": 3,
+          "weight": 1,
+          "neutral": {
+            "x": 855.8748168945312,
+            "y": 821.10400390625
+          }
+        },
+        {
+          "index": 5,
+          "weight": 1,
+          "neutral": {
+            "x": 848.3748779296875,
+            "y": 856.4165649414062
+          }
+        },
+        {
+          "index": 8,
+          "weight": 1,
+          "neutral": {
+            "x": 865.5625,
+            "y": 891.1039428710938
+          }
+        }
+      ]
+    },
+    {
+      "name": "eye-center-right",
+      "anchorProfileId": "rana-school_summer-2023-semantic-v1-eye-center-right",
+      "drawableId": "D_PSD.51",
+      "vertexCount": 9,
+      "points": [
+        {
+          "index": 1,
+          "weight": 1,
+          "neutral": {
+            "x": 1102.9688720703125,
+            "y": 850.6348266601562
+          }
+        },
+        {
+          "index": 2,
+          "weight": 1,
+          "neutral": {
+            "x": 1101.5626220703125,
+            "y": 901.7286376953125
+          }
+        },
+        {
+          "index": 5,
+          "weight": 1,
+          "neutral": {
+            "x": 1069.0625,
+            "y": 813.916015625
+          }
+        },
+        {
+          "index": 6,
+          "weight": 1,
+          "neutral": {
+            "x": 1138.75,
+            "y": 815.166259765625
+          }
+        },
+        {
+          "index": 7,
+          "weight": 1,
+          "neutral": {
+            "x": 1150.3126220703125,
+            "y": 856.1036987304688
+          }
+        }
+      ]
+    },
+    {
+      "name": "nose",
+      "anchorProfileId": "rana-school_summer-2023-semantic-v1-nose",
+      "drawableId": "D_PSD.118",
+      "vertexCount": 6,
+      "points": [
+        {
+          "index": 1,
+          "weight": 1,
+          "neutral": {
+            "x": 983.2734375,
+            "y": 929.1761474609375
+          }
+        },
+        {
+          "index": 2,
+          "weight": 1,
+          "neutral": {
+            "x": 1000.10791015625,
+            "y": 930.45703125
+          }
+        },
+        {
+          "index": 3,
+          "weight": 1,
+          "neutral": {
+            "x": 1008.89111328125,
+            "y": 949.121337890625
+          }
+        },
+        {
+          "index": 4,
+          "weight": 1,
+          "neutral": {
+            "x": 1016.0274658203125,
+            "y": 927.529296875
+          }
+        },
+        {
+          "index": 5,
+          "weight": 1,
+          "neutral": {
+            "x": 1000.10791015625,
+            "y": 908.133056640625
+          }
+        }
+      ]
+    },
+    {
+      "name": "mouth",
+      "anchorProfileId": "rana-school_summer-2023-semantic-v1-mouth",
+      "drawableId": "D_PSD.33",
+      "vertexCount": 25,
+      "points": [
+        {
+          "index": 1,
+          "weight": 1,
+          "neutral": {
+            "x": 999.340576171875,
+            "y": 997.54736328125
+          }
+        },
+        {
+          "index": 4,
+          "weight": 1,
+          "neutral": {
+            "x": 979.386962890625,
+            "y": 994.96337890625
+          }
+        },
+        {
+          "index": 7,
+          "weight": 1,
+          "neutral": {
+            "x": 1019.4517822265625,
+            "y": 994.0723266601562
+          }
+        },
+        {
+          "index": 17,
+          "weight": 1,
+          "neutral": {
+            "x": 988.0451049804688,
+            "y": 1015.1533203125
+          }
+        },
+        {
+          "index": 23,
+          "weight": 1,
+          "neutral": {
+            "x": 1016.1295166015625,
+            "y": 1015.5855712890625
+          }
+        }
+      ]
+    },
+    {
+      "name": "ear-left",
+      "anchorProfileId": "rana-school_summer-2023-semantic-v1-ear-left",
+      "drawableId": "D_PSD.72",
+      "vertexCount": 12,
+      "points": [
+        {
+          "index": 0,
+          "weight": 1,
+          "neutral": {
+            "x": 767.9004516601562,
+            "y": 802.3392333984375
+          }
+        },
+        {
+          "index": 2,
+          "weight": 1,
+          "neutral": {
+            "x": 791.688232421875,
+            "y": 808.377685546875
+          }
+        },
+        {
+          "index": 9,
+          "weight": 1,
+          "neutral": {
+            "x": 788.760498046875,
+            "y": 834.1782836914062
+          }
+        },
+        {
+          "index": 10,
+          "weight": 1,
+          "neutral": {
+            "x": 814.744140625,
+            "y": 829.4207153320312
+          }
+        },
+        {
+          "index": 11,
+          "weight": 1,
+          "neutral": {
+            "x": 815.842041015625,
+            "y": 849.7318725585938
+          }
+        }
+      ]
+    },
+    {
+      "name": "ear-right",
+      "anchorProfileId": "rana-school_summer-2023-semantic-v1-ear-right",
+      "drawableId": "D_PSD.73",
+      "vertexCount": 13,
+      "points": [
+        {
+          "index": 0,
+          "weight": 1,
+          "neutral": {
+            "x": 1208.8330078125,
+            "y": 728.1380615234375
+          }
+        },
+        {
+          "index": 9,
+          "weight": 1,
+          "neutral": {
+            "x": 1210.1138916015625,
+            "y": 799.5015869140625
+          }
+        },
+        {
+          "index": 10,
+          "weight": 1,
+          "neutral": {
+            "x": 1191.4495849609375,
+            "y": 782.85009765625
+          }
+        },
+        {
+          "index": 11,
+          "weight": 1,
+          "neutral": {
+            "x": 1231.3399658203125,
+            "y": 781.9351806640625
+          }
+        },
+        {
+          "index": 12,
+          "weight": 1,
+          "neutral": {
+            "x": 1212.6756591796875,
+            "y": 770.4072265625
+          }
+        }
+      ]
+    },
+    {
+      "name": "chin",
+      "anchorProfileId": "rana-school_summer-2023-semantic-v1-chin",
+      "drawableId": "D_PSD.127",
+      "vertexCount": 20,
+      "points": [
+        {
+          "index": 1,
+          "weight": 1,
+          "neutral": {
+            "x": 965.6678466796875,
+            "y": 945.8330078125
+          }
+        },
+        {
+          "index": 6,
+          "weight": 1,
+          "neutral": {
+            "x": 903.1683349609375,
+            "y": 1084.9991455078125
+          }
+        },
+        {
+          "index": 8,
+          "weight": 1,
+          "neutral": {
+            "x": 932.3343505859375,
+            "y": 1163.3323974609375
+          }
+        },
+        {
+          "index": 13,
+          "weight": 1,
+          "neutral": {
+            "x": 1004.000244140625,
+            "y": 1164.999267578125
+          }
+        },
+        {
+          "index": 15,
+          "weight": 1,
+          "neutral": {
+            "x": 1009.8336181640625,
+            "y": 1072.49951171875
+          }
+        }
+      ]
+    }
+  ]
+}

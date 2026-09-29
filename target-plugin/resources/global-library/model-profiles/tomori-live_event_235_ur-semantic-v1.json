@@ -1,0 +1,544 @@
+{
+  "schema": "webgal-live2d-model-profile",
+  "schemaVersion": 1,
+  "profileVersion": 1,
+  "modelProfileId": "tomori-live_event_235_ur-semantic-v1",
+  "characterId": "tomori",
+  "modelId": "live_event_235_ur",
+  "modelPath": "./game/figure/tomori/live_event_235_ur/model.json",
+  "fingerprint": {
+    "modelJsonSha256": "B98BC94EF9CD908785A2F80C6674F229CA1E460CC68DEAC257B112DC37C9D2EA",
+    "mocSha256": "B10D0358B810A41C5FC1F92219C5C8C1D2FCF75230A700A1D4C3E1ED89E039B5",
+    "drawableCount": 269
+  },
+  "anchors": [
+    {
+      "name": "head",
+      "anchorProfileId": "tomori-live_event_235_ur-semantic-v1-head-hair-compatible",
+      "drawableId": "D_PSD.127",
+      "vertexCount": 54,
+      "points": [
+        {
+          "index": 6,
+          "weight": 1,
+          "neutral": {
+            "x": 849.1481323242188,
+            "y": 371.80548095703125
+          }
+        },
+        {
+          "index": 40,
+          "weight": 1,
+          "neutral": {
+            "x": 991.9133911132812,
+            "y": 330.7486572265625
+          }
+        },
+        {
+          "index": 44,
+          "weight": 1,
+          "neutral": {
+            "x": 1077.759033203125,
+            "y": 376.0040283203125
+          }
+        },
+        {
+          "index": 37,
+          "weight": 1,
+          "neutral": {
+            "x": 1116.016357421875,
+            "y": 343.34539794921875
+          }
+        },
+        {
+          "index": 1,
+          "weight": 1,
+          "neutral": {
+            "x": 1187.39892578125,
+            "y": 380.6695861816406
+          }
+        }
+      ]
+    },
+    {
+      "name": "hair-top",
+      "anchorProfileId": "tomori-live_event_235_ur-semantic-v1-hair-top",
+      "drawableId": "D_PSD.127",
+      "vertexCount": 54,
+      "points": [
+        {
+          "index": 6,
+          "weight": 1,
+          "neutral": {
+            "x": 849.1481323242188,
+            "y": 371.80548095703125
+          }
+        },
+        {
+          "index": 40,
+          "weight": 1,
+          "neutral": {
+            "x": 991.9133911132812,
+            "y": 330.7486572265625
+          }
+        },
+        {
+          "index": 44,
+          "weight": 1,
+          "neutral": {
+            "x": 1077.759033203125,
+            "y": 376.0040283203125
+          }
+        },
+        {
+          "index": 37,
+          "weight": 1,
+          "neutral": {
+            "x": 1116.016357421875,
+            "y": 343.34539794921875
+          }
+        },
+        {
+          "index": 1,
+          "weight": 1,
+          "neutral": {
+            "x": 1187.39892578125,
+            "y": 380.6695861816406
+          }
+        }
+      ]
+    },
+    {
+      "name": "eyelid-upper-left",
+      "anchorProfileId": "tomori-live_event_235_ur-semantic-v1-eyelid-upper-left",
+      "drawableId": "D_PSD.65",
+      "vertexCount": 44,
+      "points": [
+        {
+          "index": 28,
+          "weight": 1,
+          "neutral": {
+            "x": 869.25,
+            "y": 690.8330078125
+          }
+        },
+        {
+          "index": 32,
+          "weight": 1,
+          "neutral": {
+            "x": 853.0001831054688,
+            "y": 698.3330688476562
+          }
+        },
+        {
+          "index": 34,
+          "weight": 1,
+          "neutral": {
+            "x": 844.375244140625,
+            "y": 702.9580688476562
+          }
+        },
+        {
+          "index": 38,
+          "weight": 1,
+          "neutral": {
+            "x": 830.5629272460938,
+            "y": 711.2080688476562
+          }
+        },
+        {
+          "index": 42,
+          "weight": 1,
+          "neutral": {
+            "x": 819.9380493164062,
+            "y": 718.1455078125
+          }
+        }
+      ]
+    },
+    {
+      "name": "eyelid-upper-right",
+      "anchorProfileId": "tomori-live_event_235_ur-semantic-v1-eyelid-upper-right",
+      "drawableId": "D_PSD.86",
+      "vertexCount": 44,
+      "points": [
+        {
+          "index": 19,
+          "weight": 1,
+          "neutral": {
+            "x": 1052.0625,
+            "y": 689.9579467773438
+          }
+        },
+        {
+          "index": 21,
+          "weight": 1,
+          "neutral": {
+            "x": 1063.125,
+            "y": 686.3329467773438
+          }
+        },
+        {
+          "index": 22,
+          "weight": 1,
+          "neutral": {
+            "x": 1069.6875,
+            "y": 684.8329467773438
+          }
+        },
+        {
+          "index": 23,
+          "weight": 1,
+          "neutral": {
+            "x": 1077.4375,
+            "y": 683.8954467773438
+          }
+        },
+        {
+          "index": 24,
+          "weight": 1,
+          "neutral": {
+            "x": 1086.125,
+            "y": 683.2704467773438
+          }
+        }
+      ]
+    },
+    {
+      "name": "eye-center-left",
+      "anchorProfileId": "tomori-live_event_235_ur-semantic-v1-eye-center-left",
+      "drawableId": "D_PSD.46",
+      "vertexCount": 9,
+      "points": [
+        {
+          "index": 0,
+          "weight": 1,
+          "neutral": {
+            "x": 896.57177734375,
+            "y": 798.905029296875
+          }
+        },
+        {
+          "index": 1,
+          "weight": 1,
+          "neutral": {
+            "x": 896.75,
+            "y": 744.0830078125
+          }
+        },
+        {
+          "index": 2,
+          "weight": 1,
+          "neutral": {
+            "x": 850.25,
+            "y": 799.5831298828125
+          }
+        },
+        {
+          "index": 6,
+          "weight": 1,
+          "neutral": {
+            "x": 865.4994506835938,
+            "y": 833.5825805664062
+          }
+        },
+        {
+          "index": 7,
+          "weight": 1,
+          "neutral": {
+            "x": 861,
+            "y": 761.5830078125
+          }
+        }
+      ]
+    },
+    {
+      "name": "eye-center-right",
+      "anchorProfileId": "tomori-live_event_235_ur-semantic-v1-eye-center-right",
+      "drawableId": "D_PSD.40",
+      "vertexCount": 9,
+      "points": [
+        {
+          "index": 0,
+          "weight": 1,
+          "neutral": {
+            "x": 1103.42822265625,
+            "y": 798.905029296875
+          }
+        },
+        {
+          "index": 1,
+          "weight": 1,
+          "neutral": {
+            "x": 1058,
+            "y": 798.5831298828125
+          }
+        },
+        {
+          "index": 2,
+          "weight": 1,
+          "neutral": {
+            "x": 1103.2501220703125,
+            "y": 744.8330688476562
+          }
+        },
+        {
+          "index": 3,
+          "weight": 1,
+          "neutral": {
+            "x": 1071.0001220703125,
+            "y": 762.8330688476562
+          }
+        },
+        {
+          "index": 8,
+          "weight": 1,
+          "neutral": {
+            "x": 1134.5,
+            "y": 830.5843505859375
+          }
+        }
+      ]
+    },
+    {
+      "name": "nose",
+      "anchorProfileId": "tomori-live_event_235_ur-semantic-v1-nose",
+      "drawableId": "D_PSD.58",
+      "vertexCount": 18,
+      "points": [
+        {
+          "index": 0,
+          "weight": 1,
+          "neutral": {
+            "x": 949.625,
+            "y": 813.2081298828125
+          }
+        },
+        {
+          "index": 1,
+          "weight": 1,
+          "neutral": {
+            "x": 950.5,
+            "y": 804.5831298828125
+          }
+        },
+        {
+          "index": 2,
+          "weight": 1,
+          "neutral": {
+            "x": 942.375,
+            "y": 807.9581909179688
+          }
+        },
+        {
+          "index": 4,
+          "weight": 1,
+          "neutral": {
+            "x": 936.5,
+            "y": 800.5831298828125
+          }
+        },
+        {
+          "index": 6,
+          "weight": 1,
+          "neutral": {
+            "x": 925.9999389648438,
+            "y": 784.7081298828125
+          }
+        }
+      ]
+    },
+    {
+      "name": "mouth",
+      "anchorProfileId": "tomori-live_event_235_ur-semantic-v1-mouth",
+      "drawableId": "D_PSD.87",
+      "vertexCount": 18,
+      "points": [
+        {
+          "index": 6,
+          "weight": 1,
+          "neutral": {
+            "x": 975.7499389648438,
+            "y": 953.3956298828125
+          }
+        },
+        {
+          "index": 9,
+          "weight": 1,
+          "neutral": {
+            "x": 1039.1876220703125,
+            "y": 927.7706298828125
+          }
+        },
+        {
+          "index": 14,
+          "weight": 1,
+          "neutral": {
+            "x": 987.4688110351562,
+            "y": 924.0205688476562
+          }
+        },
+        {
+          "index": 15,
+          "weight": 1,
+          "neutral": {
+            "x": 962.6250610351562,
+            "y": 927.6143188476562
+          }
+        },
+        {
+          "index": 16,
+          "weight": 1,
+          "neutral": {
+            "x": 939.9686279296875,
+            "y": 946.833251953125
+          }
+        }
+      ]
+    },
+    {
+      "name": "ear-left",
+      "anchorProfileId": "tomori-live_event_235_ur-semantic-v1-ear-left",
+      "drawableId": "D_PSD.72",
+      "vertexCount": 12,
+      "points": [
+        {
+          "index": 3,
+          "weight": 1,
+          "neutral": {
+            "x": 767.3515014648438,
+            "y": 717.251953125
+          }
+        },
+        {
+          "index": 4,
+          "weight": 1,
+          "neutral": {
+            "x": 788.2115478515625,
+            "y": 700.783447265625
+          }
+        },
+        {
+          "index": 5,
+          "weight": 1,
+          "neutral": {
+            "x": 775.9517211914062,
+            "y": 684.680908203125
+          }
+        },
+        {
+          "index": 6,
+          "weight": 1,
+          "neutral": {
+            "x": 795.5308837890625,
+            "y": 680.4722900390625
+          }
+        },
+        {
+          "index": 9,
+          "weight": 1,
+          "neutral": {
+            "x": 788.760498046875,
+            "y": 781.8450317382812
+          }
+        }
+      ]
+    },
+    {
+      "name": "ear-right",
+      "anchorProfileId": "tomori-live_event_235_ur-semantic-v1-ear-right",
+      "drawableId": "D_PSD.73",
+      "vertexCount": 13,
+      "points": [
+        {
+          "index": 0,
+          "weight": 1,
+          "neutral": {
+            "x": 1208.8330078125,
+            "y": 675.8048095703125
+          }
+        },
+        {
+          "index": 4,
+          "weight": 1,
+          "neutral": {
+            "x": 1194.1942138671875,
+            "y": 691.9073486328125
+          }
+        },
+        {
+          "index": 5,
+          "weight": 1,
+          "neutral": {
+            "x": 1213.0250244140625,
+            "y": 695.4490966796875
+          }
+        },
+        {
+          "index": 6,
+          "weight": 1,
+          "neutral": {
+            "x": 1181.385498046875,
+            "y": 798.220703125
+          }
+        },
+        {
+          "index": 10,
+          "weight": 1,
+          "neutral": {
+            "x": 1191.4495849609375,
+            "y": 730.516845703125
+          }
+        }
+      ]
+    },
+    {
+      "name": "chin",
+      "anchorProfileId": "tomori-live_event_235_ur-semantic-v1-chin",
+      "drawableId": "D_PSD1.16",
+      "vertexCount": 30,
+      "points": [
+        {
+          "index": 10,
+          "weight": 1,
+          "neutral": {
+            "x": 1057.6112060546875,
+            "y": 997.6022338867188
+          }
+        },
+        {
+          "index": 14,
+          "weight": 1,
+          "neutral": {
+            "x": 941.1233520507812,
+            "y": 1052.5938720703125
+          }
+        },
+        {
+          "index": 16,
+          "weight": 1,
+          "neutral": {
+            "x": 938.1668701171875,
+            "y": 951.4801635742188
+          }
+        },
+        {
+          "index": 20,
+          "weight": 1,
+          "neutral": {
+            "x": 1000.6484985351562,
+            "y": 1152.328369140625
+          }
+        },
+        {
+          "index": 23,
+          "weight": 1,
+          "neutral": {
+            "x": 999.0716552734375,
+            "y": 1067.179443359375
+          }
+        }
+      ]
+    }
+  ]
+}

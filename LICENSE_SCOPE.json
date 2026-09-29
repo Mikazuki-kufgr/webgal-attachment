@@ -1,0 +1,120 @@
+{
+  "schema": "webgal-attachment-license-scope",
+  "version": 1,
+  "confirmedAt": "2026-09-13",
+  "independentProjectCode": {
+    "license": "MPL-2.0",
+    "sourceFiles": [
+      "20_installable-candidate/source/01_安装或升级.cmd",
+      "20_installable-candidate/source/03_验证安装.cmd",
+      "20_installable-candidate/source/04_修复安装.cmd",
+      "20_installable-candidate/source/06_卸载插件.cmd",
+      "20_installable-candidate/source/install-lifecycle.mjs",
+      "20_installable-candidate/source/Invoke-WebGALAttachment.ps1",
+      "20_installable-candidate/source/lifecycle-user-messages.mjs",
+      "20_installable-candidate/source/Prepare-WebGALAttachmentInstall.ps1",
+      "target-plugin/launcher/02_打开附件制作器.cmd",
+      "target-plugin/launcher/05_停止附件服务.cmd",
+      "target-plugin/runtime/builtin-identity.mjs",
+      "target-plugin/runtime/builtin-migration.mjs",
+      "target-plugin/runtime/creator-contract.generated.mjs",
+      "target-plugin/runtime/creator-launch.mjs",
+      "target-plugin/runtime/creator-model-files.generated.mjs",
+      "target-plugin/runtime/creator-model-import.mjs",
+      "target-plugin/runtime/creator-package.mjs",
+      "target-plugin/runtime/creator-scene-name.mjs",
+      "target-plugin/runtime/creator-service.mjs",
+      "target-plugin/runtime/creator-store.mjs",
+      "target-plugin/runtime/creator-transaction.mjs",
+      "target-plugin/runtime/creator-web-host.mjs",
+      "target-plugin/runtime/product-materialization.mjs",
+      "target-plugin/runtime/product-resources.mjs",
+      "target-plugin/runtime/terre-path-guard.mjs",
+      "target-plugin/runtime/terre-project-access.mjs",
+      "target-plugin/test/builtin-migration.test.mjs",
+      "target-plugin/test/creator-default-parameters.test.mjs",
+      "target-plugin/test/creator-fixtures.mjs",
+      "target-plugin/test/creator-http.test.mjs",
+      "target-plugin/test/creator-local-save.test.mjs",
+      "target-plugin/test/creator-model-import.test.mjs",
+      "target-plugin/test/creator-save.test.mjs",
+      "target-plugin/test/creator-workbench-host.test.mjs",
+      "target-plugin/test/product-materialization-launcher.test.mjs",
+      "target-plugin/test/terre-host-parity.test.mjs",
+      "target-plugin/test/terre-project-access.test.mjs",
+      "target-plugin/runtime/creator-anchor-profile.mjs",
+      "target-plugin/runtime/creator-authoring-selection.mjs",
+      "target-plugin/runtime/creator-mesh-labels.mjs",
+      "target-plugin/runtime/mesh-label-contract.generated.mjs",
+      "target-plugin/runtime/lifecycle-diagnostics.mjs",
+      "target-plugin/runtime/lifecycle-process-preflight.mjs",
+      "target-plugin/runtime/creator-model-worker.mjs"
+    ],
+    "distributedRuntime": [
+      "runtime/builtin-identity.mjs",
+      "runtime/builtin-migration.mjs",
+      "runtime/creator-contract.generated.mjs",
+      "runtime/creator-launch.mjs",
+      "runtime/creator-model-files.generated.mjs",
+      "runtime/creator-model-import.mjs",
+      "runtime/creator-package.mjs",
+      "runtime/creator-scene-name.mjs",
+      "runtime/creator-service.mjs",
+      "runtime/creator-store.mjs",
+      "runtime/creator-transaction.mjs",
+      "runtime/creator-web-host.mjs",
+      "runtime/install-lifecycle.mjs",
+      "runtime/lifecycle-user-messages.mjs",
+      "runtime/product-materialization.mjs",
+      "runtime/product-resources.mjs",
+      "runtime/terre-path-guard.mjs",
+      "runtime/terre-project-access.mjs"
+    ],
+    "distributionHelpers": [
+      "Invoke-WebGALAttachment.ps1",
+      "Prepare-WebGALAttachmentInstall.ps1",
+      "01_安装或升级.cmd",
+      "02_打开附件制作器.cmd",
+      "03_验证安装.cmd",
+      "04_修复安装.cmd",
+      "05_停止附件服务.cmd",
+      "06_卸载插件.cmd"
+    ]
+  },
+  "existingUpstream": "Engine/Creator/Preview rebuilt from accompanying source; unchanged Terre editor and backend reused with matching module and executable hashes.",
+  "images": {
+    "license": "CC0-1.0",
+    "files": [
+      {
+        "path": "resources/global-library/files/builtin-samples/halo/front.png",
+        "sha256": "564544D1D77C239F7117D8B28A209BD9CE976F1CBC6AE92FD5A09B3AD46811A3"
+      },
+      {
+        "path": "resources/global-library/files/builtin-samples/kemomimi/front.png",
+        "sha256": "430EAA772E4B1581B4CAE728E5458C542DB53BAAB728182F3D911104BFA23930"
+      },
+      {
+        "path": "resources/global-library/files/builtin-samples/straw-hat/back.png",
+        "sha256": "B78A275550A66186A5C7A1570069B955810FB84FEB5C3218612A48BD7C3E3516"
+      },
+      {
+        "path": "resources/global-library/files/builtin-samples/straw-hat/front.png",
+        "sha256": "2D200AB491A22CF793F6A60193C99B4017804A17E8531F4F1840CA20352DFD60"
+      },
+      {
+        "path": "resources/global-library/files/webgal-attachment-plugin-v0.1-starter/front.png",
+        "sha256": "430EAA772E4B1581B4CAE728E5458C542DB53BAAB728182F3D911104BFA23930"
+      },
+      {
+        "path": "resources/global-library/files/builtin-samples/flower/front.png",
+        "sha256": "5E1678B04EA57C4338969D9A763375CFB1D3E08D585B53C96C0C8BCB4963AEA9"
+      },
+      {
+        "path": "resources/global-library/files/builtin-samples/rose/front.png",
+        "sha256": "691CCDB0C60F692DD5B9E0A3279311410A97438906901E7B500A627A574C419D"
+      }
+    ]
+  },
+  "excluded": "Character models, Live2D SDK, unrelated assets and third-party materials are not relicensed by this notice.",
+  "distributionRevision": "MYGO321-AUTO-FIGURE-SWITCH.7"
+}

@@ -1,0 +1,75 @@
+{
+  "schema": "webgal-live2d-attachment-preset",
+  "schemaVersion": 2,
+  "presetId": "v2/anon-rose-front-v1",
+  "approvalStatus": "candidate",
+  "attachmentAssetId": "builtin-rose-front-v1",
+  "modelProfileId": "anon-school_winter-2023-semantic-v1",
+  "anchorName": "mouth",
+  "fit": {
+    "scaleMode": "fixed"
+  },
+  "placement": {
+    "spriteAnchor": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "offset": {
+      "x": 15,
+      "y": -10
+    },
+    "rotationOffsetRad": 0,
+    "localScale": 0.21210937500000002,
+    "localScaleX": 0.21210937500000002,
+    "localScaleY": 0.21231671554252202
+  },
+  "initialVisualState": {
+    "space": "local",
+    "position": {
+      "x": 0,
+      "y": 0
+    },
+    "scale": {
+      "x": 1,
+      "y": 1
+    },
+    "rotation": 0,
+    "skew": {
+      "x": 0,
+      "y": 0
+    },
+    "opacity": 1,
+    "visible": true,
+    "appearance": {
+      "blur": 0,
+      "brightness": 1,
+      "contrast": 1,
+      "saturation": 1,
+      "gamma": 1,
+      "color": {
+        "red": 255,
+        "green": 255,
+        "blue": 255
+      },
+      "bevel": {
+        "strength": 0,
+        "thickness": 0,
+        "rotation": 0,
+        "softness": 0,
+        "color": {
+          "red": 255,
+          "green": 255,
+          "blue": 255
+        }
+      },
+      "bloom": {
+        "strength": 0,
+        "brightness": 1,
+        "blur": 0,
+        "threshold": 0
+      },
+      "shockwave": 0,
+      "radiusAlpha": 0
+    }
+  }
+}

@@ -1,0 +1,544 @@
+{
+  "schema": "webgal-live2d-model-profile",
+  "schemaVersion": 1,
+  "profileVersion": 1,
+  "modelProfileId": "umiri-school_summer-2023-semantic-v1",
+  "characterId": "umiri",
+  "modelId": "school_summer-2023",
+  "modelPath": "./game/figure/umiri/school_summer-2023/model.json",
+  "fingerprint": {
+    "modelJsonSha256": "B3BBDB348131A9079A511FAF5800AD3733AD2836D6F39E44DE335D7C12D365F5",
+    "mocSha256": "311B6B1449918982EFE13B2F08B48E3B39A278D1E6E9FF03E0205B355CF72E2E",
+    "drawableCount": 154
+  },
+  "anchors": [
+    {
+      "name": "head",
+      "anchorProfileId": "umiri-school_summer-2023-semantic-v1-head-hair-compatible",
+      "drawableId": "D_PSD.00",
+      "vertexCount": 85,
+      "points": [
+        {
+          "index": 81,
+          "weight": 1,
+          "neutral": {
+            "x": 851.1248779296875,
+            "y": 392.1820068359375
+          }
+        },
+        {
+          "index": 69,
+          "weight": 1,
+          "neutral": {
+            "x": 922.6873168945312,
+            "y": 410.30731201171875
+          }
+        },
+        {
+          "index": 74,
+          "weight": 1,
+          "neutral": {
+            "x": 977.6875,
+            "y": 382.4943542480469
+          }
+        },
+        {
+          "index": 31,
+          "weight": 1,
+          "neutral": {
+            "x": 1025.500244140625,
+            "y": 368.3272705078125
+          }
+        },
+        {
+          "index": 10,
+          "weight": 1,
+          "neutral": {
+            "x": 1149.66650390625,
+            "y": 384.9945983886719
+          }
+        }
+      ]
+    },
+    {
+      "name": "hair-top",
+      "anchorProfileId": "umiri-school_summer-2023-semantic-v1-hair-top",
+      "drawableId": "D_PSD.00",
+      "vertexCount": 85,
+      "points": [
+        {
+          "index": 81,
+          "weight": 1,
+          "neutral": {
+            "x": 851.1248779296875,
+            "y": 392.1820068359375
+          }
+        },
+        {
+          "index": 69,
+          "weight": 1,
+          "neutral": {
+            "x": 922.6873168945312,
+            "y": 410.30731201171875
+          }
+        },
+        {
+          "index": 74,
+          "weight": 1,
+          "neutral": {
+            "x": 977.6875,
+            "y": 382.4943542480469
+          }
+        },
+        {
+          "index": 31,
+          "weight": 1,
+          "neutral": {
+            "x": 1025.500244140625,
+            "y": 368.3272705078125
+          }
+        },
+        {
+          "index": 10,
+          "weight": 1,
+          "neutral": {
+            "x": 1149.66650390625,
+            "y": 384.9945983886719
+          }
+        }
+      ]
+    },
+    {
+      "name": "eyelid-upper-left",
+      "anchorProfileId": "umiri-school_summer-2023-semantic-v1-eyelid-upper-left",
+      "drawableId": "D_PSD.76",
+      "vertexCount": 19,
+      "points": [
+        {
+          "index": 1,
+          "weight": 1,
+          "neutral": {
+            "x": 885.4060668945312,
+            "y": 699.056884765625
+          }
+        },
+        {
+          "index": 2,
+          "weight": 1,
+          "neutral": {
+            "x": 906.6560668945312,
+            "y": 702.9630737304688
+          }
+        },
+        {
+          "index": 8,
+          "weight": 1,
+          "neutral": {
+            "x": 948.4530029296875,
+            "y": 713.0411376953125
+          }
+        },
+        {
+          "index": 12,
+          "weight": 1,
+          "neutral": {
+            "x": 873.5310668945312,
+            "y": 690.9319458007812
+          }
+        },
+        {
+          "index": 13,
+          "weight": 1,
+          "neutral": {
+            "x": 872.749755859375,
+            "y": 704.5255737304688
+          }
+        }
+      ]
+    },
+    {
+      "name": "eyelid-upper-right",
+      "anchorProfileId": "umiri-school_summer-2023-semantic-v1-eyelid-upper-right",
+      "drawableId": "D_PSD.98",
+      "vertexCount": 19,
+      "points": [
+        {
+          "index": 1,
+          "weight": 1,
+          "neutral": {
+            "x": 1114.5303955078125,
+            "y": 699.056884765625
+          }
+        },
+        {
+          "index": 2,
+          "weight": 1,
+          "neutral": {
+            "x": 1093.2802734375,
+            "y": 702.9630737304688
+          }
+        },
+        {
+          "index": 8,
+          "weight": 1,
+          "neutral": {
+            "x": 1051.4833984375,
+            "y": 713.0411376953125
+          }
+        },
+        {
+          "index": 12,
+          "weight": 1,
+          "neutral": {
+            "x": 1126.4053955078125,
+            "y": 690.9319458007812
+          }
+        },
+        {
+          "index": 13,
+          "weight": 1,
+          "neutral": {
+            "x": 1127.186767578125,
+            "y": 704.5255737304688
+          }
+        }
+      ]
+    },
+    {
+      "name": "eye-center-left",
+      "anchorProfileId": "umiri-school_summer-2023-semantic-v1-eye-center-left",
+      "drawableId": "D_PSD.56",
+      "vertexCount": 9,
+      "points": [
+        {
+          "index": 1,
+          "weight": 1,
+          "neutral": {
+            "x": 863.5623779296875,
+            "y": 713.431884765625
+          }
+        },
+        {
+          "index": 2,
+          "weight": 1,
+          "neutral": {
+            "x": 856.687255859375,
+            "y": 752.494384765625
+          }
+        },
+        {
+          "index": 3,
+          "weight": 1,
+          "neutral": {
+            "x": 875.1246948242188,
+            "y": 784.3694458007812
+          }
+        },
+        {
+          "index": 5,
+          "weight": 1,
+          "neutral": {
+            "x": 932.312255859375,
+            "y": 773.7444458007812
+          }
+        },
+        {
+          "index": 8,
+          "weight": 1,
+          "neutral": {
+            "x": 897.6248168945312,
+            "y": 744.994384765625
+          }
+        }
+      ]
+    },
+    {
+      "name": "eye-center-right",
+      "anchorProfileId": "umiri-school_summer-2023-semantic-v1-eye-center-right",
+      "drawableId": "D_PSD.77",
+      "vertexCount": 9,
+      "points": [
+        {
+          "index": 4,
+          "weight": 1,
+          "neutral": {
+            "x": 1105.43701171875,
+            "y": 791.5569458007812
+          }
+        },
+        {
+          "index": 5,
+          "weight": 1,
+          "neutral": {
+            "x": 1129.4996337890625,
+            "y": 778.7444458007812
+          }
+        },
+        {
+          "index": 6,
+          "weight": 1,
+          "neutral": {
+            "x": 1142.937255859375,
+            "y": 751.556884765625
+          }
+        },
+        {
+          "index": 7,
+          "weight": 1,
+          "neutral": {
+            "x": 1138.875,
+            "y": 717.181884765625
+          }
+        },
+        {
+          "index": 8,
+          "weight": 1,
+          "neutral": {
+            "x": 1104.499755859375,
+            "y": 744.056884765625
+          }
+        }
+      ]
+    },
+    {
+      "name": "nose",
+      "anchorProfileId": "umiri-school_summer-2023-semantic-v1-nose",
+      "drawableId": "D_PSD.23",
+      "vertexCount": 6,
+      "points": [
+        {
+          "index": 0,
+          "weight": 1,
+          "neutral": {
+            "x": 993.5204467773438,
+            "y": 852.248291015625
+          }
+        },
+        {
+          "index": 1,
+          "weight": 1,
+          "neutral": {
+            "x": 983.2733764648438,
+            "y": 831.754150390625
+          }
+        },
+        {
+          "index": 2,
+          "weight": 1,
+          "neutral": {
+            "x": 1000.1078491210938,
+            "y": 833.0350341796875
+          }
+        },
+        {
+          "index": 4,
+          "weight": 1,
+          "neutral": {
+            "x": 1016.0274047851562,
+            "y": 830.1072998046875
+          }
+        },
+        {
+          "index": 5,
+          "weight": 1,
+          "neutral": {
+            "x": 1000.1078491210938,
+            "y": 810.7110595703125
+          }
+        }
+      ]
+    },
+    {
+      "name": "mouth",
+      "anchorProfileId": "umiri-school_summer-2023-semantic-v1-mouth",
+      "drawableId": "D_PSD.48",
+      "vertexCount": 37,
+      "points": [
+        {
+          "index": 11,
+          "weight": 1,
+          "neutral": {
+            "x": 998.0780639648438,
+            "y": 903.041259765625
+          }
+        },
+        {
+          "index": 12,
+          "weight": 1,
+          "neutral": {
+            "x": 1004.3280639648438,
+            "y": 903.197509765625
+          }
+        },
+        {
+          "index": 29,
+          "weight": 1,
+          "neutral": {
+            "x": 1001.4373779296875,
+            "y": 906.166259765625
+          }
+        },
+        {
+          "index": 31,
+          "weight": 1,
+          "neutral": {
+            "x": 1013.5467529296875,
+            "y": 906.635009765625
+          }
+        },
+        {
+          "index": 35,
+          "weight": 1,
+          "neutral": {
+            "x": 984.7968139648438,
+            "y": 907.025634765625
+          }
+        }
+      ]
+    },
+    {
+      "name": "ear-left",
+      "anchorProfileId": "umiri-school_summer-2023-semantic-v1-ear-left",
+      "drawableId": "D_PSD.14",
+      "vertexCount": 12,
+      "points": [
+        {
+          "index": 0,
+          "weight": 1,
+          "neutral": {
+            "x": 769.2645874023438,
+            "y": 784.610595703125
+          }
+        },
+        {
+          "index": 5,
+          "weight": 1,
+          "neutral": {
+            "x": 863.3180541992188,
+            "y": 826.6968383789062
+          }
+        },
+        {
+          "index": 9,
+          "weight": 1,
+          "neutral": {
+            "x": 837.3344116210938,
+            "y": 745.086181640625
+          }
+        },
+        {
+          "index": 10,
+          "weight": 1,
+          "neutral": {
+            "x": 810.2528686523438,
+            "y": 707.3917846679688
+          }
+        },
+        {
+          "index": 11,
+          "weight": 1,
+          "neutral": {
+            "x": 778.0477905273438,
+            "y": 703.0001831054688
+          }
+        }
+      ]
+    },
+    {
+      "name": "ear-right",
+      "anchorProfileId": "umiri-school_summer-2023-semantic-v1-ear-right",
+      "drawableId": "D_PSD.119",
+      "vertexCount": 11,
+      "points": [
+        {
+          "index": 3,
+          "weight": 1,
+          "neutral": {
+            "x": 1175.8330078125,
+            "y": 859.3101196289062
+          }
+        },
+        {
+          "index": 6,
+          "weight": 1,
+          "neutral": {
+            "x": 1214.869384765625,
+            "y": 736.34521484375
+          }
+        },
+        {
+          "index": 7,
+          "weight": 1,
+          "neutral": {
+            "x": 1236.827392578125,
+            "y": 771.47802734375
+          }
+        },
+        {
+          "index": 9,
+          "weight": 1,
+          "neutral": {
+            "x": 1212.9176025390625,
+            "y": 694.381103515625
+          }
+        },
+        {
+          "index": 10,
+          "weight": 1,
+          "neutral": {
+            "x": 1176.3209228515625,
+            "y": 723.1704711914062
+          }
+        }
+      ]
+    },
+    {
+      "name": "chin",
+      "anchorProfileId": "umiri-school_summer-2023-semantic-v1-chin",
+      "drawableId": "D_PSD.01",
+      "vertexCount": 20,
+      "points": [
+        {
+          "index": 0,
+          "weight": 1,
+          "neutral": {
+            "x": 996.5703735351562,
+            "y": 1065.0572509765625
+          }
+        },
+        {
+          "index": 6,
+          "weight": 1,
+          "neutral": {
+            "x": 892.6940307617188,
+            "y": 1149.7906494140625
+          }
+        },
+        {
+          "index": 10,
+          "weight": 1,
+          "neutral": {
+            "x": 997.6514282226562,
+            "y": 1146.6790771484375
+          }
+        },
+        {
+          "index": 13,
+          "weight": 1,
+          "neutral": {
+            "x": 1035.42333984375,
+            "y": 1251.7039794921875
+          }
+        },
+        {
+          "index": 19,
+          "weight": 1,
+          "neutral": {
+            "x": 1134.47607421875,
+            "y": 1079.88720703125
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,512 @@
+{
+  "schema": "webgal-live2d-model-profile",
+  "schemaVersion": 1,
+  "profileVersion": 1,
+  "modelProfileId": "anon-birthday_2024_ssr-semantic-v1",
+  "characterId": "anon",
+  "modelId": "birthday_2024_ssr",
+  "modelPath": "./game/figure/anon/birthday_2024_ssr/model.json",
+  "fingerprint": {
+    "modelJsonSha256": "3A12FD70F2703423EE11DC80179C4D63B038F7A4ED13E10AEB770E08247CC8ED",
+    "mocSha256": "545D2541025DEEA8B0354D8E00C47892FAEDBC58832601935CE6016CD849C4D0",
+    "drawableCount": 407
+  },
+  "anchors": [
+    {
+      "name": "head",
+      "anchorProfileId": "anon-birthday_2024_ssr-semantic-v1-head-hair-compatible",
+      "drawableId": "D_PSD.00",
+      "vertexCount": 79,
+      "points": [
+        {
+          "index": 4,
+          "weight": 1,
+          "neutral": {
+            "x": 834.5266723632812,
+            "y": 369.5384216308594
+          }
+        },
+        {
+          "index": 2,
+          "weight": 1,
+          "neutral": {
+            "x": 917.35986328125,
+            "y": 329.7051086425781
+          }
+        },
+        {
+          "index": 0,
+          "weight": 1,
+          "neutral": {
+            "x": 1000.0264892578125,
+            "y": 326.7051696777344
+          }
+        },
+        {
+          "index": 16,
+          "weight": 1,
+          "neutral": {
+            "x": 1086.693115234375,
+            "y": 329.3718566894531
+          }
+        },
+        {
+          "index": 18,
+          "weight": 1,
+          "neutral": {
+            "x": 1178.0262451171875,
+            "y": 381.3717956542969
+          }
+        }
+      ]
+    },
+    {
+      "name": "hair-top",
+      "anchorProfileId": "anon-birthday_2024_ssr-semantic-v1-hair-top",
+      "drawableId": "D_PSD.00",
+      "vertexCount": 79,
+      "points": [
+        {
+          "index": 4,
+          "weight": 1,
+          "neutral": {
+            "x": 834.5266723632812,
+            "y": 369.5384216308594
+          }
+        },
+        {
+          "index": 2,
+          "weight": 1,
+          "neutral": {
+            "x": 917.35986328125,
+            "y": 329.7051086425781
+          }
+        },
+        {
+          "index": 0,
+          "weight": 1,
+          "neutral": {
+            "x": 1000.0264892578125,
+            "y": 326.7051696777344
+          }
+        },
+        {
+          "index": 16,
+          "weight": 1,
+          "neutral": {
+            "x": 1086.693115234375,
+            "y": 329.3718566894531
+          }
+        },
+        {
+          "index": 18,
+          "weight": 1,
+          "neutral": {
+            "x": 1178.0262451171875,
+            "y": 381.3717956542969
+          }
+        }
+      ]
+    },
+    {
+      "name": "eyelid-upper-left",
+      "anchorProfileId": "anon-birthday_2024_ssr-semantic-v1-eyelid-upper-left",
+      "drawableId": "D_PSD.77",
+      "vertexCount": 10,
+      "points": [
+        {
+          "index": 0,
+          "weight": 1,
+          "neutral": {
+            "x": 841.375,
+            "y": 665.6871948242188
+          }
+        },
+        {
+          "index": 3,
+          "weight": 1,
+          "neutral": {
+            "x": 887.0000610351562,
+            "y": 673.4996948242188
+          }
+        },
+        {
+          "index": 4,
+          "weight": 1,
+          "neutral": {
+            "x": 879.6563110351562,
+            "y": 664.5934448242188
+          }
+        },
+        {
+          "index": 5,
+          "weight": 1,
+          "neutral": {
+            "x": 864.9688110351562,
+            "y": 662.718505859375
+          }
+        },
+        {
+          "index": 8,
+          "weight": 1,
+          "neutral": {
+            "x": 862.3124389648438,
+            "y": 678.8121948242188
+          }
+        }
+      ]
+    },
+    {
+      "name": "eyelid-upper-right",
+      "anchorProfileId": "anon-birthday_2024_ssr-semantic-v1-eyelid-upper-right",
+      "drawableId": "D_PSD.119",
+      "vertexCount": 10,
+      "points": [
+        {
+          "index": 0,
+          "weight": 1,
+          "neutral": {
+            "x": 1158.625,
+            "y": 665.6871948242188
+          }
+        },
+        {
+          "index": 4,
+          "weight": 1,
+          "neutral": {
+            "x": 1120.3436279296875,
+            "y": 664.5934448242188
+          }
+        },
+        {
+          "index": 5,
+          "weight": 1,
+          "neutral": {
+            "x": 1135.03125,
+            "y": 662.718505859375
+          }
+        },
+        {
+          "index": 8,
+          "weight": 1,
+          "neutral": {
+            "x": 1137.6875,
+            "y": 678.8121948242188
+          }
+        },
+        {
+          "index": 9,
+          "weight": 1,
+          "neutral": {
+            "x": 1122.0625,
+            "y": 681.1559448242188
+          }
+        }
+      ]
+    },
+    {
+      "name": "eye-center-left",
+      "anchorProfileId": "anon-birthday_2024_ssr-semantic-v1-eye-center-left",
+      "drawableId": "D_PSD.55",
+      "vertexCount": 7,
+      "points": [
+        {
+          "index": 0,
+          "weight": 1,
+          "neutral": {
+            "x": 895.9996337890625,
+            "y": 764.0830688476562
+          }
+        },
+        {
+          "index": 3,
+          "weight": 1,
+          "neutral": {
+            "x": 898.0828857421875,
+            "y": 657.4160766601562
+          }
+        },
+        {
+          "index": 6,
+          "weight": 1,
+          "neutral": {
+            "x": 897.0411376953125,
+            "y": 710.7537231445312
+          }
+        }
+      ]
+    },
+    {
+      "name": "eye-center-right",
+      "anchorProfileId": "anon-birthday_2024_ssr-semantic-v1-eye-center-right",
+      "drawableId": "D_PSD.59",
+      "vertexCount": 7,
+      "points": [
+        {
+          "index": 0,
+          "weight": 1,
+          "neutral": {
+            "x": 1103.5833740234375,
+            "y": 656.1666259765625
+          }
+        },
+        {
+          "index": 1,
+          "weight": 1,
+          "neutral": {
+            "x": 1103.58349609375,
+            "y": 765.7498168945312
+          }
+        },
+        {
+          "index": 6,
+          "weight": 1,
+          "neutral": {
+            "x": 1103.5833740234375,
+            "y": 711.9998779296875
+          }
+        }
+      ]
+    },
+    {
+      "name": "nose",
+      "anchorProfileId": "anon-birthday_2024_ssr-semantic-v1-nose",
+      "drawableId": "D_PSD.24",
+      "vertexCount": 6,
+      "points": [
+        {
+          "index": 1,
+          "weight": 1,
+          "neutral": {
+            "x": 988.8544921875,
+            "y": 810.270263671875
+          }
+        },
+        {
+          "index": 2,
+          "weight": 1,
+          "neutral": {
+            "x": 999.9249877929688,
+            "y": 812.3745727539062
+          }
+        },
+        {
+          "index": 3,
+          "weight": 1,
+          "neutral": {
+            "x": 1005.4144897460938,
+            "y": 823.0791015625
+          }
+        },
+        {
+          "index": 4,
+          "weight": 1,
+          "neutral": {
+            "x": 1010.08056640625,
+            "y": 809.538330078125
+          }
+        },
+        {
+          "index": 5,
+          "weight": 1,
+          "neutral": {
+            "x": 999.467529296875,
+            "y": 798.6508178710938
+          }
+        }
+      ]
+    },
+    {
+      "name": "mouth",
+      "anchorProfileId": "anon-birthday_2024_ssr-semantic-v1-mouth",
+      "drawableId": "D_PSD.48",
+      "vertexCount": 34,
+      "points": [
+        {
+          "index": 6,
+          "weight": 1,
+          "neutral": {
+            "x": 992.1404418945312,
+            "y": 870.9212036132812
+          }
+        },
+        {
+          "index": 7,
+          "weight": 1,
+          "neutral": {
+            "x": 1006.5155029296875,
+            "y": 870.7650146484375
+          }
+        },
+        {
+          "index": 20,
+          "weight": 1,
+          "neutral": {
+            "x": 999.4061279296875,
+            "y": 878.8900756835938
+          }
+        },
+        {
+          "index": 24,
+          "weight": 1,
+          "neutral": {
+            "x": 977.7654418945312,
+            "y": 866.624267578125
+          }
+        },
+        {
+          "index": 28,
+          "weight": 1,
+          "neutral": {
+            "x": 1020.5780639648438,
+            "y": 867.0932006835938
+          }
+        }
+      ]
+    },
+    {
+      "name": "ear-left",
+      "anchorProfileId": "anon-birthday_2024_ssr-semantic-v1-ear-left",
+      "drawableId": "D_PSD.72",
+      "vertexCount": 12,
+      "points": [
+        {
+          "index": 1,
+          "weight": 1,
+          "neutral": {
+            "x": 788.2115478515625,
+            "y": 647.178466796875
+          }
+        },
+        {
+          "index": 2,
+          "weight": 1,
+          "neutral": {
+            "x": 791.688232421875,
+            "y": 673.7110595703125
+          }
+        },
+        {
+          "index": 3,
+          "weight": 1,
+          "neutral": {
+            "x": 767.3515014648438,
+            "y": 634.9185791015625
+          }
+        },
+        {
+          "index": 6,
+          "weight": 1,
+          "neutral": {
+            "x": 795.5308837890625,
+            "y": 598.138916015625
+          }
+        },
+        {
+          "index": 8,
+          "weight": 1,
+          "neutral": {
+            "x": 809.8035888671875,
+            "y": 664.012939453125
+          }
+        }
+      ]
+    },
+    {
+      "name": "ear-right",
+      "anchorProfileId": "anon-birthday_2024_ssr-semantic-v1-ear-right",
+      "drawableId": "D_PSD.73",
+      "vertexCount": 13,
+      "points": [
+        {
+          "index": 0,
+          "weight": 1,
+          "neutral": {
+            "x": 1208.8330078125,
+            "y": 593.471435546875
+          }
+        },
+        {
+          "index": 6,
+          "weight": 1,
+          "neutral": {
+            "x": 1181.385498046875,
+            "y": 715.8873291015625
+          }
+        },
+        {
+          "index": 7,
+          "weight": 1,
+          "neutral": {
+            "x": 1186.6920166015625,
+            "y": 681.4864501953125
+          }
+        },
+        {
+          "index": 8,
+          "weight": 1,
+          "neutral": {
+            "x": 1208.2840576171875,
+            "y": 697.2230224609375
+          }
+        },
+        {
+          "index": 9,
+          "weight": 1,
+          "neutral": {
+            "x": 1210.1138916015625,
+            "y": 664.8349609375
+          }
+        }
+      ]
+    },
+    {
+      "name": "chin",
+      "anchorProfileId": "anon-birthday_2024_ssr-semantic-v1-chin",
+      "drawableId": "D_PSD1.57",
+      "vertexCount": 30,
+      "points": [
+        {
+          "index": 5,
+          "weight": 1,
+          "neutral": {
+            "x": 912.7405395507812,
+            "y": 995.0955200195312
+          }
+        },
+        {
+          "index": 10,
+          "weight": 1,
+          "neutral": {
+            "x": 1057.6112060546875,
+            "y": 915.2688598632812
+          }
+        },
+        {
+          "index": 12,
+          "weight": 1,
+          "neutral": {
+            "x": 977.197021484375,
+            "y": 1041.5128173828125
+          }
+        },
+        {
+          "index": 19,
+          "weight": 1,
+          "neutral": {
+            "x": 1021.9356079101562,
+            "y": 1041.61181640625
+          }
+        },
+        {
+          "index": 20,
+          "weight": 1,
+          "neutral": {
+            "x": 1000.6484985351562,
+            "y": 1069.9949951171875
+          }
+        }
+      ]
+    }
+  ]
+}

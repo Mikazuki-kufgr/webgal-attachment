@@ -1,0 +1,225 @@
+{
+  "schema": "webgal-live2d-attachment-package",
+  "schemaVersion": 2,
+  "displayName": "草帽",
+  "asset": {
+    "schema": "webgal-live2d-attachment-asset",
+    "schemaVersion": 1,
+    "attachmentAssetId": "builtin-straw-hat-both-v1",
+    "slot": "headwear",
+    "layers": {
+      "back": "./game/attachments-v2/portable/straw-hat-both-v1/images/back.png",
+      "front": "./game/attachments-v2/portable/straw-hat-both-v1/images/front.png"
+    },
+    "attachedLayers": {
+      "back": "./game/attachments-v2/portable/straw-hat-both-v1/images/back.png",
+      "front": "./game/attachments-v2/portable/straw-hat-both-v1/images/front.png"
+    }
+  },
+  "adaptations": [
+    {
+      "preset": {
+        "schema": "webgal-live2d-attachment-preset",
+        "schemaVersion": 1,
+        "presetId": "v2/straw-hat-both-v1",
+        "approvalStatus": "candidate",
+        "attachmentAssetId": "builtin-straw-hat-both-v1",
+        "modelProfileId": "webgal-attachment-plugin-v0.1-anon-profile",
+        "anchorName": "head",
+        "fit": {
+          "scaleMode": "fixed"
+        },
+        "placement": {
+          "spriteAnchor": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "offset": {
+            "x": -8,
+            "y": 176
+          },
+          "rotationOffsetRad": 0,
+          "localScale": 1.2
+        }
+      },
+      "modelProfile": {
+        "schema": "webgal-live2d-model-profile",
+        "schemaVersion": 1,
+        "profileVersion": 1,
+        "modelProfileId": "webgal-attachment-plugin-v0.1-anon-profile",
+        "characterId": "anon",
+        "modelId": "school_winter-2023",
+        "modelPath": "./game/figure/anon/school_winter-2023/model.json",
+        "fingerprint": {
+          "modelJsonSha256": "3A12FD70F2703423EE11DC80179C4D63B038F7A4ED13E10AEB770E08247CC8ED",
+          "mocSha256": "0E3AF40095E57255DC855C03756176F7B40889EE4E43655151275F93E496F0ED",
+          "drawableCount": 155
+        },
+        "anchors": [
+          {
+            "name": "head",
+            "anchorProfileId": "anon-head-dpsd00-top-v1",
+            "drawableId": "D_PSD.00",
+            "vertexCount": 54,
+            "points": [
+              {
+                "index": 53,
+                "weight": 1,
+                "neutral": {
+                  "x": 863.0000610351562,
+                  "y": 344.16644287109375
+                }
+              },
+              {
+                "index": 24,
+                "weight": 1,
+                "neutral": {
+                  "x": 921.7501220703125,
+                  "y": 315.6248474121094
+                }
+              },
+              {
+                "index": 25,
+                "weight": 1,
+                "neutral": {
+                  "x": 1003,
+                  "y": 307.49969482421875
+                }
+              },
+              {
+                "index": 26,
+                "weight": 1,
+                "neutral": {
+                  "x": 1088,
+                  "y": 322.4997863769531
+                }
+              },
+              {
+                "index": 27,
+                "weight": 1,
+                "neutral": {
+                  "x": 1158.0001220703125,
+                  "y": 356.2499084472656
+                }
+              }
+            ]
+          },
+          {
+            "name": "head-b",
+            "anchorProfileId": "anon-head-dpsd87-face4-v1",
+            "drawableId": "D_PSD.87",
+            "vertexCount": 45,
+            "points": [
+              {
+                "index": 40,
+                "weight": 1,
+                "neutral": {
+                  "x": 828.9794921875,
+                  "y": 413.7385559082031
+                }
+              },
+              {
+                "index": 41,
+                "weight": 1,
+                "neutral": {
+                  "x": 937.3056640625,
+                  "y": 348.5964660644531
+                }
+              },
+              {
+                "index": 42,
+                "weight": 1,
+                "neutral": {
+                  "x": 1063.1982421875,
+                  "y": 350.0603332519531
+                }
+              },
+              {
+                "index": 43,
+                "weight": 1,
+                "neutral": {
+                  "x": 1164.205078125,
+                  "y": 407.1510314941406
+                }
+              }
+            ]
+          },
+          {
+            "name": "head-c",
+            "anchorProfileId": "anon-head-dpsd87-face6-v1",
+            "drawableId": "D_PSD.87",
+            "vertexCount": 45,
+            "points": [
+              {
+                "index": 39,
+                "weight": 1,
+                "neutral": {
+                  "x": 772.62060546875,
+                  "y": 512.5496215820312
+                }
+              },
+              {
+                "index": 40,
+                "weight": 1,
+                "neutral": {
+                  "x": 828.9794921875,
+                  "y": 413.7385559082031
+                }
+              },
+              {
+                "index": 41,
+                "weight": 1,
+                "neutral": {
+                  "x": 937.3056640625,
+                  "y": 348.5964660644531
+                }
+              },
+              {
+                "index": 42,
+                "weight": 1,
+                "neutral": {
+                  "x": 1063.1982421875,
+                  "y": 350.0603332519531
+                }
+              },
+              {
+                "index": 43,
+                "weight": 1,
+                "neutral": {
+                  "x": 1164.205078125,
+                  "y": 407.1510314941406
+                }
+              },
+              {
+                "index": 44,
+                "weight": 1,
+                "neutral": {
+                  "x": 1218.3681640625,
+                  "y": 499.3746032714844
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "defaultParameters": {
+    "anchorName": "head",
+    "fit": {
+      "scaleMode": "fixed"
+    },
+    "placement": {
+      "spriteAnchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "offset": {
+        "x": -8,
+        "y": 176
+      },
+      "rotationOffsetRad": 0,
+      "localScale": 1.2
+    }
+  }
+}

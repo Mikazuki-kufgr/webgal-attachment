@@ -1,0 +1,109 @@
+//.addSceneButton {
+//  display: flex;
+//  align-items: center;
+//  box-sizing: border-box;
+//  padding: 3px 6px 3px 6px;
+//  border-radius: 4px;
+//  cursor: pointer;
+//  margin: 0 4px 0 4px;
+//}
+
+.sentenceTypeButtonList {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+@media screen and (max-width: 960px) {
+  .sentenceTypeButtonList {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.sentenceTypeButton {
+  display: flex;
+  flex: 0 0 270px;
+  align-items: flex-start;
+  padding: 6px 6px 6px 10px;
+  box-sizing: border-box;
+  background: var(--primary-5pct);
+  border-radius: var(--radius-md);
+  margin: 0 4px 6px 2px;
+  cursor: pointer;
+  border: var(--border-trans-sm);
+  transition: all 0.33s;
+}
+
+.sentenceTypeButton:hover {
+  border: var(--border-primary-sm);
+  background: var(--bg-button);
+}
+
+.buttonDesc{
+  padding: 0 0 0 10px;
+}
+
+.title {
+  font-size: 115%;
+  font-weight: bold;
+  color: var(--primary);
+}
+
+.text{
+  font-size: 90%;
+}
+
+.titleAdd {
+  font-size: 115%;
+  font-weight: bold;
+  color: var(--primary);
+  text-align: left;
+}
+
+.addNewLargeWrapper{
+  background: #fff;
+  padding: 10px 20px;
+}
+
+.addNewLarge{
+  margin-top: 20px;
+  display: flex;
+  background: #fff;
+  justify-content: left;
+  text-align: left;
+  overflow: auto;
+  max-width: 100%;
+
+  &::-webkit-scrollbar {
+    //width: 3px;
+    height: 4px;
+    background-color: var(--bg-scrollbar);
+  }
+
+  &::-webkit-scrollbar-thumb {
+    border-radius: 0;
+    background-color: var(--bg-scrollbar-thumb);
+
+    &:hover {
+      background-color: var(--bg-scrollbar-thumb-hover);
+    }
+  }
+
+  &::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background-color: transparent;
+  }
+
+  & {
+    scrollbar-width: thin; /* Firefox */
+    scrollbar-color: var(--bg-scrollbar-thumb) var(--bg-scrollbar); /* Firefox */
+  }
+
+}
+
+.expandAllButton{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  color: var(--primary);
+  cursor: pointer;
+}

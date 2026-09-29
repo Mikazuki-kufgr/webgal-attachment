@@ -1,0 +1,33 @@
+{
+  "schema": "webgal-attachment-creator-export-manifest",
+  "schemaVersion": 1,
+  "toolVersion": "factory-sample-v1",
+  "createdAt": "2026-09-24T00:00:00.000Z",
+  "attachmentDefinitionId": "builtin-straw-hat-both-v1",
+  "presetId": "v2/straw-hat-both-v1",
+  "modelProfileId": "webgal-attachment-plugin-v0.1-anon-profile",
+  "anchorName": "head",
+  "displayName": "草帽",
+  "files": [
+    {
+      "path": "game/attachments-v2/portable/straw-hat-both-v1/images/back.png",
+      "bytes": 538148,
+      "sha256": "B78A275550A66186A5C7A1570069B955810FB84FEB5C3218612A48BD7C3E3516"
+    },
+    {
+      "path": "game/attachments-v2/portable/straw-hat-both-v1/images/front.png",
+      "bytes": 341386,
+      "sha256": "2D200AB491A22CF793F6A60193C99B4017804A17E8531F4F1840CA20352DFD60"
+    },
+    {
+      "path": "game/attachments-v2/portable/straw-hat-both-v1/attachment.json",
+      "bytes": 6229,
+      "sha256": "19629724C47D5DF2062410CFEA6B76474B9551257D61051E6D7355791D14604A"
+    },
+    {
+      "path": "game/attachments-v2/portable/straw-hat-both-v1/使用说明.txt",
+      "bytes": 324,
+      "sha256": "34A4C68B0E9ED4238B69DA677402D3FC930F4C74BC4252BD943130FFE32A9FF4"
+    }
+  ]
+}

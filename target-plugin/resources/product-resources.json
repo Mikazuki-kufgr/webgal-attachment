@@ -1,0 +1,901 @@
+{
+  "schema": "webgal-attachment-product-resources",
+  "schemaVersion": 1,
+  "resourceSetId": "hotfix37-effective-resources-for-mygo3.2.0-migration",
+  "source": {
+    "authority": "HOTFIX37_ACCEPTED_PRODUCT_PAYLOAD",
+    "path": "payload/global-library-seed",
+    "sourcePayloadException": "semanticAnchorContract.ts only; not present in this resource set",
+    "additionalSamples": "USER_SUPPLIED_FLOWER_AND_LOW_RESOLUTION_ROSE_20260912",
+    "factorySamples": "SELF_CONTAINED_FROM_LOCKED_LEGACY_RESOURCE_SET_20260924"
+  },
+  "targetHost": {
+    "product": "webgal-mygo",
+    "version": "3.2.1"
+  },
+  "distribution": {
+    "publicReleaseStatus": "PENDING_RELEASE_REVIEW",
+    "live2dSdk": "PENDING_PERMISSION_EXCLUDED",
+    "modelBinaries": "NOT_BUNDLED",
+    "modelProfiles": "BUNDLED_TECHNICAL_DATA_NOT_NEW_HOST_VISUALLY_AUDITED",
+    "builtinSamples": "THREE_LEGACY_AND_TWO_USER_SUPPLIED_SAMPLES_PENDING_NEW_PRODUCT_GATE"
+  },
+  "counts": {
+    "attachment-asset": 6,
+    "attachment-image": 7,
+    "library-index": 1,
+    "model-profile": 102,
+    "placement-preset": 6,
+    "validation-record": 1,
+    "factory-sample-image": 6,
+    "factory-sample-document": 5,
+    "factory-sample-guide": 5,
+    "factory-sample-manifest": 5
+  },
+  "files": [
+    {
+      "path": "attachment-assets/builtin-flower-front-v1.json",
+      "role": "attachment-asset",
+      "bytes": 341,
+      "sha256": "A3C64C32A5986048D65782F6CDA3DDB4992F2580D389519E9421DBE4DBE2D100"
+    },
+    {
+      "path": "attachment-assets/builtin-halo-front-v1.json",
+      "role": "attachment-asset",
+      "bytes": 335,
+      "sha256": "7A3ED170A70CCECB5F6108426477B7E3EDB4CE2C563E2987E4903061B003385B"
+    },
+    {
+      "path": "attachment-assets/builtin-kemomimi-front-v1.json",
+      "role": "attachment-asset",
+      "bytes": 347,
+      "sha256": "45E7F2AF4CF598A079B4740DCD83A4D8A64A2A1A2C4ADD4D81EE95D556049B36"
+    },
+    {
+      "path": "attachment-assets/builtin-rose-front-v1.json",
+      "role": "attachment-asset",
+      "bytes": 335,
+      "sha256": "8CE0A12BE1E03F31CE2471F0BA5DF0C914D06A486FFDF4093467D493ED5A765A"
+    },
+    {
+      "path": "attachment-assets/builtin-straw-hat-both-v1.json",
+      "role": "attachment-asset",
+      "bytes": 505,
+      "sha256": "656A1083F2F98911D8BC4C38A6B9D657D58AA875FF089C94090DB37B61F9C5D8"
+    },
+    {
+      "path": "attachment-assets/webgal-attachment-plugin-v0.1-starter-assets.json",
+      "role": "attachment-asset",
+      "bytes": 392,
+      "sha256": "9E97685EC970A6ED3534112A7D6860390C429242F39B3B0F032CCC7796D4281A"
+    },
+    {
+      "path": "files/builtin-samples/flower/front.png",
+      "role": "attachment-image",
+      "bytes": 653895,
+      "sha256": "5E1678B04EA57C4338969D9A763375CFB1D3E08D585B53C96C0C8BCB4963AEA9"
+    },
+    {
+      "path": "files/builtin-samples/halo/front.png",
+      "role": "attachment-image",
+      "bytes": 1283951,
+      "sha256": "564544D1D77C239F7117D8B28A209BD9CE976F1CBC6AE92FD5A09B3AD46811A3"
+    },
+    {
+      "path": "files/builtin-samples/kemomimi/front.png",
+      "role": "attachment-image",
+      "bytes": 1447768,
+      "sha256": "430EAA772E4B1581B4CAE728E5458C542DB53BAAB728182F3D911104BFA23930"
+    },
+    {
+      "path": "files/builtin-samples/rose/front.png",
+      "role": "attachment-image",
+      "bytes": 190855,
+      "sha256": "691CCDB0C60F692DD5B9E0A3279311410A97438906901E7B500A627A574C419D"
+    },
+    {
+      "path": "files/builtin-samples/straw-hat/back.png",
+      "role": "attachment-image",
+      "bytes": 538148,
+      "sha256": "B78A275550A66186A5C7A1570069B955810FB84FEB5C3218612A48BD7C3E3516"
+    },
+    {
+      "path": "files/builtin-samples/straw-hat/front.png",
+      "role": "attachment-image",
+      "bytes": 341386,
+      "sha256": "2D200AB491A22CF793F6A60193C99B4017804A17E8531F4F1840CA20352DFD60"
+    },
+    {
+      "path": "files/webgal-attachment-plugin-v0.1-starter/front.png",
+      "role": "attachment-image",
+      "bytes": 1447768,
+      "sha256": "430EAA772E4B1581B4CAE728E5458C542DB53BAAB728182F3D911104BFA23930"
+    },
+    {
+      "path": "library-index.json",
+      "role": "library-index",
+      "bytes": 2843,
+      "sha256": "97413D58A9B498560D288ACF18443716F9B744929EE5486DCB80701B63CF82A5"
+    },
+    {
+      "path": "model-profiles/anon-birthday_2024_ssr-semantic-v1.json",
+      "role": "model-profile",
+      "bytes": 11425,
+      "sha256": "3ED1975EC9C816DAC7C1E57C643293A3E2A92A3303D583CA41A1163106665DDB"
+    },
+    {
+      "path": "model-profiles/anon-casual-2023-semantic-v1.json",
+      "role": "model-profile",
+      "bytes": 12008,
+      "sha256": "A34C5D44B95F4DE2F81DBF73BB0C1D8527E5EEA45D9C1F4D2F07DE63D5FEA43F"
+    },
+    {
+      "path": "model-profiles/anon-collabo_a_ur-semantic-v1.json",
+      "role": "model-profile",
+      "bytes": 12012,
+      "sha256": "95D5176C5066AE5B099345F01711B5EF051C6643EC85FFF4C5E5B031E76E89D7"
+    },
+    {
+      "path": "model-profiles/anon-dream_festival_3_ur-semantic-v1.json",
+      "role": "model-profile",
+      "bytes": 12107,
+      "sha256": "FFAAF08F8F7DE884FBB375BA69F83CAB8F4C26E849801DD91BFACF71E30E4063"
+    },
+    {
+      "path": "model-profiles/anon-live_default-semantic-v1.json",
+      "role": "model-profile",
+      "bytes": 12012,
+      "sha256": "56C08286B43AE14C4D790ED112C123F2C1A73B17015EE63BDEEBE0AC459CC8D8"
+    },
+    {
+      "path": "model-profiles/anon-live_event_235_ur-semantic-v1.json",
+      "role": "model-profile",
+      "bytes": 12093,
+      "sha256": "DED1F06FCBCD1BD88E829C5AF9ED059E54FCC82E34B8ED7A81E39BB4FE9D3E86"
+    },
+    {
+      "path": "model-profiles/anon-live_event_240_sr-semantic-v1.json",
+      "role": "model-profile",
+      "bytes": 12083,
+      "sha256": "1C5E7B8A1EE8A46A2C42A0E259ABFC2C9E9165C31C5C55C09F893B3C9DCB51DE"
+    },
+    {
+      "path": "model-profiles/anon-live_event_250_r-semantic-v1.json",
+      "role": "model-profile",
+      "bytes": 12084,
+      "sha256": "A83DBD1A9D70C0E02B50DC5D8EE79D3F204A7D41024C900745B5C4BF982E01E5"
+    },
+    {
+      "path": "model-profiles/anon-live_event_253_ur-semantic-v1.json",
+      "role": "model-profile",
+      "bytes": 12058,
+      "sha256": "2A146B669E3398AFDF20F7D385E07DDBC650F3478C199D5D5524A7CDB5E68AD2"
+    },
+    {
+      "path": "model-profiles/anon-live_event_277_sr-semantic-v1.json",
+      "role": "model-profile",
+      "bytes": 12100,
+      "sha256": "A270BCDE9A019F6730181035C2A6542FDE3BC3B493714F603E073886157BD6A3"
+    },
+    {
+      "path": "model-profiles/anon-live_event_286_sr-semantic-v1.json",
+      "role": "model-profile",
+      "bytes": 12092,
+      "sha256": "429C5D0B52B3CB52C02495998F28068743906D89CE4802827C3584DC8D1C68A2"
+    },
+    {
+      "path": "model-profiles/anon-live_event_297_sr-semantic-v1.json",
+      "role": "model-profile",
+      "bytes": 12077,
+      "sha256": "867C56806CAC6A0A5F18D77D347A275E97DA50CB857A1ADF85CB33528C0857DB"
+    },
+    {
+      "path": "model-profiles/anon-live_sr_01-semantic-v1.json",
+      "role": "model-profile",
+      "bytes": 11994,
+      "sha256": "F5612E9A0ACDF337057AA20D25FDF0B04AE0F9B6834D70C75D623B4C88099052"
+    },
+    {
+      "path": "model-profiles/anon-school_summer-2023-semantic-v1.json",
+      "role": "model-profile",
+      "bytes": 12145,
+      "sha256": "CF4114FC3D3769710F6BD3CAD544D64B5E0516A1AFCB393623AC1DC8A284F6E7"
+    },
+    {
+      "path": "model-profiles/anon-school_winter-2023-semantic-v1.json",
+      "role": "model-profile",
+      "bytes": 11927,
+      "sha256": "7AA347CA26EC91EBBD32A22E7E247551FAA375D13C8596CCF40B5B153AAB3E94"
+    },
+    {
+      "path": "model-profiles/anon-school-winter-2023-head-v1.json",
+      "role": "model-profile",
+      "bytes": 3578,
+      "sha256": "DE36D314B5F3F5BCA0F204648D445F4FBD3DEDD7F924A249D3C666A01096F92A"
+    },
+    {
+      "path": "model-profiles/index.json",
+      "role": "model-profile",
+      "bytes": 4178,
+      "sha256": "DA35E80926BA45664791E76DD134EE5054454678E590E48C44267BEC33C3540B"
+    },
+    {
+      "path": "model-profiles/mana-sumimi-semantic-v1.json",
+      "role": "model-profile",
+      "bytes": 11984,
+      "sha256": "177AF98EFB55381534FBC16D309CB7F7BAB6C8D00F5CAD8E68A0B255FD0012F5"
+    },
+    {
+      "path": "model-profiles/mutsumi-casual-2023-semantic-v1.json",
+      "role": "model-profile",
+      "bytes": 12052,
+      "sha256": "297CCA408F9BD708D92D318F20CD3F6B33C428395E2A9FFF917E1271A36279FC"
+    },
+    {
+      "path": "model-profiles/mutsumi-event_297_story_01-semantic-v1.json",
+      "role": "model-profile",
+      "bytes": 12134,
+      "sha256": "BFB23EB7CDBCFCD344FEFDDCFFF2C62638823B68DD150BFA6CAD572F9AB3A7DC"
+    },
+    {
+      "path": "model-profiles/mutsumi-school_summer-2023-semantic-v1.json",
+      "role": "model-profile",
+      "bytes": 12151,
+      "sha256": "7A1636E0D8542753436470D72F90064C498C552A1A8CCEA0DA1AFCD557503B4A"
+    },
+    {
+      "path": "model-profiles/mutsumi-school_winter-2023-semantic-v1.json",
+      "role": "model-profile",
+      "bytes": 11974,
+      "sha256": "627581FDEC7C4A5952BC26165B5CE8235CFCCC51777133A412DF9CEC3731139A"
+    },
+    {
+      "path": "model-profiles/nyamu-casual-2023-semantic-v1.json",
+      "role": "model-profile",
+      "bytes": 12066,
+      "sha256": "1FE216B00E2D1D6042BBC9C98DC168D0CAD6AF8FFE6DCAE6374A865D1A34013A"
+    },
+    {
+      "path": "model-profiles/nyamu-event_297_story_01-semantic-v1.json",
+      "role": "model-profile",
+      "bytes": 12196,
+      "sha256": "3F59AB7D7099AEE0B7357ECE5EEC57C06FD29325D75F2817E02EDB517546317D"
+    },
+    {
+      "path": "model-profiles/rana-birthday_2024_ssr-semantic-v1.json",
+      "role": "model-profile",
+      "bytes": 12088,
+      "sha256": "6FB76FDB9F71647941B245C51B7919596637C592FF4892043910A9E5CFA12D93"
+    },
+    {
+      "path": "model-profiles/rana-casual-2023-semantic-v1.json",
+      "role": "model-profile",
+      "bytes": 12015,
+      "sha256": "F7AC81F1E6CF04D040100202E1481D431A0D9A6EDFF55C1F43830C40BCD542E8"
+    },
+    {
+      "path": "model-profiles/rana-collabo_a_ur-semantic-v1.json",
+      "role": "model-profile",
+      "bytes": 12017,
+      "sha256": "DC568552406324933559D6D1D2054A034FC8133C2BB0145F03EF8AD863506576"
+    },
+    {
+      "path": "model-profiles/rana-dream_festival_3_ur-semantic-v1.json",
+      "role": "model-profile",
+      "bytes": 12074,
+      "sha256": "A81C1EDC8570A0F86A613FE17F015A4CE454D6131FDAC1156E5322E9F10FEC4F"
+    },
+    {
+      "path": "model-profiles/rana-live_default-semantic-v1.json",
+      "role": "model-profile",
+      "bytes": 12027,
+      "sha256": "5AB3BA940FDF3BA69A7CAFAF7DBAF12B8900D3F21ED6E6F0484516A1AB7C9A5F"
+    },
+    {
+      "path": "model-profiles/rana-live_event_235_sr-semantic-v1.json",
+      "role": "model-profile",
+      "bytes": 12104,
+      "sha256": "4918E7C98BB1E9AAC298323B93AFCB19CA1C7A131FF8EF6DCDF107389F19D8BC"
+    },
+    {
+      "path": "model-profiles/rana-live_event_240_ur-semantic-v1.json",
+      "role": "model-profile",
+      "bytes": 12088,
+      "sha256": "EADFD72B7D7967E569D878C86B19BB2351181715838B61D220522F2C1DAEE2ED"
+    },
+    {
+      "path": "model-profiles/rana-live_event_250_sr-semantic-v1.json",
+      "role": "model-profile",
+      "bytes": 12088,
+      "sha256": "A0F7EA838F2337741DF4E15693B444F0B5B105AF660809B08C1F15DAE0EB3EA5"
+    },
+    {
+      "path": "model-profiles/rana-live_event_286_ur-semantic-v1.json",
+      "role": "model-profile",
+      "bytes": 12093,
+      "sha256": "7066C0DE009964C7EEA4690AA79CE3490E0946E15F6D32DB2DC6DA3F37E43F52"
+    },
+    {
+      "path": "model-profiles/rana-live_event_287_ssr-semantic-v1.json",
+      "role": "model-profile",
+      "bytes": 12102,
+      "sha256": "E7CF7AC351C0B391D4CD19331D682270502B74C0004C51D696D47A4C324B336A"
+    },
+    {
+      "path": "model-profiles/rana-live_event_297_sr-semantic-v1.json",
+      "role": "model-profile",
+      "bytes": 12090,
+      "sha256": "1AD358A1064BA7E7FFC5305FA5EF83155AE5318DE8D9240B87B3ECBB9B79D89B"
+    },
+    {
+      "path": "model-profiles/rana-live_sr_01-semantic-v1.json",
+      "role": "model-profile",
+      "bytes": 12005,
+      "sha256": "CB014DF345A28F700C2AECE073EBA307C911C89ABFCC19CC97FED8E624BF617A"
+    },
+    {
+      "path": "model-profiles/rana-school_summer-2023-semantic-v1.json",
+      "role": "model-profile",
+      "bytes": 12106,
+      "sha256": "DA9D62D8743A27D9654E98ED08A115ADCAF5A8F8ABCAE9DC0C72115733358FDA"
+    },
+    {
+      "path": "model-profiles/rana-school_winter-2023-semantic-v1.json",
+      "role": "model-profile",
+      "bytes": 12109,
+      "sha256": "EB5EC6EE12CE27C8ADB7A87AC6854590710881421BEC7E390DE5BB9A88201ACB"
+    },
+    {
+      "path": "model-profiles/sakiko-casual-2023-semantic-v1.json",
+      "role": "model-profile",
+      "bytes": 11979,
+      "sha256": "29E6E4AD09D9BF9F521CE042B2143AA33B27D45D87BBF093A275020CFBE50B31"
+    },
+    {
+      "path": "model-profiles/sakiko-casual-2023.json",
+      "role": "model-profile",
+      "bytes": 1344,
+      "sha256": "7D98FB942359A5792EDF2576C704045067ED78E33FE95BF92B1499D72D3A5FA7"
+    },
+    {
+      "path": "model-profiles/sakiko-event_297_story_01-semantic-v1.json",
+      "role": "model-profile",
+      "bytes": 12068,
+      "sha256": "29028C811137CFB8A4FB11FB1949A73A359448BF9A44994595E4F64BBB2A3F25"
+    },
+    {
+      "path": "model-profiles/sakiko-jh_school_winter-2023-semantic-v1.json",
+      "role": "model-profile",
+      "bytes": 12121,
+      "sha256": "58113EF769C4374DD9624E5DFA2216D7CE039312C4097D78674563E784DD0465"
+    },
+    {
+      "path": "model-profiles/sakiko-school_summer-2023-semantic-v1.json",
+      "role": "model-profile",
+      "bytes": 11996,
+      "sha256": "9A37E20EA552DFCB971DD7AE9D5E111697E765F1E072F04BC3012A725E3995EA"
+    },
+    {
+      "path": "model-profiles/sakiko-school_winter-2023-semantic-v1.json",
+      "role": "model-profile",
+      "bytes": 12077,
+      "sha256": "4540FFE8521756B19941DE74734FF9C3876651732C64272F7AA7B4A47BD82776"
+    },
+    {
+      "path": "model-profiles/sakiko-school-winter-2023.json",
+      "role": "model-profile",
+      "bytes": 1365,
+      "sha256": "695D57C7BD9DB8CBBEC2C5D70F75B2DAEDA3D4FF7D066DB1E84DEA9D64DE0E53"
+    },
+    {
+      "path": "model-profiles/soyo-birthday_2024_ssr-semantic-v1.json",
+      "role": "model-profile",
+      "bytes": 12057,
+      "sha256": "44AE5D66C1F49A5B4B246BF050EC9D4106383897C5E7D1C04BFCD9F76F39C36F"
+    },
+    {
+      "path": "model-profiles/soyo-casual-2023-semantic-v1.json",
+      "role": "model-profile",
+      "bytes": 11947,
+      "sha256": "233F9DA0039A628B3061542D95AA73408612B02AE686BE68ACA0FCE81F963448"
+    },
+    {
+      "path": "model-profiles/soyo-collabo_a_ur-semantic-v1.json",
+      "role": "model-profile",
+      "bytes": 11947,
+      "sha256": "D99351E5C18D439B09271B5588B238A7F841B7FA8CA51C522CCD3C4B58B6DC91"
+    },
+    {
+      "path": "model-profiles/soyo-dream_festival_3_ur-semantic-v1.json",
+      "role": "model-profile",
+      "bytes": 12031,
+      "sha256": "56E943BE68B7C39398CB55FA1D0EA886F5359C63A4FC8CEFF2EA8E0CA1BA8D82"
+    },
+    {
+      "path": "model-profiles/soyo-live_default-semantic-v1.json",
+      "role": "model-profile",
+      "bytes": 11952,
+      "sha256": "C9ECF4BF1919292F7164C37C38C5AF72ED5028CA621AEC92B30983F13FD98597"
+    },
+    {
+      "path": "model-profiles/soyo-live_event_235_ur-semantic-v1.json",
+      "role": "model-profile",
+      "bytes": 12030,
+      "sha256": "B98F6E5EF0EA2C358BEFBCC1C6E4DF60487DACA44DF11AA3991AFD42BC46E232"
+    },
+    {
+      "path": "model-profiles/soyo-live_event_240_r-semantic-v1.json",
+      "role": "model-profile",
+      "bytes": 12011,
+      "sha256": "A8595F78663609441EEE613B1AA500039A5E0625D20A16DF8298E27944AC7A6B"
+    },
+    {
+      "path": "model-profiles/soyo-live_event_250_ur-semantic-v1.json",
+      "role": "model-profile",
+      "bytes": 12017,
+      "sha256": "BB3C95CCAD62673F38E37B25C8E67A2898BDA2D845F81D16078FBA5854A69262"
+    },
+    {
+      "path": "model-profiles/soyo-live_event_286_ssr-semantic-v1.json",
+      "role": "model-profile",
+      "bytes": 12039,
+      "sha256": "7DC5629C34C096F4C7231813EE53D900AD433F9C12A2050681AA393265D374C2"
+    },
+    {
+      "path": "model-profiles/soyo-live_event_289_ur-semantic-v1.json",
+      "role": "model-profile",
+      "bytes": 12012,
+      "sha256": "FC064FC1C555511AD7851E5EA67347C9D1935582FEA235EFF102648120D768AD"
+    },
+    {
+      "path": "model-profiles/soyo-live_event_297_ur-semantic-v1.json",
+      "role": "model-profile",
+      "bytes": 12030,
+      "sha256": "C846371D2DB25489FFFF99BF7AF748721AB78F4D3A12464BA9F7A35CFE499A3D"
+    },
+    {
+      "path": "model-profiles/soyo-live_sr_01-semantic-v1.json",
+      "role": "model-profile",
+      "bytes": 11932,
+      "sha256": "9D6B881506370FE9B07784ADE30B65E921A133A383B74252DE4EBE9BC1942A17"
+    },
+    {
+      "path": "model-profiles/soyo-school_summer-2023-semantic-v1.json",
+      "role": "model-profile",
+      "bytes": 12039,
+      "sha256": "56AEF72D6524DF0CA6D37EDC2C0BD816A7EB3B828035E8485B619631ABE5F853"
+    },
+    {
+      "path": "model-profiles/soyo-school_winter-2023-semantic-v1.json",
+      "role": "model-profile",
+      "bytes": 12032,
+      "sha256": "ABEF6D7E9D3B902440B366D9D5E218212723B08C90ADE88FA93049203BFB738B"
+    },
+    {
+      "path": "model-profiles/taki-arbeit-semantic-v1.json",
+      "role": "model-profile",
+      "bytes": 11882,
+      "sha256": "9A8B6ECE0936586B3948AC7FB9334BAAB616BCE92E6B6EF29D1D685C8BEA304D"
+    },
+    {
+      "path": "model-profiles/taki-birthday_2024_ssr-semantic-v1.json",
+      "role": "model-profile",
+      "bytes": 12141,
+      "sha256": "32BBF99FC006DC2C4FFCDECA87F821E8667A713889B30BC2C65ABBC1104BE2EB"
+    },
+    {
+      "path": "model-profiles/taki-casual-2023-semantic-v1.json",
+      "role": "model-profile",
+      "bytes": 11958,
+      "sha256": "F6FC78B4A1205D3F5A241BCF08266F9467639FCFDD66AE469EE469ACA9FD3CD6"
+    },
+    {
+      "path": "model-profiles/taki-collabo_a_ur-semantic-v1.json",
+      "role": "model-profile",
+      "bytes": 11964,
+      "sha256": "F4CADE7681EE5871233BF0432577CB25BD0284F4BDE150577C92ED8753325A47"
+    },
+    {
+      "path": "model-profiles/taki-dream_festival_3_ur-semantic-v1.json",
+      "role": "model-profile",
+      "bytes": 12027,
+      "sha256": "FD010AFD56875598B77BF981CF4449918B9AE921CB8A39E3DBAAC999DB8B9E65"
+    },
+    {
+      "path": "model-profiles/taki-event_277_story_01-semantic-v1.json",
+      "role": "model-profile",
+      "bytes": 12044,
+      "sha256": "0BB51D251A974AE64170D50A47974BBD1C6E479FFFCCB47C16CAA5A401349788"
+    },
+    {
+      "path": "model-profiles/taki-live_default-semantic-v1.json",
+      "role": "model-profile",
+      "bytes": 11968,
+      "sha256": "6FA37912F8FAE2EE6D22C844F7BEBEE4A29896099E55DA10B12512FB6EE31F2D"
+    },
+    {
+      "path": "model-profiles/taki-live_event_235_sr-semantic-v1.json",
+      "role": "model-profile",
+      "bytes": 12042,
+      "sha256": "82A8E39B413E159F653CC1778B50A42FAAB5D246D9193B22C226676E87F1A2A6"
+    },
+    {
+      "path": "model-profiles/taki-live_event_240_ur-semantic-v1.json",
+      "role": "model-profile",
+      "bytes": 12034,
+      "sha256": "282127E3C8256D628CBCE8C59A4FAB7E77F3E12C70CADAA0746188B1103BE30E"
+    },
+    {
+      "path": "model-profiles/taki-live_event_250_ssr-semantic-v1.json",
+      "role": "model-profile",
+      "bytes": 12016,
+      "sha256": "98D6FF4038D29A189122100A11744737669B3713A6115EE589F81EACD0CCA78F"
+    },
+    {
+      "path": "model-profiles/taki-live_event_277_ur-semantic-v1.json",
+      "role": "model-profile",
+      "bytes": 12087,
+      "sha256": "58F18C752B029B9C78A8A61D3EDE0E17EC6D83CCE4732AAA1F19AF1DCCCD6B7B"
+    },
+    {
+      "path": "model-profiles/taki-live_event_286_r-semantic-v1.json",
+      "role": "model-profile",
+      "bytes": 12020,
+      "sha256": "8844E61172B79B7D46A944F0B16F403B1428596CAF2292CD4599C9E90BFE670C"
+    },
+    {
+      "path": "model-profiles/taki-live_event_297_ur-semantic-v1.json",
+      "role": "model-profile",
+      "bytes": 12125,
+      "sha256": "DB0041310A17E9ECB6800D42D8706E30A8D30D2E41036B391A4109AE5FEF57A5"
+    },
+    {
+      "path": "model-profiles/taki-live_sr_01-semantic-v1.json",
+      "role": "model-profile",
+      "bytes": 11944,
+      "sha256": "DD92E41949ED7AABF78A9322F087F7A5E2928F60D4E9941C064E14DF1260BD9A"
+    },
+    {
+      "path": "model-profiles/taki-school_summer-2023-semantic-v1.json",
+      "role": "model-profile",
+      "bytes": 11974,
+      "sha256": "BF5F579F1DA735C7AAA1E669008BE638360151E871DDE06E6C63A2AB9C07C177"
+    },
+    {
+      "path": "model-profiles/taki-school_winter-2023-semantic-v1.json",
+      "role": "model-profile",
+      "bytes": 12117,
+      "sha256": "E9F89426FA8B84C7961D9661799AB0337113BB1778553C52ACDA21756E5E9AE6"
+    },
+    {
+      "path": "model-profiles/tomori-2024_furisode-semantic-v1.json",
+      "role": "model-profile",
+      "bytes": 11924,
+      "sha256": "7F947BE68FC3CD2C9B8D573B04965B00CD46E3C354A9CCB8544F19575854A1A4"
+    },
+    {
+      "path": "model-profiles/tomori-birthday_2024_ssr-semantic-v1.json",
+      "role": "model-profile",
+      "bytes": 11990,
+      "sha256": "02EB798795FE3FFCCA37F5D3BB3FB52DBD2FE0AF079960B90617EBFE56D88ED4"
+    },
+    {
+      "path": "model-profiles/tomori-casual-2023-semantic-v1.json",
+      "role": "model-profile",
+      "bytes": 11920,
+      "sha256": "07BFF427233FAE8F719338957968A5C15E63A6763437B613DFAB250B6134FFB1"
+    },
+    {
+      "path": "model-profiles/tomori-collabo_a_ur-semantic-v1.json",
+      "role": "model-profile",
+      "bytes": 11920,
+      "sha256": "3EA809AF41E4A87F288AD56F8AB367C6BB97A85124DBA2028375A858ECBD7B1E"
+    },
+    {
+      "path": "model-profiles/tomori-collabo_d_3_ur-semantic-v1.json",
+      "role": "model-profile",
+      "bytes": 11948,
+      "sha256": "63658ACB65AE7A7D8028F6BE6837A80E605933F73A00880B0CBF532EAD983D9D"
+    },
+    {
+      "path": "model-profiles/tomori-dream_festival_3_ur-semantic-v1.json",
+      "role": "model-profile",
+      "bytes": 12018,
+      "sha256": "8E1D2B638FE2B1ABE941078FBAACEC38CD5368717F052449519B244F7E30DC48"
+    },
+    {
+      "path": "model-profiles/tomori-live_default-semantic-v1.json",
+      "role": "model-profile",
+      "bytes": 11919,
+      "sha256": "8C4DA28991FC520B34CB8C877586F2FCB4ECECDD78C410A55DA7F5E9DF7B80B8"
+    },
+    {
+      "path": "model-profiles/tomori-live_event_235_ur-semantic-v1.json",
+      "role": "model-profile",
+      "bytes": 12032,
+      "sha256": "14CA14CB83EC9A56552E920217226FE3989D870E19FD6C3C0F05AE3598154857"
+    },
+    {
+      "path": "model-profiles/tomori-live_event_240_ssr-semantic-v1.json",
+      "role": "model-profile",
+      "bytes": 12023,
+      "sha256": "BF9682E327AFE49D490BEADE8D4A98D5BB24345999B5C9523F6355B6C5F60A6A"
+    },
+    {
+      "path": "model-profiles/tomori-live_event_250_ur-semantic-v1.json",
+      "role": "model-profile",
+      "bytes": 11958,
+      "sha256": "1C232B97B7EB2A1DAEE3EC15C01BAD5A1D28C56DBD51804148256AB6851E9F01"
+    },
+    {
+      "path": "model-profiles/tomori-live_event_286_ur-semantic-v1.json",
+      "role": "model-profile",
+      "bytes": 11988,
+      "sha256": "3327C17B27E1DC18659AE828AB5A2FCC696780189D0506B6554EA179CA90D647"
+    },
+    {
+      "path": "model-profiles/tomori-live_event_289_ur-semantic-v1.json",
+      "role": "model-profile",
+      "bytes": 11984,
+      "sha256": "095B28360D0E57C98413A225B4A179473C86538EC3C8286748440CE65CF3F1FD"
+    },
+    {
+      "path": "model-profiles/tomori-live_event_297_ur-semantic-v1.json",
+      "role": "model-profile",
+      "bytes": 11985,
+      "sha256": "038C649E51CF738C7B32417B082238DE67E6E0D1C15A23480A9EC9F8AA279371"
+    },
+    {
+      "path": "model-profiles/tomori-live_sr_01-semantic-v1.json",
+      "role": "model-profile",
+      "bytes": 11890,
+      "sha256": "5440C86702ED56C341557E8D93F7987D1D85E8CA48DE2010DC700ED1DF8E2AF9"
+    },
+    {
+      "path": "model-profiles/tomori-school_summer-2023-semantic-v1.json",
+      "role": "model-profile",
+      "bytes": 12131,
+      "sha256": "582643D488A8779633A718F29EF235BE9537530B40997B21BB8D529A04FBB789"
+    },
+    {
+      "path": "model-profiles/tomori-school_winter-2023-semantic-v1.json",
+      "role": "model-profile",
+      "bytes": 12007,
+      "sha256": "CDE3632A8FD5A254A60FF871E765EDF4829A7861F9DCF86EFD97EBDF8CA9E639"
+    },
+    {
+      "path": "model-profiles/uika-casual-2023_nocap-semantic-v1.json",
+      "role": "model-profile",
+      "bytes": 12076,
+      "sha256": "1C13386A75268C406375C778DBC7EECD77BF67D14DF06047AAD507BFCE2DE031"
+    },
+    {
+      "path": "model-profiles/uika-casual-2023-semantic-v1.json",
+      "role": "model-profile",
+      "bytes": 11994,
+      "sha256": "C4922C86ACD98CF65961E819955B0E6661B7DD50C0305D1DA60D869FC7B9B19C"
+    },
+    {
+      "path": "model-profiles/uika-event_297_story_01-semantic-v1.json",
+      "role": "model-profile",
+      "bytes": 12059,
+      "sha256": "7972F207C317DC1032F84744C812ABA79BFA3C3A7E2C655C94625B045212AED2"
+    },
+    {
+      "path": "model-profiles/uika-school_summer-2023-semantic-v1.json",
+      "role": "model-profile",
+      "bytes": 12140,
+      "sha256": "34D4C28A0B70AA0D438F0AB5809B315A491039BD057D6854012E9479FBE9AED3"
+    },
+    {
+      "path": "model-profiles/uika-school_winter-2023-semantic-v1.json",
+      "role": "model-profile",
+      "bytes": 12164,
+      "sha256": "774F06EB9B036D2F9725C999D8D8AFC43274A000302648E2FCABAEBE919EE8C4"
+    },
+    {
+      "path": "model-profiles/uika-sumimi-semantic-v1.json",
+      "role": "model-profile",
+      "bytes": 11918,
+      "sha256": "B5DC6F1B8224D2873D9A073158C3F68FB33A5D9846891560B2BF8200D6F3B377"
+    },
+    {
+      "path": "model-profiles/umiri-casual-2023-semantic-v1.json",
+      "role": "model-profile",
+      "bytes": 12047,
+      "sha256": "64DC5A4A7388557734A786CFBCB0D5DE21CB70B5BFFFF9C4A422836877F11D23"
+    },
+    {
+      "path": "model-profiles/umiri-event_297_story_01-semantic-v1.json",
+      "role": "model-profile",
+      "bytes": 12140,
+      "sha256": "25B86B40415DCE0F558DAB5F4848A9217147778EDC2609FCC8A58653A7F99F3C"
+    },
+    {
+      "path": "model-profiles/umiri-school_summer-2023-semantic-v1.json",
+      "role": "model-profile",
+      "bytes": 12161,
+      "sha256": "8B5175D99242DAE52D68799A59CE520C3D7C18FA43B7E759460220378EC37898"
+    },
+    {
+      "path": "model-profiles/umiri-school_winter-2023-semantic-v1.json",
+      "role": "model-profile",
+      "bytes": 12110,
+      "sha256": "E8C6F2F47385EA6596D4BB3708EC9F73D2FAA35DA53D975E4FE9A8E04CA8B5BD"
+    },
+    {
+      "path": "model-profiles/webgal-attachment-plugin-v0.1-anon-profile.json",
+      "role": "model-profile",
+      "bytes": 3589,
+      "sha256": "54C0CC7D684E95AA06734FC4769FE45B83617BD5B1155D7225DE14B70EBB21AE"
+    },
+    {
+      "path": "placement-presets/anon-flower-front-v1.json",
+      "role": "placement-preset",
+      "bytes": 1410,
+      "sha256": "585C667D164A2A3A7AC75FD7D686E13F6BEB35E79846480F7CD4C02B603953C2"
+    },
+    {
+      "path": "placement-presets/anon-halo-front-v1.json",
+      "role": "placement-preset",
+      "bytes": 508,
+      "sha256": "4436E47C3C417541BFBE896C8FE42FD4B6B380E19827A1E66597BDF3E2BBC19A"
+    },
+    {
+      "path": "placement-presets/anon-kemomimi-front-v1.json",
+      "role": "placement-preset",
+      "bytes": 513,
+      "sha256": "F6D4D99B8439B3825B0E05E4ABFD836CFADD8372FADA92705B907846E2D20629"
+    },
+    {
+      "path": "placement-presets/anon-rose-front-v1.json",
+      "role": "placement-preset",
+      "bytes": 1451,
+      "sha256": "652EDAC321E01C349B930B1BC72D06EC667F070CE169F4A79F87E72753C49544"
+    },
+    {
+      "path": "placement-presets/anon-straw-hat-both-v1.json",
+      "role": "placement-preset",
+      "bytes": 516,
+      "sha256": "974C21B87F205537D5BF0E050451D0B6D60068A078899C46749F5FA22CD280C9"
+    },
+    {
+      "path": "placement-presets/webgal-attachment-plugin-v0.1-starter.json",
+      "role": "placement-preset",
+      "bytes": 547,
+      "sha256": "E6113C57E50130DC8635DDDD913E97767A3E63A6400D70D4DF36EBB286CC0197"
+    },
+    {
+      "path": "portable-samples/草帽/straw-hat-both-v1/使用说明.txt",
+      "role": "factory-sample-guide",
+      "bytes": 324,
+      "sha256": "34A4C68B0E9ED4238B69DA677402D3FC930F4C74BC4252BD943130FFE32A9FF4"
+    },
+    {
+      "path": "portable-samples/草帽/straw-hat-both-v1/attachment.json",
+      "role": "factory-sample-document",
+      "bytes": 6229,
+      "sha256": "19629724C47D5DF2062410CFEA6B76474B9551257D61051E6D7355791D14604A"
+    },
+    {
+      "path": "portable-samples/草帽/straw-hat-both-v1/images/back.png",
+      "role": "factory-sample-image",
+      "bytes": 538148,
+      "sha256": "B78A275550A66186A5C7A1570069B955810FB84FEB5C3218612A48BD7C3E3516"
+    },
+    {
+      "path": "portable-samples/草帽/straw-hat-both-v1/images/front.png",
+      "role": "factory-sample-image",
+      "bytes": 341386,
+      "sha256": "2D200AB491A22CF793F6A60193C99B4017804A17E8531F4F1840CA20352DFD60"
+    },
+    {
+      "path": "portable-samples/草帽/straw-hat-both-v1/manifest.json",
+      "role": "factory-sample-manifest",
+      "bytes": 1185,
+      "sha256": "EA0F858AFC40B0E7404A94C966851E5C3356F0E89BAFEBB64830C22AAB16CFDF"
+    },
+    {
+      "path": "portable-samples/光环/halo-front-v1/使用说明.txt",
+      "role": "factory-sample-guide",
+      "bytes": 320,
+      "sha256": "7C8581622C4455BA6EED7476E8CE079CE96C2DE9F0000D432F760525AE7FF73A"
+    },
+    {
+      "path": "portable-samples/光环/halo-front-v1/attachment.json",
+      "role": "factory-sample-document",
+      "bytes": 6045,
+      "sha256": "EC311732877D2390B551D529232B0DC4092CB2EBF4DC1578C0780C1347DCDBF9"
+    },
+    {
+      "path": "portable-samples/光环/halo-front-v1/images/front.png",
+      "role": "factory-sample-image",
+      "bytes": 1283951,
+      "sha256": "564544D1D77C239F7117D8B28A209BD9CE976F1CBC6AE92FD5A09B3AD46811A3"
+    },
+    {
+      "path": "portable-samples/光环/halo-front-v1/manifest.json",
+      "role": "factory-sample-manifest",
+      "bytes": 967,
+      "sha256": "C7706F7C94B9AEF1E310C7D4BDF3795F69377A9AD1147267ECBB386E1D6E678C"
+    },
+    {
+      "path": "portable-samples/花朵/flower-front-v1/使用说明.txt",
+      "role": "factory-sample-guide",
+      "bytes": 322,
+      "sha256": "FC66CBAE3C8D2A132DAC2F6299C227BC054912258BC48337D3825511079CDD3F"
+    },
+    {
+      "path": "portable-samples/花朵/flower-front-v1/attachment.json",
+      "role": "factory-sample-document",
+      "bytes": 18860,
+      "sha256": "276D362E3F931CC1DC821B444014EDBABE5E71754F22C699F8327E04A9112F52"
+    },
+    {
+      "path": "portable-samples/花朵/flower-front-v1/images/front.png",
+      "role": "factory-sample-image",
+      "bytes": 653895,
+      "sha256": "5E1678B04EA57C4338969D9A763375CFB1D3E08D585B53C96C0C8BCB4963AEA9"
+    },
+    {
+      "path": "portable-samples/花朵/flower-front-v1/manifest.json",
+      "role": "factory-sample-manifest",
+      "bytes": 974,
+      "sha256": "3D15E0190A735FD579FA5CB6B75B91ABA19C8F967C767438E3DAA582DFD340D6"
+    },
+    {
+      "path": "portable-samples/玫瑰/rose-front-v1/使用说明.txt",
+      "role": "factory-sample-guide",
+      "bytes": 320,
+      "sha256": "B7EFAC55DE3DE4BA9BA75F234E5ACB6183974200A35C78385E79D99DC81AE94F"
+    },
+    {
+      "path": "portable-samples/玫瑰/rose-front-v1/attachment.json",
+      "role": "factory-sample-document",
+      "bytes": 18940,
+      "sha256": "4928CC44788338DF4D7FD4BBB7D06F30C9A27DD8BB9FA035BB455D08D963B6A3"
+    },
+    {
+      "path": "portable-samples/玫瑰/rose-front-v1/images/front.png",
+      "role": "factory-sample-image",
+      "bytes": 190855,
+      "sha256": "691CCDB0C60F692DD5B9E0A3279311410A97438906901E7B500A627A574C419D"
+    },
+    {
+      "path": "portable-samples/玫瑰/rose-front-v1/manifest.json",
+      "role": "factory-sample-manifest",
+      "bytes": 961,
+      "sha256": "00B3428080E3C2116B2E0C052A20A99622A02D0D0EE3029339EE96ECD1391CA0"
+    },
+    {
+      "path": "portable-samples/兽耳/kemomimi-front-v1/使用说明.txt",
+      "role": "factory-sample-guide",
+      "bytes": 324,
+      "sha256": "5038B08EFE9AD23B48263412F149B5F4D1ACE0CCA708EA7E38BA9E7D8CEF6AC4"
+    },
+    {
+      "path": "portable-samples/兽耳/kemomimi-front-v1/attachment.json",
+      "role": "factory-sample-document",
+      "bytes": 6059,
+      "sha256": "B1C7704C68F0EBD70938C42DDDD227F0261CACF8138BF8FE1793B0129D508D5C"
+    },
+    {
+      "path": "portable-samples/兽耳/kemomimi-front-v1/images/front.png",
+      "role": "factory-sample-image",
+      "bytes": 1447768,
+      "sha256": "430EAA772E4B1581B4CAE728E5458C542DB53BAAB728182F3D911104BFA23930"
+    },
+    {
+      "path": "portable-samples/兽耳/kemomimi-front-v1/manifest.json",
+      "role": "factory-sample-manifest",
+      "bytes": 987,
+      "sha256": "1C66ABFA66C4308FC9641322974AFA3A5A61FC4B729FB5A2C855E3F30369AACB"
+    },
+    {
+      "path": "validation/webgal-attachment-plugin-v0.1-anon-profile.json",
+      "role": "validation-record",
+      "bytes": 285,
+      "sha256": "87DE67750E487A4AE11D28F1CA56296B663C6269B09FF5439C2C376875DB15AF"
+    }
+  ]
+}

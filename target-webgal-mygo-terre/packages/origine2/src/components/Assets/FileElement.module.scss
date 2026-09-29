@@ -1,0 +1,60 @@
+.file {
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+  padding: 0 8px;
+  cursor: pointer;
+  width: 100%;
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  position: relative;
+}
+
+.list {
+  flex-direction: row;
+  height: 28px;
+}
+
+.grid {
+  flex-direction: column;
+  aspect-ratio: 1 / 1;
+}
+
+.fileSelected,
+.file:hover {
+  background: var(--bg-button-hover);
+}
+
+.fileAction {
+  position: absolute;
+  visibility: hidden;
+  right: 2px;
+  background-color: var(--bg-input);
+  border-radius: var(--radius-md);
+  padding: 0 4px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.file:hover .fileAction {
+  visibility: visible;
+}
+
+.mosaicBg {
+  background-image:
+    linear-gradient(45deg, rgba(0, 0, 0, 0.1) 25%, transparent 25%),
+    linear-gradient(-45deg, rgba(0, 0, 0, 0.1) 25%, transparent 25%),
+    linear-gradient(45deg, transparent 75%, rgba(0, 0, 0, 0.1) 75%),
+    linear-gradient(-45deg, transparent 75%, rgba(0, 0, 0, 0.1) 75%);
+  background-size: 20px 20px;
+  background-position: 0 0, 0 10px, 10px -10px, -10px 0px;
+}
+
+.inputDanger {
+  border-color: var(--danger) !important;
+}
+
+.inputDanger::after {
+  border-bottom: var(--border-danger-lg) !important;
+}

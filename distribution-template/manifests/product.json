@@ -1,0 +1,14 @@
+{
+  "schema": "webgal-attachment-product",
+  "schemaVersion": 1,
+  "name": "WebGAL Attachment for MyGO",
+  "version": "0.5.0-beta.1",
+  "releaseRevision": "MPB1-5L-HOTFIX.44",
+  "status": "HOTFIX44_RELEASE_METADATA_ALIGNED",
+  "supportedHost": "MyGO 3.2.0 / WebGAL Terre 4.6.2 / hostfix1-local exact fingerprint only",
+  "publicBetaCandidateReady": false,
+  "realHostInstalled": false,
+  "guiValidated": false,
+  "sdkBundled": false,
+  "modelBinariesBundled": false
+}

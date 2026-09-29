@@ -1,0 +1,144 @@
+.tab {
+  display: flex;
+  //overflow: auto;
+}
+
+.sidebar_tag_title {
+  font-size: 115%;
+  padding: 0.15em 0 0 0;
+  font-weight: bold;
+  color: var(--primary);
+}
+
+.sidebar_tag_head {
+  display: flex;
+  align-items: center;
+  margin: 0 0 10px 0;
+}
+
+.sidebar_tag_head_button {
+  margin: 0 0 0 auto;
+}
+
+.sidebar_gameconfig_title {
+  color: var(--text);
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 8px;
+}
+
+.sidebar_gameconfig_container {
+  padding: 0.5em;
+  margin: 4px 0;
+  -webkit-user-select: none;
+  user-select: none;
+  display: flex;
+  flex-flow: column;
+}
+
+.tabItem {
+  padding: 0;
+  margin: 4px 0 4px 0.5em;
+  -webkit-user-select: none;
+  user-select: none;
+  display: flex;
+  //flex-flow: column;
+  flex-shrink: 0;
+}
+
+.topbarTabItemContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.divider {
+  height: 90%;
+  align-self: center;
+  border-right: var(--border-sm);
+  margin-left: 0.5em;
+}
+
+.tabItem:last-child {
+  .divider {
+    display: none;
+  }
+}
+
+.textEditArea {
+  display: block;
+  //flex-flow: column;
+  //align-items: center;
+}
+
+.editButton {
+  display: inline-block;
+  font-size: smaller;
+  box-sizing: border-box;
+  padding: 0.2em 0.5em 0.2em 0.5em;
+  color: var(--primary);
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  margin: 0 0 0 0.25em;
+}
+
+.editButton:hover {
+  background: var(--primary-10pct);
+}
+
+.addIcon:hover {
+  background: rgba(0, 92, 175, 0.15);
+}
+
+.imageChooseItem {
+  position: relative;
+  display: flex;
+  width: 100%;
+  padding: 8px;
+  padding-right: 4px;
+  margin: 0 6px 0 0;
+  align-items: center;
+  gap: 2px;
+  border-radius: var(--radius-md);
+}
+
+.imageChooseItem:hover {
+  background: var(--bg-button-hover);
+}
+
+.imageChooseItemImage {
+  width: 96px;
+  height: 54px;
+  object-fit: cover;
+  border-radius: var(--radius-sm);
+}
+
+.imageChooseItemText {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 0;
+  flex: 1;
+}
+
+.applyTemplateWrapper {
+  padding: 0 8px 0 0
+}
+
+.applyTemplateSelectorLine {
+  padding-top: 8px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.tips {
+  color: var(--text-weak);
+  font-weight: bolder;
+  font-size: smaller;
+  text-align: left;
+  height: 100%;
+  padding: 4px;
+  border-radius: 4px;
+}

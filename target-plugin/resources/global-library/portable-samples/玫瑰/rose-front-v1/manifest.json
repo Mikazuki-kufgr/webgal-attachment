@@ -1,0 +1,28 @@
+{
+  "schema": "webgal-attachment-creator-export-manifest",
+  "schemaVersion": 1,
+  "toolVersion": "factory-sample-v1",
+  "createdAt": "2026-09-24T00:00:00.000Z",
+  "attachmentDefinitionId": "builtin-rose-front-v1",
+  "presetId": "v2/rose-front-v1",
+  "modelProfileId": "anon-school_winter-2023-semantic-v1",
+  "anchorName": "mouth",
+  "displayName": "玫瑰",
+  "files": [
+    {
+      "path": "game/attachments-v2/portable/rose-front-v1/images/front.png",
+      "bytes": 190855,
+      "sha256": "691CCDB0C60F692DD5B9E0A3279311410A97438906901E7B500A627A574C419D"
+    },
+    {
+      "path": "game/attachments-v2/portable/rose-front-v1/attachment.json",
+      "bytes": 18940,
+      "sha256": "4928CC44788338DF4D7FD4BBB7D06F30C9A27DD8BB9FA035BB455D08D963B6A3"
+    },
+    {
+      "path": "game/attachments-v2/portable/rose-front-v1/使用说明.txt",
+      "bytes": 320,
+      "sha256": "B7EFAC55DE3DE4BA9BA75F234E5ACB6183974200A35C78385E79D99DC81AE94F"
+    }
+  ]
+}

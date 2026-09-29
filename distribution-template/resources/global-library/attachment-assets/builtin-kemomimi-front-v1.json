@@ -1,0 +1,12 @@
+{
+  "schema": "webgal-live2d-attachment-asset",
+  "schemaVersion": 1,
+  "attachmentAssetId": "builtin-kemomimi-front-v1",
+  "slot": "headwear",
+  "layers": {
+    "front": "./game/attachments-v2/files/builtin-samples/kemomimi/front.png"
+  },
+  "attachedLayers": {
+    "front": "./game/attachments-v2/files/builtin-samples/kemomimi/front.png"
+  }
+}

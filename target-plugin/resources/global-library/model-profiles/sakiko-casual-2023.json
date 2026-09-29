@@ -1,0 +1,56 @@
+{
+  "schema": "webgal-live2d-model-profile",
+  "schemaVersion": 1,
+  "profileVersion": 1,
+  "modelProfileId": "sakiko-casual-2023",
+  "characterId": "sakiko",
+  "modelId": "casual-2023",
+  "modelPath": "./game/figure/sakiko/casual-2023/model.json",
+  "fingerprint": {
+    "modelJsonSha256": "9881E954D99CAF496A5F2CD17A8792ECAD1DE99B6F1E5DCC46EB1865538320AF",
+    "mocSha256": "792C621A0DEBDF01B0F72337FA773D714437C0B57EE2B09C23677258BD3238DA",
+    "drawableCount": 230
+  },
+  "anchors": [
+    {
+      "name": "head",
+      "anchorProfileId": "sakiko-head-dpsd177-v1",
+      "drawableId": "D_PSD.177",
+      "vertexCount": 45,
+      "points": [
+        {
+          "index": 40,
+          "weight": 1,
+          "neutral": {
+            "x": 828.9794921875,
+            "y": 480.7065734863281
+          }
+        },
+        {
+          "index": 41,
+          "weight": 1,
+          "neutral": {
+            "x": 937.3056640625,
+            "y": 415.5644836425781
+          }
+        },
+        {
+          "index": 42,
+          "weight": 1,
+          "neutral": {
+            "x": 1063.1982421875,
+            "y": 417.0283508300781
+          }
+        },
+        {
+          "index": 43,
+          "weight": 1,
+          "neutral": {
+            "x": 1164.205078125,
+            "y": 474.1190490722656
+          }
+        }
+      ]
+    }
+  ]
+}

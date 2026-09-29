@@ -1,0 +1,544 @@
+{
+  "schema": "webgal-live2d-model-profile",
+  "schemaVersion": 1,
+  "profileVersion": 1,
+  "modelProfileId": "uika-school_summer-2023-semantic-v1",
+  "characterId": "uika",
+  "modelId": "school_summer-2023",
+  "modelPath": "./game/figure/uika/school_summer-2023/model.json",
+  "fingerprint": {
+    "modelJsonSha256": "08DA6344A762315EF2AC4E53B7766357D909F1BBED3CDEA23AF3C9E12B33D806",
+    "mocSha256": "39BBD29B2466DFD65F5793415EB2D0AD041D068084BDBF823858191C30C9916B",
+    "drawableCount": 157
+  },
+  "anchors": [
+    {
+      "name": "head",
+      "anchorProfileId": "uika-school_summer-2023-semantic-v1-head-hair-compatible",
+      "drawableId": "D_PSD.00",
+      "vertexCount": 82,
+      "points": [
+        {
+          "index": 25,
+          "weight": 1,
+          "neutral": {
+            "x": 846.62646484375,
+            "y": 361.9058837890625
+          }
+        },
+        {
+          "index": 49,
+          "weight": 1,
+          "neutral": {
+            "x": 944.75048828125,
+            "y": 321.1248779296875
+          }
+        },
+        {
+          "index": 56,
+          "weight": 1,
+          "neutral": {
+            "x": 1032.2498779296875,
+            "y": 346.2810974121094
+          }
+        },
+        {
+          "index": 52,
+          "weight": 1,
+          "neutral": {
+            "x": 1090.9998779296875,
+            "y": 330.96856689453125
+          }
+        },
+        {
+          "index": 54,
+          "weight": 1,
+          "neutral": {
+            "x": 1169.4874267578125,
+            "y": 370.96099853515625
+          }
+        }
+      ]
+    },
+    {
+      "name": "hair-top",
+      "anchorProfileId": "uika-school_summer-2023-semantic-v1-hair-top",
+      "drawableId": "D_PSD.00",
+      "vertexCount": 82,
+      "points": [
+        {
+          "index": 25,
+          "weight": 1,
+          "neutral": {
+            "x": 846.62646484375,
+            "y": 361.9058837890625
+          }
+        },
+        {
+          "index": 49,
+          "weight": 1,
+          "neutral": {
+            "x": 944.75048828125,
+            "y": 321.1248779296875
+          }
+        },
+        {
+          "index": 56,
+          "weight": 1,
+          "neutral": {
+            "x": 1032.2498779296875,
+            "y": 346.2810974121094
+          }
+        },
+        {
+          "index": 52,
+          "weight": 1,
+          "neutral": {
+            "x": 1090.9998779296875,
+            "y": 330.96856689453125
+          }
+        },
+        {
+          "index": 54,
+          "weight": 1,
+          "neutral": {
+            "x": 1169.4874267578125,
+            "y": 370.96099853515625
+          }
+        }
+      ]
+    },
+    {
+      "name": "eyelid-upper-left",
+      "anchorProfileId": "uika-school_summer-2023-semantic-v1-eyelid-upper-left",
+      "drawableId": "D_PSD.65",
+      "vertexCount": 11,
+      "points": [
+        {
+          "index": 1,
+          "weight": 1,
+          "neutral": {
+            "x": 888.2501220703125,
+            "y": 678.6873168945312
+          }
+        },
+        {
+          "index": 2,
+          "weight": 1,
+          "neutral": {
+            "x": 881.0626831054688,
+            "y": 685.7498779296875
+          }
+        },
+        {
+          "index": 3,
+          "weight": 1,
+          "neutral": {
+            "x": 902.4375,
+            "y": 679.1873168945312
+          }
+        },
+        {
+          "index": 5,
+          "weight": 1,
+          "neutral": {
+            "x": 922.2499389648438,
+            "y": 680.8748168945312
+          }
+        },
+        {
+          "index": 9,
+          "weight": 1,
+          "neutral": {
+            "x": 952.7498779296875,
+            "y": 695.9999389648438
+          }
+        }
+      ]
+    },
+    {
+      "name": "eyelid-upper-right",
+      "anchorProfileId": "uika-school_summer-2023-semantic-v1-eyelid-upper-right",
+      "drawableId": "D_PSD.111",
+      "vertexCount": 55,
+      "points": [
+        {
+          "index": 40,
+          "weight": 1,
+          "neutral": {
+            "x": 1101.638916015625,
+            "y": 689.0472412109375
+          }
+        },
+        {
+          "index": 42,
+          "weight": 1,
+          "neutral": {
+            "x": 1120.6214599609375,
+            "y": 685.3770141601562
+          }
+        },
+        {
+          "index": 43,
+          "weight": 1,
+          "neutral": {
+            "x": 1131.3248291015625,
+            "y": 685.6893920898438
+          }
+        },
+        {
+          "index": 44,
+          "weight": 1,
+          "neutral": {
+            "x": 1139.607177734375,
+            "y": 688.110595703125
+          }
+        },
+        {
+          "index": 45,
+          "weight": 1,
+          "neutral": {
+            "x": 1148.435546875,
+            "y": 692.1729125976562
+          }
+        }
+      ]
+    },
+    {
+      "name": "eye-center-left",
+      "anchorProfileId": "uika-school_summer-2023-semantic-v1-eye-center-left",
+      "drawableId": "D_PSD.48",
+      "vertexCount": 9,
+      "points": [
+        {
+          "index": 0,
+          "weight": 1,
+          "neutral": {
+            "x": 852.999755859375,
+            "y": 733.249755859375
+          }
+        },
+        {
+          "index": 1,
+          "weight": 1,
+          "neutral": {
+            "x": 874.9998168945312,
+            "y": 765.0001220703125
+          }
+        },
+        {
+          "index": 6,
+          "weight": 1,
+          "neutral": {
+            "x": 885.9998168945312,
+            "y": 679.2494506835938
+          }
+        },
+        {
+          "index": 7,
+          "weight": 1,
+          "neutral": {
+            "x": 858.749755859375,
+            "y": 700.4995727539062
+          }
+        },
+        {
+          "index": 8,
+          "weight": 1,
+          "neutral": {
+            "x": 897.2498779296875,
+            "y": 726.7498779296875
+          }
+        }
+      ]
+    },
+    {
+      "name": "eye-center-right",
+      "anchorProfileId": "uika-school_summer-2023-semantic-v1-eye-center-right",
+      "drawableId": "D_PSD.66",
+      "vertexCount": 9,
+      "points": [
+        {
+          "index": 3,
+          "weight": 1,
+          "neutral": {
+            "x": 1071.2501220703125,
+            "y": 758
+          }
+        },
+        {
+          "index": 5,
+          "weight": 1,
+          "neutral": {
+            "x": 1134.000244140625,
+            "y": 756.4999389648438
+          }
+        },
+        {
+          "index": 6,
+          "weight": 1,
+          "neutral": {
+            "x": 1146.0001220703125,
+            "y": 719.4999389648438
+          }
+        },
+        {
+          "index": 7,
+          "weight": 1,
+          "neutral": {
+            "x": 1133.25,
+            "y": 689.75
+          }
+        },
+        {
+          "index": 8,
+          "weight": 1,
+          "neutral": {
+            "x": 1102.5001220703125,
+            "y": 724.7499389648438
+          }
+        }
+      ]
+    },
+    {
+      "name": "nose",
+      "anchorProfileId": "uika-school_summer-2023-semantic-v1-nose",
+      "drawableId": "D_PSD.23",
+      "vertexCount": 6,
+      "points": [
+        {
+          "index": 1,
+          "weight": 1,
+          "neutral": {
+            "x": 983.2733764648438,
+            "y": 806.509765625
+          }
+        },
+        {
+          "index": 2,
+          "weight": 1,
+          "neutral": {
+            "x": 1000.1078491210938,
+            "y": 807.7906494140625
+          }
+        },
+        {
+          "index": 3,
+          "weight": 1,
+          "neutral": {
+            "x": 1008.8910522460938,
+            "y": 826.4549560546875
+          }
+        },
+        {
+          "index": 4,
+          "weight": 1,
+          "neutral": {
+            "x": 1016.0274047851562,
+            "y": 804.8629150390625
+          }
+        },
+        {
+          "index": 5,
+          "weight": 1,
+          "neutral": {
+            "x": 1000.1078491210938,
+            "y": 785.4666748046875
+          }
+        }
+      ]
+    },
+    {
+      "name": "mouth",
+      "anchorProfileId": "uika-school_summer-2023-semantic-v1-mouth",
+      "drawableId": "D_PSD.90",
+      "vertexCount": 40,
+      "points": [
+        {
+          "index": 5,
+          "weight": 1,
+          "neutral": {
+            "x": 983.0231323242188,
+            "y": 881.1439208984375
+          }
+        },
+        {
+          "index": 7,
+          "weight": 1,
+          "neutral": {
+            "x": 1002.770751953125,
+            "y": 880.8729858398438
+          }
+        },
+        {
+          "index": 13,
+          "weight": 1,
+          "neutral": {
+            "x": 1033.2542724609375,
+            "y": 877.5573120117188
+          }
+        },
+        {
+          "index": 20,
+          "weight": 1,
+          "neutral": {
+            "x": 997.9989624023438,
+            "y": 884.4048461914062
+          }
+        },
+        {
+          "index": 34,
+          "weight": 1,
+          "neutral": {
+            "x": 1008.29296875,
+            "y": 878.0035400390625
+          }
+        }
+      ]
+    },
+    {
+      "name": "ear-left",
+      "anchorProfileId": "uika-school_summer-2023-semantic-v1-ear-left",
+      "drawableId": "D_PSD.72",
+      "vertexCount": 12,
+      "points": [
+        {
+          "index": 1,
+          "weight": 1,
+          "neutral": {
+            "x": 788.2114868164062,
+            "y": 659.1787109375
+          }
+        },
+        {
+          "index": 2,
+          "weight": 1,
+          "neutral": {
+            "x": 791.6881713867188,
+            "y": 685.7113037109375
+          }
+        },
+        {
+          "index": 5,
+          "weight": 1,
+          "neutral": {
+            "x": 775.9515991210938,
+            "y": 614.3477783203125
+          }
+        },
+        {
+          "index": 7,
+          "weight": 1,
+          "neutral": {
+            "x": 806.3268432617188,
+            "y": 628.9864501953125
+          }
+        },
+        {
+          "index": 8,
+          "weight": 1,
+          "neutral": {
+            "x": 809.8035278320312,
+            "y": 676.01318359375
+          }
+        }
+      ]
+    },
+    {
+      "name": "ear-right",
+      "anchorProfileId": "uika-school_summer-2023-semantic-v1-ear-right",
+      "drawableId": "D_PSD.73",
+      "vertexCount": 13,
+      "points": [
+        {
+          "index": 1,
+          "weight": 1,
+          "neutral": {
+            "x": 1226.3994140625,
+            "y": 614.2548828125
+          }
+        },
+        {
+          "index": 9,
+          "weight": 1,
+          "neutral": {
+            "x": 1210.1138916015625,
+            "y": 676.835205078125
+          }
+        },
+        {
+          "index": 10,
+          "weight": 1,
+          "neutral": {
+            "x": 1191.449462890625,
+            "y": 660.1837158203125
+          }
+        },
+        {
+          "index": 11,
+          "weight": 1,
+          "neutral": {
+            "x": 1231.3399658203125,
+            "y": 659.268798828125
+          }
+        },
+        {
+          "index": 12,
+          "weight": 1,
+          "neutral": {
+            "x": 1212.6756591796875,
+            "y": 647.7408447265625
+          }
+        }
+      ]
+    },
+    {
+      "name": "chin",
+      "anchorProfileId": "uika-school_summer-2023-semantic-v1-chin",
+      "drawableId": "D_PSD.01",
+      "vertexCount": 20,
+      "points": [
+        {
+          "index": 0,
+          "weight": 1,
+          "neutral": {
+            "x": 996.5703735351562,
+            "y": 1039.8128662109375
+          }
+        },
+        {
+          "index": 9,
+          "weight": 1,
+          "neutral": {
+            "x": 954.1212768554688,
+            "y": 1151.7994384765625
+          }
+        },
+        {
+          "index": 15,
+          "weight": 1,
+          "neutral": {
+            "x": 1062.15576171875,
+            "y": 1092.2406005859375
+          }
+        },
+        {
+          "index": 17,
+          "weight": 1,
+          "neutral": {
+            "x": 1078.8472900390625,
+            "y": 1213.5084228515625
+          }
+        },
+        {
+          "index": 19,
+          "weight": 1,
+          "neutral": {
+            "x": 1134.47607421875,
+            "y": 1054.642822265625
+          }
+        }
+      ]
+    }
+  ]
+}
