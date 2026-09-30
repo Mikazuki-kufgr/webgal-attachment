@@ -4,7 +4,7 @@
 
 ## 0. 下载并确认
 
-新版正式发布后，从本仓库 [Releases](https://github.com/Mikazuki-kufgr/webgal-attachment/releases) 下载 INSTALL；源码在同一 Release 的 SOURCE 文件，也可浏览仓库。对照 Release 页 SHA-256，两个包版本必须一致。把 INSTALL **完整解压**到普通本地文件夹，保留 `runtime/`、`payload/`、`resources/`、`manifests/` 和根目录的中文 `.cmd` 文件。不要只取出一两个 CMD。
+从本次[公测 Release](https://github.com/Mikazuki-kufgr/webgal-attachment/releases/tag/v0.5.0-beta.1-mygo3.2.1) 下载 [INSTALL](https://github.com/Mikazuki-kufgr/webgal-attachment/releases/download/v0.5.0-beta.1-mygo3.2.1/WebGAL-Attachment-0.5.0-beta.1-MyGO3.2.1-Terre4.6.4-Windows-x64-INSTALL.zip)；[SOURCE](https://github.com/Mikazuki-kufgr/webgal-attachment/releases/download/v0.5.0-beta.1-mygo3.2.1/WebGAL-Attachment-0.5.0-beta.1-MyGO3.2.1-Terre4.6.4-Windows-x64-SOURCE.zip) 用于查看和构建源码，也可浏览[固定版本源码](https://github.com/Mikazuki-kufgr/webgal-attachment/tree/v0.5.0-beta.1-mygo3.2.1)。对照 [SHA256SUMS.txt](https://github.com/Mikazuki-kufgr/webgal-attachment/releases/download/v0.5.0-beta.1-mygo3.2.1/SHA256SUMS.txt) 核对下载文件。把 INSTALL **完整解压**到普通本地文件夹，保留 `runtime/`、`payload/`、`resources/`、`manifests/` 和根目录的中文 `.cmd` 文件。不要只取出一两个 CMD。
 
 ## 1. 安装和验证
 
