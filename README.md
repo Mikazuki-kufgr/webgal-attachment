@@ -6,7 +6,7 @@
 
 ## 下载
 
-新版公测包请从本仓库的 [Releases](https://github.com/Mikazuki-kufgr/webgal-attachment/releases) 获取同一修订的 `INSTALL`、`SOURCE` 和 `SHA256SUMS.txt`；**若尚无对应 Release 附件，表示新版安装包尚未在此仓库发布**。普通安装使用 INSTALL；查看源码或构建使用 SOURCE，也可以浏览本仓库。下载时核对 Release 页的 SHA-256，勿混用旧预告中的安装包与新源码。
+当前公测版：[`v0.5.0-beta.1-mygo3.2.1`](https://github.com/Mikazuki-kufgr/webgal-attachment/releases/tag/v0.5.0-beta.1-mygo3.2.1)。下载 [INSTALL](https://github.com/Mikazuki-kufgr/webgal-attachment/releases/download/v0.5.0-beta.1-mygo3.2.1/WebGAL-Attachment-0.5.0-beta.1-MyGO3.2.1-Terre4.6.4-Windows-x64-INSTALL.zip)、[SOURCE](https://github.com/Mikazuki-kufgr/webgal-attachment/releases/download/v0.5.0-beta.1-mygo3.2.1/WebGAL-Attachment-0.5.0-beta.1-MyGO3.2.1-Terre4.6.4-Windows-x64-SOURCE.zip) 和 [SHA256SUMS.txt](https://github.com/Mikazuki-kufgr/webgal-attachment/releases/download/v0.5.0-beta.1-mygo3.2.1/SHA256SUMS.txt)。普通安装使用 INSTALL；查看源码或构建使用 SOURCE，也可以浏览[该版本源码](https://github.com/Mikazuki-kufgr/webgal-attachment/tree/v0.5.0-beta.1-mygo3.2.1)。下载后按校验文件核对 SHA-256；勿混用旧预告中的安装包与新源码。
 
 教程视频暂缓制作；文字步骤已经备好：[第一次使用](docs/FIRST_USE.md)、[完整使用说明](docs/USER_GUIDE.md)、[已知限制](docs/KNOWN_LIMITATIONS.md)。
 
