@@ -27,3 +27,7 @@
 发布者有权授权的新增独立代码按 MPL-2.0，明确列出的内置示例图片按 CC0-1.0；上游与第三方内容保留各自许可。具体范围见 [LICENSE_SCOPE.json](LICENSE_SCOPE.json)、[NOTICE.md](NOTICE.md)、[THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。仓库不授予人物模型、SDK 或宿主的再分发权。
 
 欢迎提交 [Issue](https://github.com/Mikazuki-kufgr/webgal-attachment/issues) 或参照 [贡献说明](CONTRIBUTING.md)参与维护。反馈请提供修订、宿主版本、复现步骤、预期/实际和脱敏日志；不要上传私有模型、账号或私人路径。
+
+## 社区参考资料
+
+[BanG Dream原模型特殊部件索引与底模候选检索表](docs/reference/bangdream-model-parts/README.md)：按帽子、兽耳、耳机、头巾、口罩等查找人物和具体外观，附自包含离线检索页。它是独立资料附录，与插件版本分别维护；可见造型不等于部件可拆用或目标移植效果已验证。

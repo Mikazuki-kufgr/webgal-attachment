@@ -1,0 +1,2269 @@
+{
+  "schemaVersion": 1,
+  "edition": "2026-10-02.1",
+  "categoryCount": 119,
+  "statusCounts": {
+    "PRESENT": 92,
+    "NOT_OBSERVED": 20,
+    "PARTIAL": 2,
+    "INDETERMINATE": 5
+  },
+  "absenceMeaning": "在本次已收集的中性可见图与相关候选中未发现明确实例；不是官方从未出现或全参数全动作不存在",
+  "taxonomyNote": "有限且有重叠、粒度不同的类别；数量不能计算服饰覆盖率",
+  "detailedExamplesNote": "细类别只列目视确认的代表，未给某模型标该细类别不代表它没有该部件",
+  "categories": [
+    {
+      "id": "H01",
+      "label": "棒球帽",
+      "family": "头部/帽饰",
+      "definition": "带前檐的棒球/运动帽",
+      "status": "PRESENT",
+      "notes": "",
+      "searchAliases": "",
+      "nearbyCategoryIds": [],
+      "examples": [
+        {
+          "modelId": "bestdori:001_collabo_d_1_ur",
+          "observation": "黑色前檐棒球帽，帽体覆盖头顶"
+        },
+        {
+          "modelId": "bestdori:209_event_110_story_01",
+          "observation": "红蓝短檐棒球帽配棒球/啦啦队式球服"
+        },
+        {
+          "modelId": "bestdori:034_live_event_142_sr",
+          "observation": "白黄黑街头短檐帽"
+        }
+      ]
+    },
+    {
+      "id": "H02",
+      "label": "空顶遮阳帽",
+      "family": "头部/帽饰",
+      "definition": "只围额头并向前伸出遮阳檐，头顶敞开",
+      "status": "PRESENT",
+      "notes": "",
+      "searchAliases": "",
+      "nearbyCategoryIds": [],
+      "examples": [
+        {
+          "modelId": "bestdori:007_live_event_122_ssr",
+          "observation": "粉白空顶帽，头顶头发可见，前方弧形帽檐"
+        }
+      ]
+    },
+    {
+      "id": "H03",
+      "label": "贝雷帽",
+      "family": "头部/帽饰",
+      "definition": "圆形软帽，无长前檐",
+      "status": "PRESENT",
+      "notes": "",
+      "searchAliases": "",
+      "nearbyCategoryIds": [],
+      "examples": [
+        {
+          "modelId": "bestdori:001_live_event_24_sr",
+          "observation": "红色圆形软贝雷帽"
+        },
+        {
+          "modelId": "bestdori:021_casual_winter-2023",
+          "observation": "黑色软扁贝雷帽配日常外套"
+        },
+        {
+          "modelId": "bestdori:036_live_event_235_ur",
+          "observation": "黑色扁圆贝雷帽"
+        }
+      ]
+    },
+    {
+      "id": "H04",
+      "label": "针织帽/毛线帽",
+      "family": "头部/帽饰",
+      "definition": "贴头或松垂针织帽，含球/耳片款",
+      "status": "PRESENT",
+      "notes": "",
+      "searchAliases": "",
+      "nearbyCategoryIds": [],
+      "examples": [
+        {
+          "modelId": "bestdori:001_live_event_05_ssr",
+          "observation": "红色贴头针织帽"
+        },
+        {
+          "modelId": "bestdori:011_casual_winter",
+          "observation": "棕色毛线帽，顶球及垂落耳片绳可见"
+        },
+        {
+          "modelId": "bestdori:019_casual-2023",
+          "observation": "深灰包头针织/毛线帽，格纹外观"
+        },
+        {
+          "modelId": "bestdori:019_casual_winter-2023",
+          "observation": "绿色贴头针织帽"
+        }
+      ]
+    },
+    {
+      "id": "H05",
+      "label": "报童帽/鸭舌软帽",
+      "family": "头部/帽饰",
+      "definition": "软帽顶和短前檐",
+      "status": "PRESENT",
+      "notes": "",
+      "searchAliases": "",
+      "nearbyCategoryIds": [],
+      "examples": [
+        {
+          "modelId": "bestdori:003_casual_winter-sunglass",
+          "observation": "红格纹软帽与短前檐"
+        },
+        {
+          "modelId": "bestdori:007_event_49_story_01",
+          "observation": "绿色软帽顶，短帽檐盖于额前"
+        }
+      ]
+    },
+    {
+      "id": "H06",
+      "label": "猎鹿帽/侦探帽",
+      "family": "头部/帽饰",
+      "definition": "前后檐或侧耳片的侦探帽轮廓",
+      "status": "PRESENT",
+      "notes": "",
+      "searchAliases": "",
+      "nearbyCategoryIds": [],
+      "examples": [
+        {
+          "modelId": "bestdori:011_live_event_175_sr",
+          "observation": "棕色侦探帽，耳片与前后檐式轮廓"
+        },
+        {
+          "modelId": "bestdori:013_live_event_175_sr",
+          "observation": "棕色格纹侦探帽"
+        }
+      ]
+    },
+    {
+      "id": "H07",
+      "label": "草帽/宽檐遮阳帽",
+      "family": "头部/帽饰",
+      "definition": "编织或草质外观帽体及环绕帽檐",
+      "status": "PRESENT",
+      "notes": "",
+      "searchAliases": "帽子 草帽 遮阳帽 宽檐 大帽子 straw",
+      "nearbyCategoryIds": [],
+      "examples": [
+        {
+          "modelId": "bestdori:003_casual_summer",
+          "observation": "浅棕草帽，黑色帽带与环绕帽檐"
+        },
+        {
+          "modelId": "bestdori:007_live_event_155_ssr",
+          "observation": "大号草编宽檐帽，向日葵饰物"
+        },
+        {
+          "modelId": "bestdori:018_live_event_86_ssr",
+          "observation": "浅棕宽檐帽、系带和花饰"
+        },
+        {
+          "modelId": "bestdori:022_live_event_177_ssr",
+          "observation": "近景为浅色平顶短檐草编装饰帽；不是斗笠/锥形遮阳帽"
+        }
+      ]
+    },
+    {
+      "id": "H08",
+      "label": "宽檐礼服帽",
+      "family": "头部/帽饰",
+      "definition": "有完整帽顶和环绕宽檐的非尖顶礼服帽",
+      "status": "PRESENT",
+      "notes": "",
+      "searchAliases": "",
+      "nearbyCategoryIds": [],
+      "examples": [
+        {
+          "modelId": "bestdori:018_dream_festival_2",
+          "observation": "蓝白大檐礼服帽，蝴蝶结及垂带"
+        }
+      ]
+    },
+    {
+      "id": "H09",
+      "label": "高顶礼帽",
+      "family": "头部/帽饰",
+      "definition": "圆柱高帽顶与环绕帽檐",
+      "status": "PRESENT",
+      "notes": "",
+      "searchAliases": "",
+      "nearbyCategoryIds": [],
+      "examples": [
+        {
+          "modelId": "bestdori:006_live_event_25_r",
+          "observation": "完整红色圆柱高顶帽"
+        },
+        {
+          "modelId": "bestdori:010_live_event_294_ur",
+          "observation": "黑色高顶礼帽，帽檐和前侧护目镜饰"
+        },
+        {
+          "modelId": "ournotes:arale/detective_01",
+          "observation": "黑色高顶圆筒礼帽"
+        },
+        {
+          "modelId": "bestdori:022_live_event_51_r",
+          "observation": "黑色宽檐低顶软礼帽配蓝带"
+        }
+      ]
+    },
+    {
+      "id": "H10",
+      "label": "大型尖顶巫师帽",
+      "family": "头部/帽饰",
+      "definition": "高尖顶、环绕宽檐的帽形",
+      "status": "PRESENT",
+      "notes": "",
+      "searchAliases": "大帽 大帽子 巫师帽 魔女帽 wizard witch",
+      "nearbyCategoryIds": [],
+      "examples": [
+        {
+          "modelId": "bestdori:004_event_92_story_01",
+          "observation": "大号紫色尖顶巫师帽"
+        },
+        {
+          "modelId": "bestdori:009_event_236_story_01",
+          "observation": "黑色高尖宽檐巫师帽"
+        },
+        {
+          "modelId": "bestdori:025_fantasy",
+          "observation": "极宽帽檐、折弯尖顶的红色巫师帽"
+        },
+        {
+          "modelId": "bestdori:025_dream_festival_2",
+          "observation": "宽檐白紫色巫师帽，复杂饰带"
+        }
+      ]
+    },
+    {
+      "id": "H11",
+      "label": "海盗三角帽/双角帽",
+      "family": "头部/帽饰",
+      "definition": "折起帽檐的海盗式大帽",
+      "status": "PRESENT",
+      "notes": "",
+      "searchAliases": "",
+      "nearbyCategoryIds": [],
+      "examples": [
+        {
+          "modelId": "bestdori:006_collabo_d_3_ur",
+          "observation": "黑金三角海盗帽，羽毛与折角帽檐"
+        },
+        {
+          "modelId": "bestdori:012_live_event_100_ssr",
+          "observation": "黑金海盗式折檐帽"
+        }
+      ]
+    },
+    {
+      "id": "H12",
+      "label": "牛仔帽",
+      "family": "头部/帽饰",
+      "definition": "两侧翘起的大帽檐及凹形帽顶",
+      "status": "PRESENT",
+      "notes": "",
+      "searchAliases": "",
+      "nearbyCategoryIds": [],
+      "examples": [
+        {
+          "modelId": "bestdori:009_dream_festival_4_ur",
+          "observation": "黑棕色牛仔帽，宽檐向两側弯起"
+        }
+      ]
+    },
+    {
+      "id": "H13",
+      "label": "软呢礼帽",
+      "family": "头部/帽饰",
+      "definition": "凹形帽顶与中等环绕帽檐",
+      "status": "PRESENT",
+      "notes": "",
+      "searchAliases": "",
+      "nearbyCategoryIds": [],
+      "examples": [
+        {
+          "modelId": "bestdori:006_live_event_05_ssr",
+          "observation": "紫黑软呢礼帽，有凹形帽顶与环檐"
+        }
+      ]
+    },
+    {
+      "id": "H14",
+      "label": "制服帽/大檐军警风帽/船长帽",
+      "family": "头部/帽饰",
+      "definition": "制服风帽冠、帽带和前檐，只判断造型",
+      "status": "PRESENT",
+      "notes": "不推断职业或防护性能。",
+      "searchAliases": "",
+      "nearbyCategoryIds": [],
+      "examples": [
+        {
+          "modelId": "bestdori:001_live_event_160_ssr",
+          "observation": "白色船长式帽"
+        },
+        {
+          "modelId": "bestdori:001_live_event_84_sr",
+          "observation": "深蓝制服帽，金色帽带与前檐"
+        },
+        {
+          "modelId": "bestdori:601_live_default",
+          "observation": "红色高筒军乐制服帽"
+        },
+        {
+          "modelId": "historical:007_dream_festival",
+          "observation": "红黑有檐制服帽，金色带与徽章"
+        }
+      ]
+    },
+    {
+      "id": "H15",
+      "label": "厨师/烘焙帽",
+      "family": "头部/帽饰",
+      "definition": "白色厨房工作帽或鼓起的厨师帽外观",
+      "status": "PRESENT",
+      "notes": "包含小型装饰版本，不表示全尺寸厨师高帽均存在。",
+      "searchAliases": "",
+      "nearbyCategoryIds": [],
+      "examples": [
+        {
+          "modelId": "bestdori:004_live_event_12_r",
+          "observation": "白色烘焙工作帽"
+        },
+        {
+          "modelId": "bestdori:004_live_event_69_ssr",
+          "observation": "侧戴小型白色鼓帽，与烘焙服饰成套"
+        }
+      ]
+    },
+    {
+      "id": "H16",
+      "label": "护士帽",
+      "family": "头部/帽饰",
+      "definition": "白粉短帽冠、护士主题帽形",
+      "status": "PRESENT",
+      "notes": "只认造型，不认真实医疗功能。",
+      "searchAliases": "",
+      "nearbyCategoryIds": [],
+      "examples": [
+        {
+          "modelId": "bestdori:001_live_event_241_ur",
+          "observation": "粉白护士帽，与医疗主题衣服配套"
+        },
+        {
+          "modelId": "bestdori:024_live_event_12_ssr",
+          "observation": "近景确认白粉护士式帽和护士服，帽侧为针筒图样，手抱大型针筒；没有以保护功能作判断"
+        }
+      ]
+    },
+    {
+      "id": "H17",
+      "label": "女仆头巾/褶边软帽/Bonnet",
+      "family": "头部/帽饰",
+      "definition": "包头、颊侧延伸或围发褶边软帽",
+      "status": "PRESENT",
+      "notes": "",
+      "searchAliases": "",
+      "nearbyCategoryIds": [],
+      "examples": [
+        {
+          "modelId": "bestdori:007_live_event_159_sr",
+          "observation": "白色女仆式软头巾覆盖头顶与侧边"
+        },
+        {
+          "modelId": "bestdori:016_live_event_59_sr",
+          "observation": "蓝白Bonnet围住头侧，有褶边边框"
+        }
+      ]
+    },
+    {
+      "id": "H18",
+      "label": "婚纱头纱",
+      "family": "头部/帽饰",
+      "definition": "头部固定的婚礼面纱/后垂长纱",
+      "status": "PRESENT",
+      "notes": "",
+      "searchAliases": "",
+      "nearbyCategoryIds": [],
+      "examples": [
+        {
+          "modelId": "bestdori:001_live_event_80_ssr",
+          "observation": "白色婚纱头纱向头侧和肩后延伸"
+        },
+        {
+          "modelId": "bestdori:009_live_event_09_sr",
+          "observation": "浅蓝长婚礼头纱"
+        },
+        {
+          "modelId": "bestdori:018_live_event_188_sr",
+          "observation": "花环与长透明婚纱头纱"
+        },
+        {
+          "modelId": "bestdori:021_dream_festival_3_ur",
+          "observation": "白紫长透明头纱覆盖头顶、两侧下垂"
+        }
+      ]
+    },
+    {
+      "id": "H19",
+      "label": "修女式头部覆盖",
+      "family": "头部/帽饰",
+      "definition": "顶部白带与两侧垂下深色布的修女头巾形",
+      "status": "PRESENT",
+      "notes": "",
+      "searchAliases": "",
+      "nearbyCategoryIds": [],
+      "examples": [
+        {
+          "modelId": "bestdori:010_live_event_17_sr",
+          "observation": "深蓝布覆盖头顶与头侧，额前白色边框"
+        }
+      ]
+    },
+    {
+      "id": "H20",
+      "label": "普通兜帽",
+      "family": "头部/帽饰",
+      "definition": "穿在头上的连衣帽/帽兜，不是单独帽子",
+      "status": "PRESENT",
+      "notes": "",
+      "searchAliases": "",
+      "nearbyCategoryIds": [],
+      "examples": [
+        {
+          "modelId": "bestdori:007_live_r_2018",
+          "observation": "深色衣服帽兜包围头顶和两侧"
+        }
+      ]
+    },
+    {
+      "id": "H21",
+      "label": "动物/怪兽兜帽",
+      "family": "头部/帽饰",
+      "definition": "连衣帽带动物耳、角、牙或立体动物脸",
+      "status": "PRESENT",
+      "notes": "",
+      "searchAliases": "",
+      "nearbyCategoryIds": [],
+      "examples": [
+        {
+          "modelId": "bestdori:007_live_event_128_sr",
+          "observation": "紫色动物耳兜帽"
+        },
+        {
+          "modelId": "bestdori:011_live_event_324_sr",
+          "observation": "橙色动物头兜帽，耳和脸完整可见"
+        }
+      ]
+    },
+    {
+      "id": "H22",
+      "label": "猫形三角耳",
+      "family": "头部/帽饰",
+      "definition": "头上成对猫形三角耳，可为装饰",
+      "status": "PRESENT",
+      "notes": "",
+      "searchAliases": "兽耳 猫耳",
+      "nearbyCategoryIds": [],
+      "examples": [
+        {
+          "modelId": "bestdori:005_live_event_07_sr",
+          "observation": "黑色三角猫耳，粉色内侧"
+        },
+        {
+          "modelId": "bestdori:019_live_event_310_ssr",
+          "observation": "黑白尖猫耳形，耳部独立性未查"
+        },
+        {
+          "modelId": "bestdori:019_live_event_56_sr",
+          "observation": "灰色尖猫耳和尾巴造型"
+        }
+      ]
+    },
+    {
+      "id": "H23",
+      "label": "犬/狼形耳",
+      "family": "头部/帽饰",
+      "definition": "尖立或垂落犬科式耳形",
+      "status": "PRESENT",
+      "notes": "",
+      "searchAliases": "兽耳 狗耳 狼耳",
+      "nearbyCategoryIds": [],
+      "examples": [
+        {
+          "modelId": "bestdori:006_2018_dog",
+          "observation": "棕色尖犬形耳"
+        },
+        {
+          "modelId": "bestdori:011_2018_dog",
+          "observation": "棕色柔软垂耳"
+        }
+      ]
+    },
+    {
+      "id": "H24",
+      "label": "狐狸式耳",
+      "family": "头部/帽饰",
+      "definition": "尖立狐形耳，与狐式整体装饰配套",
+      "status": "PRESENT",
+      "notes": "物种按装饰外观记录；与猫/犬尖耳可能重叠，非生物鉴定。",
+      "searchAliases": "兽耳 狐耳",
+      "nearbyCategoryIds": [],
+      "examples": [
+        {
+          "modelId": "bestdori:011_delta",
+          "observation": "浅金尖耳、黑色耳尖及大毛尾"
+        },
+        {
+          "modelId": "bestdori:013_live_event_95_ssr",
+          "observation": "浅棕大尖耳和多条金白毛尾"
+        }
+      ]
+    },
+    {
+      "id": "H25",
+      "label": "直立兔耳",
+      "family": "头部/帽饰",
+      "definition": "头上成对细长直立兔耳",
+      "status": "PRESENT",
+      "notes": "",
+      "searchAliases": "兽耳 兔耳",
+      "nearbyCategoryIds": [],
+      "examples": [
+        {
+          "modelId": "bestdori:006_live_event_277_r",
+          "observation": "黑粉细长直立兔耳"
+        },
+        {
+          "modelId": "bestdori:024_event_236_story_01",
+          "observation": "一黑一格纹长竖兔耳形"
+        },
+        {
+          "modelId": "bestdori:026_live_event_271_ur",
+          "observation": "黑白长竖兔耳"
+        }
+      ]
+    },
+    {
+      "id": "H26",
+      "label": "垂落兔耳",
+      "family": "头部/帽饰",
+      "definition": "细长柔软垂耳，可为头箍/兜帽",
+      "status": "PRESENT",
+      "notes": "",
+      "searchAliases": "兽耳 兔耳",
+      "nearbyCategoryIds": [],
+      "examples": [
+        {
+          "modelId": "bestdori:010_live_event_277_ur",
+          "observation": "黑色长兔耳向两侧垂落"
+        },
+        {
+          "modelId": "bestdori:014_live_event_324_ur",
+          "observation": "粉色长垂兔耳兜帽"
+        }
+      ]
+    },
+    {
+      "id": "H27",
+      "label": "圆形鼠/熊耳",
+      "family": "头部/帽饰",
+      "definition": "成对圆形耳装饰或有明确圆耳的穿戴头件",
+      "status": "PRESENT",
+      "notes": "",
+      "searchAliases": "兽耳 圆耳 鼠耳 熊耳",
+      "nearbyCategoryIds": [],
+      "examples": [
+        {
+          "modelId": "bestdori:010_event_344_story_01",
+          "observation": "黑色圆耳头箍，耳内有黄色结饰"
+        },
+        {
+          "modelId": "bestdori:010_live_event_144_r",
+          "observation": "粉黄圆形装饰耳"
+        }
+      ]
+    },
+    {
+      "id": "H28",
+      "label": "角形头饰",
+      "family": "头部/帽饰",
+      "definition": "直角/曲角/恶魔角外观",
+      "status": "PRESENT",
+      "notes": "",
+      "searchAliases": "",
+      "nearbyCategoryIds": [],
+      "examples": [
+        {
+          "modelId": "bestdori:006_live_event_200_sr",
+          "observation": "红色上弯恶魔角"
+        },
+        {
+          "modelId": "bestdori:018_event_344_story_01",
+          "observation": "暗红色曲角，向头侧上方弯起"
+        },
+        {
+          "modelId": "bestdori:024_dream_festival_2",
+          "observation": "两侧弯曲黑角、蝙蝠翼与尾部"
+        },
+        {
+          "modelId": "bestdori:024_halloween",
+          "observation": "头顶两只红色尖角，与蝙蝠造型同现"
+        }
+      ]
+    },
+    {
+      "id": "H29",
+      "label": "翼形头饰",
+      "family": "头部/帽饰",
+      "definition": "头上可佩戴的翼状装饰",
+      "status": "PRESENT",
+      "notes": "",
+      "searchAliases": "",
+      "nearbyCategoryIds": [],
+      "examples": [
+        {
+          "modelId": "bestdori:010_event_128_story_01",
+          "observation": "成对黑色蝙蝠翼形头饰"
+        }
+      ]
+    },
+    {
+      "id": "H30",
+      "label": "光环",
+      "family": "头部/帽饰",
+      "definition": "头上或侧后可辨认的圆环形装饰",
+      "status": "PRESENT",
+      "notes": "悬浮环外观不证明已有支撑头箍/独立可拆网格。",
+      "searchAliases": "",
+      "nearbyCategoryIds": [],
+      "examples": [
+        {
+          "modelId": "bestdori:003_live_event_20_r",
+          "observation": "头顶白色环形光环"
+        },
+        {
+          "modelId": "bestdori:006_live_event_78_sr",
+          "observation": "金色环在头后围绕"
+        },
+        {
+          "modelId": "historical:017_2018_halloween",
+          "observation": "金色椭圆光环悬在发顶，明确空隙，天使造型"
+        },
+        {
+          "modelId": "bestdori:029_event_203_story_01",
+          "observation": "细黑色倾斜圆环浮在发顶上方；头发上方有间隙"
+        }
+      ]
+    },
+    {
+      "id": "H31",
+      "label": "触角头箍",
+      "family": "头部/帽饰",
+      "definition": "两根细杆顶球/昆虫式触角",
+      "status": "PRESENT",
+      "notes": "",
+      "searchAliases": "",
+      "nearbyCategoryIds": [],
+      "examples": [
+        {
+          "modelId": "bestdori:011_miku_alien",
+          "observation": "两根向外倾斜杆，顶端黄色球"
+        }
+      ]
+    },
+    {
+      "id": "H32",
+      "label": "皇冠/冠冕",
+      "family": "头部/帽饰",
+      "definition": "有尖齿或装饰隆起的冠形",
+      "status": "PRESENT",
+      "notes": "",
+      "searchAliases": "",
+      "nearbyCategoryIds": [],
+      "examples": [
+        {
+          "modelId": "bestdori:011_live_event_36_sr",
+          "observation": "侧戴金色小皇冠"
+        },
+        {
+          "modelId": "bestdori:010_live_event_271_r",
+          "observation": "红花旁上举金色尖齿小冠"
+        },
+        {
+          "modelId": "bestdori:018_live_event_91_sr",
+          "observation": "金色高冠冕配和装"
+        },
+        {
+          "modelId": "bestdori:036_live_event_289_ur",
+          "observation": "蓝白礼服配银色高冠冕"
+        }
+      ]
+    },
+    {
+      "id": "H33",
+      "label": "花冠/花环/大型花饰",
+      "family": "头部/帽饰",
+      "definition": "绕头花环或显著花形头饰",
+      "status": "PRESENT",
+      "notes": "",
+      "searchAliases": "",
+      "nearbyCategoryIds": [],
+      "examples": [
+        {
+          "modelId": "bestdori:003_live_event_119_sr",
+          "observation": "完整白花冠绕头"
+        },
+        {
+          "modelId": "bestdori:004_birthday_2021",
+          "observation": "头侧大朵白花和垂落缎带"
+        }
+      ]
+    },
+    {
+      "id": "H34",
+      "label": "蝴蝶结/发箍/发带/发卡",
+      "family": "头部/帽饰",
+      "definition": "普通可佩戴发饰，多种固定方式",
+      "status": "PRESENT",
+      "notes": "合并常见发饰家族，未按全部花纹/材质/尺寸细分。",
+      "searchAliases": "",
+      "nearbyCategoryIds": [],
+      "examples": [
+        {
+          "modelId": "bestdori:005_live_event_261_ssr",
+          "observation": "头顶紫色大蝴蝶结"
+        },
+        {
+          "modelId": "bestdori:010_live_event_85_r",
+          "observation": "发箍及小冠"
+        },
+        {
+          "modelId": "bestdori:006_live_event_37_sr",
+          "observation": "蓝色系结发带"
+        }
+      ]
+    },
+    {
+      "id": "H35",
+      "label": "簪/钗/额链",
+      "family": "头部/帽饰",
+      "definition": "长针状发簪或前额链状装饰",
+      "status": "PRESENT",
+      "notes": "",
+      "searchAliases": "",
+      "nearbyCategoryIds": [],
+      "examples": [
+        {
+          "modelId": "bestdori:012_collabo_i_1_ur",
+          "observation": "双侧金色长簪与垂落流苏"
+        },
+        {
+          "modelId": "bestdori:006_live_event_85_sr",
+          "observation": "额前金色链状垂饰"
+        }
+      ]
+    },
+    {
+      "id": "H36",
+      "label": "羽饰/羽毛礼帽装饰",
+      "family": "头部/帽饰",
+      "definition": "头上羽毛束，可与帽子连接",
+      "status": "PRESENT",
+      "notes": "",
+      "searchAliases": "",
+      "nearbyCategoryIds": [],
+      "examples": [
+        {
+          "modelId": "bestdori:010_live_event_49_sr",
+          "observation": "宽檐帽上大号粉色羽饰"
+        }
+      ]
+    },
+    {
+      "id": "H37",
+      "label": "传统武士兜/装甲头饰",
+      "family": "头部/帽饰",
+      "definition": "武士铠甲配套兜或骑士装甲头部造型",
+      "status": "PRESENT",
+      "notes": "造型存在；不等同现代骑行/施工/消防头盔。",
+      "searchAliases": "",
+      "nearbyCategoryIds": [],
+      "examples": [
+        {
+          "modelId": "bestdori:001_2021af",
+          "observation": "武士兜，前部角形立饰及侧甲"
+        },
+        {
+          "modelId": "bestdori:020_2021af",
+          "observation": "完整武士甲配有金色扇状前立的传统兜，不等于现代安全/消防/摩托头盔"
+        },
+        {
+          "modelId": "bestdori:021_2021af",
+          "observation": "红黑武士兜与巨大金色角状前立"
+        }
+      ]
+    },
+    {
+      "id": "H38",
+      "label": "封闭式战队服装头盔",
+      "family": "头部/帽饰",
+      "definition": "盔体覆盖正脸且有黑色面罩/视窗形",
+      "status": "PRESENT",
+      "notes": "不能笼统说全脸头盔不存在。现代摩托头盔另记近似边界，不从题材判断防护功能。",
+      "searchAliases": "",
+      "nearbyCategoryIds": [],
+      "examples": [
+        {
+          "modelId": "bestdori:011_ranger",
+          "observation": "红色闭合脸盔、黑色尖角视窗"
+        },
+        {
+          "modelId": "bestdori:012_ranger",
+          "observation": "蓝色闭合脸盔和黑白视窗"
+        }
+      ]
+    },
+    {
+      "id": "H39",
+      "label": "自行车/轮滑式通风头盔",
+      "family": "头部/帽饰",
+      "definition": "硬壳带通风孔的运动半盔",
+      "status": "NOT_OBSERVED",
+      "notes": "武士兜/战队头盔已有；未见明确带通风孔的运动半盔。",
+      "searchAliases": "",
+      "nearbyCategoryIds": [
+        "H37",
+        "H38"
+      ],
+      "examples": []
+    },
+    {
+      "id": "H40",
+      "label": "施工安全帽",
+      "family": "头部/帽饰",
+      "definition": "圆顶短檐安全帽的职业外观",
+      "status": "NOT_OBSERVED",
+      "notes": "制服大檐帽和武士兜不等同施工圆顶短檐帽。",
+      "searchAliases": "",
+      "nearbyCategoryIds": [
+        "H14",
+        "H37"
+      ],
+      "examples": []
+    },
+    {
+      "id": "H41",
+      "label": "消防头盔",
+      "family": "头部/帽饰",
+      "definition": "现代消防帽的延长后檐、壳体和前额标识等辨识结构",
+      "status": "NOT_OBSERVED",
+      "notes": "宽檐牛仔帽已有；不从色彩或硬壳推定消防外观。",
+      "searchAliases": "",
+      "nearbyCategoryIds": [
+        "H12",
+        "H37"
+      ],
+      "examples": []
+    },
+    {
+      "id": "H42",
+      "label": "透明球罩太空头盔",
+      "family": "头部/帽饰",
+      "definition": "围住头脸的透明球形罩和颈环",
+      "status": "NOT_OBSERVED",
+      "notes": "未来太空主题服和战队面盔不等同透明球罩。",
+      "searchAliases": "",
+      "nearbyCategoryIds": [
+        "H38"
+      ],
+      "examples": []
+    },
+    {
+      "id": "H43",
+      "label": "头灯/头箍灯",
+      "family": "头部/帽饰",
+      "definition": "额前独立灯体及头箍/绑带",
+      "status": "NOT_OBSERVED",
+      "notes": "额饰、球触角、护目镜不是已确认的灯体。",
+      "searchAliases": "",
+      "nearbyCategoryIds": [
+        "F04",
+        "F05",
+        "H31"
+      ],
+      "examples": []
+    },
+    {
+      "id": "H44",
+      "label": "伞帽",
+      "family": "头部/帽饰",
+      "definition": "小伞伞骨/伞面固定在头上",
+      "status": "NOT_OBSERVED",
+      "notes": "花朵/大帽檐不是带支撑伞骨的伞帽。",
+      "searchAliases": "",
+      "nearbyCategoryIds": [
+        "H07",
+        "H10"
+      ],
+      "examples": []
+    },
+    {
+      "id": "H45",
+      "label": "螺旋桨帽",
+      "family": "头部/帽饰",
+      "definition": "帽顶有水平旋翼形装饰",
+      "status": "NOT_OBSERVED",
+      "notes": "球触角和羽饰不能自动计为螺旋桨。",
+      "searchAliases": "",
+      "nearbyCategoryIds": [
+        "H31",
+        "H36"
+      ],
+      "examples": []
+    },
+    {
+      "id": "H46",
+      "label": "毕业方帽",
+      "family": "头部/帽饰",
+      "definition": "方形硬顶板、下帽体和流苏的学位帽",
+      "status": "NOT_OBSERVED",
+      "notes": "长簪/军帽/帽顶其他饰物不构成方顶学位帽。",
+      "searchAliases": "",
+      "nearbyCategoryIds": [
+        "BODY02",
+        "BODY39"
+      ],
+      "examples": []
+    },
+    {
+      "id": "H47",
+      "label": "斗笠/锥形遮阳帽",
+      "family": "头部/帽饰",
+      "definition": "宽圆底檐和中心抬起的完整锥形帽体",
+      "status": "NOT_OBSERVED",
+      "notes": "已见草编宽檐帽，尚未见完整斗笠锥面。",
+      "searchAliases": "",
+      "nearbyCategoryIds": [
+        "H07",
+        "H10"
+      ],
+      "examples": []
+    },
+    {
+      "id": "H48",
+      "label": "贴头泳帽/浴帽",
+      "family": "头部/帽饰",
+      "definition": "收纳头发的贴头帽或抽褶塑形浴帽",
+      "status": "NOT_OBSERVED",
+      "notes": "女仆软帽、厨师帽和头纱已有，不能只按包头判为泳帽/浴帽。",
+      "searchAliases": "",
+      "nearbyCategoryIds": [
+        "H15",
+        "H17",
+        "BODY12"
+      ],
+      "examples": []
+    },
+    {
+      "id": "H49",
+      "label": "现代全盔摩托车头盔",
+      "family": "头部/帽饰",
+      "definition": "包住下巴且有面罩的现代全盔形",
+      "status": "PARTIAL",
+      "notes": "战队头盔有包脸及视窗的相似轮廓，不能证明具体摩托结构，也不能把大类判不存在。",
+      "searchAliases": "",
+      "nearbyCategoryIds": [],
+      "examples": [
+        {
+          "modelId": "bestdori:011_ranger",
+          "observation": "红色闭合脸盔、黑色尖角视窗"
+        },
+        {
+          "modelId": "bestdori:012_ranger",
+          "observation": "蓝色闭合脸盔和黑白视窗"
+        }
+      ]
+    },
+    {
+      "id": "H50",
+      "label": "渔夫桶帽/钟形短檐软帽",
+      "family": "头部/帽饰",
+      "definition": "圆柱/桶状软帽冠和朝下短圆檐",
+      "status": "PARTIAL",
+      "notes": "高分辨率独立复核撤回“确定为包头布”的旧定性；桶/钟形帽轮廓相似，不列未发现，精确结构待核。",
+      "searchAliases": "",
+      "nearbyCategoryIds": [],
+      "examples": [
+        {
+          "modelId": "bestdori:018_stage_costume",
+          "observation": "圆弧顶与外扩下垂短边可见；帽冠与完整环形帽檐分界不清，不能排除布罩/系带帽。"
+        }
+      ]
+    },
+    {
+      "id": "H51",
+      "label": "缠绕式包头巾/Turban",
+      "family": "头部/帽饰",
+      "definition": "可辨围头缠绕的布层和包头体，不等同后垂头纱",
+      "status": "INDETERMINATE",
+      "notes": "普通三角头巾、修女头巾和头纱均已有。紧密缠绕的布层结构尚未确认，保留未知，不把头巾大类列缺失。",
+      "searchAliases": "头巾 turban",
+      "nearbyCategoryIds": [],
+      "examples": [
+        {
+          "modelId": "bestdori:021_girlparty2019",
+          "observation": "三角头巾明确；不是已经确认的多层紧密缠绕式Turban。"
+        }
+      ]
+    },
+    {
+      "id": "H52",
+      "label": "三角包头巾",
+      "family": "头部/帽饰",
+      "definition": "覆盖头顶并向后系结/垂尾的三角布巾",
+      "status": "PRESENT",
+      "notes": "反例搜索从未被旧特殊分类选中的普通外观中确认；头巾大类不能列缺项。",
+      "searchAliases": "头巾 包头巾 headscarf",
+      "nearbyCategoryIds": [],
+      "examples": [
+        {
+          "modelId": "bestdori:021_girlparty2019",
+          "observation": "紫白条纹三角包头巾，后部有布尾。"
+        }
+      ]
+    },
+    {
+      "id": "H53",
+      "label": "飞行员式软帽",
+      "family": "头部/帽饰",
+      "definition": "包头软帽配圆镜杯护目镜的飞行装束轮廓",
+      "status": "PRESENT",
+      "notes": "后半头部审查单图复核。",
+      "searchAliases": "",
+      "nearbyCategoryIds": [],
+      "examples": [
+        {
+          "modelId": "bestdori:019_dream_festival_2",
+          "observation": "软帽与圆杯护目镜组合；按可见造型分类，不推断防护功能。"
+        }
+      ]
+    },
+    {
+      "id": "F01",
+      "label": "普通双眼眼镜",
+      "family": "眼/脸/耳饰",
+      "definition": "架在鼻梁、覆盖双眼的日常镜框；不根据透明镜片推断屈光度。",
+      "status": "PRESENT",
+      "notes": "",
+      "searchAliases": "",
+      "nearbyCategoryIds": [],
+      "examples": [
+        {
+          "modelId": "bestdori:005_live_event_76_ssr",
+          "observation": "红色细镜框环绕双眼，鼻梁连接可见。"
+        }
+      ]
+    },
+    {
+      "id": "F02",
+      "label": "太阳镜",
+      "family": "眼/脸/耳饰",
+      "definition": "深色镜片太阳镜，包括佩戴于眼前或额头的样式。",
+      "status": "PRESENT",
+      "notes": "",
+      "searchAliases": "",
+      "nearbyCategoryIds": [],
+      "examples": [
+        {
+          "modelId": "bestdori:003_casual_winter-sunglass",
+          "observation": "黑色深镜片覆盖双眼，镜腿连接到两侧。"
+        }
+      ]
+    },
+    {
+      "id": "F03",
+      "label": "单片眼镜",
+      "family": "眼/脸/耳饰",
+      "definition": "单眼圆镜与链条式单片眼镜。",
+      "status": "PRESENT",
+      "notes": "",
+      "searchAliases": "",
+      "nearbyCategoryIds": [],
+      "examples": [
+        {
+          "modelId": "bestdori:012_live_event_67_ssr",
+          "observation": "画面左侧眼前有单圆镜，金色链条向下延伸。"
+        }
+      ]
+    },
+    {
+      "id": "F04",
+      "label": "飞行／蒸汽朋克式护目镜",
+      "family": "眼/脸/耳饰",
+      "definition": "双镜杯与头带式护目镜外形；不推断工业防护功能。",
+      "status": "PRESENT",
+      "notes": "护目镜外形存在；防护认证、材质、佩戴功能不由立绘证明。",
+      "searchAliases": "",
+      "nearbyCategoryIds": [],
+      "examples": [
+        {
+          "modelId": "bestdori:007_live_event_161_r",
+          "observation": "额前有两个厚方框镜片，棕色带横跨额头。"
+        }
+      ]
+    },
+    {
+      "id": "F05",
+      "label": "滑雪护目镜",
+      "family": "眼/脸/耳饰",
+      "definition": "带宽镜片与头带、可戴在雪帽上的雪地护目镜。",
+      "status": "PRESENT",
+      "notes": "",
+      "searchAliases": "",
+      "nearbyCategoryIds": [],
+      "examples": [
+        {
+          "modelId": "bestdori:013_event_33_story01",
+          "observation": "雪帽前方有橙色宽护目镜镜片与侧带，搭配滑雪装。"
+        }
+      ]
+    },
+    {
+      "id": "F06",
+      "label": "派对／玩具眼镜",
+      "family": "眼/脸/耳饰",
+      "definition": "有夸张形状与装饰的可穿戴眼镜。",
+      "status": "PRESENT",
+      "notes": "",
+      "searchAliases": "",
+      "nearbyCategoryIds": [],
+      "examples": [
+        {
+          "modelId": "bestdori:007_live_event_42_ssr",
+          "observation": "额前有彩色大圆镜片及黄色翼形装饰。"
+        }
+      ]
+    },
+    {
+      "id": "F07",
+      "label": "单眼眼罩",
+      "family": "眼/脸/耳饰",
+      "definition": "海盗等服饰使用的遮单眼眼罩。",
+      "status": "PRESENT",
+      "notes": "",
+      "searchAliases": "",
+      "nearbyCategoryIds": [],
+      "examples": [
+        {
+          "modelId": "bestdori:006_collabo_d_3_ur",
+          "observation": "黑色眼罩遮住画面左侧眼睛，斜向绑带可见。"
+        }
+      ]
+    },
+    {
+      "id": "F08",
+      "label": "眼部绷带／敷贴",
+      "family": "眼/脸/耳饰",
+      "definition": "以白色绷带或敷贴遮覆眼部的外形；不判定医疗用途。",
+      "status": "PRESENT",
+      "notes": "",
+      "searchAliases": "",
+      "nearbyCategoryIds": [],
+      "examples": [
+        {
+          "modelId": "bestdori:006_event_128_story_01",
+          "observation": "宽白色绷带绕头并遮住画面左侧眼部。"
+        }
+      ]
+    },
+    {
+      "id": "F09",
+      "label": "鼻口口罩",
+      "family": "眼/脸/耳饰",
+      "definition": "遮住鼻口、以两侧带固定的口罩外形；不推断过滤或医疗性能。",
+      "status": "PRESENT",
+      "notes": "口罩形态存在；医疗或呼吸防护性能不由立绘证明。",
+      "searchAliases": "口罩 mask",
+      "nearbyCategoryIds": [],
+      "examples": [
+        {
+          "modelId": "bestdori:022_event_42_story_01",
+          "observation": "白色面片覆盖鼻口，面片上有黄色兔脸图案，两侧带通向耳侧。"
+        }
+      ]
+    },
+    {
+      "id": "F10",
+      "label": "舞会／蕾丝上半脸面具",
+      "family": "眼/脸/耳饰",
+      "definition": "围绕眼睛、遮上半脸的装饰面具。",
+      "status": "PRESENT",
+      "notes": "",
+      "searchAliases": "",
+      "nearbyCategoryIds": [],
+      "examples": [
+        {
+          "modelId": "ournotes:nyamu/live_01_mask",
+          "observation": "黑色蕾丝面具围绕双眼与上半脸，嘴部露出。"
+        },
+        {
+          "modelId": "ournotes:sakiko/live_01_mask",
+          "observation": "黑色装饰面具覆盖双眼周边，上半脸轮廓明显。"
+        },
+        {
+          "modelId": "ournotes:uika/live_01_mask",
+          "observation": "黑色上半脸面具围绕眼睛，嘴部露出。"
+        }
+      ]
+    },
+    {
+      "id": "F11",
+      "label": "蕾丝下半脸罩",
+      "family": "眼/脸/耳饰",
+      "definition": "遮鼻口或下半脸的舞台装饰面罩。",
+      "status": "PRESENT",
+      "notes": "",
+      "searchAliases": "",
+      "nearbyCategoryIds": [],
+      "examples": [
+        {
+          "modelId": "ournotes:mutsumi/live_01_mask",
+          "observation": "黑色蕾丝罩覆盖鼻口与下半脸，眼睛露出。"
+        },
+        {
+          "modelId": "ournotes:sub_mortis/live_01_mask",
+          "observation": "黑色蕾丝装饰罩位于鼻口区域。"
+        },
+        {
+          "modelId": "ournotes:umiri/live_01_mask",
+          "observation": "黑色蕾丝下半脸罩与鼻口位置重合。"
+        }
+      ]
+    },
+    {
+      "id": "F12",
+      "label": "动物／祭典侧戴面具",
+      "family": "眼/脸/耳饰",
+      "definition": "戴在额侧或头侧的动物祭典面具。",
+      "status": "PRESENT",
+      "notes": "",
+      "searchAliases": "",
+      "nearbyCategoryIds": [],
+      "examples": [
+        {
+          "modelId": "bestdori:006_live_event_95_sr",
+          "observation": "白底红纹狐狸面具斜戴在画面左侧额头，真人脸部仍露出。"
+        }
+      ]
+    },
+    {
+      "id": "F13",
+      "label": "全脸服装面罩／战队头盔",
+      "family": "眼/脸/耳饰",
+      "definition": "服装或角色扮演使用的完整面部覆盖件。",
+      "status": "PRESENT",
+      "notes": "",
+      "searchAliases": "",
+      "nearbyCategoryIds": [],
+      "examples": [
+        {
+          "modelId": "bestdori:011_ranger",
+          "observation": "红色战队头盔完整覆盖面部，黑色视窗可见。"
+        }
+      ]
+    },
+    {
+      "id": "F14",
+      "label": "假鼻子／假胡须组合道具",
+      "family": "眼/脸/耳饰",
+      "definition": "通过眼镜架等佩戴的滑稽假鼻、假胡须组合。",
+      "status": "PRESENT",
+      "notes": "",
+      "searchAliases": "",
+      "nearbyCategoryIds": [],
+      "examples": [
+        {
+          "modelId": "ournotes:nonoka/casual_spring_01_nose_glasses",
+          "observation": "眼镜下连接夸张假鼻与深色胡须形道具；嘴旁卷曲部分可见。"
+        },
+        {
+          "modelId": "ournotes:ritsu/casual_spring_01_nose_glasses",
+          "observation": "鼻梁和嘴上有同类夸张假鼻、假胡须眼镜道具。"
+        }
+      ]
+    },
+    {
+      "id": "F15",
+      "label": "脸部星形贴饰／彩绘外观",
+      "family": "眼/脸/耳饰",
+      "definition": "脸上独立图案装饰；仅凭图像不能区分贴纸、彩绘和模型皮肤纹理。",
+      "status": "PRESENT",
+      "notes": "装饰图案视觉存在；其是否为可摘贴纸、彩绘或模型纹理无法从当前图像判定。",
+      "searchAliases": "",
+      "nearbyCategoryIds": [],
+      "examples": [
+        {
+          "modelId": "bestdori:009_live_event_336_ur",
+          "observation": "画面左侧脸颊／太阳穴区域有浅蓝白色星形图案。"
+        },
+        {
+          "modelId": "bestdori:015_live_event_180_ssr",
+          "observation": "左右脸颊有金黄色星形装饰图案。"
+        }
+      ]
+    },
+    {
+      "id": "F16",
+      "label": "耳钉／耳环／耳坠",
+      "family": "眼/脸/耳饰",
+      "definition": "明确位于耳垂附近、有垂坠连接的耳部首饰。",
+      "status": "PRESENT",
+      "notes": "",
+      "searchAliases": "",
+      "nearbyCategoryIds": [],
+      "examples": [
+        {
+          "modelId": "bestdori:031_live_event_304_ur",
+          "observation": "画面右侧耳垂处有金色小连接点，下方垂灰色环状饰物；与额侧蓝色花饰分离。"
+        }
+      ]
+    },
+    {
+      "id": "F17",
+      "label": "保暖耳罩",
+      "family": "眼/脸/耳饰",
+      "definition": "毛绒或保暖材质外形、以头带连接的耳罩。",
+      "status": "PRESENT",
+      "notes": "",
+      "searchAliases": "",
+      "nearbyCategoryIds": [],
+      "examples": [
+        {
+          "modelId": "bestdori:003_live_event_287_ssr",
+          "observation": "头带连接两侧白色毛绒耳罩，耳部被绒垫覆盖。"
+        }
+      ]
+    },
+    {
+      "id": "F18",
+      "label": "耳罩式／头戴耳机",
+      "family": "眼/脸/耳饰",
+      "definition": "耳部有成对电子耳杯、以头带连接的耳机外形。",
+      "status": "PRESENT",
+      "notes": "",
+      "searchAliases": "耳机 头戴耳机 headphones headset",
+      "nearbyCategoryIds": [],
+      "examples": [
+        {
+          "modelId": "bestdori:035_expose",
+          "observation": "双耳有大型黑白耳杯，青色发光细节与猫耳形顶部构件可见。"
+        },
+        {
+          "modelId": "bestdori:017_event_344_story_01",
+          "observation": "灰色矩形耳杯覆盖耳侧，额前棕色装饰带连接两侧。"
+        }
+      ]
+    },
+    {
+      "id": "F19",
+      "label": "过滤式呼吸防护／防毒面具",
+      "family": "眼/脸/耳饰",
+      "definition": "需能识别过滤罐、呼吸阀或整体密合防毒面罩；普通图案口罩不证明也不排除过滤能力。",
+      "status": "NOT_OBSERVED",
+      "notes": "",
+      "searchAliases": "防毒面具 gas mask",
+      "nearbyCategoryIds": [
+        "F09",
+        "F11",
+        "F13"
+      ],
+      "examples": []
+    },
+    {
+      "id": "F20",
+      "label": "透明全脸防护面屏",
+      "family": "眼/脸/耳饰",
+      "definition": "额前固定、向下覆盖整脸的透明防护屏。",
+      "status": "NOT_OBSERVED",
+      "notes": "",
+      "searchAliases": "",
+      "nearbyCategoryIds": [
+        "F13",
+        "H18"
+      ],
+      "examples": []
+    },
+    {
+      "id": "F21",
+      "label": "VR／MR头显",
+      "family": "眼/脸/耳饰",
+      "definition": "覆盖双眼、具有明显遮光盒体与固定带的头戴显示设备。",
+      "status": "NOT_OBSERVED",
+      "notes": "",
+      "searchAliases": "VR 头显",
+      "nearbyCategoryIds": [
+        "F04",
+        "F05",
+        "F18"
+      ],
+      "examples": []
+    },
+    {
+      "id": "F22",
+      "label": "潜水面镜＋呼吸管",
+      "family": "眼/脸/耳饰",
+      "definition": "密封鼻眼面镜及明显侧置呼吸管组合；不把额前护目镜算作潜水装备。",
+      "status": "NOT_OBSERVED",
+      "notes": "",
+      "searchAliases": "",
+      "nearbyCategoryIds": [
+        "F04",
+        "F05",
+        "BODY12"
+      ],
+      "examples": []
+    },
+    {
+      "id": "F23",
+      "label": "焊接面罩",
+      "family": "眼/脸/耳饰",
+      "definition": "整面不透明前罩、明显矩形小视窗及可辨上翻/支架式焊接罩轮廓",
+      "status": "NOT_OBSERVED",
+      "notes": "战队盔有整脸硬壳和暗视窗，已有大类近似项；本项只问可辨焊接罩细节。不能从静态外观判断安全功能。",
+      "searchAliases": "",
+      "nearbyCategoryIds": [
+        "F13"
+      ],
+      "examples": []
+    },
+    {
+      "id": "F24",
+      "label": "带嘴边话筒杆的耳麦",
+      "family": "眼/脸/耳饰",
+      "definition": "耳机具有可确认从耳侧延伸到嘴边的话筒杆。",
+      "status": "PRESENT",
+      "notes": "2026-10-02T19:41:05+08:00独立查看更高分辨率补充图后，话筒杆与末端可辨，类别从INDETERMINATE更正为PRESENT。补充图面部伪影不计入装饰类别。",
+      "searchAliases": "耳机 耳麦 话筒 headset microphone",
+      "nearbyCategoryIds": [],
+      "examples": [
+        {
+          "modelId": "ournotes:yuno/virtual_01",
+          "observation": "960×1320补充图中，画面右侧耳杯下方有黑色弯杆伸向嘴边，红色话筒末端清晰可辨。"
+        }
+      ]
+    },
+    {
+      "id": "F25",
+      "label": "入耳耳机／耳塞／助听器等小型耳内装置",
+      "family": "眼/脸/耳饰",
+      "definition": "体积小、贴耳或入耳的装置；应能与耳饰和头发区分。",
+      "status": "INDETERMINATE",
+      "notes": "耳内装置可能被头发遮住或低于总览辨识尺寸；本次未找到可确认样例，不能以此判不存在。",
+      "searchAliases": "",
+      "nearbyCategoryIds": [],
+      "examples": []
+    },
+    {
+      "id": "F26",
+      "label": "鼻环/唇环等小型面部穿孔饰品",
+      "family": "眼/脸/耳饰",
+      "definition": "鼻翼/鼻中隔或嘴唇处可辨的独立小环/饰钉",
+      "status": "INDETERMINATE",
+      "notes": "小尺寸、头脸伪影及低分辨率影响辨识；本轮没有逐脸高分辨率检查，不能列成不存在。",
+      "searchAliases": "",
+      "nearbyCategoryIds": [],
+      "examples": []
+    },
+    {
+      "id": "BODY01",
+      "label": "日常上下装与连衣裙",
+      "family": "衣服/身体饰物",
+      "definition": "T恤、衬衣、毛衣、外套、裙/裤等可见日常服装",
+      "status": "PRESENT",
+      "notes": "存在大量版本；仅列代表，不统计同类总数。",
+      "searchAliases": "",
+      "nearbyCategoryIds": [],
+      "examples": [
+        {
+          "modelId": "bestdori:001_casual",
+          "observation": "青色短袖衬衫、短裤与腰间系衬衣"
+        },
+        {
+          "modelId": "bestdori:004_casual_summer-2023",
+          "observation": "浅青色无袖腰带连衣裙"
+        }
+      ]
+    },
+    {
+      "id": "BODY02",
+      "label": "学校制服",
+      "family": "衣服/身体饰物",
+      "definition": "水手服、西式校服等",
+      "status": "PRESENT",
+      "notes": "校服样式覆盖多类。",
+      "searchAliases": "",
+      "nearbyCategoryIds": [],
+      "examples": [
+        {
+          "modelId": "bestdori:001_school_summer",
+          "observation": "白色水手领上衣、领巾与百褶裙"
+        },
+        {
+          "modelId": "bestdori:006_event_06_story",
+          "observation": "深灰色西式校服外套、白衬衣、领带与格裙"
+        }
+      ]
+    },
+    {
+      "id": "BODY03",
+      "label": "西装与正式商务装",
+      "family": "衣服/身体饰物",
+      "definition": "西装外套、衬衣、领带和正式裤装",
+      "status": "PRESENT",
+      "notes": "不能因为全库以女角为主而误报商务装缺失。",
+      "searchAliases": "",
+      "nearbyCategoryIds": [],
+      "examples": [
+        {
+          "modelId": "bestdori:003_event_227_story_02",
+          "observation": "黑色西装、白衬衣、黑领带与长裤"
+        },
+        {
+          "modelId": "ournotes:sub_katsuura/suits_01_still",
+          "observation": "粉色成套西装，含西装裤与皮鞋"
+        }
+      ]
+    },
+    {
+      "id": "BODY04",
+      "label": "体操服、训练服与球类运动装",
+      "family": "衣服/身体饰物",
+      "definition": "运动T恤短裤、成套运动夹克/裤、棒球类球衣等",
+      "status": "PRESENT",
+      "notes": "具体器材、防护材质或功能不由服装名字推定。",
+      "searchAliases": "",
+      "nearbyCategoryIds": [],
+      "examples": [
+        {
+          "modelId": "bestdori:001_event_119_story_02",
+          "observation": "白色无袖运动上衣与红色短裤"
+        },
+        {
+          "modelId": "bestdori:008_tracksuit",
+          "observation": "棕白色成套运动夹克与长裤"
+        },
+        {
+          "modelId": "bestdori:011_event_110_story_01",
+          "observation": "红色棒球球衣、短裤与球队帽"
+        }
+      ]
+    },
+    {
+      "id": "BODY05",
+      "label": "睡衣与家居服",
+      "family": "衣服/身体饰物",
+      "definition": "成套睡衣、居家裙与宽松家居装",
+      "status": "PRESENT",
+      "notes": "普通居家装明显存在。",
+      "searchAliases": "",
+      "nearbyCategoryIds": [],
+      "examples": [
+        {
+          "modelId": "bestdori:001_chapter0_pajamas",
+          "observation": "白蓝条纹上衣与同色系长裤"
+        },
+        {
+          "modelId": "bestdori:010_story_01",
+          "observation": "浅蓝纽扣睡衣上衣与长裤"
+        }
+      ]
+    },
+    {
+      "id": "BODY06",
+      "label": "围裙、女仆与餐饮工作装",
+      "family": "衣服/身体饰物",
+      "definition": "覆盖胸腹的围裙、服务服、女仆围裙",
+      "status": "PRESENT",
+      "notes": "工作服形象存在；不主张实际职业防护能力。",
+      "searchAliases": "",
+      "nearbyCategoryIds": [],
+      "examples": [
+        {
+          "modelId": "bestdori:002_arbeit_event287",
+          "observation": "黑色T恤外穿深蓝色系带围裙"
+        },
+        {
+          "modelId": "bestdori:014_cafe",
+          "observation": "绿白女仆式裙装与白色围裙"
+        },
+        {
+          "modelId": "bestdori:014_fast_food",
+          "observation": "黄白餐饮工作上衣、黑色围裙和帽子"
+        }
+      ]
+    },
+    {
+      "id": "BODY07",
+      "label": "护士与医疗风装束",
+      "family": "衣服/身体饰物",
+      "definition": "可辨护士帽、医疗风制服或医疗道具装饰",
+      "status": "PRESENT",
+      "notes": "是护士主题舞台服，不能等同无菌手术服或职业防护服。",
+      "searchAliases": "",
+      "nearbyCategoryIds": [],
+      "examples": [
+        {
+          "modelId": "bestdori:001_live_event_241_ur",
+          "observation": "粉白护士帽、粉白制服裙，胸前有医疗器具形装饰"
+        }
+      ]
+    },
+    {
+      "id": "BODY08",
+      "label": "礼服、婚纱与洛丽塔装",
+      "family": "衣服/身体饰物",
+      "definition": "礼服长裙、婚纱头纱、礼仪与洛丽塔风裙装",
+      "status": "PRESENT",
+      "notes": "存在多种长度及装饰；材质和内衬不判定。",
+      "searchAliases": "",
+      "nearbyCategoryIds": [],
+      "examples": [
+        {
+          "modelId": "bestdori:001_live_event_80_ssr",
+          "observation": "白橙婚纱式礼服、头纱和花束"
+        },
+        {
+          "modelId": "bestdori:021_live_event_243_ssr",
+          "observation": "黑色多层长裙、花饰帽与蕾丝礼服轮廓"
+        }
+      ]
+    },
+    {
+      "id": "BODY09",
+      "label": "和服、浴衣与袴",
+      "family": "衣服/身体饰物",
+      "definition": "振袖/浴衣、宽袖和装、腰带与袴等",
+      "status": "PRESENT",
+      "notes": "传统及舞台混合版本均有。",
+      "searchAliases": "",
+      "nearbyCategoryIds": [],
+      "examples": [
+        {
+          "modelId": "bestdori:001_2019_furisode",
+          "observation": "红色长袖振袖、花纹与绿色腰带"
+        },
+        {
+          "modelId": "bestdori:012_collabo_i_1_ur",
+          "observation": "粉白浴衣式宽袖和装与腰带"
+        }
+      ]
+    },
+    {
+      "id": "BODY10",
+      "label": "旗袍与中式风服装",
+      "family": "衣服/身体饰物",
+      "definition": "具有中式立领、盘扣、旗袍主体形态等",
+      "status": "PRESENT",
+      "notes": "此处只认视觉款型，不判定其文化/礼仪准确性。",
+      "searchAliases": "",
+      "nearbyCategoryIds": [],
+      "examples": [
+        {
+          "modelId": "bestdori:016_live_event_323_sr",
+          "observation": "蓝色立领旗袍形连衣裙，金色滚边和花纹"
+        },
+        {
+          "modelId": "bestdori:021_live_event_262_ssr",
+          "observation": "橙红旗袍式长身上衣与黑色肩部围饰"
+        }
+      ]
+    },
+    {
+      "id": "BODY11",
+      "label": "巫女与传统宗教风装束",
+      "family": "衣服/身体饰物",
+      "definition": "白上衣配红袴等可辨巫女服及类似舞台装",
+      "status": "PRESENT",
+      "notes": "有明确巫女服式样；不把幻想法师服自动当真实宗教服。",
+      "searchAliases": "",
+      "nearbyCategoryIds": [],
+      "examples": [
+        {
+          "modelId": "bestdori:005_event_137_story_01",
+          "observation": "白色宽袖上衣、红色袴与胸前红色系绳"
+        }
+      ]
+    },
+    {
+      "id": "BODY12",
+      "label": "泳装",
+      "family": "衣服/身体饰物",
+      "definition": "比基尼、连体泳装、泳装外罩等",
+      "status": "PRESENT",
+      "notes": "泳装存在不等于潜水装备存在。",
+      "searchAliases": "",
+      "nearbyCategoryIds": [],
+      "examples": [
+        {
+          "modelId": "bestdori:001_event_124_story_01",
+          "observation": "蓝白条纹比基尼与红色系带下装"
+        },
+        {
+          "modelId": "bestdori:033_event_158_story_01",
+          "observation": "黑色上衣与泳装式围裹下装"
+        },
+        {
+          "modelId": "bestdori:033_event_335_story_01",
+          "observation": "黑色连体泳装式款型"
+        }
+      ]
+    },
+    {
+      "id": "BODY13",
+      "label": "冬季滑雪/雪地运动装",
+      "family": "衣服/身体饰物",
+      "definition": "雪镜、保暖拉链夹克、长裤/手套组成的雪地装束",
+      "status": "PRESENT",
+      "notes": "单模复核见普通夹克的拉链和口袋；不能误报救生衣、防化服或消防服。",
+      "searchAliases": "",
+      "nearbyCategoryIds": [],
+      "examples": [
+        {
+          "modelId": "bestdori:013_event_33_story01",
+          "observation": "头戴雪镜与毛帽，拉链夹克、手套/裤装"
+        },
+        {
+          "modelId": "bestdori:017_event_33_story01",
+          "observation": "雪镜、毛帽、带胸部口袋的蓝色夹克与长裤"
+        }
+      ]
+    },
+    {
+      "id": "BODY14",
+      "label": "圣诞与节庆主题服装",
+      "family": "衣服/身体饰物",
+      "definition": "可辨圣诞红白毛边服装等",
+      "status": "PRESENT",
+      "notes": "节庆服存在；不据此替代防寒功能判断。",
+      "searchAliases": "",
+      "nearbyCategoryIds": [],
+      "examples": [
+        {
+          "modelId": "bestdori:001_christmas_01",
+          "observation": "红色圣诞裙、白色毛边、腰带与圣诞帽"
+        }
+      ]
+    },
+    {
+      "id": "BODY15",
+      "label": "可制作成Cosplay的武士/骑士盔甲",
+      "family": "衣服/身体饰物",
+      "definition": "武士甲、骑士甲等可见成套幻想/历史甲胄轮廓",
+      "status": "PRESENT",
+      "notes": "造型覆盖；现实防护性能、刚度、金属材质均不可由图确定。",
+      "searchAliases": "",
+      "nearbyCategoryIds": [],
+      "examples": [
+        {
+          "modelId": "bestdori:001_2021af",
+          "observation": "武士兜、肩甲、胸甲与分层裙甲"
+        },
+        {
+          "modelId": "bestdori:022_fantasy_01",
+          "observation": "金蓝骑士风头盔、肩甲、护臂、胸腹甲和披覆"
+        }
+      ]
+    },
+    {
+      "id": "BODY16",
+      "label": "披风、斗篷与肩披",
+      "family": "衣服/身体饰物",
+      "definition": "肩部系领的后背/侧部垂覆披风、斗篷或短肩披",
+      "status": "PRESENT",
+      "notes": "已单图复核。披风存在但任何新角色的通用绑定/遮挡仍需单独验证。",
+      "searchAliases": "",
+      "nearbyCategoryIds": [],
+      "examples": [
+        {
+          "modelId": "bestdori:012_live_event_196_sr",
+          "observation": "高立领紫色披风，红色内侧、胸前系带、两侧后摆"
+        }
+      ]
+    },
+    {
+      "id": "BODY17",
+      "label": "围巾与保暖围饰",
+      "family": "衣服/身体饰物",
+      "definition": "围颈并垂落的围巾、围脖等",
+      "status": "PRESENT",
+      "notes": "两者均单图复核；毛皮/针织等材质不作技术证明。",
+      "searchAliases": "",
+      "nearbyCategoryIds": [],
+      "examples": [
+        {
+          "modelId": "bestdori:021_kirameki_festival_coat",
+          "observation": "紫色格纹围巾缠在颈部并垂落胸前"
+        },
+        {
+          "modelId": "bestdori:002_live_event_287_ur",
+          "observation": "红白围巾围颈，下缘流苏可见"
+        }
+      ]
+    },
+    {
+      "id": "BODY18",
+      "label": "领带、领结、颈链与项圈",
+      "family": "衣服/身体饰物",
+      "definition": "佩戴于颈胸的领饰及颈部饰品",
+      "status": "PRESENT",
+      "notes": "此类已经覆盖多种形状；独立可拆性和可见网格未检查。",
+      "searchAliases": "",
+      "nearbyCategoryIds": [],
+      "examples": [
+        {
+          "modelId": "bestdori:003_event_227_story_02",
+          "observation": "白衬衣下黑领带"
+        },
+        {
+          "modelId": "bestdori:006_live_event_200_sr",
+          "observation": "黑色颈圈、胸前扣带与吊饰"
+        },
+        {
+          "modelId": "bestdori:001_2018_dog",
+          "observation": "颈部红色方巾/项圈式装饰"
+        }
+      ]
+    },
+    {
+      "id": "BODY19",
+      "label": "普通/长袖/露指手套",
+      "family": "衣服/身体饰物",
+      "definition": "手部可辨手套、手套袖口与长手套",
+      "status": "PRESENT",
+      "notes": "手套存在；整手形状、手指动态和覆盖关系不由静态判定。",
+      "searchAliases": "",
+      "nearbyCategoryIds": [],
+      "examples": [
+        {
+          "modelId": "bestdori:002_live_event_287_ur",
+          "observation": "手部棕色手套"
+        },
+        {
+          "modelId": "bestdori:012_live_event_196_sr",
+          "observation": "白色蕾丝手套"
+        },
+        {
+          "modelId": "bestdori:018_event_344_story_01",
+          "observation": "黑色长手套与露肩衣装"
+        }
+      ]
+    },
+    {
+      "id": "BODY20",
+      "label": "腰带、束腰与胸腰系带",
+      "family": "衣服/身体饰物",
+      "definition": "腰带、束腰、宽腰封和收束身体的系带",
+      "status": "PRESENT",
+      "notes": "2708是造型服，不把扣带误认弹道防护背心。",
+      "searchAliases": "",
+      "nearbyCategoryIds": [],
+      "examples": [
+        {
+          "modelId": "bestdori:027_dream_festival_2",
+          "observation": "黑白分片胸腰服、横向扣带、腰带与吊链"
+        },
+        {
+          "modelId": "bestdori:001_2019_furisode",
+          "observation": "和装宽腰带与系绳"
+        }
+      ]
+    },
+    {
+      "id": "BODY21",
+      "label": "斜挎包、腰包与腰带小包",
+      "family": "衣服/身体饰物",
+      "definition": "可见肩带斜跨身体或腰部固定的包体",
+      "status": "PRESENT",
+      "notes": "三张均单图复核；手提篮不算此类。",
+      "searchAliases": "",
+      "nearbyCategoryIds": [],
+      "examples": [
+        {
+          "modelId": "bestdori:308_event_47_story_01",
+          "observation": "橙色斜跨肩带与左腰橙色圆包"
+        },
+        {
+          "modelId": "bestdori:006_live_event_294_r",
+          "observation": "腰部两侧棕色包/工具袋式部件"
+        },
+        {
+          "modelId": "bestdori:005_live_event_321_ur",
+          "observation": "横跨胸腹的白色细肩链，腰前心形小包"
+        }
+      ]
+    },
+    {
+      "id": "BODY22",
+      "label": "双肩背包与背负包体",
+      "family": "衣服/身体饰物",
+      "definition": "由双肩背带固定并具有背部包体的背包",
+      "status": "INDETERMINATE",
+      "notes": "全部总览未见明确的双肩背包体；多数图只有正面或半身，背带可被头发/衣装遮挡，不能宣称背包在库内不存在。",
+      "searchAliases": "",
+      "nearbyCategoryIds": [],
+      "examples": [
+        {
+          "modelId": "bestdori:036_collabo_a_ur",
+          "observation": "衣装前侧有黑色长条与扣件，单图证实为外套/衣装边部，未看到背包体"
+        }
+      ]
+    },
+    {
+      "id": "BODY23",
+      "label": "运动护具",
+      "family": "衣服/身体饰物",
+      "definition": "击剑/弓道/剑道等胸部与手部可辨护具",
+      "status": "PRESENT",
+      "notes": "已单图复核；护膝、轮滑护具等子类本轮未作绝对缺失判断。",
+      "searchAliases": "",
+      "nearbyCategoryIds": [],
+      "examples": [
+        {
+          "modelId": "bestdori:020_event_38_story01",
+          "observation": "剑道胸甲与腰垂；胸前红黑分片及署名腰垂可见"
+        },
+        {
+          "modelId": "bestdori:022_event_38_story02",
+          "observation": "弓道单侧黑胸当与手部棕色护手"
+        }
+      ]
+    },
+    {
+      "id": "BODY24",
+      "label": "羽毛形翅膀",
+      "family": "衣服/身体饰物",
+      "definition": "天使/鸟翼式羽毛分片翅膀，可制作成真实Cosplay附件",
+      "status": "PRESENT",
+      "notes": "单图复核；不证明真实飞行或单独可拆网格。",
+      "searchAliases": "翅膀 翼 羽翼",
+      "nearbyCategoryIds": [],
+      "examples": [
+        {
+          "modelId": "bestdori:003_live_event_20_r",
+          "observation": "肩后成对白色羽毛翅膀，羽毛片形清楚"
+        }
+      ]
+    },
+    {
+      "id": "BODY25",
+      "label": "蝙蝠/恶魔形翅膀",
+      "family": "衣服/身体饰物",
+      "definition": "膜翼和恶魔翼式Cosplay翅膀",
+      "status": "PRESENT",
+      "notes": "其中578已单图复核。",
+      "searchAliases": "翅膀 翼 恶魔翼",
+      "nearbyCategoryIds": [],
+      "examples": [
+        {
+          "modelId": "bestdori:006_live_event_200_sr",
+          "observation": "两肩后有红色蝙蝠翼，黑色边和内骨状线"
+        },
+        {
+          "modelId": "bestdori:018_event_344_story_01",
+          "observation": "肩后左右黑色蝙蝠翼"
+        }
+      ]
+    },
+    {
+      "id": "BODY26",
+      "label": "蝴蝶/精灵形翅膀",
+      "family": "衣服/身体饰物",
+      "definition": "多瓣蝶翼/精灵翼式Cosplay附件",
+      "status": "PRESENT",
+      "notes": "总览可辨蝶/精灵翼，材质/透明度仅属静态显示。",
+      "searchAliases": "翅膀 翼 蝶翼",
+      "nearbyCategoryIds": [],
+      "examples": [
+        {
+          "modelId": "bestdori:003_live_event_289_sr",
+          "observation": "肩后粉紫色多瓣精灵翼"
+        },
+        {
+          "modelId": "bestdori:018_live_event_13_ssr",
+          "observation": "背后展开淡色蝴蝶形翅膀"
+        }
+      ]
+    },
+    {
+      "id": "BODY27",
+      "label": "毛绒动物尾巴",
+      "family": "衣服/身体饰物",
+      "definition": "猫/狐/犬等粗毛绒尾及细猫尾Cosplay外观",
+      "status": "PRESENT",
+      "notes": "三例均单图复核；这些轮廓存在，不宣称每个动物物种都有。",
+      "searchAliases": "尾巴 兽尾",
+      "nearbyCategoryIds": [],
+      "examples": [
+        {
+          "modelId": "bestdori:003_live_event_95_ssr",
+          "observation": "身体右后方大号白金色多瓣毛尾"
+        },
+        {
+          "modelId": "bestdori:011_delta",
+          "observation": "黑白大尾在身后弯曲上翘"
+        },
+        {
+          "modelId": "bestdori:019_live_event_56_sr",
+          "observation": "细黑猫尾从腰后弯向左侧"
+        }
+      ]
+    },
+    {
+      "id": "BODY28",
+      "label": "爬行动物/龙/恶魔尾巴",
+      "family": "衣服/身体饰物",
+      "definition": "龙尾、怪兽尾或尖端恶魔尾等",
+      "status": "PRESENT",
+      "notes": "两例均单图复核；dragon的尾巴属整套造型，不证明能直接拆成附件。",
+      "searchAliases": "尾巴 龙尾 恶魔尾",
+      "nearbyCategoryIds": [],
+      "examples": [
+        {
+          "modelId": "bestdori:026_event_203_story_02",
+          "observation": "蓝色龙/怪兽连体服，右侧锯齿状尾巴与肩后膜翼可见"
+        },
+        {
+          "modelId": "bestdori:006_live_event_200_sr",
+          "observation": "腰后细黑尾与尖头"
+        }
+      ]
+    },
+    {
+      "id": "BODY29",
+      "label": "兽爪手套与爪形袖口",
+      "family": "衣服/身体饰物",
+      "definition": "动物爪形的大手套或巨大爪形手部覆盖",
+      "status": "PRESENT",
+      "notes": "298、2647已单图复核；爪形造型覆盖。",
+      "searchAliases": "",
+      "nearbyCategoryIds": [],
+      "examples": [
+        {
+          "modelId": "bestdori:001_2018_dog",
+          "observation": "白色圆爪形手套"
+        },
+        {
+          "modelId": "bestdori:003_live_event_95_ssr",
+          "observation": "大号黄白爪形手套"
+        },
+        {
+          "modelId": "bestdori:026_event_203_story_02",
+          "observation": "袖口有白色三角爪形部件"
+        }
+      ]
+    },
+    {
+      "id": "BODY30",
+      "label": "玩偶服、Kigurumi与膨大套装",
+      "family": "衣服/身体饰物",
+      "definition": "大头动物玩偶服或包裹躯干的角色连体服",
+      "status": "PRESENT",
+      "notes": "具备整套轮廓；不将非人形吉祥物立绘本身都等同真实可穿戴服。",
+      "searchAliases": "",
+      "nearbyCategoryIds": [],
+      "examples": [
+        {
+          "modelId": "bestdori:015_2018_dog",
+          "observation": "米歇尔熊头及动物玩偶服身体"
+        },
+        {
+          "modelId": "bestdori:006_event_227_story_02",
+          "observation": "橙色连体动物套装与连体帽"
+        },
+        {
+          "modelId": "bestdori:026_event_203_story_02",
+          "observation": "蓝色龙连体服与龙头帽"
+        }
+      ]
+    },
+    {
+      "id": "BODY31",
+      "label": "救生衣/浮力背心",
+      "family": "衣服/身体饰物",
+      "definition": "肩胸有独立厚浮力体、固定扣带等可辨救生衣结构",
+      "status": "NOT_OBSERVED",
+      "notes": "全57张总览未观察到明确浮力背心；1294/1505/1732/1934单图复核为雪地夹克。只表示本库静态可见造型没有找到，隐藏部件及画面外区域未知。",
+      "searchAliases": "",
+      "nearbyCategoryIds": [
+        "BODY13",
+        "BODY20"
+      ],
+      "examples": []
+    },
+    {
+      "id": "BODY32",
+      "label": "带背负气瓶/呼吸连接的潜水装备组合",
+      "family": "衣服/身体饰物",
+      "definition": "可见背负气瓶、呼吸连接或调节器等可辨识组合",
+      "status": "NOT_OBSERVED",
+      "notes": "全57张总览未观察到明确背负气瓶/呼吸连接的潜水装备组合；普通潜水衣单凭紧身/黑色服装不能辨认用途，不单独宣称缺失。泳装与头顶护目镜已有。大量腿脚画面外，因此脚蹼不列缺口。",
+      "searchAliases": "",
+      "nearbyCategoryIds": [
+        "BODY12",
+        "F05"
+      ],
+      "examples": []
+    },
+    {
+      "id": "BODY33",
+      "label": "密闭防化服/生化防护套装",
+      "family": "衣服/身体饰物",
+      "definition": "包住头躯干的防护服、密闭接缝造型、呼吸器/过滤器等可辨组合",
+      "status": "NOT_OBSERVED",
+      "notes": "全57张总览未观察到明确密闭防化服；动物连体服已有，但无可辨呼吸器、防护面窗/密闭结构。材质及隐藏性能无法判定。",
+      "searchAliases": "",
+      "nearbyCategoryIds": [
+        "BODY30",
+        "BODY07"
+      ],
+      "examples": []
+    },
+    {
+      "id": "BODY34",
+      "label": "消防防护服",
+      "family": "衣服/身体饰物",
+      "definition": "具有职业消防服完整轮廓、可辨防火外套结构及救援装备组合",
+      "status": "NOT_OBSERVED",
+      "notes": "全57张总览未观察到明确消防防护服；黄色/黑色舞台夹克3214单图可见露肩/露腹与舞台配饰，不能只因配色认作消防服。消防帽由头部审查另行处理。",
+      "searchAliases": "",
+      "nearbyCategoryIds": [
+        "BODY13",
+        "BODY15"
+      ],
+      "examples": []
+    },
+    {
+      "id": "BODY35",
+      "label": "职业高可视安全背心外形",
+      "family": "衣服/身体饰物",
+      "definition": "工地/道路人员使用的荧光色安全背心与醒目条带布局外形",
+      "status": "NOT_OBSERVED",
+      "notes": "全57张总览未观察到明确职业高可视安全背心外形；荧光色演出服、雪地夹克和宽条纹服已有。材料是否真正反光无法由静态图确定，不以反光性能作为缺项。",
+      "searchAliases": "",
+      "nearbyCategoryIds": [
+        "BODY04",
+        "BODY13"
+      ],
+      "examples": []
+    },
+    {
+      "id": "BODY36",
+      "label": "手链/腕饰/腕带",
+      "family": "衣服/身体饰物",
+      "definition": "腕部可辨首饰、珠饰或宽带",
+      "status": "PRESENT",
+      "notes": "补查正例；2202不据此确认腕表。",
+      "searchAliases": "",
+      "nearbyCategoryIds": [],
+      "examples": [
+        {
+          "modelId": "bestdori:023_live_event_52_sr",
+          "observation": "双腕金色饰带和红色珠饰。"
+        },
+        {
+          "modelId": "bestdori:023_swim_swit",
+          "observation": "橙色宽腕饰与蓝白细腕饰。"
+        },
+        {
+          "modelId": "bestdori:021_girlparty2019",
+          "observation": "黑色宽带和方形扣环可见，没有确认表盘。"
+        }
+      ]
+    },
+    {
+      "id": "BODY37",
+      "label": "袜/丝袜外观",
+      "family": "衣服/身体饰物",
+      "definition": "贴腿袜体、网格/条纹长袜等可见形态",
+      "status": "PRESENT",
+      "notes": "已有部分全身图正例；不宣称每种袜型齐全，不能确认被裙摆遮住的连裤/长袜结构。",
+      "searchAliases": "",
+      "nearbyCategoryIds": [],
+      "examples": [
+        {
+          "modelId": "bestdori:032_dream_festival_4_ur",
+          "observation": "一腿网格长袜，另一腿横条纹长袜。"
+        },
+        {
+          "modelId": "ournotes:sakiko/live_01_mask",
+          "observation": "灰色半透明贴腿袜外观，上缘被裙摆遮挡。"
+        }
+      ]
+    },
+    {
+      "id": "BODY38",
+      "label": "鞋/靴",
+      "family": "衣服/身体饰物",
+      "definition": "可见鞋面、鞋尖或长靴筒的足部穿戴",
+      "status": "PRESENT",
+      "notes": "半身裁切入口不能据未显示判缺鞋；此类别只给可见正例。",
+      "searchAliases": "",
+      "nearbyCategoryIds": [],
+      "examples": [
+        {
+          "modelId": "ournotes:umiri/live_01_mask",
+          "observation": "双腿黑色长靴，鞋尖完整可见。"
+        },
+        {
+          "modelId": "ournotes:sakiko/live_01_mask",
+          "observation": "黑色系带鞋靴和金色尖头。"
+        }
+      ]
+    },
+    {
+      "id": "BODY39",
+      "label": "胸花/胸前徽饰",
+      "family": "衣服/身体饰物",
+      "definition": "胸前花饰、飘带或胸针式装饰",
+      "status": "PRESENT",
+      "notes": "外观存在；别针或是否贴在衣料上未检查。",
+      "searchAliases": "",
+      "nearbyCategoryIds": [],
+      "examples": [
+        {
+          "modelId": "bestdori:012_live_event_216_ssr",
+          "observation": "胸前蓝黄花饰与飘带。"
+        },
+        {
+          "modelId": "bestdori:014_live_event_215_ssr",
+          "observation": "橙黄色毕业胸花。"
+        }
+      ]
+    },
+    {
+      "id": "BODY40",
+      "label": "腕表",
+      "family": "衣服/身体饰物",
+      "definition": "具有可识别表盘/表壳及腕带的腕部外观",
+      "status": "INDETERMINATE",
+      "notes": "腕饰存在；没有逐腕近景穷举，不把腕表列为缺失。",
+      "searchAliases": "",
+      "nearbyCategoryIds": [],
+      "examples": [
+        {
+          "modelId": "bestdori:021_girlparty2019",
+          "observation": "宽腕带可见，但方形金属部位像扣环，不足以确认表盘。"
+        }
+      ]
+    }
+  ]
+}
