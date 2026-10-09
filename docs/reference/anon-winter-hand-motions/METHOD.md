@@ -8,7 +8,7 @@
 
 JSON中 `fadeInFileMs` / `fadeOutFileMs` 是文件中的字段，缺失为null；`manifestFadeInMs` / `manifestFadeOutMs` 保留动作清单指定字段，缺失也为null。没有猜SDK、宿主或脚本默认值。序列列出每侧声明参数超过0.5的集合变化；“—”表示没有参数超过这一门槛，不能推断手部消失。
 
-CSV为UTF-8 BOM，字段统一引号包裹。`motions.csv` 一行一个动作入口；`hand-calls.csv` 一行一个入口×参数（9296行）；`motions.json` 保留完整区间、文件相对引用及SHA256。网页是嵌入相同JSON的自包含HTML，下载保存后可断网双击；GitHub文件页展示源码。本次未部署Pages或改变账号设置。
+CSV为UTF-8 BOM，字段统一引号包裹。`motions.csv` 一行一个动作入口；`hand-calls.csv` 一行一个入口×参数（9296行）；`motions.json` 保留完整区间、文件相对引用及SHA256。网页是嵌入相同JSON的自包含HTML；公开入口提供offline-page.zip下载，解压后双击index.html，可断网使用。README直接呈现可读表格，不以Raw HTML链接充当网页入口。本次未部署Pages或改变账号设置。
 
 已完成的检查：664动作+model.json共665输入哈希未变；与独立历史全量盘点664动作哈希一致；5个代表动作原始通道的采样数/极值逐项复核；手型L02的21入口/爱音前缀7入口与此前独立复核一致。断网浏览器检查总数、L02/爱音筛选、R09菜单、R03门槛7→6差异、展开14参数、空结果、搜索、翻页、筛选CSV下载、手机页面无外层横向溢出；无页面错误或外部网络请求，自有浏览器已退出。共23项检查通过，桌面/手机截图人工检查排版。
 

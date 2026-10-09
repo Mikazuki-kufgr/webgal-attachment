@@ -2,7 +2,11 @@
 
 覆盖当前 `anon/school_winter-2023` 的 **664 个动作入口 / 664 个动作文件**，共 14 个实际手部参数。资料快照：2026-10-09。
 
-[下载离线检索网页](https://raw.githubusercontent.com/Mikazuki-kufgr/webgal-attachment/main/docs/reference/anon-winter-hand-motions/index.html)（保存为HTML后双击，可断网使用），[动作总表CSV](motions.csv)、[逐参数时段CSV](hand-calls.csv)、[完整JSON](motions.json)。网页支持动作名/前缀/参数侧/手型筛选、时序展开和筛选结果CSV下载。GitHub文件页只显示HTML源码；本次没有配置GitHub Pages。
+**[直接查看完整动作手型表](#全动作总表)**
+
+**[下载可筛选网页（ZIP）](https://github.com/Mikazuki-kufgr/webgal-attachment/raw/refs/heads/main/docs/reference/anon-winter-hand-motions/offline-page.zip)**：点击下载压缩包，解压后双击里面的 `index.html`，即可看到检索页面，可断网使用。这个入口下载ZIP，不打开HTML源码。
+
+另有[动作总表CSV](motions.csv)、[逐参数时段CSV](hand-calls.csv)、[完整JSON](motions.json)。网页支持动作名/前缀/参数侧/手型筛选、时序展开和筛选结果CSV下载。完整表格可在本页直接阅读，检索网页通过上述ZIP下载；本次没有配置GitHub Pages。
 
 ## 如何理解
 
