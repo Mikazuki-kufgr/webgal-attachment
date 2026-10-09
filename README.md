@@ -31,3 +31,6 @@
 ## 社区参考资料
 
 [BanG Dream原模型特殊部件索引与底模候选检索表](docs/reference/bangdream-model-parts/README.md)：按帽子、兽耳、耳机、头巾、口罩等查找人物和具体外观，附自包含离线检索页。它是独立资料附录，与插件版本分别维护；可见造型不等于部件可拆用或目标移植效果已验证。
+
+[爱音冬服全动作手型调用参考](docs/reference/anon-winter-hand-motions/README.md)：664个动作入口、两侧14个实际手部参数，附采样时序、CSV/JSON与单文件离线检索网页。只列文件调用数据，具体手型外观与附件效果仍需模型验证。
+
