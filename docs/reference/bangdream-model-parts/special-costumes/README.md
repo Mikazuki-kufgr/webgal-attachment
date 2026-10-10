@@ -2,6 +2,8 @@
 
 面向直接阅读的规整静态图鉴：**4列×3行、3600×4200**。保留此前六套特殊造型，加入四套备选以及骑士盔甲、羽翼天使。每格上方为立绘，下方简列角色、服装名、来源服装编号及资源标识。按行从左向右阅读，01—04、05—08、09—12。
 
+人物按本体比例排版：以实际脸部网格宽度统一等比缩放，逐套复核肩部／颈根参照点并对齐到每行同一水平线；帽子、翅膀、尾巴和宽裙摆不再决定人物大小。收紧顶部空间，保留完整头饰与侧面特殊部件；下缘按同一景别裁切，使短模型的结束边缘和其下空白不露出。此为中性静态构图参照，不表示角色真实身高完全相同。
+
 ![12套特殊服装图鉴](preview.png)
 
 - [查看完整4×3图鉴PNG](special-costumes-4x3.png)；[直接下载原尺寸PNG](https://github.com/Mikazuki-kufgr/webgal-attachment/raw/refs/heads/main/docs/reference/bangdream-model-parts/special-costumes/special-costumes-4x3.png)。
