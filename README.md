@@ -36,3 +36,6 @@
 
 
 [12套特殊服装静态图鉴](docs/reference/bangdream-model-parts/special-costumes/README.md)：4列×3行，立绘配角色、服装编号与名称信息条；附原尺寸PNG、可断网双击的离线图鉴网页ZIP及完整清单。
+
+
+全库3737幅派生预览现已更新为对应原生idle表情，修正旧检查图的叠嘴；[一键下载单文件HTML图册](https://htmlpreview.github.io/?https://raw.githubusercontent.com/Mikazuki-kufgr/webgal-attachment/main/docs/reference/bangdream-model-parts/download.html)，下载后直接双击、可断网搜索，无需解压。下载启动页通过HTMLPreview展示，文件直接读取GitHub；不携带模型/原贴图/动作/SDK，与冻结公测版本分别维护。

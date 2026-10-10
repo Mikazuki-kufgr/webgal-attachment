@@ -7,7 +7,7 @@
 ![12套特殊服装图鉴](preview.png)
 
 - [查看完整4×3图鉴PNG](special-costumes-4x3.png)；[直接下载原尺寸PNG](https://github.com/Mikazuki-kufgr/webgal-attachment/raw/refs/heads/main/docs/reference/bangdream-model-parts/special-costumes/special-costumes-4x3.png)。
-- [下载离线图鉴网页ZIP](https://github.com/Mikazuki-kufgr/webgal-attachment/raw/refs/heads/main/docs/reference/bangdream-model-parts/special-costumes/offline-page.zip)，解压双击index.html；支持整图适应宽度/原尺寸放大和PNG下载，不需服务器或网络。GitHub HTML文件页显示源码。
+- [下载单文件离线图鉴HTML](https://htmlpreview.github.io/?https://raw.githubusercontent.com/Mikazuki-kufgr/webgal-attachment/main/docs/reference/bangdream-model-parts/download-12.html)：自动保存HTML，双击即用，无需解压；支持整图适应宽度/原尺寸放大和PNG下载。备用[index.html文件页](index.html)选择Download raw file。旧ZIP仅保留历史。
 - [精选JSON](selection.json)、[CSV](selection.csv)。
 
 ## 服装清单

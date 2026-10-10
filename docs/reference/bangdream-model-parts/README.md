@@ -5,15 +5,15 @@
 ## 怎样查找
 
 1. 在GitHub在线查阅本页的代表清单与说明。
-2. [下载自包含检索页](https://raw.githubusercontent.com/Mikazuki-kufgr/webgal-attachment/main/docs/reference/bangdream-model-parts/index.html)（保存为index.html），双击打开。也可在[index.html文件页](index.html)选择Download raw file。GitHub文件页显示源文件，下载后才执行交互检索。
+2. [一键下载全量原生idle图册HTML](https://htmlpreview.github.io/?https://raw.githubusercontent.com/Mikazuki-kufgr/webgal-attachment/main/docs/reference/bangdream-model-parts/download.html)。入口会显示下载进度并自动保存单个HTML，下载后直接双击，不需要ZIP或解压。启动页通过HTMLPreview展示，图册文件直接从GitHub读取；如果自动下载被浏览器拦截，点击“再次保存HTML”。备用：[index.html文件页](index.html)右上角Download raw file。
 3. 搜索部件、人物或外观标识；切换“按模型找部件”和“按部件找模型”，并按来源筛选。
 4. 用显示的模型标识在对应来源或你已有的素材中定位外观，再按所用改模工具核对需要的部件。
 
-检索页不需要插件、账号、网络服务或本地服务器；页面数据全部内嵌，下载一个HTML即可使用。原检索页只提供文字、分类和定位信息，不包含人物模型、贴图或动作。新增4×3图鉴单独提供派生静态示意图，仍不携带模型/原贴图/动作。
+检索页不需要插件、账号、网络服务或本地服务器；页面数据全部内嵌，下载一个HTML即可使用。2026-10-10版把3737幅原生idle静态缩略图、检索数据全部内嵌（单文件约74MiB）；原生SDK遮罩修正旧CPU检查图的叠嘴。按模型读取idle首帧面部参数，动作缺少的通道由该模型idle/default表情补齐，不重复叠加；41个无嘴部通道的静态/非普通人形入口保留原生默认。未包含人物模型、原贴图、原动作或SDK。HTMLPreview只用于启动下载，离线图册不依赖它。
 
 ## 特殊服装静态图鉴
 
-[12套特殊服装图鉴与完整清单](special-costumes/README.md)：4列×3行、3600×4200，每格上方立绘、下方角色/服装名/编号/资源标识；附原尺寸PNG、单文件离线图鉴网页ZIP。
+[12套特殊服装图鉴与完整清单](special-costumes/README.md)：4列×3行、3600×4200，每格上方立绘、下方角色/服装名/编号/资源标识；附原尺寸PNG与单文件离线图鉴HTML。
 
 ![12套特殊服装图鉴](special-costumes/preview.png)
 
@@ -45,6 +45,8 @@
 | 文件 | 职责 |
 |---|---|
 | index.html | 自包含离线搜索页面 |
+| download.html | 一键读取GitHub图册并保存单个HTML的轻量下载启动页 |
+| idle-expressions.json | 逐模型idle表情选择、应用参数/缺失通道/原生范围记录 |
 | catalog.json | 3737个入口、来源和可见标签；带已确认或边界细类记录 |
 | coverage.json | 119个类别的定义、正例、未发现与未知状态 |
 | SOURCES.md | 来源及准确定位方法 |
