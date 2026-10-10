@@ -1,0 +1,13 @@
+﻿序号,角色,资源标识,idle动作,嘴型FORM_01,开度OPEN_Y,参数来源
+A,凑 友希那,021_2018_dog,data/motions/007_idle01.mtn,-0.5,0,本服装idle01首帧
+B,珠手 知由,035_expose,data/motions/013_idle01.mtn,1,0,本服装idle01首帧
+C,白金 燐子,025_fantasy,data/motions/009_idle01.mtn,-0.5,0,本服装idle01首帧
+D,弦卷 心,011_miku_alien,data/motions/006_idle01.mtn,1,0,本服装idle01首帧
+E,仓田 真白,026_event_203_story_02,data/motions/007_idle01.mtn,0,0,本服装idle01首帧
+F,宇田川 亚子,024_dream_festival_2,data/motions/012_idle01.mtn,1,0,本服装idle01首帧
+G,千早 爱音,037_live_event_277_sr,data/motions/011_idle01.mtn,0,0,本服装idle01首帧
+H,山吹 沙绫,004_live_event_92_ssr,data/motions/017_idle01.mtn,1,0,本服装idle01首帧
+I,弦卷 心,011_live_event_316_ssr,data/motions/010_idle01.mtn,1,0,本服装idle01首帧
+J,松原 花音,014_live_event_324_ur,data/motions/010_idle01.mtn,1,0,本服装idle01首帧
+K,冰川 纱夜,022_fantasy_01,data/motions/010_idle01.mtn,-0.5,0,本服装idle01首帧
+L,牛込 里美,003_live_event_20_r,data/motions/009_idle01.mtn,1,0,本服装idle01首帧

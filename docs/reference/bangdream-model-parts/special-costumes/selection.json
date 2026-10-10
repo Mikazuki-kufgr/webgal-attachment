@@ -1,9 +1,6 @@
 {
-  "title": "BanG Dream 特殊服装 · 12套图鉴",
+  "title": "BanG Dream 特殊服装横向图鉴",
   "version": "2026-10-10",
-  "width": 3600,
-  "height": 4200,
-  "aspectRatio": "6:7",
   "count": 12,
   "sourceSnapshot": "2026-10-02",
   "note": "原模型中性静态示意；服装名来自既有来源快照，缺名用明确标注的造型描述；未知编号保留。未验证动态/可拆/移植。",
@@ -237,8 +234,1569 @@
       "meshTransferValidated": false
     }
   ],
-  "layout": {
-    "columns": 4,
-    "rows": 3
-  }
+  "layouts": {
+    "static": {
+      "width": 3600,
+      "height": 4200,
+      "columns": 4,
+      "rows": 3
+    }
+  },
+  "expression": "NATIVE_IDLE01_FIRST_FRAME_MOUTH",
+  "renderer": "ORIGINAL_CUBISM2_SDK_WEBGL_NATIVE_CLIPPING",
+  "mouthEvidence": {
+    "createdAt": "2026-10-10T03:00:17.807Z",
+    "fallbackPersonalityInference": 0,
+    "results": [
+      {
+        "code": "A",
+        "index": 2170,
+        "character": "凑 友希那",
+        "bundle": "021_2018_dog",
+        "motions": [
+          {
+            "key": "idle01",
+            "file": "data/motions/007_idle01.mtn",
+            "sha256": "2b3ca5c9c9f00a97aba52acd0b166373560848ffecd308f5974292296376f917",
+            "mouth": {
+              "PARAM_MOUTH_FORM_01": {
+                "samples": 1,
+                "unique": [
+                  -0.5
+                ],
+                "value": -0.5
+              },
+              "PARAM_MOUTH_OPEN_Y": {
+                "samples": 1,
+                "unique": [
+                  0
+                ],
+                "value": 0
+              },
+              "PARAM_MOUTH_FORM_02": {
+                "samples": 1,
+                "unique": [
+                  0
+                ],
+                "value": 0
+              },
+              "PARAM_MOUTH_SCALE": {
+                "samples": 1,
+                "unique": [
+                  0
+                ],
+                "value": 0
+              }
+            }
+          },
+          {
+            "key": "idle02",
+            "file": "data/motions/008_idle02.mtn",
+            "sha256": "8cb89dc0299be9d9dcf767ea637890509f212312ae2c238d911630159433a5ca",
+            "mouth": {
+              "PARAM_MOUTH_FORM_01": {
+                "samples": 1,
+                "unique": [
+                  -0.5
+                ],
+                "value": -0.5
+              },
+              "PARAM_MOUTH_OPEN_Y": {
+                "samples": 1,
+                "unique": [
+                  0
+                ],
+                "value": 0
+              },
+              "PARAM_MOUTH_FORM_02": {
+                "samples": 1,
+                "unique": [
+                  0
+                ],
+                "value": 0
+              },
+              "PARAM_MOUTH_SCALE": {
+                "samples": 1,
+                "unique": [
+                  0
+                ],
+                "value": 0
+              }
+            }
+          }
+        ],
+        "expressions": [
+          {
+            "key": "yukina_default",
+            "file": "data/expressions/027_yukina_default.exp.json",
+            "sha256": "ff5242eddb348784a9261f7524384c499a1a02d2b4e56c202cfca883f178d77f",
+            "mouth": [
+              {
+                "id": "PARAM_MOUTH_FORM_01",
+                "val": -0.5,
+                "def": -0.5
+              },
+              {
+                "id": "PARAM_MOUTH_OPEN_Y",
+                "val": 0
+              },
+              {
+                "id": "PARAM_MOUTH_FORM_02",
+                "val": 0
+              },
+              {
+                "id": "PARAM_MOUTH_SCALE",
+                "val": 0
+              }
+            ]
+          }
+        ],
+        "selectedMotion": "data/motions/007_idle01.mtn",
+        "parameters": {
+          "PARAM_MOUTH_FORM_01": -0.5,
+          "PARAM_MOUTH_OPEN_Y": 0,
+          "PARAM_MOUTH_FORM_02": 0,
+          "PARAM_MOUTH_SCALE": 0
+        },
+        "method": "EXACT_IDLE01_FRAME_ZERO_MOUTH_CHANNELS_DEFAULT_EXPRESSIONS_CROSSCHECKED_NOT_ADDED_TWICE"
+      },
+      {
+        "code": "B",
+        "index": 3249,
+        "character": "珠手 知由",
+        "bundle": "035_expose",
+        "motions": [
+          {
+            "key": "idle01",
+            "file": "data/motions/013_idle01.mtn",
+            "sha256": "461d0e936f6ad72022f192fd8721679d9be9d9fb86464e16a6aeb18784ae2c20",
+            "mouth": {
+              "PARAM_MOUTH_FORM_01": {
+                "samples": 1,
+                "unique": [
+                  1
+                ],
+                "value": 1
+              },
+              "PARAM_MOUTH_OPEN_Y": {
+                "samples": 1,
+                "unique": [
+                  0
+                ],
+                "value": 0
+              },
+              "PARAM_MOUTH_OPEN_Y_MANUAL": {
+                "samples": 1,
+                "unique": [
+                  0
+                ],
+                "value": 0
+              },
+              "PARAM_MOUTH_SWITCH": {
+                "samples": 1,
+                "unique": [
+                  0
+                ],
+                "value": 0
+              },
+              "PARAM_MOUTH_FORM_Y": {
+                "samples": 1,
+                "unique": [
+                  0
+                ],
+                "value": 0
+              },
+              "PARAM_MOUTH_SCALE": {
+                "samples": 1,
+                "unique": [
+                  0
+                ],
+                "value": 0
+              }
+            }
+          }
+        ],
+        "expressions": [],
+        "selectedMotion": "data/motions/013_idle01.mtn",
+        "parameters": {
+          "PARAM_MOUTH_FORM_01": 1,
+          "PARAM_MOUTH_OPEN_Y": 0,
+          "PARAM_MOUTH_OPEN_Y_MANUAL": 0,
+          "PARAM_MOUTH_SWITCH": 0,
+          "PARAM_MOUTH_FORM_Y": 0,
+          "PARAM_MOUTH_SCALE": 0
+        },
+        "method": "EXACT_IDLE01_FRAME_ZERO_MOUTH_CHANNELS_DEFAULT_EXPRESSIONS_CROSSCHECKED_NOT_ADDED_TWICE"
+      },
+      {
+        "code": "C",
+        "index": 2625,
+        "character": "白金 燐子",
+        "bundle": "025_fantasy",
+        "motions": [
+          {
+            "key": "idle01",
+            "file": "data/motions/009_idle01.mtn",
+            "sha256": "97169c16a3efb1b54f43161d1e51cf7ea6ef4f5d2f31c74f0f47379b76f5b2ff",
+            "mouth": {
+              "PARAM_MOUTH_FORM_01": {
+                "samples": 1,
+                "unique": [
+                  -0.5
+                ],
+                "value": -0.5
+              },
+              "PARAM_MOUTH_OPEN_Y": {
+                "samples": 1,
+                "unique": [
+                  0
+                ],
+                "value": 0
+              },
+              "PARAM_MOUTH_FORM_02": {
+                "samples": 1,
+                "unique": [
+                  0
+                ],
+                "value": 0
+              },
+              "PARAM_MOUTH_SCALE": {
+                "samples": 1,
+                "unique": [
+                  0
+                ],
+                "value": 0
+              }
+            }
+          },
+          {
+            "key": "idle02",
+            "file": "data/motions/010_idle02.mtn",
+            "sha256": "e6e1d2cc863c3a5823c1e1552923f22aabe2c170f6e4f22e1b499030ceb9e8f7",
+            "mouth": {
+              "PARAM_MOUTH_FORM_01": {
+                "samples": 1,
+                "unique": [
+                  -0.5
+                ],
+                "value": -0.5
+              },
+              "PARAM_MOUTH_OPEN_Y": {
+                "samples": 1,
+                "unique": [
+                  0
+                ],
+                "value": 0
+              },
+              "PARAM_MOUTH_FORM_02": {
+                "samples": 1,
+                "unique": [
+                  0
+                ],
+                "value": 0
+              },
+              "PARAM_MOUTH_SCALE": {
+                "samples": 1,
+                "unique": [
+                  0
+                ],
+                "value": 0
+              }
+            }
+          }
+        ],
+        "expressions": [
+          {
+            "key": "default",
+            "file": "data/expressions/047_default.exp.json",
+            "sha256": "1b39f14c7f58c8f5209740265730d75b4b58de64adc905e761ff31a58beb369c",
+            "mouth": []
+          },
+          {
+            "key": "rinko_default",
+            "file": "data/expressions/050_rinko_default.exp.json",
+            "sha256": "8a16f6fbd18fcd34f19a14c3cc504fdf571b9238a99e5c53d1082d4abec020f2",
+            "mouth": [
+              {
+                "id": "PARAM_MOUTH_FORM_01",
+                "val": -0.5,
+                "def": -1
+              },
+              {
+                "id": "PARAM_MOUTH_OPEN_Y",
+                "val": 0
+              },
+              {
+                "id": "PARAM_MOUTH_FORM_02",
+                "val": 0
+              },
+              {
+                "id": "PARAM_MOUTH_SCALE",
+                "val": 0
+              }
+            ]
+          }
+        ],
+        "selectedMotion": "data/motions/009_idle01.mtn",
+        "parameters": {
+          "PARAM_MOUTH_FORM_01": -0.5,
+          "PARAM_MOUTH_OPEN_Y": 0,
+          "PARAM_MOUTH_FORM_02": 0,
+          "PARAM_MOUTH_SCALE": 0
+        },
+        "method": "EXACT_IDLE01_FRAME_ZERO_MOUTH_CHANNELS_DEFAULT_EXPRESSIONS_CROSSCHECKED_NOT_ADDED_TWICE"
+      },
+      {
+        "code": "D",
+        "index": 1178,
+        "character": "弦卷 心",
+        "bundle": "011_miku_alien",
+        "motions": [
+          {
+            "key": "idle01",
+            "file": "data/motions/006_idle01.mtn",
+            "sha256": "8f7219e1a5dc1e75eb7f6711f9eb5a96a70ce10a288b7ebfabd288e9fbb9af83",
+            "mouth": {
+              "PARAM_MOUTH_FORM_01": {
+                "samples": 1,
+                "unique": [
+                  1
+                ],
+                "value": 1
+              },
+              "PARAM_MOUTH_OPEN_Y": {
+                "samples": 1,
+                "unique": [
+                  0
+                ],
+                "value": 0
+              },
+              "PARAM_MOUTH_FORM_02": {
+                "samples": 1,
+                "unique": [
+                  0
+                ],
+                "value": 0
+              },
+              "PARAM_MOUTH_SCALE": {
+                "samples": 1,
+                "unique": [
+                  1
+                ],
+                "value": 1
+              }
+            }
+          },
+          {
+            "key": "idle02",
+            "file": "data/motions/007_idle02.mtn",
+            "sha256": "4e1513c86cd3b80025e7dddff8de79a5f768b3d7cd69b0c783d88cd75dd17480",
+            "mouth": {
+              "PARAM_MOUTH_FORM_01": {
+                "samples": 1,
+                "unique": [
+                  1
+                ],
+                "value": 1
+              },
+              "PARAM_MOUTH_OPEN_Y": {
+                "samples": 1,
+                "unique": [
+                  0
+                ],
+                "value": 0
+              },
+              "PARAM_MOUTH_FORM_02": {
+                "samples": 1,
+                "unique": [
+                  0
+                ],
+                "value": 0
+              },
+              "PARAM_MOUTH_SCALE": {
+                "samples": 1,
+                "unique": [
+                  1
+                ],
+                "value": 1
+              }
+            }
+          }
+        ],
+        "expressions": [
+          {
+            "key": "kokoro_default",
+            "file": "data/expressions/027_kokoro_default.exp.json",
+            "sha256": "ac24f7540c402bbc5051255f1d4576fd701725051f886d5e280f91f2cb7d3a1c",
+            "mouth": [
+              {
+                "id": "PARAM_MOUTH_FORM_01",
+                "val": 1,
+                "def": 1
+              },
+              {
+                "id": "PARAM_MOUTH_OPEN_Y",
+                "val": 0
+              },
+              {
+                "id": "PARAM_MOUTH_FORM_02",
+                "val": 0
+              },
+              {
+                "id": "PARAM_MOUTH_SCALE",
+                "val": 0
+              }
+            ]
+          }
+        ],
+        "selectedMotion": "data/motions/006_idle01.mtn",
+        "parameters": {
+          "PARAM_MOUTH_FORM_01": 1,
+          "PARAM_MOUTH_OPEN_Y": 0,
+          "PARAM_MOUTH_FORM_02": 0,
+          "PARAM_MOUTH_SCALE": 1
+        },
+        "method": "EXACT_IDLE01_FRAME_ZERO_MOUTH_CHANNELS_DEFAULT_EXPRESSIONS_CROSSCHECKED_NOT_ADDED_TWICE"
+      },
+      {
+        "code": "E",
+        "index": 2717,
+        "character": "仓田 真白",
+        "bundle": "026_event_203_story_02",
+        "motions": [
+          {
+            "key": "idle01",
+            "file": "data/motions/007_idle01.mtn",
+            "sha256": "2ab8d3214a23128dd68622f9b9ecc5e5b919852d04c7eb13df9da77552e45f47",
+            "mouth": {
+              "PARAM_MOUTH_FORM_01": {
+                "samples": 1,
+                "unique": [
+                  0
+                ],
+                "value": 0
+              },
+              "PARAM_MOUTH_OPEN_Y": {
+                "samples": 1,
+                "unique": [
+                  0
+                ],
+                "value": 0
+              },
+              "PARAM_MOUTH_FORM_Y": {
+                "samples": 1,
+                "unique": [
+                  0
+                ],
+                "value": 0
+              },
+              "PARAM_MOUTH_SCALE": {
+                "samples": 1,
+                "unique": [
+                  0
+                ],
+                "value": 0
+              }
+            }
+          }
+        ],
+        "expressions": [
+          {
+            "key": "default",
+            "file": "data/expressions/039_default.exp.json",
+            "sha256": "1b39f14c7f58c8f5209740265730d75b4b58de64adc905e761ff31a58beb369c",
+            "mouth": []
+          }
+        ],
+        "selectedMotion": "data/motions/007_idle01.mtn",
+        "parameters": {
+          "PARAM_MOUTH_FORM_01": 0,
+          "PARAM_MOUTH_OPEN_Y": 0,
+          "PARAM_MOUTH_FORM_Y": 0,
+          "PARAM_MOUTH_SCALE": 0
+        },
+        "method": "EXACT_IDLE01_FRAME_ZERO_MOUTH_CHANNELS_DEFAULT_EXPRESSIONS_CROSSCHECKED_NOT_ADDED_TWICE"
+      },
+      {
+        "code": "F",
+        "index": 2499,
+        "character": "宇田川 亚子",
+        "bundle": "024_dream_festival_2",
+        "motions": [
+          {
+            "key": "idle01",
+            "file": "data/motions/012_idle01.mtn",
+            "sha256": "88d48506f00c771a7ea13590b3dda7fe43e1c1b1f0e13ccb61ca73d18246d1e2",
+            "mouth": {
+              "PARAM_MOUTH_FORM_01": {
+                "samples": 180,
+                "unique": [
+                  1,
+                  0.999,
+                  0.998,
+                  0.997,
+                  0.996,
+                  0.995,
+                  0.994,
+                  0.993,
+                  0.992,
+                  0.991,
+                  0.99,
+                  0.989,
+                  0.988,
+                  0.987,
+                  0.986,
+                  0.985,
+                  0.984,
+                  0.983,
+                  0.982,
+                  0.981,
+                  0.98,
+                  0.979,
+                  0.978,
+                  0.977,
+                  0.976,
+                  0.975,
+                  0.974,
+                  0.973,
+                  0.972,
+                  0.971,
+                  0.97,
+                  0.969,
+                  0.968,
+                  0.967,
+                  0.966,
+                  0.965,
+                  0.964,
+                  0.963,
+                  0.962,
+                  0.961,
+                  0.96,
+                  0.959,
+                  0.958,
+                  0.957,
+                  0.956,
+                  0.955,
+                  0.954,
+                  0.953,
+                  0.952,
+                  0.951,
+                  0.95,
+                  0.949,
+                  0.948,
+                  0.947,
+                  0.946,
+                  0.945,
+                  0.944,
+                  0.943,
+                  0.942,
+                  0.941,
+                  0.94,
+                  0.939,
+                  0.938,
+                  0.937,
+                  0.936,
+                  0.935,
+                  0.934,
+                  0.933,
+                  0.932,
+                  0.931,
+                  0.93,
+                  0.929,
+                  0.928,
+                  0.927,
+                  0.926,
+                  0.925,
+                  0.924,
+                  0.923,
+                  0.922,
+                  0.921,
+                  0.92
+                ],
+                "value": 1
+              },
+              "PARAM_MOUTH_OPEN_Y": {
+                "samples": 1,
+                "unique": [
+                  0
+                ],
+                "value": 0
+              },
+              "PARAM_MOUTH_FORM_02": {
+                "samples": 1,
+                "unique": [
+                  0
+                ],
+                "value": 0
+              },
+              "PARAM_MOUTH_SCALE": {
+                "samples": 1,
+                "unique": [
+                  1
+                ],
+                "value": 1
+              },
+              "PARAM_MOUTH_SPECIAL": {
+                "samples": 1,
+                "unique": [
+                  0
+                ],
+                "value": 0
+              }
+            }
+          },
+          {
+            "key": "idle02",
+            "file": "data/motions/013_idle02.mtn",
+            "sha256": "b358b516fb969b6037813426a0c19b835596f5fc6903e32580ffc38b8446d7c4",
+            "mouth": {
+              "PARAM_MOUTH_FORM_01": {
+                "samples": 180,
+                "unique": [
+                  1,
+                  0.999,
+                  0.998,
+                  0.997,
+                  0.996,
+                  0.995,
+                  0.994,
+                  0.993,
+                  0.992,
+                  0.991,
+                  0.99,
+                  0.989,
+                  0.988,
+                  0.987,
+                  0.986,
+                  0.985,
+                  0.984,
+                  0.983,
+                  0.982,
+                  0.981,
+                  0.98,
+                  0.979,
+                  0.978,
+                  0.977,
+                  0.976,
+                  0.975,
+                  0.974,
+                  0.973,
+                  0.972,
+                  0.971,
+                  0.97,
+                  0.969,
+                  0.968,
+                  0.967,
+                  0.966,
+                  0.965,
+                  0.964,
+                  0.963,
+                  0.962,
+                  0.961,
+                  0.96,
+                  0.959,
+                  0.958,
+                  0.957,
+                  0.956,
+                  0.955,
+                  0.954,
+                  0.953,
+                  0.952,
+                  0.951,
+                  0.95,
+                  0.949,
+                  0.948,
+                  0.947,
+                  0.946,
+                  0.945,
+                  0.944,
+                  0.943,
+                  0.942,
+                  0.941,
+                  0.94,
+                  0.939,
+                  0.938,
+                  0.937,
+                  0.936,
+                  0.935,
+                  0.934,
+                  0.933,
+                  0.932,
+                  0.931,
+                  0.93,
+                  0.929,
+                  0.928,
+                  0.927,
+                  0.926,
+                  0.925,
+                  0.924,
+                  0.923,
+                  0.922,
+                  0.921,
+                  0.92
+                ],
+                "value": 1
+              },
+              "PARAM_MOUTH_OPEN_Y": {
+                "samples": 1,
+                "unique": [
+                  0
+                ],
+                "value": 0
+              },
+              "PARAM_MOUTH_FORM_02": {
+                "samples": 1,
+                "unique": [
+                  0
+                ],
+                "value": 0
+              },
+              "PARAM_MOUTH_SCALE": {
+                "samples": 1,
+                "unique": [
+                  1
+                ],
+                "value": 1
+              },
+              "PARAM_MOUTH_SPECIAL": {
+                "samples": 1,
+                "unique": [
+                  0
+                ],
+                "value": 0
+              }
+            }
+          }
+        ],
+        "expressions": [
+          {
+            "key": "ako_default",
+            "file": "data/expressions/039_ako_default.exp.json",
+            "sha256": "cc7278874e072db774ca21a834cbc1776716952a47a05bb057cea0170e20873f",
+            "mouth": [
+              {
+                "id": "PARAM_MOUTH_FORM_01",
+                "val": 1,
+                "def": 1
+              },
+              {
+                "id": "PARAM_MOUTH_OPEN_Y",
+                "val": 0
+              },
+              {
+                "id": "PARAM_MOUTH_FORM_02",
+                "val": 0
+              },
+              {
+                "id": "PARAM_MOUTH_SCALE",
+                "val": 0
+              },
+              {
+                "id": "PARAM_MOUTH_SPECIAL",
+                "val": 0
+              }
+            ]
+          },
+          {
+            "key": "default",
+            "file": "data/expressions/049_default.exp.json",
+            "sha256": "1b39f14c7f58c8f5209740265730d75b4b58de64adc905e761ff31a58beb369c",
+            "mouth": []
+          }
+        ],
+        "selectedMotion": "data/motions/012_idle01.mtn",
+        "parameters": {
+          "PARAM_MOUTH_FORM_01": 1,
+          "PARAM_MOUTH_OPEN_Y": 0,
+          "PARAM_MOUTH_FORM_02": 0,
+          "PARAM_MOUTH_SCALE": 1,
+          "PARAM_MOUTH_SPECIAL": 0
+        },
+        "method": "EXACT_IDLE01_FRAME_ZERO_MOUTH_CHANNELS_DEFAULT_EXPRESSIONS_CROSSCHECKED_NOT_ADDED_TWICE"
+      },
+      {
+        "code": "G",
+        "index": 3313,
+        "character": "千早 爱音",
+        "bundle": "037_live_event_277_sr",
+        "motions": [
+          {
+            "key": "idle01",
+            "file": "data/motions/011_idle01.mtn",
+            "sha256": "401e229beb689f2776e193790b54579ea9c8abe74a599b9ebb66881f2138a62d",
+            "mouth": {
+              "PARAM_MOUTH_FORM_01": {
+                "samples": 1,
+                "unique": [
+                  0
+                ],
+                "value": 0
+              },
+              "PARAM_MOUTH_OPEN_Y": {
+                "samples": 1,
+                "unique": [
+                  0
+                ],
+                "value": 0
+              },
+              "PARAM_MOUTH_FORM_Y": {
+                "samples": 1,
+                "unique": [
+                  0
+                ],
+                "value": 0
+              },
+              "PARAM_MOUTH_SCALE": {
+                "samples": 1,
+                "unique": [
+                  0
+                ],
+                "value": 0
+              }
+            }
+          }
+        ],
+        "expressions": [
+          {
+            "key": "default",
+            "file": "data/expressions/052_default.exp.json",
+            "sha256": "1b39f14c7f58c8f5209740265730d75b4b58de64adc905e761ff31a58beb369c",
+            "mouth": []
+          }
+        ],
+        "selectedMotion": "data/motions/011_idle01.mtn",
+        "parameters": {
+          "PARAM_MOUTH_FORM_01": 0,
+          "PARAM_MOUTH_OPEN_Y": 0,
+          "PARAM_MOUTH_FORM_Y": 0,
+          "PARAM_MOUTH_SCALE": 0
+        },
+        "method": "EXACT_IDLE01_FRAME_ZERO_MOUTH_CHANNELS_DEFAULT_EXPRESSIONS_CROSSCHECKED_NOT_ADDED_TWICE"
+      },
+      {
+        "code": "H",
+        "index": 406,
+        "character": "山吹 沙绫",
+        "bundle": "004_live_event_92_ssr",
+        "motions": [
+          {
+            "key": "idle01",
+            "file": "data/motions/017_idle01.mtn",
+            "sha256": "19c5fbe5b49628e514a23a18b5a9322d805f8e92875cd7ad10d12e0777319121",
+            "mouth": {
+              "PARAM_MOUTH_FORM_01": {
+                "samples": 1,
+                "unique": [
+                  1
+                ],
+                "value": 1
+              },
+              "PARAM_MOUTH_OPEN_Y": {
+                "samples": 1,
+                "unique": [
+                  0
+                ],
+                "value": 0
+              },
+              "PARAM_MOUTH_FORM_02": {
+                "samples": 1,
+                "unique": [
+                  1
+                ],
+                "value": 1
+              },
+              "PARAM_MOUTH_SCALE": {
+                "samples": 1,
+                "unique": [
+                  0
+                ],
+                "value": 0
+              }
+            }
+          },
+          {
+            "key": "idle02",
+            "file": "data/motions/018_idle02.mtn",
+            "sha256": "91f76bdf76ef8feeacbbaddeec683f8809a607d21cd7fb24af70b35790de23a5",
+            "mouth": {
+              "PARAM_MOUTH_FORM_01": {
+                "samples": 1,
+                "unique": [
+                  1
+                ],
+                "value": 1
+              },
+              "PARAM_MOUTH_OPEN_Y": {
+                "samples": 1,
+                "unique": [
+                  0
+                ],
+                "value": 0
+              },
+              "PARAM_MOUTH_FORM_02": {
+                "samples": 1,
+                "unique": [
+                  1
+                ],
+                "value": 1
+              },
+              "PARAM_MOUTH_SCALE": {
+                "samples": 1,
+                "unique": [
+                  0
+                ],
+                "value": 0
+              }
+            }
+          }
+        ],
+        "expressions": [
+          {
+            "key": "default",
+            "file": "data/expressions/042_default.exp.json",
+            "sha256": "1b39f14c7f58c8f5209740265730d75b4b58de64adc905e761ff31a58beb369c",
+            "mouth": []
+          },
+          {
+            "key": "saya_default",
+            "file": "data/expressions/047_saya_default.exp.json",
+            "sha256": "3f95ecfb88781424c63367da314ef23127fe7102e5c08381b3109a180009adc9",
+            "mouth": [
+              {
+                "id": "PARAM_MOUTH_FORM_01",
+                "val": 1,
+                "def": 1
+              },
+              {
+                "id": "PARAM_MOUTH_OPEN_Y",
+                "val": 0
+              },
+              {
+                "id": "PARAM_MOUTH_FORM_02",
+                "val": 0
+              },
+              {
+                "id": "PARAM_MOUTH_SCALE",
+                "val": 1
+              }
+            ]
+          }
+        ],
+        "selectedMotion": "data/motions/017_idle01.mtn",
+        "parameters": {
+          "PARAM_MOUTH_FORM_01": 1,
+          "PARAM_MOUTH_OPEN_Y": 0,
+          "PARAM_MOUTH_FORM_02": 1,
+          "PARAM_MOUTH_SCALE": 0
+        },
+        "method": "EXACT_IDLE01_FRAME_ZERO_MOUTH_CHANNELS_DEFAULT_EXPRESSIONS_CROSSCHECKED_NOT_ADDED_TWICE"
+      },
+      {
+        "code": "I",
+        "index": 1152,
+        "character": "弦卷 心",
+        "bundle": "011_live_event_316_ssr",
+        "motions": [
+          {
+            "key": "idle01",
+            "file": "data/motions/010_idle01.mtn",
+            "sha256": "8f7219e1a5dc1e75eb7f6711f9eb5a96a70ce10a288b7ebfabd288e9fbb9af83",
+            "mouth": {
+              "PARAM_MOUTH_FORM_01": {
+                "samples": 1,
+                "unique": [
+                  1
+                ],
+                "value": 1
+              },
+              "PARAM_MOUTH_OPEN_Y": {
+                "samples": 1,
+                "unique": [
+                  0
+                ],
+                "value": 0
+              },
+              "PARAM_MOUTH_FORM_02": {
+                "samples": 1,
+                "unique": [
+                  0
+                ],
+                "value": 0
+              },
+              "PARAM_MOUTH_SCALE": {
+                "samples": 1,
+                "unique": [
+                  1
+                ],
+                "value": 1
+              }
+            }
+          },
+          {
+            "key": "idle02",
+            "file": "data/motions/011_idle02.mtn",
+            "sha256": "4e1513c86cd3b80025e7dddff8de79a5f768b3d7cd69b0c783d88cd75dd17480",
+            "mouth": {
+              "PARAM_MOUTH_FORM_01": {
+                "samples": 1,
+                "unique": [
+                  1
+                ],
+                "value": 1
+              },
+              "PARAM_MOUTH_OPEN_Y": {
+                "samples": 1,
+                "unique": [
+                  0
+                ],
+                "value": 0
+              },
+              "PARAM_MOUTH_FORM_02": {
+                "samples": 1,
+                "unique": [
+                  0
+                ],
+                "value": 0
+              },
+              "PARAM_MOUTH_SCALE": {
+                "samples": 1,
+                "unique": [
+                  1
+                ],
+                "value": 1
+              }
+            }
+          }
+        ],
+        "expressions": [
+          {
+            "key": "default",
+            "file": "data/expressions/045_default.exp.json",
+            "sha256": "1b39f14c7f58c8f5209740265730d75b4b58de64adc905e761ff31a58beb369c",
+            "mouth": []
+          },
+          {
+            "key": "kokoro_default",
+            "file": "data/expressions/048_kokoro_default.exp.json",
+            "sha256": "ac24f7540c402bbc5051255f1d4576fd701725051f886d5e280f91f2cb7d3a1c",
+            "mouth": [
+              {
+                "id": "PARAM_MOUTH_FORM_01",
+                "val": 1,
+                "def": 1
+              },
+              {
+                "id": "PARAM_MOUTH_OPEN_Y",
+                "val": 0
+              },
+              {
+                "id": "PARAM_MOUTH_FORM_02",
+                "val": 0
+              },
+              {
+                "id": "PARAM_MOUTH_SCALE",
+                "val": 0
+              }
+            ]
+          }
+        ],
+        "selectedMotion": "data/motions/010_idle01.mtn",
+        "parameters": {
+          "PARAM_MOUTH_FORM_01": 1,
+          "PARAM_MOUTH_OPEN_Y": 0,
+          "PARAM_MOUTH_FORM_02": 0,
+          "PARAM_MOUTH_SCALE": 1
+        },
+        "method": "EXACT_IDLE01_FRAME_ZERO_MOUTH_CHANNELS_DEFAULT_EXPRESSIONS_CROSSCHECKED_NOT_ADDED_TWICE"
+      },
+      {
+        "code": "J",
+        "index": 1476,
+        "character": "松原 花音",
+        "bundle": "014_live_event_324_ur",
+        "motions": [
+          {
+            "key": "idle01",
+            "file": "data/motions/010_idle01.mtn",
+            "sha256": "384f6b578c28aa8d448624273c89e17948a7d7214228e096fd4da84ec7a8a9b3",
+            "mouth": {
+              "PARAM_MOUTH_FORM_01": {
+                "samples": 1,
+                "unique": [
+                  1
+                ],
+                "value": 1
+              },
+              "PARAM_MOUTH_OPEN_Y": {
+                "samples": 1,
+                "unique": [
+                  0
+                ],
+                "value": 0
+              },
+              "PARAM_MOUTH_FORM_02": {
+                "samples": 1,
+                "unique": [
+                  0
+                ],
+                "value": 0
+              },
+              "PARAM_MOUTH_SCALE": {
+                "samples": 1,
+                "unique": [
+                  0
+                ],
+                "value": 0
+              }
+            }
+          },
+          {
+            "key": "idle02",
+            "file": "data/motions/011_idle02.mtn",
+            "sha256": "15e863d9ef7ee723240d1de633ee0cf5b76903929ae7eeaaa419d38e261ff870",
+            "mouth": {
+              "PARAM_MOUTH_FORM_01": {
+                "samples": 1,
+                "unique": [
+                  1
+                ],
+                "value": 1
+              },
+              "PARAM_MOUTH_OPEN_Y": {
+                "samples": 1,
+                "unique": [
+                  0
+                ],
+                "value": 0
+              },
+              "PARAM_MOUTH_FORM_02": {
+                "samples": 1,
+                "unique": [
+                  0
+                ],
+                "value": 0
+              },
+              "PARAM_MOUTH_SCALE": {
+                "samples": 1,
+                "unique": [
+                  0
+                ],
+                "value": 0
+              }
+            }
+          }
+        ],
+        "expressions": [
+          {
+            "key": "default",
+            "file": "data/expressions/043_default.exp.json",
+            "sha256": "1b39f14c7f58c8f5209740265730d75b4b58de64adc905e761ff31a58beb369c",
+            "mouth": []
+          },
+          {
+            "key": "kanon_default",
+            "file": "data/expressions/045_kanon_default.exp.json",
+            "sha256": "3c9e91f7147e124ccea070a44135f67269fafbe07e90e6cd2ce3369b12330209",
+            "mouth": [
+              {
+                "id": "PARAM_MOUTH_FORM_01",
+                "val": 1,
+                "def": 1
+              },
+              {
+                "id": "PARAM_MOUTH_OPEN_Y",
+                "val": 0
+              },
+              {
+                "id": "PARAM_MOUTH_FORM_02",
+                "val": 0
+              },
+              {
+                "id": "PARAM_MOUTH_SCALE",
+                "val": 0
+              }
+            ]
+          }
+        ],
+        "selectedMotion": "data/motions/010_idle01.mtn",
+        "parameters": {
+          "PARAM_MOUTH_FORM_01": 1,
+          "PARAM_MOUTH_OPEN_Y": 0,
+          "PARAM_MOUTH_FORM_02": 0,
+          "PARAM_MOUTH_SCALE": 0
+        },
+        "method": "EXACT_IDLE01_FRAME_ZERO_MOUTH_CHANNELS_DEFAULT_EXPRESSIONS_CROSSCHECKED_NOT_ADDED_TWICE"
+      },
+      {
+        "code": "K",
+        "index": 2304,
+        "character": "冰川 纱夜",
+        "bundle": "022_fantasy_01",
+        "motions": [
+          {
+            "key": "idle01",
+            "file": "data/motions/010_idle01.mtn",
+            "sha256": "539cca00e143e9258c4382cb061e15d96f4e0b090760b6bf0c56fa27acbe56ac",
+            "mouth": {
+              "PARAM_MOUTH_FORM_01": {
+                "samples": 1,
+                "unique": [
+                  -0.5
+                ],
+                "value": -0.5
+              },
+              "PARAM_MOUTH_OPEN_Y": {
+                "samples": 1,
+                "unique": [
+                  0
+                ],
+                "value": 0
+              },
+              "PARAM_MOUTH_FORM_02": {
+                "samples": 1,
+                "unique": [
+                  0
+                ],
+                "value": 0
+              },
+              "PARAM_MOUTH_SCALE": {
+                "samples": 1,
+                "unique": [
+                  0
+                ],
+                "value": 0
+              }
+            }
+          },
+          {
+            "key": "idle02",
+            "file": "data/motions/011_idle02.mtn",
+            "sha256": "c8651c4eca3b8ff43a57385b9b6f268f617d0cd57f8c1d9ff7bc8f8abdf32769",
+            "mouth": {
+              "PARAM_MOUTH_FORM_01": {
+                "samples": 1,
+                "unique": [
+                  -0.5
+                ],
+                "value": -0.5
+              },
+              "PARAM_MOUTH_OPEN_Y": {
+                "samples": 1,
+                "unique": [
+                  0
+                ],
+                "value": 0
+              },
+              "PARAM_MOUTH_FORM_02": {
+                "samples": 1,
+                "unique": [
+                  0
+                ],
+                "value": 0
+              },
+              "PARAM_MOUTH_SCALE": {
+                "samples": 1,
+                "unique": [
+                  0
+                ],
+                "value": 0
+              }
+            }
+          }
+        ],
+        "expressions": [
+          {
+            "key": "default",
+            "file": "data/expressions/038_default.exp.json",
+            "sha256": "1b39f14c7f58c8f5209740265730d75b4b58de64adc905e761ff31a58beb369c",
+            "mouth": []
+          },
+          {
+            "key": "sayo_default",
+            "file": "data/expressions/042_sayo_default.exp.json",
+            "sha256": "dbf09454c8a61b93b1e862e326480f9045fda54cff7b78d62da57122c991f919",
+            "mouth": [
+              {
+                "id": "PARAM_MOUTH_FORM_01",
+                "val": -0.5
+              },
+              {
+                "id": "PARAM_MOUTH_OPEN_Y",
+                "val": 0
+              },
+              {
+                "id": "PARAM_MOUTH_FORM_02",
+                "val": 0
+              },
+              {
+                "id": "PARAM_MOUTH_SCALE",
+                "val": 0
+              }
+            ]
+          }
+        ],
+        "selectedMotion": "data/motions/010_idle01.mtn",
+        "parameters": {
+          "PARAM_MOUTH_FORM_01": -0.5,
+          "PARAM_MOUTH_OPEN_Y": 0,
+          "PARAM_MOUTH_FORM_02": 0,
+          "PARAM_MOUTH_SCALE": 0
+        },
+        "method": "EXACT_IDLE01_FRAME_ZERO_MOUTH_CHANNELS_DEFAULT_EXPRESSIONS_CROSSCHECKED_NOT_ADDED_TWICE"
+      },
+      {
+        "code": "L",
+        "index": 272,
+        "character": "牛込 里美",
+        "bundle": "003_live_event_20_r",
+        "motions": [
+          {
+            "key": "idle01",
+            "file": "data/motions/009_idle01.mtn",
+            "sha256": "047a0e350209d61f25f382e28e05773be9ff573ed4ea9d9b0db819d1ba0bdca3",
+            "mouth": {
+              "PARAM_MOUTH_FORM_01": {
+                "samples": 1,
+                "unique": [
+                  1
+                ],
+                "value": 1
+              },
+              "PARAM_MOUTH_OPEN_Y": {
+                "samples": 1,
+                "unique": [
+                  0
+                ],
+                "value": 0
+              },
+              "PARAM_MOUTH_FORM_02": {
+                "samples": 1,
+                "unique": [
+                  0
+                ],
+                "value": 0
+              },
+              "PARAM_MOUTH_SCALE": {
+                "samples": 1,
+                "unique": [
+                  0
+                ],
+                "value": 0
+              }
+            }
+          },
+          {
+            "key": "idle02",
+            "file": "data/motions/010_idle02.mtn",
+            "sha256": "906dd4d141d1fc5b5e34eff4a9f22650063800ef9cabfeed1bb860eccb17d362",
+            "mouth": {
+              "PARAM_MOUTH_FORM_01": {
+                "samples": 1,
+                "unique": [
+                  1
+                ],
+                "value": 1
+              },
+              "PARAM_MOUTH_OPEN_Y": {
+                "samples": 1,
+                "unique": [
+                  0
+                ],
+                "value": 0
+              },
+              "PARAM_MOUTH_FORM_02": {
+                "samples": 1,
+                "unique": [
+                  0
+                ],
+                "value": 0
+              },
+              "PARAM_MOUTH_SCALE": {
+                "samples": 1,
+                "unique": [
+                  0
+                ],
+                "value": 0
+              }
+            }
+          }
+        ],
+        "expressions": [],
+        "selectedMotion": "data/motions/009_idle01.mtn",
+        "parameters": {
+          "PARAM_MOUTH_FORM_01": 1,
+          "PARAM_MOUTH_OPEN_Y": 0,
+          "PARAM_MOUTH_FORM_02": 0,
+          "PARAM_MOUTH_SCALE": 0
+        },
+        "method": "EXACT_IDLE01_FRAME_ZERO_MOUTH_CHANNELS_DEFAULT_EXPRESSIONS_CROSSCHECKED_NOT_ADDED_TWICE"
+      }
+    ]
+  },
+  "appliedMouthParameters": [
+    {
+      "code": "A",
+      "bundle": "021_2018_dog",
+      "open": 0,
+      "form": -0.5,
+      "values": {
+        "PARAM_MOUTH_FORM_01": -0.5,
+        "PARAM_MOUTH_OPEN_Y": 0,
+        "PARAM_MOUTH_FORM_02": 0,
+        "PARAM_MOUTH_SCALE": 0
+      },
+      "absent": []
+    },
+    {
+      "code": "B",
+      "bundle": "035_expose",
+      "open": 0,
+      "form": 1,
+      "values": {
+        "PARAM_MOUTH_FORM_01": 1,
+        "PARAM_MOUTH_OPEN_Y": 0,
+        "PARAM_MOUTH_OPEN_Y_MANUAL": 0,
+        "PARAM_MOUTH_SWITCH": 0,
+        "PARAM_MOUTH_FORM_Y": 0,
+        "PARAM_MOUTH_SCALE": 0
+      },
+      "absent": []
+    },
+    {
+      "code": "C",
+      "bundle": "025_fantasy",
+      "open": 0,
+      "form": -0.5,
+      "values": {
+        "PARAM_MOUTH_FORM_01": -0.5,
+        "PARAM_MOUTH_OPEN_Y": 0,
+        "PARAM_MOUTH_FORM_02": 0,
+        "PARAM_MOUTH_SCALE": 0
+      },
+      "absent": []
+    },
+    {
+      "code": "D",
+      "bundle": "011_miku_alien",
+      "open": 0,
+      "form": 1,
+      "values": {
+        "PARAM_MOUTH_FORM_01": 1,
+        "PARAM_MOUTH_OPEN_Y": 0,
+        "PARAM_MOUTH_FORM_02": 0,
+        "PARAM_MOUTH_SCALE": 1
+      },
+      "absent": []
+    },
+    {
+      "code": "E",
+      "bundle": "026_event_203_story_02",
+      "open": 0,
+      "form": 0,
+      "values": {
+        "PARAM_MOUTH_FORM_01": 0,
+        "PARAM_MOUTH_OPEN_Y": 0,
+        "PARAM_MOUTH_FORM_Y": 0,
+        "PARAM_MOUTH_SCALE": 0
+      },
+      "absent": []
+    },
+    {
+      "code": "F",
+      "bundle": "024_dream_festival_2",
+      "open": 0,
+      "form": 1,
+      "values": {
+        "PARAM_MOUTH_FORM_01": 1,
+        "PARAM_MOUTH_OPEN_Y": 0,
+        "PARAM_MOUTH_FORM_02": 0,
+        "PARAM_MOUTH_SCALE": 1,
+        "PARAM_MOUTH_SPECIAL": 0
+      },
+      "absent": []
+    },
+    {
+      "code": "G",
+      "bundle": "037_live_event_277_sr",
+      "open": 0,
+      "form": 0,
+      "values": {
+        "PARAM_MOUTH_FORM_01": 0,
+        "PARAM_MOUTH_OPEN_Y": 0,
+        "PARAM_MOUTH_FORM_Y": 0,
+        "PARAM_MOUTH_SCALE": 0
+      },
+      "absent": []
+    },
+    {
+      "code": "H",
+      "bundle": "004_live_event_92_ssr",
+      "open": 0,
+      "form": 1,
+      "values": {
+        "PARAM_MOUTH_FORM_01": 1,
+        "PARAM_MOUTH_OPEN_Y": 0,
+        "PARAM_MOUTH_FORM_02": 1,
+        "PARAM_MOUTH_SCALE": 0
+      },
+      "absent": []
+    },
+    {
+      "code": "I",
+      "bundle": "011_live_event_316_ssr",
+      "open": 0,
+      "form": 1,
+      "values": {
+        "PARAM_MOUTH_FORM_01": 1,
+        "PARAM_MOUTH_OPEN_Y": 0,
+        "PARAM_MOUTH_FORM_02": 0,
+        "PARAM_MOUTH_SCALE": 1
+      },
+      "absent": []
+    },
+    {
+      "code": "J",
+      "bundle": "014_live_event_324_ur",
+      "open": 0,
+      "form": 1,
+      "values": {
+        "PARAM_MOUTH_FORM_01": 1,
+        "PARAM_MOUTH_OPEN_Y": 0,
+        "PARAM_MOUTH_FORM_02": 0,
+        "PARAM_MOUTH_SCALE": 0
+      },
+      "absent": []
+    },
+    {
+      "code": "K",
+      "bundle": "022_fantasy_01",
+      "open": 0,
+      "form": -0.5,
+      "values": {
+        "PARAM_MOUTH_FORM_01": -0.5,
+        "PARAM_MOUTH_OPEN_Y": 0,
+        "PARAM_MOUTH_FORM_02": 0,
+        "PARAM_MOUTH_SCALE": 0
+      },
+      "absent": []
+    },
+    {
+      "code": "L",
+      "bundle": "003_live_event_20_r",
+      "open": 0,
+      "form": 1,
+      "values": {
+        "PARAM_MOUTH_FORM_01": 1,
+        "PARAM_MOUTH_OPEN_Y": 0,
+        "PARAM_MOUTH_FORM_02": 0,
+        "PARAM_MOUTH_SCALE": 0
+      },
+      "absent": []
+    }
+  ],
+  "width": 3600,
+  "height": 4200,
+  "columns": 4,
+  "rows": 3,
+  "mouthEvidenceNote": "采用本地全角色库中每套服装idle01首帧嘴部参数；默认表情仅交叉核对，未将表达式val与def重复叠加。亚子FORM_01在idle中于0.92至1变化，静态取首帧1。仅派生参数摘要，不附动作或表达式文件。"
 }
