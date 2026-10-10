@@ -34,3 +34,5 @@
 
 [爱音冬服全动作手型调用参考](docs/reference/anon-winter-hand-motions/README.md)：664个动作入口、两侧14个实际手部参数，附采样时序、CSV/JSON与单文件离线检索网页。只列文件调用数据，具体手型外观与附件效果仍需模型验证。
 
+
+[12套特殊服装静态图鉴](docs/reference/bangdream-model-parts/special-costumes/README.md)：4列×3行，立绘配角色、服装编号与名称信息条；附原尺寸PNG、可断网双击的离线图鉴网页ZIP及完整清单。
