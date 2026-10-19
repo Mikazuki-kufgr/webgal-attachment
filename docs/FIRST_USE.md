@@ -2,6 +2,12 @@
 
 适用版本：MYGO321-AUTO-FIGURE-SWITCH.7。适用环境：Windows x64、指定 MyGO 3.2.1 / Terre 4.6.4 社区宿主。安装包是插件，不含 Terre 宿主、人物 Live2D 模型或 SDK。准备自己有权使用的完整人物模型和一张透明 PNG，在测试游戏里先试做。
 
+说明修订：2026-10-19，仍对应同一v0.5.0-beta.1-mygo3.2.1安装包。模型需完整Cubism2 JSON、.moc与相关资源，不能把model3.json/.moc3改名当作兼容。
+
+[公测介绍视频](https://www.bilibili.com/video/BV1oQn56xE1T) · [下载与开发版本](RELEASE_CHANNELS.md)
+
+**目录约定：H是实际包含WebGAL_Terre.exe的目录**，例如D:/MyGO/release；Manager在H/WebGAL-Attachment-Manager，不再额外拼release。
+
 ## 0. 下载并确认
 
 从本次[公测 Release](https://github.com/Mikazuki-kufgr/webgal-attachment/releases/tag/v0.5.0-beta.1-mygo3.2.1) 下载 [INSTALL](https://github.com/Mikazuki-kufgr/webgal-attachment/releases/download/v0.5.0-beta.1-mygo3.2.1/WebGAL-Attachment-0.5.0-beta.1-MyGO3.2.1-Terre4.6.4-Windows-x64-INSTALL.zip)；[SOURCE](https://github.com/Mikazuki-kufgr/webgal-attachment/releases/download/v0.5.0-beta.1-mygo3.2.1/WebGAL-Attachment-0.5.0-beta.1-MyGO3.2.1-Terre4.6.4-Windows-x64-SOURCE.zip) 用于查看和构建源码，也可浏览[固定版本源码](https://github.com/Mikazuki-kufgr/webgal-attachment/tree/v0.5.0-beta.1-mygo3.2.1)。对照 [SHA256SUMS.txt](https://github.com/Mikazuki-kufgr/webgal-attachment/releases/download/v0.5.0-beta.1-mygo3.2.1/SHA256SUMS.txt) 核对下载文件。把 INSTALL **完整解压**到普通本地文件夹，保留 `runtime/`、`payload/`、`resources/`、`manifests/` 和根目录的中文 `.cmd` 文件。不要只取出一两个 CMD。
@@ -10,7 +16,7 @@
 
 1. 完全关闭 Terre、制作器网页与其 CMD、游戏预览。备份重要游戏及制作资料。
 2. 双击解压目录根部的 `01_安装或升级.cmd`。选**包含 `WebGAL_Terre.exe` 的宿主目录**，不要选某个游戏的 `game/`。若安装器提示冲突或无法识别，保留错误原文并停止；不要删安装记录或手动覆盖文件。
-3. 安装成功后，到该宿主 `release/WebGAL-Attachment-Manager/`，运行 `03_验证安装.cmd`。看到通过结果后，从同一 Manager 文件夹双击 `02_打开附件制作器.cmd`。制作器使用期间保持 CMD 日志窗口打开。不要从下载解压目录直接运行其中的 `02`。
+3. 安装成功后，到该宿主 `H/WebGAL-Attachment-Manager/`，运行 `03_验证安装.cmd`。看到通过结果后，从同一 Manager 文件夹双击 `02_打开附件制作器.cmd`。制作器使用期间保持 CMD 日志窗口打开。不要从下载解压目录直接运行其中的 `02`。
 
 ## 2. 从 PNG 做第一件附件
 
@@ -19,11 +25,13 @@
 3. 第 3 步选当前模型真实可用的跟随位置，调整大小、偏移、旋转；需要拖动时确认拖动开关。播放一个相关动作，看图片是否持续跟随及遮挡是否合理。人物视图平移/缩放/旋转只是查看，不是附件摆放。
 4. 第 4 步输入显示名并点“保存附件”。等成功提示和路径出现后，从资料库**重新打开同一附件**，核对图片、具体模型/Profile、锚点和摆放。保存附件这一步不要求先建游戏。
 
+保存超时或响应中断时，先保留工作台，使用第4步“核对未确认的保存”，不要反复保存/另存；游戏部署结果未知要另核对实际目标游戏。详见完整说明第11节。
+
 ## 3. 添加到测试游戏
 
-1. 新建测试游戏时选配套 **MyGO 3.2.1 衍生引擎**。插件安装不会自动把旧游戏替换成新引擎；旧游戏若使用官方引擎，先按引擎更新说明核对。
+1. 新建测试游戏时选配套 **MyGO 3.2.1 衍生引擎**。插件安装不会自动把旧游戏替换成新引擎；已有游戏先完整备份，关闭Terre/制作器/预览，在安装后Manager运行`07_更新已有游戏引擎.cmd`并按序号选择目标；保留旧引擎备份路径。07不是强制转换任意未知引擎的工具，06卸载也不自动撤销已更新的游戏。
 2. 在制作器第 5 步选目标测试游戏。若游戏尚无该人物，按界面提示“复制当前人物到游戏”；首次复制成功后再次点击应是无改写的重复提示。然后点击“添加 / 更新到这个游戏”。
-3. 看成功结果显示的完整测试剧情路径，到 Terre 中打开那个**独立的“附件测试”剧情**，从头正常播放。检查首次出现、相关动作跟随、前后遮挡、隐藏/退出。系统不应修改你的正式剧情或 `start.txt`。
+3. 看成功结果显示的完整测试剧情路径，到 Terre 中打开那个**独立的“附件测试”剧情**，从头正常播放。检查首次出现、相关动作跟随、前后遮挡、隐藏/退出。系统不应修改你的正式剧情或 `start.txt`。选文件/执行到此句不等于正常从头播放；若开始游戏未进入测试场景，仅在专用测试游戏副本中按[完整说明的测试入口桥接](USER_GUIDE.md#从头检查独立测试剧情)处理，保留start.txt备份。新增桥接步骤仅静态核对，尚未单独GUI复测。新游戏不在列表时，先重新读取游戏列表。
 
 ## 4. 在正式剧情和导出成品中检查
 
@@ -40,3 +48,4 @@
 | 网页导出直开黑屏 | 使用导出目录的 Windows 本地入口或 HTTP(S)；保留完整目录 |
 
 更详细的脚本命令、资料备份与迁移、修复/卸载见[完整使用说明](USER_GUIDE.md)；支持边界见[已知限制](KNOWN_LIMITATIONS.md)。反馈时写明版本、宿主版本、操作步骤、预期与实际、错误文本；日志中的私人路径与账号信息先脱敏。随包无模型的演示脚本只能供阅读与改编，必须自己准备合法模型并核对实际路径、锚点和适配，不能直接当作可运行游戏。
+

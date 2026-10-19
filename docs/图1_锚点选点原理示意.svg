@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 380" role="img" aria-labelledby="title desc">
+  <title id="title">同一网格内的锚点选点原理示意</title>
+  <desc id="desc">左侧三点围住目标附近区域且不共线，右侧三点挤在一条边上，提示动态旋转不稳定。本图不是模型实测截图。</desc>
+  <rect width="920" height="380" fill="#f5f9fc"/>
+  <text x="28" y="35" font-family="Microsoft YaHei, sans-serif" font-size="21" font-weight="700" fill="#18394d">选点原理示意 · 不是模型实测截图</text>
+  <rect x="25" y="56" width="425" height="285" rx="14" fill="#ffffff" stroke="#bdd6e4"/>
+  <rect x="470" y="56" width="425" height="285" rx="14" fill="#ffffff" stroke="#bdd6e4"/>
+  <text x="45" y="88" font-family="Microsoft YaHei, sans-serif" font-size="18" font-weight="700" fill="#176b51">较稳妥：在目标附近分散选点</text>
+  <text x="490" y="88" font-family="Microsoft YaHei, sans-serif" font-size="18" font-weight="700" fill="#a74b32">不理想：点挤在同一条边</text>
+  <g fill="#eaf3f8" stroke="#7aaac4" stroke-width="2">
+    <path d="M80 120 L210 108 L370 135 L390 270 L260 310 L100 270 Z"/>
+    <path d="M525 120 L655 108 L815 135 L835 270 L705 310 L545 270 Z"/>
+  </g>
+  <g stroke="#9fc5d7" stroke-width="1.6" fill="none">
+    <path d="M80 120 L260 310 M210 108 L100 270 M370 135 L100 270 M390 270 L210 108 M80 120 L390 270"/>
+    <path d="M525 120 L705 310 M655 108 L545 270 M815 135 L545 270 M835 270 L655 108 M525 120 L835 270"/>
+  </g>
+  <path d="M170 165 L310 165 L235 255 Z" fill="#60b99a22" stroke="#228968" stroke-width="3"/>
+  <g fill="#228968" stroke="#ffffff" stroke-width="3"><circle cx="170" cy="165" r="9"/><circle cx="310" cy="165" r="9"/><circle cx="235" cy="255" r="9"/></g>
+  <circle cx="238" cy="195" r="20" fill="#fff4df" stroke="#d18b20" stroke-width="2"/>
+  <path d="M238 184 V206 M227 195 H249" stroke="#a45f0d" stroke-width="3"/>
+  <text x="271" y="205" font-family="Microsoft YaHei, sans-serif" font-size="15" fill="#684c22">目标附近</text>
+  <path d="M590 158 L665 160 L745 162" fill="none" stroke="#b95a41" stroke-width="3"/>
+  <g fill="#b95a41" stroke="#ffffff" stroke-width="3"><circle cx="590" cy="158" r="9"/><circle cx="665" cy="160" r="9"/><circle cx="745" cy="162" r="9"/></g>
+  <circle cx="700" cy="225" r="20" fill="#fff4df" stroke="#d18b20" stroke-width="2"/>
+  <path d="M700 214 V236 M689 225 H711" stroke="#a45f0d" stroke-width="3"/>
+  <text x="45" y="330" font-family="Microsoft YaHei, sans-serif" font-size="15" fill="#435d6c">点必须属于同一跟随网格；范围以动作中保持可见和稳定为准。</text>
+  <text x="490" y="330" font-family="Microsoft YaHei, sans-serif" font-size="15" fill="#435d6c">近共线或远离目标，会使转向估计和跟随更难检查。</text>
+  <text x="27" y="367" font-family="Microsoft YaHei, sans-serif" font-size="13" fill="#637783">此图只解释选点思路；真实网格、参考姿态和效果应在你的模型上预览。</text>
+</svg>

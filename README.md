@@ -4,16 +4,37 @@
 
 **适用范围：** Windows x64，指定的 MyGO 3.2.1 / Terre 4.6.4 社区宿主。本项目是附件插件，不提供完整 Terre、Live2D SDK 或人物模型。请自行准备有权使用的宿主、模型和图片，并先在测试游戏中试用。
 
-## 下载
+## 推荐下载：公开公测版
 
-当前公测版：[`v0.5.0-beta.1-mygo3.2.1`](https://github.com/Mikazuki-kufgr/webgal-attachment/releases/tag/v0.5.0-beta.1-mygo3.2.1)。下载 [INSTALL](https://github.com/Mikazuki-kufgr/webgal-attachment/releases/download/v0.5.0-beta.1-mygo3.2.1/WebGAL-Attachment-0.5.0-beta.1-MyGO3.2.1-Terre4.6.4-Windows-x64-INSTALL.zip)、[SOURCE](https://github.com/Mikazuki-kufgr/webgal-attachment/releases/download/v0.5.0-beta.1-mygo3.2.1/WebGAL-Attachment-0.5.0-beta.1-MyGO3.2.1-Terre4.6.4-Windows-x64-SOURCE.zip) 和 [SHA256SUMS.txt](https://github.com/Mikazuki-kufgr/webgal-attachment/releases/download/v0.5.0-beta.1-mygo3.2.1/SHA256SUMS.txt)。普通安装使用 INSTALL；查看源码或构建使用 SOURCE，也可以浏览[该版本源码](https://github.com/Mikazuki-kufgr/webgal-attachment/tree/v0.5.0-beta.1-mygo3.2.1)。下载后按校验文件核对 SHA-256；勿混用旧预告中的安装包与新源码。
+**普通用户目前推荐使用MyGO 3.2.1 / Terre 4.6.4版**：
 
-教程视频暂缓制作；文字步骤已经备好：[第一次使用](docs/FIRST_USE.md)、[完整使用说明](docs/USER_GUIDE.md)、[已知限制](docs/KNOWN_LIMITATIONS.md)。
+- [下载INSTALL安装包](https://github.com/Mikazuki-kufgr/webgal-attachment/releases/download/v0.5.0-beta.1-mygo3.2.1/WebGAL-Attachment-0.5.0-beta.1-MyGO3.2.1-Terre4.6.4-Windows-x64-INSTALL.zip) · [对应SOURCE源码包](https://github.com/Mikazuki-kufgr/webgal-attachment/releases/download/v0.5.0-beta.1-mygo3.2.1/WebGAL-Attachment-0.5.0-beta.1-MyGO3.2.1-Terre4.6.4-Windows-x64-SOURCE.zip) · [SHA256SUMS](https://github.com/Mikazuki-kufgr/webgal-attachment/releases/download/v0.5.0-beta.1-mygo3.2.1/SHA256SUMS.txt)
+- [主公测发行页](https://github.com/Mikazuki-kufgr/webgal-attachment/releases/tag/v0.5.0-beta.1-mygo3.2.1) · [公测介绍视频](https://www.bilibili.com/video/BV1oQn56xE1T)
+- [第一次使用](docs/FIRST_USE.md) · [当前公测完整说明](docs/USER_GUIDE.md) · [已知限制](docs/KNOWN_LIMITATIONS.md)
+
+这是可公开下载的Beta，GitHub仍标为Pre-release。文档会修订，现有命名ZIP与tag保持原发行身份。源码仓库的后续提交不会自动更新你已下载的安装包；普通用户不要把Code→Download ZIP或自动Source code当安装包。
+
+### 按宿主选择其他版本
+
+| 你的宿主 | 下载入口 | 当前公开验证说明 |
+| --- | --- | --- |
+| MyGO 3.2.1 / Terre 4.6.4 | [推荐公测](https://github.com/Mikazuki-kufgr/webgal-attachment/releases/tag/v0.5.0-beta.1-mygo3.2.1) | Windows x64，具体范围见同版说明 |
+| MyGO 3.0.0 | [迁移预览](https://github.com/Mikazuki-kufgr/webgal-attachment/releases/tag/v0.5.0-beta.1-mygo3.0.0-preview.1) | 有限复制宿主技术验证通过，用户视觉待验 |
+| MyGO 3.1.1 | [迁移预览](https://github.com/Mikazuki-kufgr/webgal-attachment/releases/tag/v0.5.0-beta.1-mygo3.1.1-preview.4) | 未经真实整合宿主验证 |
+| MyGO 3.2.0 | [迁移预览](https://github.com/Mikazuki-kufgr/webgal-attachment/releases/tag/v0.5.0-beta.1-mygo3.2.0-preview.1) | 未经真实整合宿主验证 |
+
+这些是按宿主并列的包，不能互相覆盖或混用。其他版本的迁移源码以各发行页命名的SOURCE.zip为准。
+
+### 开发更新与已发布软件
+
+仓库可以继续维护源码和文档，推荐下载仍以明确发行页及其资产为准。新增开发能力不自动成为现有Beta的承诺；验证并封包后另建版本，不替换用户已经获得的旧包。当前Beta源码可浏览[固定tag](https://github.com/Mikazuki-kufgr/webgal-attachment/tree/v0.5.0-beta.1-mygo3.2.1)；版本分工与后续发布方式见[下载与开发版本](docs/RELEASE_CHANNELS.md)。
 
 ## 五步起步
 
+下文H是实际包含WebGAL_Terre.exe的目录，常见为整合包的release目录；不要再额外拼一层release。
+
 1. 完整解压 INSTALL，关闭 Terre、制作器和预览；从包根目录双击 `01_安装或升级.cmd`，选择包含 `WebGAL_Terre.exe` 的宿主目录。
-2. 到安装后宿主的 `release/WebGAL-Attachment-Manager/` 运行 `03_验证安装.cmd`，再运行 `02_打开附件制作器.cmd`。制作期间保留 CMD 日志窗口。
+2. 到安装后宿主的 `H/WebGAL-Attachment-Manager/` 运行 `03_验证安装.cmd`，再运行 `02_打开附件制作器.cmd`。制作期间保留 CMD 日志窗口。
 3. 在制作器中选择具体人物和外观、自己的透明 PNG、跟随部位与层位；预览动作后保存附件，再重新打开核对。
 4. 选择测试游戏，按提示复制所需人物并“添加 / 更新到这个游戏”；在 Terre 播放生成的独立测试剧情。
 5. 在正式剧情中调用并检查；导出网页后使用 Windows 本地入口或 HTTP(S) 运行完整导出目录。
@@ -39,3 +60,4 @@
 
 
 全库3737幅派生预览现已更新为对应原生idle表情，修正旧检查图的叠嘴；[一键下载单文件HTML图册](https://htmlpreview.github.io/?https://raw.githubusercontent.com/Mikazuki-kufgr/webgal-attachment/main/docs/reference/bangdream-model-parts/download.html)，下载后直接双击、可断网搜索，无需解压。下载启动页通过HTMLPreview展示，文件直接读取GitHub；不携带模型/原贴图/动作/SDK，与冻结公测版本分别维护。
+

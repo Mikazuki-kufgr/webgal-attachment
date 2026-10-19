@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1020 385" role="img" aria-labelledby="title desc">
+  <title id="title">附件从原始素材到制作区、目标游戏及导出成品的副本流向</title>
+  <desc id="desc">原图与原模型复制进制作器本地资料；workspace 保存模型、附件与工作资料，library 保存独立自建 Profile 等资料；点击添加更新才写目标游戏；Terre 导出才生成玩家成品。各副本不会自动互相同步。</desc>
+  <rect width="1020" height="385" fill="#f5f9fc"/>
+  <text x="25" y="37" font-family="Microsoft YaHei, sans-serif" font-size="22" font-weight="700" fill="#173b52">改了哪里，下一步更新哪里</text>
+  <defs><marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 Z" fill="#3f7899"/></marker></defs>
+  <g font-family="Microsoft YaHei, sans-serif">
+    <rect x="25" y="75" width="210" height="165" rx="13" fill="#fff" stroke="#9cc2d7" stroke-width="2"/>
+    <text x="45" y="110" font-size="20" font-weight="700" fill="#215775">原始素材</text>
+    <text x="45" y="145" font-size="17" fill="#314f60">PNG、已有模型</text>
+    <text x="45" y="177" font-size="15" fill="#516c7b">保留在原目录</text>
+    <text x="45" y="207" font-size="15" fill="#516c7b">不会因制作而移动</text>
+    <rect x="275" y="75" width="210" height="165" rx="13" fill="#fff" stroke="#77b5a0" stroke-width="2"/>
+    <text x="295" y="108" font-size="18" font-weight="700" fill="#176953">制作器本地资料</text>
+    <text x="295" y="139" font-size="15" fill="#314f60">workspace/：</text>
+    <text x="295" y="161" font-size="14" fill="#314f60">模型、附件、工作资料</text>
+    <text x="295" y="190" font-size="15" fill="#314f60">library/：</text>
+    <text x="295" y="212" font-size="14" fill="#314f60">独立自建 Profile 等</text>
+    <rect x="525" y="75" width="210" height="165" rx="13" fill="#fff" stroke="#e3be7e" stroke-width="2"/>
+    <text x="545" y="110" font-size="20" font-weight="700" fill="#886222">目标游戏</text>
+    <text x="545" y="145" font-size="17" fill="#314f60">人物、附件副本</text>
+    <text x="545" y="177" font-size="17" fill="#314f60">独立验证剧情</text>
+    <text x="545" y="207" font-size="15" fill="#516c7b">在 Terre 正常播放检查</text>
+    <rect x="775" y="75" width="220" height="165" rx="13" fill="#fff" stroke="#b8a6d2" stroke-width="2"/>
+    <text x="795" y="110" font-size="20" font-weight="700" fill="#665184">玩家成品</text>
+    <text x="795" y="145" font-size="17" fill="#314f60">网页或 EXE</text>
+    <text x="795" y="177" font-size="15" fill="#516c7b">导出后是独立副本</text>
+    <text x="795" y="207" font-size="15" fill="#516c7b">需再跑关键场景</text>
+    <path d="M236 155 H268" stroke="#3f7899" stroke-width="3" marker-end="url(#arr)"/>
+    <path d="M486 155 H518" stroke="#3f7899" stroke-width="3" marker-end="url(#arr)"/>
+    <path d="M736 155 H768" stroke="#3f7899" stroke-width="3" marker-end="url(#arr)"/>
+    <text x="245" y="260" font-size="14" fill="#3d6d87">复制/导入</text>
+    <text x="500" y="260" font-size="14" fill="#3d6d87">添加/更新</text>
+    <text x="752" y="260" font-size="14" fill="#3d6d87">Terre 导出</text>
+    <rect x="25" y="283" width="970" height="73" rx="10" fill="#e9f2f7"/>
+    <text x="45" y="312" font-size="17" font-weight="700" fill="#254d63">判断原则</text>
+    <text x="45" y="339" font-size="16" fill="#385d71">修改制作区后要重新保存/添加；修改游戏后不会自动回写制作区；旧玩家成品要重新导出。</text>
+  </g>
+</svg>
